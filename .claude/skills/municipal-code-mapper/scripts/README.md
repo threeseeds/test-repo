@@ -34,6 +34,7 @@ report.py   RUN --title "Brisbane Title 5" -> first-order-map.md, second-order-m
 | `resolve.py` | Applies orphan resolutions (patches, in id order) to the pre-resolution records and writes `actions.frozen.json` and `provisions.frozen.json`. Refuses to freeze while an orphan is open, a patch is malformed, or a record is left unresolved. Inputs are never modified. |
 | `build_deps.py` | Derives the `triggers` edges from signal refs and merges the model's edge sheet (`dependencies.jsonl`) into `dependencies.json`. Refuses unknown ids, duplicate/superseded nodes, self-loops, duplicates and missing evidence. |
 | `edge_review.py` | Shows pending inferred edges as a table and records accept/reject decisions into the edge sheet so they survive rebuilds. |
+| `graph_html.py` | Writes `dependency-graph.html`, a self-contained interactive page of the dependency graph (pan and zoom, edge-type and basis filters, search, color by chapter/modality/actor type, highlights, detail panel with verbatim quotes). Template: `assets/dependency-graph.template.html`. |
 | `orphan_table.py` | Renders open orphans as the grouped tables the user answers from (missing signals, missing actors, unclear actions, everything else), with lettered options. |
 | `score.py` | Scores a run against golden files: classification accuracy, record precision/recall, field accuracy, orphan precision/recall, explicit-edge precision/recall. |
 | `report.py` | Renders the first-order register and views, the second-order report with labeled cycles and edges awaiting review, and the coverage ledger. |

@@ -1,0 +1,10 @@
+flowchart LR
+  subgraph g_5_20["5.20"]
+    A_5_20_015_C_2["5.20.015.C-2<br/>allocate<br/><i>city</i>"]
+    A_5_20_015_D_1["5.20.015.D-1<br/>account for<br/><i>city</i>"]
+    A_5_20_015_D_2["5.20.015.D-2<br/>disburse<br/><i>city</i>"]
+    A_5_20_015_D_3["5.20.015.D-3<br/>submit<br/><i>director-of-administrative-services</i>"]
+  end
+  A_5_20_015_D_1 -->|"produces-input"| A_5_20_015_D_3
+  A_5_20_015_C_2 -.->|"produces-input (inferred)"| A_5_20_015_D_3
+  A_5_20_015_C_2 -.->|"produces-input (inferred)"| A_5_20_015_D_2

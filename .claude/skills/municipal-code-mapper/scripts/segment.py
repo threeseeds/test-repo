@@ -60,6 +60,7 @@ def segment(text, prof):
     sections = []            # in order of appearance
     footnotes = []
     division = chapter = article = None
+    chapter_titles = {}
     sec = None               # current section dict
     cur = None               # current provision dict
     last_label = None
@@ -103,7 +104,7 @@ def segment(text, prof):
         if m and not re.search(r"[a-z]", m.group(2)):
             if chapter != m.group(1):
                 article = None
-            chapter = m.group(1); stats["structure"] += 1; continue
+            chapter = m.group(1); chapter_titles.setdefault(chapter, m.group(2).strip().title()); stats["structure"] += 1; continue
         m = prof["article_line"].match(s)
         if m and not re.search(r"[a-z]", m.group(2)):
             article = m.group(1); stats["structure"] += 1; continue
@@ -150,7 +151,7 @@ def segment(text, prof):
         else:
             cur["text"] += "\n" + s
         stats["body"] += 1
-    return sections, footnotes, stats, unassigned, warnings
+    return sections, footnotes, stats, unassigned, warnings, chapter_titles
 
 
 def build(sections, prof, in_scope):
@@ -200,7 +201,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     prof = load_profile(a.profile)
     text = read_text(a.source)
-    sections, footnotes, stats, unassigned, warnings = segment(text, prof)
+    sections, footnotes, stats, unassigned, warnings, chapter_titles = segment(text, prof)
     provs, dup_notes, notes = build(sections, prof, parse_chapter_filter(a.chapters))
     in_scope_sections = {p["section"] for p in provs}
     warnings = [m for sec_id, m in warnings + dup_notes if sec_id in in_scope_sections]
@@ -214,6 +215,7 @@ def main(argv=None):
               "front_matter_text_lines": [u for u in unassigned if u[2] == "front_matter"], "warnings": warnings}
     os.makedirs(a.out, exist_ok=True)
     write_json(os.path.join(a.out, "provisions.json"), provs)
+    write_json(os.path.join(a.out, "chapters.json"), {c: chapter_titles.get(c, "") for c in report["chapters"]})
     if notes:
         write_json(os.path.join(a.out, "notes.json"), notes)
     if footnotes:

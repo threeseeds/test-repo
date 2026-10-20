@@ -58,14 +58,14 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - **Exit:** simulated user answers on the fixture produce a frozen map matching golden;
   re-run reuses saved resolutions with no re-asking.
 
-### Phase 5 — Second-order map (DONE for build and Division I; user review of inferred edges pending)
+### Phase 5 — Second-order map (DONE: build, Division I, interactive graph page; 3 inferred edges (E-114, E-118, E-122) await the user's review)
 - `references/dependencies.md` with edge types and inference heuristics.
 - SKILL.md stages 7–8: edge extraction (explicit and inferred), inferred-edge review pass,
   graph analytics, reports and Mermaid output.
 - **Exit:** explicit edges match the hand-built reference graph; inferred edges are
   labeled; planted cycle is detected and labeled.
 
-### Phase 6 — Real-title pilot
+### Phase 6 — Real-title pilot (SKIPPED by user decision; Division I was run through every stage as the pilot)
 - Pilot on Division I (Ch. 5.04–5.24, about 92 sections: definitions, administration,
   requirements/exemptions, application/issuance, fees, enforcement) with the user in the
   loop, then Division II chapters, then the whole title.

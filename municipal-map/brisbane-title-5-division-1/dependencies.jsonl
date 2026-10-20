@@ -1,0 +1,188 @@
+# Dependency sheet, Brisbane Title 5 Division I. Triggers are derived from signal refs by build_deps.py.
+{"from": "5.16.060-3", "to": "5.12.010-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"without first having procured a license\""}
+{"from": "5.16.070-1", "to": "5.12.010-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"without first having procured a license\""}
+{"from": "5.16.060-3", "to": "5.12.020-2", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"each license shall authorize the licenses to transact and carry on only the business licensed\""}
+{"from": "5.16.070-1", "to": "5.12.020-2", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"each license shall authorize the licenses to transact and carry on only the business licensed\""}
+{"from": "5.16.060-3", "to": "5.16.030-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"the applicant for the renewal of a license\""}
+{"from": "5.16.070-1", "to": "5.16.030-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"the applicant for the renewal of a license\""}
+{"from": "5.16.060-3", "to": "5.16.080.A-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"keep such license posted and exhibited while in force\""}
+{"from": "5.16.070-1", "to": "5.16.080.A-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"keep such license posted and exhibited while in force\""}
+{"from": "5.16.060-3", "to": "5.16.080.B-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"carry such license or permit with him at all times\""}
+{"from": "5.16.070-1", "to": "5.16.080.B-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"carry such license or permit with him at all times\""}
+{"from": "5.16.060-3", "to": "5.16.090-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"No license or permit … shall be … transferred or assigned\""}
+{"from": "5.16.070-1", "to": "5.16.090-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"No license or permit … shall be … transferred or assigned\""}
+{"from": "5.16.060-3", "to": "5.16.100-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"duplicate license issued to replace any license … lost or destroyed\""}
+{"from": "5.16.070-1", "to": "5.16.100-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"duplicate license issued to replace any license … lost or destroyed\""}
+{"from": "5.16.060-3", "to": "5.16.120-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"why the license shall not be revoked\""}
+{"from": "5.16.070-1", "to": "5.16.120-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"why the license shall not be revoked\""}
+{"from": "5.16.060-3", "to": "5.08.040.B-1", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "officers demand exhibition of \"such license\" / compare a signature with \"the original license\"", "status": "accepted"}
+{"from": "5.16.060-3", "to": "5.08.040.B-2", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "officers demand exhibition of \"such license\" / compare a signature with \"the original license\"", "status": "accepted"}
+{"from": "5.16.060-3", "to": "5.08.040.C-1", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "officers demand exhibition of \"such license\" / compare a signature with \"the original license\"", "status": "accepted"}
+{"from": "5.16.060-3", "to": "5.08.040.C-2", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "officers demand exhibition of \"such license\" / compare a signature with \"the original license\"", "status": "accepted"}
+{"from": "5.16.080.A-1", "to": "5.08.040.B-1", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "the license must be posted or carried for it to be exhibited on demand", "status": "accepted"}
+{"from": "5.16.080.B-1", "to": "5.08.040.B-1", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "the license must be posted or carried for it to be exhibited on demand", "status": "accepted"}
+{"from": "5.16.080.A-1", "to": "5.08.040.B-2", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "the license must be posted or carried for it to be exhibited on demand", "status": "accepted"}
+{"from": "5.16.080.B-1", "to": "5.08.040.B-2", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "the license must be posted or carried for it to be exhibited on demand", "status": "accepted"}
+{"from": "5.08.050.B-2", "to": "5.16.060-3", "type": "condition-precedent", "basis": "inferred", "conf": "high", "ev": "5.08.050.A: no license issued for the enumerated businesses \"until approval has first been obtained from the city council\"", "status": "accepted"}
+{"from": "5.08.050.A-1", "to": "5.16.060-3", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "5.08.050.A bars issuance for the enumerated businesses before council approval", "status": "accepted"}
+{"from": "5.16.020.C-1", "to": "5.16.060-3", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "\"shall not issue … another license … until such person shall have furnished the written statement and paid the license tax\"", "status": "accepted"}
+{"from": "5.16.110-1", "to": "5.16.060-3", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "\"may withhold the issuance of a license … until the applicant furnishes satisfactory evidence\"", "status": "accepted"}
+{"from": "5.08.050.B-2", "to": "5.16.070-1", "type": "condition-precedent", "basis": "inferred", "conf": "high", "ev": "5.08.050.A: no license issued for the enumerated businesses \"until approval has first been obtained from the city council\"", "status": "accepted"}
+{"from": "5.08.050.A-1", "to": "5.16.070-1", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "5.08.050.A bars issuance for the enumerated businesses before council approval", "status": "accepted"}
+{"from": "5.16.020.C-1", "to": "5.16.070-1", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "\"shall not issue … another license … until such person shall have furnished the written statement and paid the license tax\"", "status": "accepted"}
+{"from": "5.16.110-1", "to": "5.16.070-1", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "\"may withhold the issuance of a license … until the applicant furnishes satisfactory evidence\"", "status": "accepted"}
+{"from": "5.16.020.A-1", "to": "5.16.020.C-1", "type": "condition-precedent", "basis": "explicit", "conf": "high", "ev": "\"until such person shall have furnished to him the written statement\""}
+{"from": "5.16.020.B-3", "to": "5.16.020.C-1", "type": "condition-precedent", "basis": "explicit", "conf": "high", "ev": "\"until such person shall have furnished … the written statement and paid the license tax\""}
+{"from": "5.16.060-3", "to": "5.16.020.B-3", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"within thirty (30) days after the expiration of the period for which such license was issued\""}
+{"from": "5.16.060-2", "to": "5.16.060-4", "type": "condition-precedent", "basis": "explicit", "conf": "medium", "ev": "the refusal follows the collector's determination that the license would violate the chapters"}
+{"from": "5.16.070-1", "to": "5.08.030-3", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "license fees come due on issuance under 5.16.070, which the collector must \"cause the collection\" of", "status": "accepted"}
+{"from": "5.16.020.A-1", "to": "5.16.050-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"If any person fails to file any statement required under this chapter within the time prescribed\""}
+{"from": "5.16.020.A-1", "to": "5.16.040.A-2", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"Such statement … shall be subject to audit and verification by the license collector\""}
+{"from": "5.16.020.A-1", "to": "5.16.040.C-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"The information furnished or secured pursuant to this chapter shall be confidential\""}
+{"from": "5.16.020.B-3", "to": "5.16.050-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"If any person fails to file any statement required under this chapter within the time prescribed\""}
+{"from": "5.16.020.B-3", "to": "5.16.040.A-2", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"Such statement … shall be subject to audit and verification by the license collector\""}
+{"from": "5.16.020.B-3", "to": "5.16.040.C-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"The information furnished or secured pursuant to this chapter shall be confidential\""}
+{"from": "5.16.030-1", "to": "5.16.050-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"If any person fails to file any statement required under this chapter within the time prescribed\""}
+{"from": "5.16.030-1", "to": "5.16.040.A-2", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"Such statement … shall be subject to audit and verification by the license collector\""}
+{"from": "5.16.030-1", "to": "5.16.040.C-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"The information furnished or secured pursuant to this chapter shall be confidential\""}
+{"from": "5.16.040.A-2", "to": "5.16.040.C-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"furnished or secured\" information includes what an audit secures"}
+{"from": "5.16.040.A-2", "to": "5.16.040.A-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "a \"sum actually due and payable\" is ascertained by the audit and verification", "status": "accepted"}
+{"from": "5.16.050-4", "to": "5.16.150-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "5.16.150: oath and subpoena powers apply \"upon any hearing provided under Chapters 5.04 through 5.24\"", "status": "accepted"}
+{"from": "5.16.050-4", "to": "5.16.150-2", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "5.16.150: oath and subpoena powers apply \"upon any hearing provided under Chapters 5.04 through 5.24\"", "status": "accepted"}
+{"from": "5.16.120-2", "to": "5.16.150-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "5.16.150: oath and subpoena powers apply \"upon any hearing provided under Chapters 5.04 through 5.24\"", "status": "accepted"}
+{"from": "5.16.120-2", "to": "5.16.150-2", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "5.16.150: oath and subpoena powers apply \"upon any hearing provided under Chapters 5.04 through 5.24\"", "status": "accepted"}
+{"from": "5.16.130-2", "to": "5.16.150-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "5.16.150: oath and subpoena powers apply \"upon any hearing provided under Chapters 5.04 through 5.24\"", "status": "accepted"}
+{"from": "5.16.130-2", "to": "5.16.150-2", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "5.16.150: oath and subpoena powers apply \"upon any hearing provided under Chapters 5.04 through 5.24\"", "status": "accepted"}
+{"from": "5.16.130-1", "to": "5.16.060-5", "type": "reference", "basis": "explicit", "conf": "high", "ev": "\"as provided in Section 5.16.130\""}
+{"from": "5.16.130-1", "to": "5.20.140.C-3", "type": "reference", "basis": "explicit", "conf": "high", "ev": "\"as set forth in Section 5.16.130\""}
+{"from": "5.20.040-1", "to": "5.20.043.B-4", "type": "reference", "basis": "explicit", "conf": "high", "ev": "\"as provided in Section 5.20.040\""}
+{"from": "5.16.120-1", "to": "5.20.110.D-2", "type": "reference", "basis": "explicit", "conf": "high", "ev": "\"as set forth in Section 5.16.120\""}
+{"from": "5.16.120-1", "to": "5.20.180.C-2", "type": "reference", "basis": "explicit", "conf": "high", "ev": "\"as set forth in Section 5.16.120\""}
+{"from": "5.16.010-1", "to": "5.12.080-1", "type": "reference", "basis": "explicit", "conf": "medium", "ev": "\"in addition to the information required by Chapter 5.16\""}
+{"from": "5.12.060-1", "to": "5.12.010-1", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "an exemption statement is the way a claimant is exempted from the license requirement", "status": "accepted"}
+{"from": "5.12.080-1", "to": "5.12.010-1", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "a veteran's certificate is the way a claimant is exempted from the license requirement", "status": "accepted"}
+{"from": "5.16.120-2", "to": "5.16.140.B-1", "type": "condition-precedent", "basis": "explicit", "conf": "high", "ev": "\"If any such license shall have been revoked\""}
+{"from": "5.16.090-2", "to": "5.16.090-1", "type": "exception-of", "basis": "explicit", "conf": "high", "ev": "\"without the written consent of the city council endorsed thereon\""}
+{"from": "5.16.100-2", "to": "5.16.100-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "a duplicate is issued, and charged for, only on satisfactory proof of the loss", "status": "accepted"}
+{"from": "5.16.070-1", "to": "5.24.030-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid"}
+{"from": "5.24.030-1", "to": "5.24.060-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"the amount of license and penalties imposed on such business\""}
+{"from": "5.24.030-1", "to": "5.20.110.D-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
+{"from": "5.24.030-1", "to": "5.20.180.C-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
+{"from": "5.16.070-1", "to": "5.24.040-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid"}
+{"from": "5.24.040-1", "to": "5.24.060-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"the amount of license and penalties imposed on such business\""}
+{"from": "5.24.040-1", "to": "5.20.110.D-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
+{"from": "5.24.040-1", "to": "5.20.180.C-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
+{"from": "5.16.070-1", "to": "5.24.050-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid"}
+{"from": "5.24.050-1", "to": "5.24.060-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"the amount of license and penalties imposed on such business\""}
+{"from": "5.24.050-1", "to": "5.20.110.D-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
+{"from": "5.24.050-1", "to": "5.20.180.C-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
+{"from": "5.12.010-1", "to": "5.24.060-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"any person carrying on any business without first having procured a license … shall be liable to an action\""}
+{"from": "5.20.110.C-1", "to": "5.20.110.D-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"Should the licensee fail to file the accounting and make payments\""}
+{"from": "5.20.110.C-1", "to": "5.20.110.D-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"for failure to make payments due under this section\""}
+{"from": "5.20.180.B-1", "to": "5.20.180.C-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"Should the licensee fail to file the accounting and make payments\""}
+{"from": "5.20.180.B-1", "to": "5.20.180.C-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"for failure to make payments due under this section\""}
+{"from": "5.20.037-1", "to": "5.20.037-3", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"require additional information in any returned\""}
+{"from": "5.20.037-1", "to": "5.20.039.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"fail or refuse to pay the tax and to make [the return]\""}
+{"from": "5.20.037-2", "to": "5.20.039.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"fail or refuse to pay the tax and to make [the return]\""}
+{"from": "5.20.037-1", "to": "5.20.039.A-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-18: \"the time provided in Section 5.20.036\" read as Section 5.20.037", "status": "accepted"}
+{"from": "5.20.037-2", "to": "5.20.038.C-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"non-payment of any remittance due under Section 5.20.035\""}
+{"from": "5.20.038.C-1", "to": "5.20.039.A-2", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "the assessed \"tax, penalty and interest provided by Section 5.20.038\" includes the fraud penalty", "status": "accepted"}
+{"from": "5.20.037-2", "to": "5.20.043.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"Any operator owing money to the city under Section 5.20.035 shall be liable to an action\""}
+{"from": "5.20.039.B-7", "to": "5.20.043.A-1", "type": "enforcement", "basis": "inferred", "conf": "medium", "ev": "an assessed amount not paid within 15 days is money owed to the city", "status": "accepted"}
+{"from": "5.20.037-2", "to": "5.20.043.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"If the amount required to be paid to the city under Section 5.20.035 is not paid when due\""}
+{"from": "5.20.039.B-7", "to": "5.20.043.B-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "an assessed amount not paid when due is \"not paid when due\" under Section 5.20.035", "status": "accepted"}
+{"from": "5.20.040-1", "to": "5.20.039.B-7", "type": "exception-of", "basis": "explicit", "conf": "high", "ev": "\"unless an appeal is taken as provided in Section 5.20.040\""}
+{"from": "5.20.040-5", "to": "5.20.043.C-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"final determination of the amount of the delinquency by … the city manager on appeal\""}
+{"from": "5.20.037-2", "to": "5.20.042.B-1", "type": "produces-input", "basis": "inferred", "conf": "high", "ev": "a refund or credit concerns tax actually paid under Section 5.20.035", "status": "accepted"}
+{"from": "5.20.041-1", "to": "5.20.041-2", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"records … which the tax administrator shall have the right to inspect\""}
+{"from": "5.20.041-1", "to": "5.20.042.C-1", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "\"unless the operator establishes the right thereto by written records\"", "status": "accepted"}
+{"from": "5.20.042.C-1", "to": "5.20.042.A-1", "type": "exception-of", "basis": "explicit", "conf": "high", "ev": "\"No refund shall be paid … unless the operator establishes the right thereto by written records\""}
+{"from": "5.20.037-2", "to": "5.20.043.D-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "\"If any operator liable for any amount under Section 5.20.035 sells or transfers the hotel\"", "status": "accepted"}
+{"from": "5.20.015.D-1", "to": "5.20.015.D-3", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "the report shows \"the total amount of capital improvement tax proceeds deposited to the capital improvement tax fund\""}
+{"from": "5.20.015.C-2", "to": "5.20.015.D-3", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "the report shows \"the current status of each capital improvement project\" financed", "status": "accepted"}
+{"from": "5.20.015.C-2", "to": "5.20.015.D-2", "type": "produces-input", "basis": "inferred", "conf": "medium", "ev": "disbursements are limited to \"costs related to capital improvement projects\" identified by the allocation", "status": "accepted"}
+{"from": "5.20.140.B-1", "to": "5.20.140.B-2", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "\"The chief of police … may revoke the permit\""}
+{"from": "5.20.140.B-1", "to": "5.20.140.C-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "ORP-02: the search follows a permit application under 5.20.140.B", "status": "accepted"}
+{"from": "5.20.140.C-2", "to": "5.20.140.B-1", "type": "exception-of", "basis": "inferred", "conf": "medium", "ev": "a refusal to issue the permit prevents the vendor from obtaining it", "status": "accepted"}
+{"from": "5.08.050.B-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.08.050.B-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.08.050.B-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.010-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.010-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.010-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.020-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.020-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.020-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.060-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.060-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.060-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.060-2", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.060-2", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.060-2", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.080-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.080-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.12.080-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.010-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.010-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.010-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.A-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.A-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.A-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.B-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.B-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.B-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.B-3", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.B-3", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.020.B-3", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.030-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.030-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.030-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.040.B-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.040.B-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.040.B-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.060-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.060-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.060-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.080.A-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.080.A-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.080.A-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.080.B-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.080.B-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.080.B-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.090-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.090-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.090-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.090-3", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.090-3", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.090-3", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.100-2", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.100-2", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.100-2", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.130-4", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.130-4", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.16.130-4", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.037-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.037-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.037-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.037-2", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.037-2", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.037-2", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.039.B-7", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.039.B-7", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.039.B-7", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.041-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.041-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.041-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.043.D-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.043.D-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.043.D-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.110.C-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.110.C-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.110.C-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.180.B-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.180.B-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.180.B-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.140.B-1", "to": "5.08.030-4", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.140.B-1", "to": "5.08.040.A-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"from": "5.20.140.B-1", "to": "5.08.040.A-2", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "\"violation of any of the provisions of Chapters 5.04 through 5.24\""}
+{"cycle": {"view": "with_inferred", "members": ["5.16.020.B-3", "5.16.020.C-1", "5.16.060-3"], "label": "License renewal loop", "exit": "the licensee furnishes the statement and pays the tax (or does not seek another license)"}}

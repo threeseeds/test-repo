@@ -1,0 +1,283 @@
+[
+  {
+    "id": "ACT-any-person",
+    "label": "person",
+    "kind": "private_party",
+    "aliases": [
+      "person",
+      "any person",
+      "every person",
+      "such person"
+    ],
+    "defined_in": "5.04.130"
+  },
+  {
+    "id": "ACT-applicant",
+    "label": "applicant",
+    "kind": "private_party",
+    "aliases": [
+      "applicant",
+      "the applicant"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-licensee",
+    "label": "licensee",
+    "kind": "private_party",
+    "aliases": [
+      "licensee",
+      "holder of a license",
+      "person having a license",
+      "any such person having a license"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-business-person",
+    "label": "licensees, applicants and persons engaged in business",
+    "kind": "private_party",
+    "aliases": [
+      "All licensees, applicants, for licenses and persons engaged in business in the city"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-exemption-claimant",
+    "label": "peddler, solicitor or other person claiming exemption",
+    "kind": "private_party",
+    "aliases": [
+      "peddler, solicitor or other person claiming to be entitled to exemption"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-transfer-applicant",
+    "label": "person applying for a transfer or change",
+    "kind": "private_party",
+    "aliases": [
+      "the person applying for such transfer or change"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-revoked-licensee",
+    "label": "holder of a revoked license",
+    "kind": "private_party",
+    "aliases": [
+      "holder thereof",
+      "person acting for him"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-operator",
+    "label": "operator",
+    "kind": "private_party",
+    "aliases": [
+      "operator",
+      "every operator"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-successor-or-transferee",
+    "label": "successor or transferee of a hotel",
+    "kind": "private_party",
+    "aliases": [
+      "successor",
+      "transferee",
+      "purchaser"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-property-owner",
+    "label": "owner of the property",
+    "kind": "private_party",
+    "aliases": [
+      "owner of the property on which the hotel is located"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-admission-charger",
+    "label": "persons charging for admissions",
+    "kind": "private_party",
+    "aliases": [
+      "persons charging for admissions referred to in this section"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-waste-recycler",
+    "label": "persons subject to the license requirements of the waste recycling section",
+    "kind": "private_party",
+    "aliases": [
+      "persons subject to the license requirements of this section"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-catering-business",
+    "label": "businesses operating catering or ice cream vending trucks",
+    "kind": "private_party",
+    "aliases": [
+      "All businesses operating catering or ice cream vending trucks and vehicles"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-ice-cream-vendor",
+    "label": "vendors of ice cream and other products sold from vehicles",
+    "kind": "private_party",
+    "aliases": [
+      "vendors of ice cream and other products sold from vehicles"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-city",
+    "label": "the city",
+    "kind": "public_body",
+    "aliases": [
+      "city",
+      "the city of Brisbane"
+    ],
+    "defined_in": "5.04.040"
+  },
+  {
+    "id": "ACT-city-council",
+    "label": "city council",
+    "kind": "body",
+    "aliases": [
+      "council",
+      "the council",
+      "the city council"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-city-manager",
+    "label": "city manager",
+    "kind": "official",
+    "aliases": [
+      "city manager",
+      "the city manager"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-city-clerk",
+    "label": "city clerk",
+    "kind": "official",
+    "aliases": [
+      "city clerk",
+      "the city clerk"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-license-collector",
+    "label": "license collector",
+    "kind": "official",
+    "aliases": [
+      "license collector",
+      "finance director",
+      "director of finance",
+      "his/her deputies, agents or employees"
+    ],
+    "defined_in": "5.04.120"
+  },
+  {
+    "id": "ACT-tax-administrator",
+    "label": "tax administrator",
+    "kind": "official",
+    "aliases": [
+      "tax administrator",
+      "the tax administrator"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-director-of-administrative-services",
+    "label": "director of administrative services",
+    "kind": "official",
+    "aliases": [
+      "the city's director of administrative services"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-chief-of-police",
+    "label": "chief of police",
+    "kind": "official",
+    "aliases": [
+      "chief of police",
+      "the chief of police or his designee"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-police-officers",
+    "label": "police officers",
+    "kind": "official",
+    "aliases": [
+      "all police officers"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-police-department",
+    "label": "police department",
+    "kind": "department",
+    "aliases": [
+      "Brisbane police department",
+      "the police department"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-hearing-officer",
+    "label": "neutral hearing officer",
+    "kind": "tribunal",
+    "aliases": [
+      "neutral hearing officer"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-city-officer-or-employee",
+    "label": "city officer or employee",
+    "kind": "official",
+    "aliases": [
+      "any officer or employee of the city"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-county-recorder",
+    "label": "San Mateo County recorder",
+    "kind": "external_agency",
+    "aliases": [
+      "office of the San Mateo County recorder"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-public",
+    "label": "the public",
+    "kind": "public",
+    "aliases": [],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-aggrieved-person",
+    "label": "person aggrieved by the decision",
+    "kind": "private_party",
+    "aliases": [
+      "the person aggrieved"
+    ],
+    "defined_in": null
+  }
+]

@@ -1,0 +1,6487 @@
+[
+  {
+    "id": "A-5.08.020-1",
+    "provision_refs": [
+      "5.08.020"
+    ],
+    "source_quote": "The license collector may make any administrative rules and regulations not inconsistent with the provisions of Chapters 5.04 through 5.24 as may be necessary and desirable to aid in the enforcement of the provisions of Chapters 5.04 through 5.24.",
+    "signal": {
+      "type": "discretionary",
+      "text": "The license collector may make …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "make",
+      "object": "administrative rules and regulations not inconsistent with Chapters 5.04 through 5.24, as necessary and desirable to aid enforcement",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:administrative-rules"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.030-1",
+    "provision_refs": [
+      "5.08.030"
+    ],
+    "source_quote": "It shall be the duty of the license collector, his/her deputies, agents or employees, to administer Chapters 5.04 through 5.24 in accordance with the terms thereof.",
+    "signal": {
+      "type": "standing",
+      "text": "It shall be the duty of the license collector …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector, his/her deputies, agents or employees",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "administer",
+      "object": "Chapters 5.04 through 5.24 in accordance with their terms",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.030-2",
+    "provision_refs": [
+      "5.08.030"
+    ],
+    "source_quote": "It shall be the duty of the license collector and he/she shall have the power regularly and promptly to require the licensing of all business",
+    "signal": {
+      "type": "standing",
+      "text": "regularly and promptly",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "require",
+      "object": "the licensing of all business",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "recurrence",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "regularly and promptly"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.030-3",
+    "provision_refs": [
+      "5.08.030"
+    ],
+    "source_quote": "to cause the collection of the fees therefor",
+    "signal": {
+      "type": "state",
+      "text": "fees for licenses are due",
+      "confidence": "inferred"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "cause the collection of",
+      "object": "the license fees",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.030-4",
+    "provision_refs": [
+      "5.08.030"
+    ],
+    "source_quote": "the prosecution of all persons violating any of the provisions of Chapters 5.04 through 5.24",
+    "signal": {
+      "type": "event",
+      "text": "persons violating any provision of Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "cause the prosecution of",
+      "object": "all persons violating Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.040",
+        "summary": "definition of city"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.040.A-1",
+    "provision_refs": [
+      "5.08.040.A",
+      "5.08.040"
+    ],
+    "source_quote": "To make arrests for the violation of any of the provisions of Chapters 5.04 through 5.24",
+    "signal": {
+      "type": "event",
+      "text": "violation of any provision of Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-chief-of-police",
+      "text": "The chief of police",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "make arrests for",
+      "object": "violation of any provision of Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-5.08.040.A",
+      "relation": "joint"
+    },
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.040.A-2",
+    "provision_refs": [
+      "5.08.040.A",
+      "5.08.040"
+    ],
+    "source_quote": "To make arrests for the violation of any of the provisions of Chapters 5.04 through 5.24",
+    "signal": {
+      "type": "event",
+      "text": "violation of any provision of Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-police-officers",
+      "text": "all police officers",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "make arrests for",
+      "object": "violation of any provision of Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-5.08.040.A",
+      "relation": "joint"
+    },
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.040.B-1",
+    "provision_refs": [
+      "5.08.040.B",
+      "5.08.040"
+    ],
+    "source_quote": "To enter free of charge at any reasonable time any place of business for which a license is required, and to demand the exhibition of such license for the current term from any person engaged or employed in the transaction of such business",
+    "signal": {
+      "type": "discretionary",
+      "text": "at any reasonable time",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-chief-of-police",
+      "text": "The chief of police",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "enter and demand exhibition of license",
+      "object": "any place of business for which a license is required, at any reasonable time, free of charge",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-5.08.040.B",
+      "relation": "joint"
+    },
+    "conflict_with": [],
+    "resolution_note": "ORP-20 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): Discretionary power (no trigger or frequency is stated, so a continuous duty cannot be applied)"
+  },
+  {
+    "id": "A-5.08.040.B-2",
+    "provision_refs": [
+      "5.08.040.B",
+      "5.08.040"
+    ],
+    "source_quote": "To enter free of charge at any reasonable time any place of business for which a license is required, and to demand the exhibition of such license for the current term from any person engaged or employed in the transaction of such business",
+    "signal": {
+      "type": "discretionary",
+      "text": "at any reasonable time",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-police-officers",
+      "text": "all police officers",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "enter and demand exhibition of license",
+      "object": "any place of business for which a license is required, at any reasonable time, free of charge",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-5.08.040.B",
+      "relation": "joint"
+    },
+    "conflict_with": [],
+    "resolution_note": "ORP-20 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): Discretionary power (no trigger or frequency is stated, so a continuous duty cannot be applied)"
+  },
+  {
+    "id": "A-5.08.040.C-1",
+    "provision_refs": [
+      "5.08.040.C",
+      "5.08.040"
+    ],
+    "source_quote": "To require the holder of any fee license to write his signature for purposes of comparison with that appearing on the original license",
+    "signal": {
+      "type": "discretionary",
+      "text": "the power to require a signature of the holder of any fee license",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-chief-of-police",
+      "text": "The chief of police",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "require a signature",
+      "object": "from the holder of any fee license, for comparison with the original license",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-5.08.040.C",
+      "relation": "joint"
+    },
+    "conflict_with": [],
+    "resolution_note": "ORP-20 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): Discretionary power (no trigger or frequency is stated, so a continuous duty cannot be applied)"
+  },
+  {
+    "id": "A-5.08.040.C-2",
+    "provision_refs": [
+      "5.08.040.C",
+      "5.08.040"
+    ],
+    "source_quote": "To require the holder of any fee license to write his signature for purposes of comparison with that appearing on the original license",
+    "signal": {
+      "type": "discretionary",
+      "text": "the power to require a signature of the holder of any fee license",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-police-officers",
+      "text": "all police officers",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "require a signature",
+      "object": "from the holder of any fee license, for comparison with the original license",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-5.08.040.C",
+      "relation": "joint"
+    },
+    "conflict_with": [],
+    "resolution_note": "ORP-20 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): Discretionary power (no trigger or frequency is stated, so a continuous duty cannot be applied)"
+  },
+  {
+    "id": "A-5.08.050.A-1",
+    "provision_refs": [
+      "5.08.050.A"
+    ],
+    "source_quote": "No license shall be issued by the city for the conducting of any of the businesses enumerated in this section until approval has first been obtained from the city council granting the applicant the right to so conduct such businesses",
+    "signal": {
+      "type": "standing",
+      "text": "No license shall be issued …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city",
+      "text": "the city",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "issue",
+      "object": "a license for any of the 18 enumerated businesses before city council approval",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [
+      "business is one of the 18 types enumerated in 5.08.050.A (items 1-18)"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.040",
+        "summary": "definition of city"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.050.B-1",
+    "provision_refs": [
+      "5.08.050.B"
+    ],
+    "source_quote": "Whenever any person desires to open or keep open any business specified in this section, he shall petition the city council to order a license therefor",
+    "signal": {
+      "type": "state",
+      "text": "person desires to open or keep open a business specified in 5.08.050.A",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "any person",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "petition",
+      "object": "the city council to order a license, stating the applicant's name, the character of the business and the location of the premises",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [
+      "artifact:petition-for-license"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.08.050.B-2",
+    "provision_refs": [
+      "5.08.050.B"
+    ],
+    "source_quote": "On the hearing of such petition, the city council may grant the same in whole or in part, or may reject the same",
+    "signal": {
+      "type": "upstream_action",
+      "text": "On the hearing of such petition",
+      "confidence": "explicit",
+      "ref": "A-5.08.050.B-1"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "grant in whole or in part, or reject",
+      "object": "the petition",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [
+      "artifact:council-order-on-petition"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.08.050.B-3",
+    "provision_refs": [
+      "5.08.050.B"
+    ],
+    "source_quote": "no license shall be issued thereon, except as ordered by the city council",
+    "signal": {
+      "type": "standing",
+      "text": "no license shall be issued thereon …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "issue",
+      "object": "a license on the petition except as ordered by the city council",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-03 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): License collector"
+  },
+  {
+    "id": "A-5.12.010-1",
+    "provision_refs": [
+      "5.12.010"
+    ],
+    "source_quote": "It is unlawful for any person, whether for himself/herself or for any other person, to commence or carry on any business in the city without first having procured a license from the city so to do, or without complying with Chapters 5.04 through 5.24.",
+    "signal": {
+      "type": "standing",
+      "text": "It is unlawful for any person …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "any person",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "commence or carry on",
+      "object": "any business in the city without first procuring a license or without complying with Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [
+      "5.12.030",
+      "5.12.040",
+      "5.12.050",
+      "5.12.070",
+      "5.12.060",
+      "5.12.080"
+    ],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.12.020-1",
+    "provision_refs": [
+      "5.12.020"
+    ],
+    "source_quote": "A separate license must be obtained for each branch establishment or location of the business transacted and carried on, and for each separate unrelated type of business at the same location",
+    "signal": {
+      "type": "state",
+      "text": "business has a branch establishment, another location, or a separate unrelated type of business at the same location",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "obtain",
+      "object": "a separate license for each branch establishment or location and for each separate unrelated type of business at the same location",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [
+      "warehouses and distributing plants incidental to a licensed business are not separate places of business or branch establishments"
+    ],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-04 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The person carrying on the business; ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.12.020-2",
+    "provision_refs": [
+      "5.12.020"
+    ],
+    "source_quote": "each license shall authorize the licenses to transact and carry on only the business licensed thereby at the location or in the manner designated in such license",
+    "signal": {
+      "type": "state",
+      "text": "holds a license",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-licensee",
+      "text": "the licenses (sic)",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "transact and carry on",
+      "object": "only the business licensed, at the location or in the manner designated in the license",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.12.060-1",
+    "provision_refs": [
+      "5.12.060"
+    ],
+    "source_quote": "shall file a verified statement with the license collector, disclosing the interstate or other character of his business entitling such exemption",
+    "signal": {
+      "type": "state",
+      "text": "claims exemption on the ground that the license burdens interstate commerce",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-exemption-claimant",
+      "text": "Every peddler, solicitor or other person claiming to be entitled to exemption",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "file",
+      "object": "a verified statement disclosing the interstate or other character of the business, with the contents listed in 5.12.060",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:exemption-statement"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.12.060-2",
+    "provision_refs": [
+      "5.12.060"
+    ],
+    "source_quote": "A copy of the order blank, contract form, or other papers used by such person in taking orders, shall be attached to the application for the information of the license collector.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "filing the exemption statement",
+      "confidence": "explicit",
+      "ref": "A-5.12.060-1"
+    },
+    "actor": {
+      "id": "ACT-exemption-claimant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "attach",
+      "object": "a copy of the order blank, contract form or other papers used in taking orders to the application",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-05 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The person claiming the interstate-commerce exemption; ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.12.080-1",
+    "provision_refs": [
+      "5.12.080"
+    ],
+    "source_quote": "shall in addition to the information required by Chapter 5.16 also file with the license collector a certificate of a regularly licensed and practicing physician dated within a month of the application",
+    "signal": {
+      "type": "state",
+      "text": "claims exemption as a veteran physically unable to earn a livelihood by manual labor",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-exemption-claimant",
+      "text": "Every peddler, solicitor or other person claiming to be entitled to exemption",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "file",
+      "object": "a physician's certificate, dated within a month of the application, that the applicant is physically unable to earn a livelihood by manual labor and stating the nature of the incapacitation",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:physician-certificate"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.010-1",
+    "provision_refs": [
+      "5.16.010"
+    ],
+    "source_quote": "Every person required to have a license under the provisions of Chapters 5.04 through 5.24 shall make application for the same to the license collector.",
+    "signal": {
+      "type": "state",
+      "text": "person is required to have a license under Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "Every person required to have a license",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "make application for",
+      "object": "a license",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:license-application"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.020.A-1",
+    "provision_refs": [
+      "5.16.020.A"
+    ],
+    "source_quote": "such person shall furnish to the license collector for his ascertaining the amount of license tax to be paid by the applicant, a written statement, upon a form provided by the license collector, sworn to before a person authorized to administer oaths",
+    "signal": {
+      "type": "state",
+      "text": "applying for the first license or for a newly established business, where the tax is measured by gross receipts",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": "such person",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "furnish",
+      "object": "a written, sworn statement on the collector's form with the information needed to determine the license tax",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:original-statement"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.020.B-1",
+    "provision_refs": [
+      "5.16.020.B"
+    ],
+    "source_quote": "he shall estimate the gross receipts for the period to be covered by the license to be issued",
+    "signal": {
+      "type": "state",
+      "text": "the license tax is measured by gross receipts",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": "he",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "estimate",
+      "object": "gross receipts for the period to be covered by the license",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:gross-receipts-estimate"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.020.B-2",
+    "provision_refs": [
+      "5.16.020.B"
+    ],
+    "source_quote": "Such estimate if accepted by the license collector as reasonable, shall be used in determining the amount of license tax to be paid by the applicant",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the applicant's estimate of gross receipts",
+      "confidence": "explicit",
+      "ref": "A-5.16.020.B-1"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "accept as reasonable, or not,",
+      "object": "the applicant's gross receipts estimate for use in determining the tentative license tax",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.020.B-3",
+    "provision_refs": [
+      "5.16.020.B"
+    ],
+    "source_quote": "such person shall, within thirty (30) days after the expiration of the period for which such license was issued, furnish the license collector with a sworn statement upon a form furnished by the license collector, showing the gross receipts during the period of such license",
+    "signal": {
+      "type": "time",
+      "text": "expiration of the period for which the license was issued",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": "such person",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "furnish",
+      "object": "a sworn statement of actual gross receipts for the license period and pay the final license tax, after deducting the amount paid when the license issued",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 30,
+      "unit": "days",
+      "from": "license period expiry",
+      "direction": "after",
+      "business_days": false,
+      "text": "within thirty (30) days after the expiration of the period for which such license was issued"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:final-gross-receipts-statement"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.020.C-1",
+    "provision_refs": [
+      "5.16.020.C"
+    ],
+    "source_quote": "The license collector shall not issue to any such person another license for the same or any other business until such person shall have furnished to him the written statement and paid the license tax as required in Chapters 5.04 through 5.24.",
+    "signal": {
+      "type": "state",
+      "text": "person has not furnished the written statement and paid the license tax",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "issue",
+      "object": "another license for the same or any other business",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.030-1",
+    "provision_refs": [
+      "5.16.030"
+    ],
+    "source_quote": "In all cases the applicant for the renewal of a license under Chapters 5.04 through 5.24 shall submit to the license collector",
+    "signal": {
+      "type": "state",
+      "text": "applying for renewal of a license",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": "the applicant for the renewal of a license",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "submit",
+      "object": "a written statement under penalty of perjury (or sworn) on the collector's form, with information about the preceding year's business needed to ascertain the license tax",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:renewal-statement"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.040.A-1",
+    "provision_refs": [
+      "5.16.040.A"
+    ],
+    "source_quote": "nor shall the filing of the same preclude the city from collecting by appropriate action such sum as is actually due and payable under Chapters 5.04 through 5.24",
+    "signal": {
+      "type": "state",
+      "text": "a sum is actually due and payable under Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city",
+      "text": "the city",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "collect by appropriate action",
+      "object": "the sum actually due and payable",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.040",
+        "summary": "definition of city"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.040.A-2",
+    "provision_refs": [
+      "5.16.040.A"
+    ],
+    "source_quote": "Such statement and each of the several items therein contained shall be subject to audit and verification by the license collector, his deputies or authorized employees of the city, who are authorized to examine, audit and inspect such books and records of a licensee or applicant for a license",
+    "signal": {
+      "type": "discretionary",
+      "text": "as may be necessary in their judgment",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector, his deputies or authorized employees of the city",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "examine, audit and inspect",
+      "object": "the books and records of a licensee or applicant, to verify or ascertain the license tax due",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-business-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:audit"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.040.B-1",
+    "provision_refs": [
+      "5.16.040.B"
+    ],
+    "source_quote": "All licensees, applicants, for licenses and persons engaged in business in the city are required to permit an examination of such books and records for the purpose of Chapters 5.04 through 5.24.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an examination of books and records under 5.16.040.A",
+      "confidence": "explicit",
+      "ref": "A-5.16.040.A-2"
+    },
+    "actor": {
+      "id": "ACT-business-person",
+      "text": "All licensees, applicants, for licenses and persons engaged in business in the city",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "permit",
+      "object": "an examination of their books and records",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.040.C-1",
+    "provision_refs": [
+      "5.16.040.C"
+    ],
+    "source_quote": "Any unauthorized disclosure or use of such information by any officer or employee of the city shall constitute a violation of this code.",
+    "signal": {
+      "type": "standing",
+      "text": "information furnished or secured under the chapter is confidential",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city-officer-or-employee",
+      "text": "any officer or employee of the city",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "disclose or use",
+      "object": "information furnished or secured under the chapter without authorization",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-business-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.050-1",
+    "provision_refs": [
+      "5.16.050"
+    ],
+    "source_quote": "the license collector may determine the amount of license tax due from such person by means of such information as he may be able to obtain",
+    "signal": {
+      "type": "event",
+      "text": "a person fails to file a required statement within the time prescribed, or fails to file a corrected statement within five working days after demand",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "determine",
+      "object": "the amount of license tax due, from such information as he can obtain",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [
+      "artifact:tax-determination"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.050-2",
+    "provision_refs": [
+      "5.16.050"
+    ],
+    "source_quote": "the license collector shall give a notice of the amount so assessed by serving it personally or by depositing it in the United States Post Office at the city, postage prepaid, addressed to the person so assessed at his last known address",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a determination of the amount due is made",
+      "confidence": "explicit",
+      "ref": "A-5.16.050-1"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give notice of",
+      "object": "the amount assessed, served personally or mailed postage prepaid to the last known address",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [
+      "artifact:notice-of-assessment"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.050-3",
+    "provision_refs": [
+      "5.16.050"
+    ],
+    "source_quote": "Such person may, within fifteen (15) days after the mailing or serving of such notice, make application in writing to the license collector for a hearing on the amount of the license tax",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the mailing or serving of the notice of assessment",
+      "confidence": "explicit",
+      "ref": "A-5.16.050-2"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "Such person",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "apply in writing",
+      "object": "for a hearing on the amount of the license tax",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 15,
+      "unit": "days",
+      "from": "notice mailed or served",
+      "direction": "after",
+      "business_days": false,
+      "text": "within fifteen (15) days after the mailing or serving of such notice"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:hearing-application"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.050-4",
+    "provision_refs": [
+      "5.16.050"
+    ],
+    "source_quote": "the license collector shall cause the matter to be set for hearing within five (5) working days, before the city council",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an application for a hearing is made",
+      "confidence": "explicit",
+      "ref": "A-5.16.050-3"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "set the matter for hearing",
+      "object": "before the city council",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 5,
+      "unit": "days",
+      "from": "application",
+      "direction": "after",
+      "business_days": true,
+      "text": "within five (5) working days"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [
+      "artifact:hearing-date"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.050-5",
+    "provision_refs": [
+      "5.16.050"
+    ],
+    "source_quote": "The license collector shall give at least ten (10) days' notice to such person of the time and place of hearing in the manner prescribed above for serving notices of assessment.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing is set",
+      "confidence": "explicit",
+      "ref": "A-5.16.050-4"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give notice of",
+      "object": "the time and place of the hearing, in the manner used for notices of assessment",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 10,
+      "unit": "days",
+      "from": "hearing",
+      "direction": "before",
+      "business_days": false,
+      "text": "at least ten (10) days' notice"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [
+      "artifact:notice-of-hearing"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.050-6",
+    "provision_refs": [
+      "5.16.050"
+    ],
+    "source_quote": "The city council shall consider all evidence produced, and shall make findings thereon, which shall be final.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing",
+      "confidence": "explicit",
+      "ref": "A-5.16.050-4"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "consider the evidence and make findings on",
+      "object": "the amount of license tax",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.16.140.A",
+        "summary": "Decisions are final and conclusive; fees finally determined are due with any penalties"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [
+      "artifact:council-findings"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.050-7",
+    "provision_refs": [
+      "5.16.050"
+    ],
+    "source_quote": "Notice of such findings shall be served upon the applicant in the manner prescribed above for serving notices of assessment.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the council makes findings",
+      "confidence": "explicit",
+      "ref": "A-5.16.050-6"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "serve notice of",
+      "object": "the findings upon the applicant, in the manner prescribed for notices of assessment",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-findings"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-06 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): License collector"
+  },
+  {
+    "id": "A-5.16.060-1",
+    "provision_refs": [
+      "5.16.060"
+    ],
+    "source_quote": "All applications for the issuance of a license are to be referred to the license collector of the city",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an application for a license is made",
+      "confidence": "explicit",
+      "ref": "A-5.16.010-1"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "refer",
+      "object": "all applications for the issuance of a license to the license collector",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-07 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The applicant (this restates 5.16.010, which already requires application to the license collector) [restates 5.16.010; kept as its own record, flagged here for the dependency pass]; ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.060-2",
+    "provision_refs": [
+      "5.16.060"
+    ],
+    "source_quote": "he shall have the power in the first instance to determine the merits of such applications and to approve or reject same",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an application is referred to the license collector",
+      "confidence": "explicit",
+      "ref": "A-5.16.010-1"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "determine the merits of, and approve or reject,",
+      "object": "license applications",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.16.140.A",
+        "summary": "Decisions are final and conclusive; fees finally determined are due with any penalties"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:determination-on-application"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.060-3",
+    "provision_refs": [
+      "5.16.060"
+    ],
+    "source_quote": "If he finds that the application should be approved, he shall issue to the applicant a license.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the license collector finds the application should be approved",
+      "confidence": "explicit",
+      "ref": "A-5.16.060-2"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "issue",
+      "object": "a license",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:license"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.060-4",
+    "provision_refs": [
+      "5.16.060"
+    ],
+    "source_quote": "If, after investigation, the license collector determines that the license if issued would violate the provisions of Chapters 5.04 through 5.24, the license will not be issued. Said refusal shall be in writing directed to the applicant with a copy to the city council, setting forth in general the reason for the refusal.",
+    "signal": {
+      "type": "state",
+      "text": "after investigation, the license if issued would violate Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "refuse the license in writing",
+      "object": "directed to the applicant with a copy to the city council, stating in general the reason",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:written-refusal"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.060-5",
+    "provision_refs": [
+      "5.16.060"
+    ],
+    "source_quote": "The applicant shall have the power of appeal to the city council, as provided in Section 5.16.130.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a written refusal of the license",
+      "confidence": "explicit",
+      "ref": "A-5.16.060-4"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appeal to the city council",
+      "object": "the refusal, as provided in Section 5.16.130",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.070-1",
+    "provision_refs": [
+      "5.16.070",
+      "5.16.070.A",
+      "5.16.070.B",
+      "5.16.070.C",
+      "5.16.070.D",
+      "5.16.070.E",
+      "5.16.070.F"
+    ],
+    "source_quote": "upon payment of the prescribed fee, the license collector shall make the necessary investigation following which he shall issue, where appropriate, a license to the person",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an application is made and the prescribed fee is paid",
+      "confidence": "explicit",
+      "ref": "A-5.16.010-1"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "investigate and issue",
+      "object": "a license containing the licensee's name, the business licensed, the place of business, the expiration date, the receipt for the money paid, and other information the collector determines",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "the prescribed fee has been paid",
+      "issuance is appropriate"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "fee",
+        "provision": "5.20.010.A",
+        "summary": "Tax based on gross receipts, number of employees, or square footage"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.010.B",
+        "summary": "Tax based on gross receipts, number of employees, or square footage"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.010.C",
+        "summary": "Tax based on gross receipts, number of employees, or square footage"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.010.D",
+        "summary": "Tax based on gross receipts, number of employees, or square footage"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.011.A",
+        "summary": "Liquid storage facilities"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.011.B",
+        "summary": "Liquid storage facilities"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.015.E",
+        "summary": "Special tax for capital improvements"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.015.F",
+        "summary": "Special tax for capital improvements"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.015.G",
+        "summary": "Special tax for capital improvements"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.025.B",
+        "summary": "Cannabis business"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.030",
+        "summary": "Itinerant vendors"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.035.B",
+        "summary": "Hotels and other places designed for occupancy by transients"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.035.C",
+        "summary": "Hotels and other places designed for occupancy by transients"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.035.D",
+        "summary": "Hotels and other places designed for occupancy by transients"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.050.A",
+        "summary": "Solicitors"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.070",
+        "summary": "Handbill distributors"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.090",
+        "summary": "Mediumship"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.100.B",
+        "summary": "Recycling establishments"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.100.C",
+        "summary": "Recycling establishments"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.110",
+        "summary": "Movie theaters"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.110.A",
+        "summary": "Movie theaters"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.110.B",
+        "summary": "Movie theaters"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.120",
+        "summary": "Pawnbrokers"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.125.B",
+        "summary": "Soil recycling establishment"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.125.C",
+        "summary": "Soil recycling establishment"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.130",
+        "summary": "Circuses and carnivals"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.140.A",
+        "summary": "Catering and ice cream vending trucks"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.150",
+        "summary": "Amusement concessions"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.150.A",
+        "summary": "Amusement concessions"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.150.B",
+        "summary": "Amusement concessions"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.150.C",
+        "summary": "Amusement concessions"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.160",
+        "summary": "Boxing or wrestling exhibitions"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.170",
+        "summary": "Secondhand dealers, or collectors, not auto or machine wrecking"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.180",
+        "summary": "Waste recycling"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.180.A",
+        "summary": "Waste recycling"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.190",
+        "summary": "Auto wreckers"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.200",
+        "summary": "Taxicabs"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.210",
+        "summary": "Commercial kennels"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.220",
+        "summary": "Outdoor advertising"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.230",
+        "summary": "Mechanical amusement devices"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.230.A",
+        "summary": "Mechanical amusement devices"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.230.B",
+        "summary": "Mechanical amusement devices"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.235.A",
+        "summary": "Peddlers, hawkers, and street vendors"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.240.A",
+        "summary": "Residential business license tax"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.250",
+        "summary": "Due dates for payment of fees"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.250.A",
+        "summary": "Due dates for payment of fees"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.250.B",
+        "summary": "Due dates for payment of fees"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.250.C",
+        "summary": "Due dates for payment of fees"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.250.D",
+        "summary": "Due dates for payment of fees"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.250.E",
+        "summary": "Due dates for payment of fees"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.250.F",
+        "summary": "Due dates for payment of fees"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.260",
+        "summary": "License fees for less than full period"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.020",
+        "summary": "Delivery by vehicle"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.060.A",
+        "summary": "Contractors and related occupations"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.060.B",
+        "summary": "Contractors and related occupations"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.080",
+        "summary": "Real estate broker"
+      },
+      {
+        "kind": "fee",
+        "provision": "5.20.015.H",
+        "summary": "Special tax for capital improvements"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:license"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.080.A-1",
+    "provision_refs": [
+      "5.16.080.A"
+    ],
+    "source_quote": "Every person having a license under the provisions of Chapters 5.04 through 5.24, and carrying on a business at a fixed place of business, shall keep such license posted and exhibited while in force, in some conspicuous part of the place of business.",
+    "signal": {
+      "type": "state",
+      "text": "holds a license in force and carries on business at a fixed place of business",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-licensee",
+      "text": "Every person having a license … and carrying on a business at a fixed place of business",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "keep posted and exhibited",
+      "object": "the license, in a conspicuous part of the place of business",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "continuous",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "while in force"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.080.B-1",
+    "provision_refs": [
+      "5.16.080.B"
+    ],
+    "source_quote": "Every person having such license, and not having a fixed place of business, shall carry such license or permit with him at all times while conducting the business for which the license or permit was issued.",
+    "signal": {
+      "type": "state",
+      "text": "holds a license and has no fixed place of business",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-licensee",
+      "text": "Every person having such license, and not having a fixed place of business",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "carry",
+      "object": "the license or permit at all times while conducting the business",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "continuous",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "at all times while conducting the business"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.090-1",
+    "provision_refs": [
+      "5.16.090"
+    ],
+    "source_quote": "No license or permit issued under any provision of Chapters 5.04 through 5.24 shall be in any manner transferred or assigned, or authorize any person other than the person named in the license, to carry on the business therein named, or to transact such business in any place other than the place or location therein named, without the written consent of the city council endorsed thereon.",
+    "signal": {
+      "type": "standing",
+      "text": "No license … shall be … transferred or assigned",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "transfer or assign",
+      "object": "a license, or use it for another person or place, without the written consent of the city council",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-08 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The licensee; ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.090-2",
+    "provision_refs": [
+      "5.16.090"
+    ],
+    "source_quote": "without the written consent of the city council endorsed thereon",
+    "signal": {
+      "type": "event",
+      "text": "an application to transfer or assign the license, or to change its location",
+      "confidence": "inferred"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "consent in writing, endorsed on the license, to",
+      "object": "a transfer or assignment of a license or a change of its location",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:council-consent"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-01 (O-SIG): Accepted my best guess (user: \"Accept all best guesses\"): Upon an application to transfer or assign the license, or to change its location"
+  },
+  {
+    "id": "A-5.16.090-3",
+    "provision_refs": [
+      "5.16.090"
+    ],
+    "source_quote": "the person applying for such transfer or change shall pay to the license collector a fee of five dollars ($5.00) for each assignment or transfer",
+    "signal": {
+      "type": "event",
+      "text": "a license is assigned or transferred, or the place or location of the business is changed",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-transfer-applicant",
+      "text": "the person applying for such transfer or change",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "pay",
+      "object": "a fee of $5.00 for each assignment or transfer",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:transfer-fee-payment"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.100-1",
+    "provision_refs": [
+      "5.16.100"
+    ],
+    "source_quote": "The license collector shall make a charge of five dollars ($5.00) for each duplicate license issued to replace any license issued under the provisions of Chapters 5.04 through 5.24, which has been lost or destroyed",
+    "signal": {
+      "type": "event",
+      "text": "a duplicate license is issued to replace a lost or destroyed license",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "charge",
+      "object": "$5.00 for each duplicate license",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.100-2",
+    "provision_refs": [
+      "5.16.100"
+    ],
+    "source_quote": "the applicant shall make satisfactory proof of such loss",
+    "signal": {
+      "type": "state",
+      "text": "applying for a duplicate of a lost or destroyed license",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "make satisfactory proof of",
+      "object": "the loss of the license",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.110-1",
+    "provision_refs": [
+      "5.16.110"
+    ],
+    "source_quote": "Whenever the license collector has reason to believe that such affidavit, statement or certificate does not set forth the true facts required by Chapters 5.04 through 5.24, the license collector may withhold the issuance of a license therefor until such time as the applicant furnishes satisfactory evidence of the truth of such statement, affidavit or certificate.",
+    "signal": {
+      "type": "state",
+      "text": "the license collector has reason to believe a required affidavit, statement or certificate does not set forth the true facts",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "withhold the issuance of",
+      "object": "a license until the applicant furnishes satisfactory evidence of the truth of the statement",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.120-1",
+    "provision_refs": [
+      "5.16.120"
+    ],
+    "source_quote": "the license collector shall have the power to issue an order to show cause based upon five (5) days' written notice to such licensee, at a time and place fixed in the notice, why the license shall not be revoked, or why a fee, to be determined by the license collector, and specified in the notice, should not be fixed for the licensee",
+    "signal": {
+      "type": "event",
+      "text": "the collector has reason to believe a statement, affidavit or certificate is untrue and the true facts are not furnished within five days after demand",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "issue an order to show cause",
+      "object": "why the license should not be revoked or why a fee should not be fixed, on five days' written notice to the licensee",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": "licensee",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 5,
+      "unit": "days",
+      "from": "hearing",
+      "direction": "before",
+      "business_days": false,
+      "text": "five (5) days' written notice"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:order-to-show-cause"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.120-2",
+    "provision_refs": [
+      "5.16.120"
+    ],
+    "source_quote": "The license collector shall have full power to hear the matter and his determination thereof shall be subject to review by the city council",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the order to show cause",
+      "confidence": "explicit",
+      "ref": "A-5.16.120-1"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "hear the matter and determine",
+      "object": "whether to revoke the license or fix a fee",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": "licensee",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:revocation-determination"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.120-3",
+    "provision_refs": [
+      "5.16.120"
+    ],
+    "source_quote": "the applicant shall be entitled to appeal the determination of the matter to the city council",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the collector's determination",
+      "confidence": "explicit",
+      "ref": "A-5.16.120-2"
+    },
+    "actor": {
+      "id": "ACT-licensee",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "modality": "entitlement",
+    "action": {
+      "verb": "appeal",
+      "object": "the collector's determination to the city council",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.130-1",
+    "provision_refs": [
+      "5.16.130"
+    ],
+    "source_quote": "The licensee may appeal in writing to the council within ten (10) days after the rejection of any application or permit by the license collector.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "rejection of an application or permit by the license collector",
+      "confidence": "explicit",
+      "ref": "A-5.16.060-4"
+    },
+    "actor": {
+      "id": "ACT-licensee",
+      "text": "licensee",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appeal in writing",
+      "object": "the rejection to the council",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 10,
+      "unit": "days",
+      "from": "rejection",
+      "direction": "after",
+      "business_days": false,
+      "text": "within ten (10) days after the rejection"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:appeal-to-council"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.130-2",
+    "provision_refs": [
+      "5.16.130"
+    ],
+    "source_quote": "The council shall forthwith set the matter for hearing",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an appeal is filed",
+      "confidence": "explicit",
+      "ref": "A-5.16.130-1"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "set",
+      "object": "the matter for hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": "licensee",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "forthwith"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:hearing-date"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.130-3",
+    "provision_refs": [
+      "5.16.130"
+    ],
+    "source_quote": "cause notice of the time and place thereof to be given to the applicant not less than five (5) days prior to the hearing",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the matter is set for hearing",
+      "confidence": "explicit",
+      "ref": "A-5.16.130-2"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "cause notice to be given of",
+      "object": "the time and place of the hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 5,
+      "unit": "days",
+      "from": "hearing",
+      "direction": "before",
+      "business_days": false,
+      "text": "not less than five (5) days prior to the hearing"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-hearing"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.130-4",
+    "provision_refs": [
+      "5.16.130"
+    ],
+    "source_quote": "At the hearing the applicant shall appear and offer evidence in support of his application.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing",
+      "confidence": "explicit",
+      "ref": "A-5.16.130-2"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "appear and offer evidence in support of",
+      "object": "the application",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.16.130-5",
+    "provision_refs": [
+      "5.16.130"
+    ],
+    "source_quote": "At the hearing, the council shall have power to confirm, modify, or correct the determination of the license collector in any regard",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing",
+      "confidence": "explicit",
+      "ref": "A-5.16.130-2"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "confirm, modify, or correct",
+      "object": "the determination of the license collector",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.16.140.A",
+        "summary": "Decisions are final and conclusive; fees finally determined are due with any penalties"
+      }
+    ],
+    "outputs": [
+      "artifact:council-determination"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.130-6",
+    "provision_refs": [
+      "5.16.130"
+    ],
+    "source_quote": "if proper showing is made entitling the application to a license or permit, shall determine the proper fee to be charged",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing",
+      "confidence": "explicit",
+      "ref": "A-5.16.130-2"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "determine",
+      "object": "the proper fee to be charged",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": "the applicant",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "a proper showing is made entitling the application to a license or permit"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:fee-determination"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.130-7",
+    "provision_refs": [
+      "5.16.130"
+    ],
+    "source_quote": "shall forthwith give written notice to the licensee of the determination and the amount of the fee",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the council determines the fee",
+      "confidence": "explicit",
+      "ref": "A-5.16.130-6"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give written notice of",
+      "object": "the determination and the amount of the fee",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": "licensee",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "forthwith"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-determination"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.140.B-1",
+    "provision_refs": [
+      "5.16.140.B"
+    ],
+    "source_quote": "neither the holder thereof, nor any person acting for him directly or indirectly, shall be entitled to another license to carry on the same or any similar business within the city unless the application for such license is approved by the city council",
+    "signal": {
+      "type": "state",
+      "text": "a license has been revoked",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "issue",
+      "object": "another license for the same or a similar business to the holder of a revoked license, or anyone acting for him, unless the city council approves",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-revoked-licensee",
+      "text": "the holder thereof",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-09 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): B-1: license collector. B-3: the former holder of the revoked license."
+  },
+  {
+    "id": "A-5.16.140.B-2",
+    "provision_refs": [
+      "5.16.140.B"
+    ],
+    "source_quote": "unless the application for such license is approved by the city council",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an application for another license after revocation",
+      "confidence": "explicit",
+      "ref": "A-5.16.140.B-1"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "approve or not",
+      "object": "an application for another license after revocation",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-revoked-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:council-approval"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.140.B-3",
+    "provision_refs": [
+      "5.16.140.B"
+    ],
+    "source_quote": "If the city council approves the application for such license, further license applications may be made directly to the license collector.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the city council approves the application",
+      "confidence": "explicit",
+      "ref": "A-5.16.140.B-2"
+    },
+    "actor": {
+      "id": "ACT-revoked-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "make",
+      "object": "further license applications directly to the license collector",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-09 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): B-1: license collector. B-3: the former holder of the revoked license."
+  },
+  {
+    "id": "A-5.16.150-1",
+    "provision_refs": [
+      "5.16.150"
+    ],
+    "source_quote": "The license collector and the council shall have the power to administer oaths, certify to all official acts and issue subpoenas for and to require the attendance of witnesses and the production of records and documents upon any hearing provided under Chapters 5.04 through 5.24.",
+    "signal": {
+      "type": "state",
+      "text": "a hearing is held under Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "administer oaths, certify official acts, issue subpoenas and require attendance and production of records",
+      "object": "upon any hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-5.16.150",
+      "relation": "joint"
+    },
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.150-2",
+    "provision_refs": [
+      "5.16.150"
+    ],
+    "source_quote": "The license collector and the council shall have the power to administer oaths, certify to all official acts and issue subpoenas for and to require the attendance of witnesses and the production of records and documents upon any hearing provided under Chapters 5.04 through 5.24.",
+    "signal": {
+      "type": "state",
+      "text": "a hearing is held under Chapters 5.04 through 5.24",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "administer oaths, certify official acts, issue subpoenas and require attendance and production of records",
+      "object": "upon any hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-5.16.150",
+      "relation": "joint"
+    },
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.16.150-3",
+    "provision_refs": [
+      "5.16.150"
+    ],
+    "source_quote": "The license collector shall have the power to administer oaths in the execution of any affidavit, statement or certificate herein required.",
+    "signal": {
+      "type": "discretionary",
+      "text": "The license collector shall have the power …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "administer oaths",
+      "object": "in the execution of any affidavit, statement or certificate required by the chapters",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.015.C-1",
+    "provision_refs": [
+      "5.20.015.C"
+    ],
+    "source_quote": "The proceeds of the capital improvement tax shall be utilized only for the acquisition, construction, installation, maintenance, repair, and replacement of capital improvements owned, or to be constructed or acquired by the city.",
+    "signal": {
+      "type": "standing",
+      "text": "The proceeds of the capital improvement tax shall be utilized only for …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "use",
+      "object": "capital improvement tax proceeds only for the acquisition, construction, installation, maintenance, repair and replacement of capital improvements owned or to be acquired by the city",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.040",
+        "summary": "definition of city"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-10 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The city"
+  },
+  {
+    "id": "A-5.20.015.C-2",
+    "provision_refs": [
+      "5.20.015.C"
+    ],
+    "source_quote": "Such proceeds shall be allocated each fiscal year to specific capital improvement projects identified in the city's annual budget",
+    "signal": {
+      "type": "time",
+      "text": "each fiscal year",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "allocate",
+      "object": "capital improvement tax proceeds to specific capital improvement projects identified in the annual budget, subject to adjustment by city council resolution",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "recurrence",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "each fiscal year"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.040",
+        "summary": "definition of city"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-10 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The city"
+  },
+  {
+    "id": "A-5.20.015.D-1",
+    "provision_refs": [
+      "5.20.015.D"
+    ],
+    "source_quote": "All proceeds of the capital improvement tax shall be accounted for in a separate capital improvement tax fund, which is hereby established as part of the city's financial records.",
+    "signal": {
+      "type": "standing",
+      "text": "All proceeds … shall be accounted for …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "account for",
+      "object": "all capital improvement tax proceeds in a separate capital improvement tax fund",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.040",
+        "summary": "definition of city"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-10 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The city"
+  },
+  {
+    "id": "A-5.20.015.D-2",
+    "provision_refs": [
+      "5.20.015.D"
+    ],
+    "source_quote": "Disbursements from the capital improvement tax fund shall only be made for payment of costs related to capital improvement projects.",
+    "signal": {
+      "type": "standing",
+      "text": "Disbursements … shall only be made …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "disburse",
+      "object": "money from the capital improvement tax fund for anything other than costs related to capital improvement projects",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.040",
+        "summary": "definition of city"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-10 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The city"
+  },
+  {
+    "id": "A-5.20.015.D-3",
+    "provision_refs": [
+      "5.20.015.D"
+    ],
+    "source_quote": "Not later than March 1st of each year, the city's director of administrative services shall submit an annual report to the city council",
+    "signal": {
+      "type": "time",
+      "text": "March 1st of each year",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-director-of-administrative-services",
+      "text": "the city's director of administrative services",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "submit",
+      "object": "an annual report showing the proceeds deposited, the expenditures from the fund, and the status of each project financed, for the preceding fiscal year",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "recurrence",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "not later than March 1st of each year"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:capital-improvement-tax-annual-report"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.015.H-1",
+    "provision_refs": [
+      "5.20.015.H"
+    ],
+    "source_quote": "The city's director of administrative services is authorized to adopt rules and regulations for implementation of this section, consistent with the provisions hereof.",
+    "signal": {
+      "type": "discretionary",
+      "text": "is authorized to adopt rules and regulations",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-director-of-administrative-services",
+      "text": "the city's director of administrative services",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "adopt",
+      "object": "rules and regulations to implement the limit on total general and special business license taxes",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:implementing-rules"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.015.H-2",
+    "provision_refs": [
+      "5.20.015.H"
+    ],
+    "source_quote": "Appeals to the city manager or the city council shall be made by filing a notice of appeal with the city clerk within thirty (30) days after the date on which the final decision or determination is made by the director of administrative services or the city manager, as the case may be.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a decision or determination of the director of administrative services (appealable to the city manager) or of the city manager (appealable to the city council)",
+      "confidence": "explicit",
+      "ref": "A-5.20.015.H-1"
+    },
+    "actor": {
+      "id": "ACT-aggrieved-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appeal",
+      "object": "the director's decision on rules and their application to the city manager, and the city manager's ruling to the city council, by filing a notice of appeal setting forth the grounds with the city clerk",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-clerk",
+      "text": "the city clerk",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 30,
+      "unit": "days",
+      "from": "final decision or determination",
+      "direction": "after",
+      "business_days": false,
+      "text": "within thirty (30) days after the date on which the final decision or determination is made"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-appeal"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-11 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The person aggrieved by the decision (bulk rule: apply the same answer to all four)"
+  },
+  {
+    "id": "A-5.20.020-1",
+    "provision_refs": [
+      "5.20.020"
+    ],
+    "source_quote": "provided, that any such person may elect to pay a license tax under Section 5.20.010",
+    "signal": {
+      "type": "state",
+      "text": "person without a fixed place of business who regularly delivers by vehicle",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "any such person",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "elect",
+      "object": "to pay the license tax under Section 5.20.010 (measured by gross receipts) instead of $30 annually",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.060.A-1",
+    "provision_refs": [
+      "5.20.060.A"
+    ],
+    "source_quote": "provided, that any such person may elect to pay a license tax under Section 5.20.010",
+    "signal": {
+      "type": "state",
+      "text": "person engaged in the business of contracting within the city",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "any such person",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "elect",
+      "object": "to pay the license tax under Section 5.20.010 (measured by gross receipts) instead of $35 per quarter",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.060.B-1",
+    "provision_refs": [
+      "5.20.060.B"
+    ],
+    "source_quote": "provided, that any such specialty contractor may elect to pay a license tax under Section 5.20.010",
+    "signal": {
+      "type": "state",
+      "text": "specialty contractor who requires a state license",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "any such specialty contractor",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "elect",
+      "object": "to pay the license tax under Section 5.20.010 (measured by gross receipts) instead of $25 per quarter",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.080-1",
+    "provision_refs": [
+      "5.20.080"
+    ],
+    "source_quote": "provided, that any such real estate broker may elect to pay a license fee under Section 5.20.010",
+    "signal": {
+      "type": "state",
+      "text": "licensed real estate broker selling out-of-city-owned property in the city with no fixed place of business",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "any such real estate broker",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "elect",
+      "object": "to pay the license fee under Section 5.20.010 (measured by gross receipts) instead of $75 semiannually",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      },
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.037-1",
+    "provision_refs": [
+      "5.20.037"
+    ],
+    "source_quote": "Each operator shall, on or before the last day of April, July, October and January, make a return to the tax administrator, on forms provided by the tax administrator, of the total rooms rented during the previous three (3) months and the amount of tax calculated for such room rentals.",
+    "signal": {
+      "type": "time",
+      "text": "last day of April, July, October and January",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-operator",
+      "text": "Each operator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "make",
+      "object": "a return of the total rooms rented during the previous three months and the tax calculated",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "recurrence",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "on or before the last day of April, July, October and January"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.20.044",
+        "5.24.080"
+      ],
+      "summary": "Violations of 5.20.035-5.20.043 punishable under Chapters 1.14, 1.16 and 1.18; violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.037",
+        "summary": "Returns and payments are due immediately upon cessation of any business"
+      }
+    ],
+    "outputs": [
+      "artifact:hotel-tax-return"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.20.037-2",
+    "provision_refs": [
+      "5.20.037"
+    ],
+    "source_quote": "The full amount of the tax calculated shall be remitted to the tax administrator at the time the return is filed.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the return is filed",
+      "confidence": "explicit",
+      "ref": "A-5.20.037-1"
+    },
+    "actor": {
+      "id": "ACT-operator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "remit",
+      "object": "the full amount of the tax calculated",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "at the time the return is filed"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.20.038.A",
+        "5.20.038.B",
+        "5.20.038.D",
+        "5.20.044",
+        "5.20.038.C",
+        "5.24.080"
+      ],
+      "summary": "Penalties and interest; violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.038.E",
+        "summary": "Penalties and interest merge with the tax"
+      },
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.043.F",
+        "summary": "Sale or transfer of the hotel does not relieve the operator of liability"
+      },
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.037",
+        "summary": "Returns and payments are due immediately upon cessation of any business"
+      },
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.043.A",
+        "summary": "Tax is a debt owed by the operator to the city"
+      }
+    ],
+    "outputs": [
+      "artifact:hotel-tax-payment"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-12 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The operator; ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.20.037-3",
+    "provision_refs": [
+      "5.20.037"
+    ],
+    "source_quote": "The tax administrator may require additional information in any returned.",
+    "signal": {
+      "type": "discretionary",
+      "text": "The tax administrator may require …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "require",
+      "object": "additional information in any return",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.038.C-1",
+    "provision_refs": [
+      "5.20.038.C"
+    ],
+    "source_quote": "If the tax administrator determines that the non-payment of any remittance due under Section 5.20.035 is due to fraud, a penalty of twenty five percent (25%) of the amount of the tax shall be added thereto",
+    "signal": {
+      "type": "state",
+      "text": "non-payment of a remittance due under Section 5.20.035",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "determine",
+      "object": "whether non-payment of a remittance is due to fraud, adding a 25% penalty in addition to the penalties in 5.20.038.A and B",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:fraud-determination"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.A-1",
+    "provision_refs": [
+      "5.20.039.A"
+    ],
+    "source_quote": "the tax administrator shall proceed in such manner as the tax administrator may deem best to obtain facts and information upon which to base the tax administrator's estimate of the tax due",
+    "signal": {
+      "type": "event",
+      "text": "an operator fails or refuses to pay the tax and to make the return within the time provided (cited as Section 5.20.036, read as Section 5.20.037)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "obtain",
+      "object": "facts and information on which to base an estimate of the tax due",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:tax-estimate"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-18 (O-XREF): Accepted my best guess (user: \"Accept all best guesses\"): Section 5.20.037"
+  },
+  {
+    "id": "A-5.20.039.A-2",
+    "provision_refs": [
+      "5.20.039.A"
+    ],
+    "source_quote": "the tax administrator shall proceed to determine and assess against such operator the tax, penalty and interest provided by Section 5.20.038",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the tax administrator procures the facts and information",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.A-1"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "determine and assess",
+      "object": "the tax, penalty and interest against the operator",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:assessment"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.A-3",
+    "provision_refs": [
+      "5.20.039.A"
+    ],
+    "source_quote": "The tax administrator may include in the assessment costs of any necessary audits or investigations.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an assessment is made",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.A-2"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "include in the assessment",
+      "object": "the costs of any necessary audits or investigations",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.B-1",
+    "provision_refs": [
+      "5.20.039.B"
+    ],
+    "source_quote": "the tax administrator shall give notice of the amount so assessed by serving it personally or by depositing it in the United States mail, postage prepaid, addressed to the operator so assessed at the operator's last known place of address",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a determination and assessment of the tax is made under 5.20.039.A",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.A-2"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give notice of",
+      "object": "the amount assessed, served personally or mailed postage prepaid",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-assessment"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.B-2",
+    "provision_refs": [
+      "5.20.039.B"
+    ],
+    "source_quote": "Such operator may, within ten (10) days after the serving or mailing of such notice, make application in writing to the tax administrator for a hearing on the amount assessed.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the serving or mailing of the notice of assessment",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.B-1"
+    },
+    "actor": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "apply in writing",
+      "object": "for a hearing on the amount assessed",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 10,
+      "unit": "days",
+      "from": "notice served or mailed",
+      "direction": "after",
+      "business_days": false,
+      "text": "within ten (10) days after the serving or mailing of such notice"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.039.B",
+        "summary": "If no hearing application is made in time, the tax, penalties and interest become final and conclusive and immediately due and payable"
+      }
+    ],
+    "outputs": [
+      "artifact:hearing-application"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.B-3",
+    "provision_refs": [
+      "5.20.039.B"
+    ],
+    "source_quote": "the tax administrator shall give no less than five (5) days' written notice in the manner prescribed herein to the operator to show cause at a time and place fixed in the notice why the amount specified in the notice should not be fixed for such tax, penalties and interest",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the operator applies for a hearing",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.B-2"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give written notice of",
+      "object": "the time and place of the hearing to show cause why the assessed amount should not be fixed",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 5,
+      "unit": "days",
+      "from": "hearing",
+      "direction": "before",
+      "business_days": false,
+      "text": "no less than five (5) days' written notice"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-hearing"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.B-4",
+    "provision_refs": [
+      "5.20.039.B"
+    ],
+    "source_quote": "At such hearing, the operator may appear and offer evidence why such specified tax, penalties and interest should not be so fixed.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.B-3"
+    },
+    "actor": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appear and offer evidence",
+      "object": "why the specified tax, penalties and interest should not be fixed",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.B-5",
+    "provision_refs": [
+      "5.20.039.B"
+    ],
+    "source_quote": "After such hearing, the tax administrator shall determine the proper tax, penalties and interest to be remitted",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.B-3"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "determine",
+      "object": "the proper tax, penalties and interest to be remitted",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:determination-of-tax"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.B-6",
+    "provision_refs": [
+      "5.20.039.B"
+    ],
+    "source_quote": "shall thereafter give written notice to the operator in the manner prescribed herein of such determination and the amount of such tax, penalties and interest",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the tax administrator's determination after the hearing",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.B-5"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give written notice of",
+      "object": "the determination and the amount of tax, penalties and interest",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-determination"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.039.B-7",
+    "provision_refs": [
+      "5.20.039.B"
+    ],
+    "source_quote": "The amount determined to be due shall be paid in full within fifteen (15) days unless an appeal is taken as provided in Section 5.20.040.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the notice of determination",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.B-6"
+    },
+    "actor": {
+      "id": "ACT-operator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "pay in full",
+      "object": "the amount determined to be due",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 15,
+      "unit": "days",
+      "from": "notice of determination",
+      "direction": "after",
+      "business_days": false,
+      "text": "within fifteen (15) days"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [],
+    "outputs": [
+      "artifact:assessment-payment"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-13 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The operator; ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.20.040-1",
+    "provision_refs": [
+      "5.20.040"
+    ],
+    "source_quote": "Any operator aggrieved by any decision of the tax administrator with respect to the amount of such tax, penalties and interest, if any, may appeal to the city manager by filing a notice of appeal with the city clerk within fifteen (15) days of the serving or mailing of the determination of tax due.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the serving or mailing of the determination of tax due",
+      "confidence": "explicit",
+      "ref": "A-5.20.039.B-6"
+    },
+    "actor": {
+      "id": "ACT-operator",
+      "text": "Any operator aggrieved by any decision of the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appeal",
+      "object": "the tax administrator's decision to the city manager, by filing a notice of appeal with the city clerk",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-manager",
+      "text": "the city manager",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 15,
+      "unit": "days",
+      "from": "determination served or mailed",
+      "direction": "after",
+      "business_days": false,
+      "text": "within fifteen (15) days of the serving or mailing of the determination of tax due"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-appeal"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.040-2",
+    "provision_refs": [
+      "5.20.040"
+    ],
+    "source_quote": "The city manager shall fix a time and place for hearing such appeal",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a notice of appeal is filed",
+      "confidence": "explicit",
+      "ref": "A-5.20.040-1"
+    },
+    "actor": {
+      "id": "ACT-city-manager",
+      "text": "the city manager",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "fix",
+      "object": "a time and place for hearing the appeal",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:hearing-date"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.040-3",
+    "provision_refs": [
+      "5.20.040"
+    ],
+    "source_quote": "the city clerk shall give notice in writing to such operator at the operator's last known place of address",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the city manager fixes the time and place",
+      "confidence": "explicit",
+      "ref": "A-5.20.040-2"
+    },
+    "actor": {
+      "id": "ACT-city-clerk",
+      "text": "the city clerk",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give written notice of",
+      "object": "the time and place of the appeal hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-hearing"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.040-4",
+    "provision_refs": [
+      "5.20.040"
+    ],
+    "source_quote": "The city manager may designate a neutral hearing officer to hear the appeal and make a recommendation to the city manager as to the appeal.",
+    "signal": {
+      "type": "discretionary",
+      "text": "The city manager may designate …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city-manager",
+      "text": "the city manager",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "designate",
+      "object": "a neutral hearing officer to hear the appeal and recommend a decision",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-hearing-officer",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.040-5",
+    "provision_refs": [
+      "5.20.040"
+    ],
+    "source_quote": "The findings of the city manager shall be final and conclusive and shall be served on the operator/appellant in the manner prescribed above for service of notice of hearing.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the appeal hearing",
+      "confidence": "explicit",
+      "ref": "A-5.20.040-2"
+    },
+    "actor": {
+      "id": "ACT-city-clerk",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "serve",
+      "object": "the city manager's findings on the operator/appellant, in the manner prescribed for service of notice of hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.040",
+        "summary": "The city manager's findings are final and conclusive; the amount found due is payable on service"
+      }
+    ],
+    "outputs": [
+      "artifact:notice-of-findings"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-14 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): City clerk"
+  },
+  {
+    "id": "A-5.20.041-1",
+    "provision_refs": [
+      "5.20.041"
+    ],
+    "source_quote": "It shall be the duty of every operator liable for the payment to the city of any tax imposed by Section 5.20.035 to keep and preserve, for a period of three (3) years, all records as may be necessary to determine the amount of such tax",
+    "signal": {
+      "type": "state",
+      "text": "liable for payment of a tax imposed by Section 5.20.035",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-operator",
+      "text": "every operator liable for the payment to the city of any tax imposed by Section 5.20.035",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "keep and preserve",
+      "object": "records necessary to determine the tax (including daily summaries of rooms rented), at the premises or deliverable to the tax administrator within two weeks after request, and for six months after a change of operator",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 3,
+      "unit": "years",
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "for a period of three (3) years"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.20.044",
+        "5.24.080"
+      ],
+      "summary": "Violations of 5.20.035-5.20.043 punishable under Chapters 1.14, 1.16 and 1.18; violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.20.041-2",
+    "provision_refs": [
+      "5.20.041"
+    ],
+    "source_quote": "which records the tax administrator shall have the right to inspect at all reasonable times",
+    "signal": {
+      "type": "discretionary",
+      "text": "at all reasonable times",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "inspect",
+      "object": "the operator's tax records",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.042.A-1",
+    "provision_refs": [
+      "5.20.042.A"
+    ],
+    "source_quote": "it may be refunded as provided in subsections B and C of this section provided a claim in writing therefor, stating under penalty of perjury the specific grounds upon which the claim is founded, is filed with the tax administrator within three (3) years of the date of payment or the date the tax was due, whichever was earlier",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a written claim under penalty of perjury is filed within three years",
+      "confidence": "explicit",
+      "ref": "A-5.20.042.B-1"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "refund",
+      "object": "tax, penalty or interest overpaid, paid more than once, or erroneously or illegally paid or received",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:refund"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-15 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): Tax administrator"
+  },
+  {
+    "id": "A-5.20.042.B-1",
+    "provision_refs": [
+      "5.20.042.B",
+      "5.20.042.A"
+    ],
+    "source_quote": "An operator may claim a refund or take a credit against taxed to be remitted in the amount overpaid, paid more than once, or erroneously or illegally paid or received",
+    "signal": {
+      "type": "state",
+      "text": "tax was overpaid, paid more than once, or erroneously or illegally paid or received, as established to the tax administrator's satisfaction",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-operator",
+      "text": "An operator",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "claim a refund or take a credit",
+      "object": "for tax overpaid, paid more than once, or erroneously or illegally paid, by a written claim under penalty of perjury",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 3,
+      "unit": "years",
+      "from": "payment or due date, whichever was earlier",
+      "direction": "after",
+      "business_days": false,
+      "text": "within three (3) years of the date of payment or the date the tax was due, whichever was earlier"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:refund-claim"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.042.C-1",
+    "provision_refs": [
+      "5.20.042.C"
+    ],
+    "source_quote": "No refund shall be paid under the provisions of this section unless the operator establishes the right thereto by written records showing entitlement to such refund.",
+    "signal": {
+      "type": "standing",
+      "text": "No refund shall be paid …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "pay",
+      "object": "a refund unless the operator establishes the right by written records",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-15 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): Tax administrator"
+  },
+  {
+    "id": "A-5.20.043.A-1",
+    "provision_refs": [
+      "5.20.043.A"
+    ],
+    "source_quote": "Any operator owing money to the city under Section 5.20.035 shall be liable to an action brought in the name of the city for recovery of such amount.",
+    "signal": {
+      "type": "state",
+      "text": "an operator owes money to the city under Section 5.20.035",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "bring an action for recovery of",
+      "object": "the amount owed by the operator",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-16 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The city, through its city attorney (neither provision names anyone)"
+  },
+  {
+    "id": "A-5.20.043.B-1",
+    "provision_refs": [
+      "5.20.043.B"
+    ],
+    "source_quote": "the tax administrator may within three (3) years after the amount is due, in addition to any other rights or remedies available for collection of such amount, give written notice to the operator and the owner of the property on which the hotel is located, if different, of the city's intent to record a lien against the property on which the operator's hotel is located",
+    "signal": {
+      "type": "state",
+      "text": "an amount required to be paid under Section 5.20.035 is not paid when due",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "give written notice of",
+      "object": "the city's intent to record a lien against the hotel property, specifying a hearing time and place",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 3,
+      "unit": "years",
+      "from": "amount due",
+      "direction": "after",
+      "business_days": false,
+      "text": "within three (3) years after the amount is due"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:notice-of-intent-to-record-lien"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.043.B-2",
+    "provision_refs": [
+      "5.20.043.B"
+    ],
+    "source_quote": "a hearing will be conducted by the tax administrator to consider any objections by the operator or property owner to the recording of such lien",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the notice of intent to record a lien",
+      "confidence": "explicit",
+      "ref": "A-5.20.043.B-1"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "conduct",
+      "object": "a hearing on objections by the operator or property owner to recording the lien",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 15,
+      "unit": "days",
+      "from": "notice",
+      "direction": "after",
+      "business_days": false,
+      "text": "not less than fifteen (15) days from the date of the notice"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:lien-hearing"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.043.B-3",
+    "provision_refs": [
+      "5.20.043.B"
+    ],
+    "source_quote": "At the conclusion of the hearing, the tax administrator shall render a decision as to whether a lien should be filed with respect to any amount payable to the city under Section 5.20.035 that the tax administrator finds is then delinquent.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the conclusion of the lien hearing",
+      "confidence": "explicit",
+      "ref": "A-5.20.043.B-2"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "render a decision on",
+      "object": "whether a lien should be filed for the delinquent amount",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-operator",
+      "text": "operator",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:lien-decision"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.043.B-4",
+    "provision_refs": [
+      "5.20.043.B"
+    ],
+    "source_quote": "The decision of the tax administrator may be appealed to the city manage as provided in Section 5.20.040.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the tax administrator's lien decision",
+      "confidence": "explicit",
+      "ref": "A-5.20.043.B-3"
+    },
+    "actor": {
+      "id": "ACT-aggrieved-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appeal",
+      "object": "the lien decision to the city manager as provided in Section 5.20.040",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-manager",
+      "text": "the city manager",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-11 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The person aggrieved by the decision (bulk rule: apply the same answer to all four)"
+  },
+  {
+    "id": "A-5.20.043.C-1",
+    "provision_refs": [
+      "5.20.043.C"
+    ],
+    "source_quote": "the tax administrator may filed for record in the office of the San Mateo County recorder a tax lien specifying the amount of the tax, penalty and interest due",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a final determination of the amount of the delinquency by the tax administrator, or by the city manager on appeal",
+      "confidence": "explicit",
+      "ref": "A-5.20.043.B-3"
+    },
+    "actor": {
+      "id": "ACT-tax-administrator",
+      "text": "the tax administrator",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "file for record",
+      "object": "a tax lien specifying the tax, penalty and interest due, the operator's name and address, the property owner and the legal description of the property",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-county-recorder",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.043.C",
+        "summary": "From filing, the tax, penalty and interest are a lien on the property for ten years, enforceable by foreclosure"
+      }
+    ],
+    "outputs": [
+      "artifact:tax-lien"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.043.D-1",
+    "provision_refs": [
+      "5.20.043.D"
+    ],
+    "source_quote": "the successor or transferee shall withhold sufficient funds out of the purchase price to cover such amount until the former operator produces a receipt from the tax administrator showing that it has been paid or a certificate stating that no amount is due",
+    "signal": {
+      "type": "event",
+      "text": "an operator liable for an amount under Section 5.20.035 sells or transfers the hotel or any ownership interest",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-successor-or-transferee",
+      "text": "the successor or transferee",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "withhold",
+      "object": "sufficient funds out of the purchase price to cover the amount owed, until the former operator produces a receipt or a certificate that no amount is due",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.20.043.E",
+        "5.20.044",
+        "5.24.080"
+      ],
+      "summary": "Purchaser who fails to withhold becomes liable for the amount, up to the purchase price; violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.040",
+        "summary": "definition of city"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.20.110.C-1",
+    "provision_refs": [
+      "5.20.110.C"
+    ],
+    "source_quote": "On Monday of each week, the persons charging for admissions referred to in this section shall submit an accounting showing the number of paid admissions during the preceding week",
+    "signal": {
+      "type": "time",
+      "text": "Monday of each week",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-admission-charger",
+      "text": "the persons charging for admissions referred to in this section",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "submit",
+      "object": "an accounting of paid admissions during the preceding week, in the form prescribed by the license collector, and the moneys due; the next workday if Monday is a holiday",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "recurrence",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "Monday of each week"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:periodic-accounting"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.20.180.B-1",
+    "provision_refs": [
+      "5.20.180.B"
+    ],
+    "source_quote": "On the first of each month, the persons subject to the license requirements of this section shall submit an accounting showing the number of tons of waste brought into the city during the preceding month",
+    "signal": {
+      "type": "time",
+      "text": "the first of each month",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-waste-recycler",
+      "text": "the persons subject to the license requirements of this section",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "submit",
+      "object": "an accounting of tons of waste brought into the city and recycled waste removed during the preceding month, in the form prescribed by the license collector, and the moneys due; the next work day if the first is a holiday or weekend",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "recurrence",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "the first of each month"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:periodic-accounting"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.20.110.D-1",
+    "provision_refs": [
+      "5.20.110.D"
+    ],
+    "source_quote": "the license collector shall impose penalties as prescribed by Section 5.24.070",
+    "signal": {
+      "type": "state",
+      "text": "the licensee fails to file the accounting and make payments as prescribed",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "impose",
+      "object": "penalties as prescribed by Sections 5.24.030 through 5.24.050 (cited as Section 5.24.070)",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:penalty"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-19 (O-XREF): Accepted my best guess (user: \"Accept all best guesses\"): Sections 5.24.030 through 5.24.050"
+  },
+  {
+    "id": "A-5.20.180.C-1",
+    "provision_refs": [
+      "5.20.180.C"
+    ],
+    "source_quote": "the license collector shall impose penalties as prescribed by Section 5.24.070",
+    "signal": {
+      "type": "state",
+      "text": "the licensee fails to file the accounting and make payments as prescribed",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "impose",
+      "object": "penalties as prescribed by Sections 5.24.030 through 5.24.050 (cited as Section 5.24.070)",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:penalty"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-19 (O-XREF): Accepted my best guess (user: \"Accept all best guesses\"): Sections 5.24.030 through 5.24.050"
+  },
+  {
+    "id": "A-5.20.110.D-2",
+    "provision_refs": [
+      "5.20.110.D"
+    ],
+    "source_quote": "The license collector may institute license revocation proceedings as set forth in Section 5.16.120 for failure to make payments due under this section within five (5) days after demand.",
+    "signal": {
+      "type": "request",
+      "text": "failure to make payments due within five days after demand",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "institute",
+      "object": "license revocation proceedings as set forth in Section 5.16.120",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": "licensee",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 5,
+      "unit": "days",
+      "from": "demand",
+      "direction": "after",
+      "business_days": false,
+      "text": "within five (5) days after demand"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.180.C-2",
+    "provision_refs": [
+      "5.20.180.C"
+    ],
+    "source_quote": "The license collector may institute license revocation proceedings as set forth in Section 5.16.120, for failure to make payments due under this section within five (5) days after demand.",
+    "signal": {
+      "type": "request",
+      "text": "failure to make payments due within five days after demand",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "institute",
+      "object": "license revocation proceedings as set forth in Section 5.16.120",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": "licensee",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 5,
+      "unit": "days",
+      "from": "demand",
+      "direction": "after",
+      "business_days": false,
+      "text": "within five (5) days after demand"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.140.B-1",
+    "provision_refs": [
+      "5.20.140.B"
+    ],
+    "source_quote": "Prior to the operation of a catering or ice cream vending vehicle in the city, a permit must be obtained from the Brisbane police department",
+    "signal": {
+      "type": "state",
+      "text": "a catering or ice cream vending vehicle is to be operated in the city",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-catering-business",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "obtain",
+      "object": "a permit from the police department approving hours of operation, routes, noise limits and other matters determined by the chief of police",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-police-department",
+      "text": "the Brisbane police department",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "5.24.080"
+      ],
+      "summary": "violation is a misdemeanor (5.24.080)"
+    },
+    "attachments": [],
+    "outputs": [
+      "artifact:catering-vehicle-permit"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-17 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The business operating the vehicle; ORP-21 (O-AMBIG): Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I."
+  },
+  {
+    "id": "A-5.20.140.B-2",
+    "provision_refs": [
+      "5.20.140.B"
+    ],
+    "source_quote": "The chief of police or his designee may revoke the permit if the conditions thereon are violated or if the business operation becomes a nuisance.",
+    "signal": {
+      "type": "state",
+      "text": "the permit conditions are violated, or the business operation becomes a nuisance",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-chief-of-police",
+      "text": "The chief of police or his designee",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "revoke",
+      "object": "the catering or ice cream vending vehicle permit",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-catering-business",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.140.B-3",
+    "provision_refs": [
+      "5.20.140.B"
+    ],
+    "source_quote": "Any action of the chief of police in denying, revoking or setting conditions for the permit may be appealed within ten (10) days of the action to the city council for hearing and final determination.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the chief of police denies, revokes or sets conditions for the permit",
+      "confidence": "inferred",
+      "ref": "A-5.20.140.B-2"
+    },
+    "actor": {
+      "id": "ACT-aggrieved-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appeal",
+      "object": "the chief of police's action to the city council for hearing and final determination",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 10,
+      "unit": "days",
+      "from": "action",
+      "direction": "after",
+      "business_days": false,
+      "text": "within ten (10) days of the action"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-11 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The person aggrieved by the decision (bulk rule: apply the same answer to all four)"
+  },
+  {
+    "id": "A-5.20.140.C-1",
+    "provision_refs": [
+      "5.20.140.C"
+    ],
+    "source_quote": "The police department shall conduct a background search, including fingerprinting of all vendors of ice cream and other products sold from vehicles where the customers are primarily minors.",
+    "signal": {
+      "type": "event",
+      "text": "a vendor or driver applies for a permit under 5.20.140.B",
+      "confidence": "inferred"
+    },
+    "actor": {
+      "id": "ACT-police-department",
+      "text": "The police department",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "conduct",
+      "object": "a background search, including fingerprinting, of all vendors of ice cream and other products sold from vehicles where customers are primarily minors",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-ice-cream-vendor",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "fee",
+        "provision": "5.20.140.C",
+        "summary": "$20 fee payable in advance for each background search and investigation of each driver or vendor"
+      }
+    ],
+    "outputs": [
+      "artifact:background-search"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-02 (O-SIG): Accepted my best guess (user: \"Accept all best guesses\"): Each time a vendor or driver applies for a permit under 5.20.140.B (a $20 fee is payable in advance for each search)"
+  },
+  {
+    "id": "A-5.20.140.C-2",
+    "provision_refs": [
+      "5.20.140.C"
+    ],
+    "source_quote": "Upon good cause, the chief of police or his designee may refuse to issue a permit to operate the business within the city.",
+    "signal": {
+      "type": "state",
+      "text": "good cause",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-chief-of-police",
+      "text": "the chief of police or his designee",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "refuse to issue",
+      "object": "a permit to operate the business within the city",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-ice-cream-vendor",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [
+      "good cause"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.20.140.C-3",
+    "provision_refs": [
+      "5.20.140.C"
+    ],
+    "source_quote": "The decision may be appealed to the city council as set forth in Section 5.16.130.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the decision to refuse the permit",
+      "confidence": "explicit",
+      "ref": "A-5.20.140.C-2"
+    },
+    "actor": {
+      "id": "ACT-aggrieved-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appeal",
+      "object": "the decision to the city council as set forth in Section 5.16.130",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-11 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The person aggrieved by the decision (bulk rule: apply the same answer to all four)"
+  },
+  {
+    "id": "A-5.20.240.B-1",
+    "provision_refs": [
+      "5.20.240.B"
+    ],
+    "source_quote": "Unless and until the city council adopts a resolution directing that the business license tax authorized by the ordinance codified in subsection A of this section, adopted June 28, 1978, be collected",
+    "signal": {
+      "type": "discretionary",
+      "text": "Unless and until the city council adopts a resolution …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city-council",
+      "text": "the city council",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "adopt",
+      "object": "a resolution directing that the residential business license tax be collected",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "5.20.240.B",
+        "summary": "Moratorium on collection of the 5.20.240.A residential tax until council resolution"
+      }
+    ],
+    "outputs": [
+      "artifact:council-resolution"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.24.030-1",
+    "provision_refs": [
+      "5.24.030"
+    ],
+    "source_quote": "the license collector shall thereupon add to the license and collect a penalty of ten percent (10%) of the license so delinquent; and if such license is not paid within sixty (60) days from the time such license becomes due and payable, an additional sum of fifteen percent (15%) of the license shall be added to the license and collected as a penalty",
+    "signal": {
+      "type": "state",
+      "text": "an annual or semiannual license is not paid within 30 days from the time it becomes due and payable (delinquent)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "add and collect",
+      "object": "a penalty of 10% of the delinquent license, and a further 15% if not paid within 60 days",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "delinquent after 30 days; further penalty after 60 days from the time due and payable"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:delinquency-penalty"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.24.040-1",
+    "provision_refs": [
+      "5.24.040"
+    ],
+    "source_quote": "the license collector shall thereupon add to such license and collect a penalty of ten percent (10%) of the license so delinquent; and, if such license is not paid within twenty (20) days from the time such license becomes due and payable, an additional sum of fifteen percent (15%) of the license shall be added to the license and collected as a penalty",
+    "signal": {
+      "type": "state",
+      "text": "a quarterly license is not paid within 10 days from the time it becomes due and payable (delinquent)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "add and collect",
+      "object": "a penalty of 10% of the delinquent license, and a further 15% if not paid within 20 days",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "delinquent after 10 days; further penalty after 20 days from the time due and payable"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:delinquency-penalty"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.24.050-1",
+    "provision_refs": [
+      "5.24.050"
+    ],
+    "source_quote": "the license collector shall thereupon add to the license and collect a penalty of ten percent (10%) of the license as delinquent; and, if such license is not paid within three (3) days from the time such license became due and payable, an additional sum of fifteen percent (15%) of the license shall be added to the license and collected as a penalty",
+    "signal": {
+      "type": "state",
+      "text": "a daily, weekly or monthly license is not paid at the close of business on the day it is due and payable (delinquent)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-license-collector",
+      "text": "the license collector",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "add and collect",
+      "object": "a penalty of 10% of the delinquent license, and a further 15% if not paid within 3 days",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-licensee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "delinquent at close of business on the due date; further penalty after 3 days"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.120",
+        "summary": "definition of license collector"
+      }
+    ],
+    "outputs": [
+      "artifact:delinquency-penalty"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-5.24.060-1",
+    "provision_refs": [
+      "5.24.060"
+    ],
+    "source_quote": "any person carrying on any business without first having procured a license from the city to do so shall be liable to an action in the name of the city in any court of competent jurisdiction, for the amount of license and penalties imposed on such business",
+    "signal": {
+      "type": "state",
+      "text": "a person carries on business without first procuring a license",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "bring an action in the name of the city",
+      "object": "for the amount of the license and penalties imposed on the business",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-any-person",
+      "text": "any person",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "5.04.130",
+        "summary": "definition of any person"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-16 (O-ACT): Accepted my best guess (user: \"Accept all best guesses\"): The city, through its city attorney (neither provision names anyone)"
+  }
+]

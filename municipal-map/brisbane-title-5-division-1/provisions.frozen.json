@@ -1,0 +1,3035 @@
+[
+  {
+    "id": "5.04.010",
+    "section": "5.04.010",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Revenue measure",
+    "article": "I",
+    "text": "The ordinance codified in Chapters 5.04 through 5.24 is enacted solely to raise revenue for municipal purposes, and is not intended for regulation.",
+    "class": "purpose",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-5, 1977)."
+  },
+  {
+    "id": "5.04.020",
+    "section": "5.04.020",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Effect on other ordinances or chapters",
+    "article": "I",
+    "text": "Persons required to pay a license tax for transacting and carrying on any business under Chapters 5.04 through 5.24 shall not be relieved from the payment of any license tax for the privilege of doing such business required under any other ordinance or chapter of the city, and shall remain subject to the regulating provisions of other ordinances.",
+    "class": "applicability",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-6, 1977)."
+  },
+  {
+    "id": "5.04.030",
+    "section": "5.04.030",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Business",
+    "article": "II",
+    "text": "\"Business,\" wherever used in Chapters 5.04 through 5.24, means and includes professions, trades, occupations and all and every kind of calling carried on for profit or livelihood.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-1, 1977)."
+  },
+  {
+    "id": "5.04.040",
+    "section": "5.04.040",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "City",
+    "article": "II",
+    "text": "\"City\" means the city of Brisbane.",
+    "class": "definition",
+    "attaches_to": [
+      "A-5.08.030-4",
+      "A-5.08.050.A-1",
+      "A-5.16.040.A-1",
+      "A-5.20.015.C-1",
+      "A-5.20.015.C-2",
+      "A-5.20.015.D-1",
+      "A-5.20.015.D-2",
+      "A-5.20.043.D-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-8, 1977)."
+  },
+  {
+    "id": "5.04.050",
+    "section": "5.04.050",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Conducting",
+    "article": "II",
+    "text": "\"Conducting\" shall be defined as and include the act of conducting, managing or carrying on a certain business or occupation.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-2, 1977)."
+  },
+  {
+    "id": "5.04.060",
+    "section": "5.04.060",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Contractor",
+    "article": "II",
+    "text": "\"Contractor\" includes any person who shall do any type of construction work for an agreed price, or who holds himself out to the public as in such business, or who erects, constructs, alters or repairs any building or structure for the purpose of selling or renting the same, and who does not employ therefor a regularly licensed person.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-3, 1977)."
+  },
+  {
+    "id": "5.04.070",
+    "section": "5.04.070",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Day",
+    "article": "II",
+    "text": "\"Day\" means calendar day unless otherwise specified.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-8.5, 1977)."
+  },
+  {
+    "id": "5.04.080",
+    "section": "5.04.080",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Employee",
+    "article": "II",
+    "text": "\"Employee\" means all persons engaged in the operation or conduct of any business, whether the owner, a member of the owner's family, partner, agent, manager, solicitor and any and all other persons employed or working in the business.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-4, 1977)."
+  },
+  {
+    "id": "5.04.090",
+    "section": "5.04.090",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Fiscal year",
+    "article": "II",
+    "text": "\"Fiscal year\" means the twelve-month period commencing January 1st and ending December 31st, both inclusive.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-5, 1977)."
+  },
+  {
+    "id": "5.04.100",
+    "section": "5.04.100",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Fixed place of business",
+    "article": "II",
+    "text": "\"Fixed place of business\" means a place of business regularly kept open, with someone in charge thereof for the transaction of the particular business engaged in during the hours customary to transact such business.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-6, 1977)."
+  },
+  {
+    "id": "5.04.110",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "\"Gross receipts\" includes the total of amounts actually received or receivable from sales and the total amounts actually received or receivable for the performance of any act of service, or whatever nature it may be, for which a charge is made or credit allowed, whether or not such act or service is done as a part of or in connection with the sale of materials, goods, wares or merchandise. Included in \"gross receipts\" shall be all receipts, cash, credits, and property of any kind or nature, without any deduction therefrom on account of the cost of the property sold, the cost of materials used, labor or service costs, interest paid or payable, or losses or other expenses whatsoever. Excluded from \"gross receipts\" shall be the following:",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.A",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "A",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "Cash discounts allowed and taken on sales;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.B",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "B",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "Credit allowed on property accepted as part of the purchase price and which property may later be sold;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.C",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "C",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "Any tax required by law to be included in or added to the purchase price and collected from the consumer or purchaser;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.D",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "D",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "Such part of the sale price of property returned by purchaser upon rescission of the contract of sale as is refunded either in cash or by credit;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.E",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "E",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "Amounts collected for others where the business is acting as an agent or trustee to the extent that such amounts are paid to those for whom collected, provided the agent or trustee has furnished the director of finance with the names and addresses of the others and the amounts paid to them;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.F",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "F",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "That portion of the receipts of a general contractor which represent payments to subcontractors, provided that such subcontractors are licensed under Chapters 5.04 through 5.24, and provided the general contractor furnishes the director of finance with the names and addresses of the subcontractors and the amounts paid each subcontractor;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.G",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "G",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "Receipts of refundable deposits, except that refundable deposits forfeited and taken into income of the business shall not be excluded;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.H",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "H",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "As to a real estate agent or broker, the sales price of real estate sold for the account of others, except that portion which represents commission or other income to the agent or broker;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.I",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "I",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "As to retail gasoline dealer, a portion of his receipts from the sale of motor vehicle fuels equal to the motor vehicle fuel license tax imposed by and previously paid under the provisions of Part 2 of Division 2 of the Revenue and Taxation Code of the state;",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.110.J",
+    "section": "5.04.110",
+    "chapter": "5.04",
+    "division": "I",
+    "label": "J",
+    "heading": "Gross receipts",
+    "article": "II",
+    "text": "As to retail gasoline dealer, the special motor fuel tax imposed by Section 4041 of Title 26 of the United States Code if paid by the dealer or collected by him from the consumer or purchaser.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-11, 1977)."
+  },
+  {
+    "id": "5.04.120",
+    "section": "5.04.120",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "License collector",
+    "article": "II",
+    "text": "\"License collector\" means the finance director of the city.",
+    "class": "definition",
+    "attaches_to": [
+      "A-5.08.020-1",
+      "A-5.08.030-1",
+      "A-5.08.030-2",
+      "A-5.08.030-3",
+      "A-5.08.030-4",
+      "A-5.12.020-1",
+      "A-5.12.060-1",
+      "A-5.12.060-2",
+      "A-5.12.080-1",
+      "A-5.16.010-1",
+      "A-5.16.020.A-1",
+      "A-5.16.020.B-1",
+      "A-5.16.020.B-2",
+      "A-5.16.020.B-3",
+      "A-5.16.020.C-1",
+      "A-5.16.030-1",
+      "A-5.16.040.A-2",
+      "A-5.16.040.B-1",
+      "A-5.16.050-1",
+      "A-5.16.050-2",
+      "A-5.16.050-3",
+      "A-5.16.050-4",
+      "A-5.16.050-5",
+      "A-5.16.060-1",
+      "A-5.16.060-2",
+      "A-5.16.060-3",
+      "A-5.16.060-4",
+      "A-5.16.070-1",
+      "A-5.16.090-3",
+      "A-5.16.100-1",
+      "A-5.16.100-2",
+      "A-5.16.110-1",
+      "A-5.16.120-1",
+      "A-5.16.120-2",
+      "A-5.16.140.B-3",
+      "A-5.16.150-1",
+      "A-5.16.150-3",
+      "A-5.20.020-1",
+      "A-5.20.060.A-1",
+      "A-5.20.060.B-1",
+      "A-5.20.080-1",
+      "A-5.20.110.C-1",
+      "A-5.20.110.D-1",
+      "A-5.20.110.D-2",
+      "A-5.20.180.B-1",
+      "A-5.20.180.C-1",
+      "A-5.20.180.C-2",
+      "A-5.24.030-1",
+      "A-5.24.040-1",
+      "A-5.24.050-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-7, 1977)."
+  },
+  {
+    "id": "5.04.130",
+    "section": "5.04.130",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Person",
+    "article": "II",
+    "text": "\"Person\" means any individual, firm, copartnership, joint adventure, association, corporation, estate, trust, business trust, receiver, syndicate or any other group or combination acting as a unit.",
+    "class": "definition",
+    "attaches_to": [
+      "A-5.08.030-2",
+      "A-5.08.030-3",
+      "A-5.08.040.A-1",
+      "A-5.08.040.A-2",
+      "A-5.08.040.B-1",
+      "A-5.08.040.B-2",
+      "A-5.08.040.C-1",
+      "A-5.08.040.C-2",
+      "A-5.08.050.B-1",
+      "A-5.08.050.B-2",
+      "A-5.12.010-1",
+      "A-5.16.010-1",
+      "A-5.16.040.A-1",
+      "A-5.16.050-1",
+      "A-5.16.050-2",
+      "A-5.16.050-3",
+      "A-5.16.050-4",
+      "A-5.16.050-5",
+      "A-5.16.050-6",
+      "A-5.16.150-1",
+      "A-5.16.150-2",
+      "A-5.16.150-3",
+      "A-5.20.020-1",
+      "A-5.20.060.A-1",
+      "A-5.20.060.B-1",
+      "A-5.20.080-1",
+      "A-5.24.060-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-10, 1977)."
+  },
+  {
+    "id": "5.04.140",
+    "section": "5.04.140",
+    "chapter": "5.04",
+    "division": "I",
+    "label": null,
+    "heading": "Vehicle",
+    "article": "II",
+    "text": "\"Vehicle\" means every device in, upon or by which any person or property is or may be transported or drawn upon a public street, excepting devices moved by human power or used exclusively upon stationary rails or tracks. A trailer shall be treated as a separate vehicle.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 1-9, 1977)."
+  },
+  {
+    "id": "5.08.010",
+    "section": "5.08.010",
+    "chapter": "5.08",
+    "division": "I",
+    "label": null,
+    "heading": "License collector—Designated",
+    "article": null,
+    "text": "The finance director of the city is designated the license collector of the city.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 2-1, 1977)."
+  },
+  {
+    "id": "5.08.020",
+    "section": "5.08.020",
+    "chapter": "5.08",
+    "division": "I",
+    "label": null,
+    "heading": "License collector—Authority to make rules and regulations",
+    "article": null,
+    "text": "The license collector may make any administrative rules and regulations not inconsistent with the provisions of Chapters 5.04 through 5.24 as may be necessary and desirable to aid in the enforcement of the provisions of Chapters 5.04 through 5.24.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.08.020-1"
+    ],
+    "history": "(Ord. 232 2-3, 1977)."
+  },
+  {
+    "id": "5.08.030",
+    "section": "5.08.030",
+    "chapter": "5.08",
+    "division": "I",
+    "label": null,
+    "heading": "License collector—Powers and duties",
+    "article": null,
+    "text": "It shall be the duty of the license collector, his/her deputies, agents or employees, to administer Chapters 5.04 through 5.24 in accordance with the terms thereof. It shall be the duty of the license collector and he/she shall have the power regularly and promptly to require the licensing of all business and to cause the collection of the fees therefor and the prosecution of all persons violating any of the provisions of Chapters 5.04 through 5.24.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.08.030-1",
+      "A-5.08.030-2",
+      "A-5.08.030-3",
+      "A-5.08.030-4"
+    ],
+    "history": "(Ord. 232 § 2-2(a), 1977)."
+  },
+  {
+    "id": "5.08.040",
+    "section": "5.08.040",
+    "chapter": "5.08",
+    "division": "I",
+    "label": null,
+    "heading": "Chief of police and police officers—Powers and duties",
+    "article": null,
+    "text": "The chief of police and all police officers shall have and exercise the power and it shall be their duty:",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.08.040.A-1",
+      "A-5.08.040.A-2",
+      "A-5.08.040.B-1",
+      "A-5.08.040.B-2",
+      "A-5.08.040.C-1",
+      "A-5.08.040.C-2"
+    ],
+    "history": "(Ord. 232 § 2-2(b), 1977)."
+  },
+  {
+    "id": "5.08.040.A",
+    "section": "5.08.040",
+    "chapter": "5.08",
+    "division": "I",
+    "label": "A",
+    "heading": "Chief of police and police officers—Powers and duties",
+    "article": null,
+    "text": "To make arrests for the violation of any of the provisions of Chapters 5.04 through 5.24;",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.08.040.A-1",
+      "A-5.08.040.A-2"
+    ],
+    "history": "(Ord. 232 § 2-2(b), 1977)."
+  },
+  {
+    "id": "5.08.040.B",
+    "section": "5.08.040",
+    "chapter": "5.08",
+    "division": "I",
+    "label": "B",
+    "heading": "Chief of police and police officers—Powers and duties",
+    "article": null,
+    "text": "To enter free of charge at any reasonable time any place of business for which a license is required, and to demand the exhibition of such license for the current term from any person engaged or employed in the transaction of such business; and",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.08.040.B-1",
+      "A-5.08.040.B-2"
+    ],
+    "history": "(Ord. 232 § 2-2(b), 1977)."
+  },
+  {
+    "id": "5.08.040.C",
+    "section": "5.08.040",
+    "chapter": "5.08",
+    "division": "I",
+    "label": "C",
+    "heading": "Chief of police and police officers—Powers and duties",
+    "article": null,
+    "text": "To require the holder of any fee license to write his signature for purposes of comparison with that appearing on the original license.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.08.040.C-1",
+      "A-5.08.040.C-2"
+    ],
+    "history": "(Ord. 232 § 2-2(b), 1977)."
+  },
+  {
+    "id": "5.08.050.A",
+    "section": "5.08.050",
+    "chapter": "5.08",
+    "division": "I",
+    "label": "A",
+    "heading": "City council approval required prior to licensing of certain businesses",
+    "article": null,
+    "text": "No license shall be issued by the city for the conducting of any of the businesses enumerated in this section until approval has first been obtained from the city council granting the applicant the right to so conduct such businesses; such businesses requiring city council approval shall be as follows:\n1\\. Amusement concessions;\n2\\. Boardinghouses;\n3\\. Bowling alleys;\n4\\. Cabarets;\n5\\. Carnivals;\n6\\. Circuses;\n7\\. Dog kennels;\n8\\. Exhibitions;\n9\\. Fairs;\n10\\. Lodginghouses;\n11\\. Pool halls;\n12\\. Public dances and public dancehalls;\n13\\. Secondhand dealers or collectors;\n14\\. Shooting galleries and rifle ranges;\n15\\. Skating rinks;\n16\\. Theaters;\n17\\. Public baths;\n18\\. Any other business similar in nature which might be dangerous to or affect the public morals, health, peace or safety or be dangerous to surrounding property.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.08.050.A-1"
+    ],
+    "history": "(Ord. 232 § 9-1, 1977)."
+  },
+  {
+    "id": "5.08.050.B",
+    "section": "5.08.050",
+    "chapter": "5.08",
+    "division": "I",
+    "label": "B",
+    "heading": "City council approval required prior to licensing of certain businesses",
+    "article": null,
+    "text": "Whenever any person desires to open or keep open any business specified in this section, he shall petition the city council to order a license therefor, which petition shall set forth the name of the applicant, the character of the business and the location of the premises where the business is to be conducted. On the hearing of such petition, the city council may grant the same in whole or in part, or may reject the same, and no license shall be issued thereon, except as ordered by the city council.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.08.050.B-1",
+      "A-5.08.050.B-2",
+      "A-5.08.050.B-3"
+    ],
+    "history": "(Ord. 232 § 9-1, 1977)."
+  },
+  {
+    "id": "5.12.010",
+    "section": "5.12.010",
+    "chapter": "5.12",
+    "division": "I",
+    "label": null,
+    "heading": "License required",
+    "article": null,
+    "text": "It is unlawful for any person, whether for himself/herself or for any other person, to commence or carry on any business in the city without first having procured a license from the city so to do, or without complying with Chapters 5.04 through 5.24.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.12.010-1"
+    ],
+    "history": "(Ord. 232 § 3-1, 1977)."
+  },
+  {
+    "id": "5.12.020",
+    "section": "5.12.020",
+    "chapter": "5.12",
+    "division": "I",
+    "label": null,
+    "heading": "Separate licenses required for branch establishment",
+    "article": null,
+    "text": "A separate license must be obtained for each branch establishment or location of the business transacted and carried on, and for each separate unrelated type of business at the same location, and each license shall authorize the licenses to transact and carry on only the business licensed thereby at the location or in the manner designated in such license; provided, that warehouses and distributing plants used in connection with and incidental to a business licensed under the provisions of Chapters 5.04 through 5.24 shall not be deemed to be separate places of business or branch establishments.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.12.020-1",
+      "A-5.12.020-2"
+    ],
+    "history": "(Ord. 232 § 3-2, 1977)."
+  },
+  {
+    "id": "5.12.030",
+    "section": "5.12.030",
+    "chapter": "5.12",
+    "division": "I",
+    "label": null,
+    "heading": "Exemption—Newspapers",
+    "article": null,
+    "text": "The provisions of Chapters 5.04 through 5.24 shall not apply to the publication and sale of newspapers intended primarily for the dissemination of news, having a bona fide list of subscribers residing within the city and published at regular intervals of not less than once per month.",
+    "class": "exemption",
+    "attaches_to": [
+      "A-5.12.010-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 8-1, 1977)."
+  },
+  {
+    "id": "5.12.040",
+    "section": "5.12.040",
+    "chapter": "5.12",
+    "division": "I",
+    "label": null,
+    "heading": "Exemption—Charitable and nonprofit organizations",
+    "article": null,
+    "text": "The provisions of Chapters 5.04 through 5.24 shall not be deemed or construed to require the payment of a license tax to conduct, manage, or carry on any business, occupation, or activity from any institution or organization which is conducted, managed, or carried on wholly for the benefit of charitable purposes or from which profit is not derived, either directly or indirectly, by an individual; nor shall any license tax be required for the conducting of any entertainment, concert, exhibition, or lecture on scientific, historical, literary, religious, or moral subjects within the city whenever the receipts of any such entertainment, concert, exhibition, or lecture are to be appropriated to any church or school or to any religious or benevolent purpose; nor shall any license tax be required for the conducting of any entertainment, dance, concert, exhibition, or lecture by any religious, charitable, fraternal, educational, military, state, county, or municipal organization or association whenever the receipts of any such entertainment, dance, concert, exhibition, or lecture are to be appropriated for the purpose and objects for which such organization or association was formed and from which profit is not derived, either directly or indirectly, by any individual.",
+    "class": "exemption",
+    "attaches_to": [
+      "A-5.12.010-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 8-2, 1977)."
+  },
+  {
+    "id": "5.12.050",
+    "section": "5.12.050",
+    "chapter": "5.12",
+    "division": "I",
+    "label": null,
+    "heading": "Exemption—Public utilities",
+    "article": null,
+    "text": "Any public utility subject to regulation by the California Public Utilities Commission and making payment to the city under the terms of a franchise, or similar agreement, shall be exempt from the provisions of Chapters 5.04 through 5.24.",
+    "class": "exemption",
+    "attaches_to": [
+      "A-5.12.010-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 8-3, 1977)."
+  },
+  {
+    "id": "5.12.060",
+    "section": "5.12.060",
+    "chapter": "5.12",
+    "division": "I",
+    "label": null,
+    "heading": "Exemption—Interstate commerce",
+    "article": null,
+    "text": "Every peddler, solicitor or other person claiming to be entitled to exemption from the payment of any license provided for in Chapters 5.04 through 5.24 upon the ground that such license casts a burden upon his right to engage in commerce with foreign nations or among the several states, or conflicts with the regulations of the United States Congress respecting interstate commerce, shall file a verified statement with the license collector, disclosing the interstate or other character of his business entitling such exemption. Such statement shall contain the name and location of the company or firm for which the orders are to be solicited or secured, the name of the nearest local or state manager, if any, and his address, the kind of goods, wares, or merchandise to be delivered, the place from which the same are to be shipped or forwarded, the method of solicitation or taking orders, the location of any warehouse, factory or plant within the state, the method of delivery, the name and location of the residence of the applicant, and any other facts necessary to establish such claim of exemption. A copy of the order blank, contract form, or other papers used by such person in taking orders, shall be attached to the application for the information of the license collector.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.12.010-1"
+    ],
+    "record_ids": [
+      "A-5.12.060-1",
+      "A-5.12.060-2"
+    ],
+    "history": "(Ord. 232 § 4-7, 1977)."
+  },
+  {
+    "id": "5.12.070",
+    "section": "5.12.070",
+    "chapter": "5.12",
+    "division": "I",
+    "label": null,
+    "heading": "Exemption—Cafe musicians and real estate auctioneers",
+    "article": null,
+    "text": "Provisions of Chapters 5.04 through 5.24 shall not be construed to require a regulatory license or impose a regulatory license fee with respect to cafe musicians to the extent that the city may be prohibited from doing so pursuant to Section 16000.5 of the California Business and Professions Code, nor shall Chapters 5.04 through 5.24 be construed to require a license fee for the privilege of auctioning real estate from any real estate auctioneer, whose business is limited exclusively to auctioning real estate, unless said auctioneer's permanent place of business is located in the city. This latter restriction pertaining to real estate auctioneers is intended to reflect the limitations imposed upon the city by Section 16002.1 of the California Business and Professions Code.",
+    "class": "exemption",
+    "attaches_to": [
+      "A-5.12.010-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 261 § 22, 1980: Ord. 232 § 8-4, 1977)."
+  },
+  {
+    "id": "5.12.080",
+    "section": "5.12.080",
+    "chapter": "5.12",
+    "division": "I",
+    "label": null,
+    "heading": "Exemption—Veterans",
+    "article": null,
+    "text": "Every peddler, solicitor or other person claiming to be entitled to exemption from the payment of any license provided for in Chapters 5.04 through 5.24 upon the ground that he is an honorably discharged or released soldier, sailor or marine of the United States who is physically unable to obtain a livelihood by manual labor and who is a qualified elector of the state, as provided or hereafter to be provided by Section 16001 of the Business and Professions Code or other law of the state, shall in addition to the information required by Chapter 5.16 also file with the license collector a certificate of a regularly licensed and practicing physician dated within a month of the application, to the effect that the applicant is physically unable to obtain a livelihood by manual labor, and stating the nature of the incapacitation.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.12.010-1"
+    ],
+    "record_ids": [
+      "A-5.12.080-1"
+    ],
+    "history": "(Ord. 232 § 4-8, 1977)."
+  },
+  {
+    "id": "5.16.010",
+    "section": "5.16.010",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "Application required",
+    "article": null,
+    "text": "Every person required to have a license under the provisions of Chapters 5.04 through 5.24 shall make application for the same to the license collector.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.010-1"
+    ],
+    "history": "(Ord. 232 § 4-1, 1977)."
+  },
+  {
+    "id": "5.16.020.A",
+    "section": "5.16.020",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "A",
+    "heading": "Statements—Original licenses",
+    "article": null,
+    "text": "Upon a person making application for the first license to be issued pursuant to Chapters 5.04 through 5.24 or for a newly established business, in all cases where the amount of the license tax to be paid is measured by gross receipts, such person shall furnish to the license collector for his ascertaining the amount of license tax to be paid by the applicant, a written statement, upon a form provided by the license collector, sworn to before a person authorized to administer oaths, setting forth such information as may be required, and as may be necessary to determine the amount of the license tax to be paid by the applicant.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.020.A-1"
+    ],
+    "history": "(Ord. 232 § 4-2, 1977)."
+  },
+  {
+    "id": "5.16.020.B",
+    "section": "5.16.020",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "B",
+    "heading": "Statements—Original licenses",
+    "article": null,
+    "text": "If the amount of the license tax to be paid by the applicant is measured by gross receipts, he shall estimate the gross receipts for the period to be covered by the license to be issued. Such estimate if accepted by the license collector as reasonable, shall be used in determining the amount of license tax to be paid by the applicant; provided, that the amount of the license tax so determined shall be tentative only, and such person shall, within thirty (30) days after the expiration of the period for which such license was issued, furnish the license collector with a sworn statement upon a form furnished by the license collector, showing the gross receipts during the period of such license, and the license tax for such period shall be finally ascertained and paid in the manner provided by Chapters 5.04 through 5.24 for the ascertaining and paying of renewal license taxes for other businesses, after deducting from the payment found to be due the amount paid at the time such first license was issued.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.020.B-1",
+      "A-5.16.020.B-2",
+      "A-5.16.020.B-3"
+    ],
+    "history": "(Ord. 232 § 4-2, 1977)."
+  },
+  {
+    "id": "5.16.020.C",
+    "section": "5.16.020",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "C",
+    "heading": "Statements—Original licenses",
+    "article": null,
+    "text": "The license collector shall not issue to any such person another license for the same or any other business until such person shall have furnished to him the written statement and paid the license tax as required in Chapters 5.04 through 5.24.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.020.C-1"
+    ],
+    "history": "(Ord. 232 § 4-2, 1977)."
+  },
+  {
+    "id": "5.16.030",
+    "section": "5.16.030",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "Statements—Renewal license",
+    "article": null,
+    "text": "In all cases the applicant for the renewal of a license under Chapters 5.04 through 5.24 shall submit to the license collector, for his guidance in ascertaining the amount of the license tax to be paid by the applicant, a written statement, upon a form to be provided by the license collector, written under penalty of perjury or sworn to before a person authorized to administer oaths, setting forth such information concerning the applicant's business during the preceding year as may be required by the license collector to enable him to ascertain the amount of the license tax to be paid by such applicant pursuant to the provisions of Chapters 5.04 through 5.24.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.030-1"
+    ],
+    "history": "(Ord. 232 § 4-3, 1977)."
+  },
+  {
+    "id": "5.16.040.A",
+    "section": "5.16.040",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "A",
+    "heading": "Statements—Conclusiveness—Information confidential",
+    "article": null,
+    "text": "No statements made pursuant to Chapters 5.04 through 5.24 shall be conclusive as to the matters set forth therein, nor shall the filing of the same preclude the city from collecting by appropriate action such sum as is actually due and payable under Chapters 5.04 through 5.24. Such statement and each of the several items therein contained shall be subject to audit and verification by the license collector, his deputies or authorized employees of the city, who are authorized to examine, audit and inspect such books and records of a licensee or applicant for a license, as may be necessary in their judgment to verify or ascertain the amount of license tax due.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.040.A-1",
+      "A-5.16.040.A-2"
+    ],
+    "history": "(Ord. 232 § 4-4, 1977)."
+  },
+  {
+    "id": "5.16.040.B",
+    "section": "5.16.040",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "B",
+    "heading": "Statements—Conclusiveness—Information confidential",
+    "article": null,
+    "text": "All licensees, applicants, for licenses and persons engaged in business in the city are required to permit an examination of such books and records for the purpose of Chapters 5.04 through 5.24.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.040.B-1"
+    ],
+    "history": "(Ord. 232 § 4-4, 1977)."
+  },
+  {
+    "id": "5.16.040.C",
+    "section": "5.16.040",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "C",
+    "heading": "Statements—Conclusiveness—Information confidential",
+    "article": null,
+    "text": "The information furnished or secured pursuant to this chapter shall be confidential. Any unauthorized disclosure or use of such information by any officer or employee of the city shall constitute a violation of this code.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.040.C-1"
+    ],
+    "history": "(Ord. 232 § 4-4, 1977)."
+  },
+  {
+    "id": "5.16.050",
+    "section": "5.16.050",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "Statements—Failure to file",
+    "article": null,
+    "text": "If any person fails to file any statement required under this chapter within the time prescribed, or, if within five (5) working days after demand therefor made by the license collector he fails to file a corrected statement, the license collector may determine the amount of license tax due from such person by means of such information as he may be able to obtain. If such a determination is made, the license collector shall give a notice of the amount so assessed by serving it personally or by depositing it in the United States Post Office at the city, postage prepaid, addressed to the person so assessed at his last known address. Such person may, within fifteen (15) days after the mailing or serving of such notice, make application in writing to the license collector for a hearing on the amount of the license tax. If such application is made, the license collector shall cause the matter to be set for hearing within five (5) working days, before the city council. The license collector shall give at least ten (10) days' notice to such person of the time and place of hearing in the manner prescribed above for serving notices of assessment. The city council shall consider all evidence produced, and shall make findings thereon, which shall be final. Notice of such findings shall be served upon the applicant in the manner prescribed above for serving notices of assessment.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.050-1",
+      "A-5.16.050-2",
+      "A-5.16.050-3",
+      "A-5.16.050-4",
+      "A-5.16.050-5",
+      "A-5.16.050-6",
+      "A-5.16.050-7"
+    ],
+    "history": "(Ord. 232 § 4-5, 1977)."
+  },
+  {
+    "id": "5.16.060",
+    "section": "5.16.060",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "License—Issuance",
+    "article": null,
+    "text": "All applications for the issuance of a license are to be referred to the license collector of the city, and he shall have the power in the first instance to determine the merits of such applications and to approve or reject same. If he finds that the application should be approved, he shall issue to the applicant a license. If, after investigation, the license collector determines that the license if issued would violate the provisions of Chapters 5.04 through 5.24, the license will not be issued. Said refusal shall be in writing directed to the applicant with a copy to the city council, setting forth in general the reason for the refusal. The applicant shall have the power of appeal to the city council, as provided in Section 5.16.130.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.060-1",
+      "A-5.16.060-2",
+      "A-5.16.060-3",
+      "A-5.16.060-4",
+      "A-5.16.060-5"
+    ],
+    "history": "(Ord. 232 § 4-6, 1977)."
+  },
+  {
+    "id": "5.16.070",
+    "section": "5.16.070",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "License—Form",
+    "article": null,
+    "text": "Every person required to have a business license under Chapters 5.04 through 5.24 shall make application for the same to the license collector of the City, and upon payment of the prescribed fee, the license collector shall make the necessary investigation following which he shall issue, where appropriate, a license to the person which shall contain:",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.070-1"
+    ],
+    "history": "(Ord. 232 § 5-1, 1977)."
+  },
+  {
+    "id": "5.16.070.A",
+    "section": "5.16.070",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "A",
+    "heading": "License—Form",
+    "article": null,
+    "text": "The name of the person to whom the license is issued;",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.070-1"
+    ],
+    "history": "(Ord. 232 § 5-1, 1977)."
+  },
+  {
+    "id": "5.16.070.B",
+    "section": "5.16.070",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "B",
+    "heading": "License—Form",
+    "article": null,
+    "text": "The business licensed;",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.070-1"
+    ],
+    "history": "(Ord. 232 § 5-1, 1977)."
+  },
+  {
+    "id": "5.16.070.C",
+    "section": "5.16.070",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "C",
+    "heading": "License—Form",
+    "article": null,
+    "text": "The place where such business is to be carried on;",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.070-1"
+    ],
+    "history": "(Ord. 232 § 5-1, 1977)."
+  },
+  {
+    "id": "5.16.070.D",
+    "section": "5.16.070",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "D",
+    "heading": "License—Form",
+    "article": null,
+    "text": "The date of the expiration of such license;",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.070-1"
+    ],
+    "history": "(Ord. 232 § 5-1, 1977)."
+  },
+  {
+    "id": "5.16.070.E",
+    "section": "5.16.070",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "E",
+    "heading": "License—Form",
+    "article": null,
+    "text": "The receipt for the amount of money paid for said license; and",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.070-1"
+    ],
+    "history": "(Ord. 232 § 5-1, 1977)."
+  },
+  {
+    "id": "5.16.070.F",
+    "section": "5.16.070",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "F",
+    "heading": "License—Form",
+    "article": null,
+    "text": "Such other information as the license collector shall determine.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.070-1"
+    ],
+    "history": "(Ord. 232 § 5-1, 1977)."
+  },
+  {
+    "id": "5.16.080.A",
+    "section": "5.16.080",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "A",
+    "heading": "License—Posting or carrying required",
+    "article": null,
+    "text": "Every person having a license under the provisions of Chapters 5.04 through 5.24, and carrying on a business at a fixed place of business, shall keep such license posted and exhibited while in force, in some conspicuous part of the place of business.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.080.A-1"
+    ],
+    "history": "(Ord. 232 § 4-17, 1977)."
+  },
+  {
+    "id": "5.16.080.B",
+    "section": "5.16.080",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "B",
+    "heading": "License—Posting or carrying required",
+    "article": null,
+    "text": "Every person having such license, and not having a fixed place of business, shall carry such license or permit with him at all times while conducting the business for which the license or permit was issued.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.080.B-1"
+    ],
+    "history": "(Ord. 232 § 4-17, 1977)."
+  },
+  {
+    "id": "5.16.090",
+    "section": "5.16.090",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "License—Transferability",
+    "article": null,
+    "text": "No license or permit issued under any provision of Chapters 5.04 through 5.24 shall be in any manner transferred or assigned, or authorize any person other than the person named in the license, to carry on the business therein named, or to transact such business in any place other than the place or location therein named, without the written consent of the city council endorsed thereon. At the time such license or permit is assigned or transferred, or the place or location for the carrying on of such business is changed, the person applying for such transfer or change shall pay to the license collector a fee of five dollars ($5.00) for each assignment or transfer.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.090-1",
+      "A-5.16.090-2",
+      "A-5.16.090-3"
+    ],
+    "history": "(Ord. 232 § 4-18, 1977)."
+  },
+  {
+    "id": "5.16.100",
+    "section": "5.16.100",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "License—Issuance of duplicate when lost",
+    "article": null,
+    "text": "The license collector shall make a charge of five dollars ($5.00) for each duplicate license issued to replace any license issued under the provisions of Chapters 5.04 through 5.24, which has been lost or destroyed; the applicant shall make satisfactory proof of such loss.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.100-1",
+      "A-5.16.100-2"
+    ],
+    "history": "(Ord. 232 § 4-16, 1977)."
+  },
+  {
+    "id": "5.16.110",
+    "section": "5.16.110",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "Affidavits, statements or certificates not conclusive",
+    "article": null,
+    "text": "No affidavit, statement or certificate required under any provision of Chapters 5.04 through 5.24 shall be conclusive upon the City or any department, bureau, officer or agent thereof. Whenever the license collector has reason to believe that such affidavit, statement or certificate does not set forth the true facts required by Chapters 5.04 through 5.24, the license collector may withhold the issuance of a license therefor until such time as the applicant furnishes satisfactory evidence of the truth of such statement, affidavit or certificate.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.110-1"
+    ],
+    "history": "(Ord. 232 § 4-10, 1977)."
+  },
+  {
+    "id": "5.16.120",
+    "section": "5.16.120",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "License—Revocation",
+    "article": null,
+    "text": "If the license collector has reason to believe that any such statement, affidavit or certificate upon which any license or permit has been issued does not set forth the true facts called for under this chapter, and if within five (5) days after demand had been made therefor the true facts are not furnished, the license collector shall have the power to issue an order to show cause based upon five (5) days' written notice to such licensee, at a time and place fixed in the notice, why the license shall not be revoked, or why a fee, to be determined by the license collector, and specified in the notice, should not be fixed for the licensee. The license collector shall have full power to hear the matter and his determination thereof shall be subject to review by the city council and the applicant shall be entitled to appeal the determination of the matter to the city council.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.120-1",
+      "A-5.16.120-2",
+      "A-5.16.120-3"
+    ],
+    "history": "(Ord. 232 § 4-11, 1977)."
+  },
+  {
+    "id": "5.16.130",
+    "section": "5.16.130",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "Appeal to council",
+    "article": null,
+    "text": "The licensee may appeal in writing to the council within ten (10) days after the rejection of any application or permit by the license collector. The council shall forthwith set the matter for hearing and cause notice of the time and place thereof to be given to the applicant not less than five (5) days prior to the hearing. At the hearing the applicant shall appear and offer evidence in support of his application. At the hearing, the council shall have power to confirm, modify, or correct the determination of the license collector in any regard, and, if proper showing is made entitling the application to a license or permit, shall determine the proper fee to be charged and shall forthwith give written notice to the licensee of the determination and the amount of the fee.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.130-1",
+      "A-5.16.130-2",
+      "A-5.16.130-3",
+      "A-5.16.130-4",
+      "A-5.16.130-5",
+      "A-5.16.130-6",
+      "A-5.16.130-7"
+    ],
+    "history": "(Ord. 232 § 4-12, 1977)."
+  },
+  {
+    "id": "5.16.140.A",
+    "section": "5.16.140",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "A",
+    "heading": "Decisions final",
+    "article": null,
+    "text": "The decision of the license collector in the absence of an appeal to the city council, and the decision of the city council, in an appeal, shall be final and conclusive upon any and all persons affected thereby. Any fee finally determined shall be due and payable, together with any penalties that may .be due thereon; provided, however, that if the fee shall be fixed in accordance with the original statement of the licensee, then no penalty shall attach to such fee by reason of any delinquencies.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "A-5.16.050-6",
+      "A-5.16.060-2",
+      "A-5.16.130-5"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 4-13, 1977)."
+  },
+  {
+    "id": "5.16.140.B",
+    "section": "5.16.140",
+    "chapter": "5.16",
+    "division": "I",
+    "label": "B",
+    "heading": "Decisions final",
+    "article": null,
+    "text": "If any such license shall have been revoked, neither the holder thereof, nor any person acting for him directly or indirectly, shall be entitled to another license to carry on the same or any similar business within the city unless the application for such license is approved by the city council. If the city council approves the application for such license, further license applications may be made directly to the license collector.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.140.B-1",
+      "A-5.16.140.B-2",
+      "A-5.16.140.B-3"
+    ],
+    "history": "(Ord. 232 § 4-13, 1977)."
+  },
+  {
+    "id": "5.16.150",
+    "section": "5.16.150",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "Administering oaths",
+    "article": null,
+    "text": "The license collector and the council shall have the power to administer oaths, certify to all official acts and issue subpoenas for and to require the attendance of witnesses and the production of records and documents upon any hearing provided under Chapters 5.04 through 5.24. The license collector shall have the power to administer oaths in the execution of any affidavit, statement or certificate herein required.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.16.150-1",
+      "A-5.16.150-2",
+      "A-5.16.150-3"
+    ],
+    "history": "(Ord. 232 § 4-14, 1977)."
+  },
+  {
+    "id": "5.16.160",
+    "section": "5.16.160",
+    "chapter": "5.16",
+    "division": "I",
+    "label": null,
+    "heading": "Serving of notices",
+    "article": null,
+    "text": "Any notice required under Chapters 5.04 through 5.24 to be given shall be deemed to have been served when the same has been deposited in the United States mail enclosed in a sealed envelope, postage prepaid, addressed to such person at his place of business as the address of the same appears in the records of the license collector, and if no such address appears then to his last known address, and if there is no last known address, then addressed to him at the City Hall, City of Brisbane.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 4-15, 1977)."
+  },
+  {
+    "id": "5.20.010.A",
+    "section": "5.20.010",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Tax based on gross receipts, number of employees, or square footage",
+    "article": null,
+    "text": "Tax Based Upon Gross Receipts. Except as provided in subsections B through D of this section, every person having a fixed place of business engaged in managing, operating or carrying on the business of selling at retail any goods, wares or merchandise; engaged in managing, operating or carrying on a wholesale or manufacturing business; or conducting or carrying on any trade, profession, occupation, service, calling or business in the city, not otherwise specifically licensed by another section of this chapter shall pay a business license tax based upon the annual estimated gross sales or receipts of such business as follows:\nIf Gross Receipts Are:\n|  |  |  |\n| :-: | :-: | :-: |\n| Over | But Not More Than | Business LicenseTax Shall Be |\n| $ 0  | $ 50,000  | $ 50  |\n| 50,000  | 75,000  | 75  |\n| 75,000  | 100,000  | 100  |\n| 100,000  | 150,000  | 125  |\n| 150,000  | 250,000  | 150  |\n| 250,000  | 350,000  | 175  |\n| 350,000  | 450,000  | 200  |\n| 450,000  | 550,000  | 225  |\n| 550,000  | 700,000  | 250  |\n| 700,000  | 1,000,000  | 300  |\n| 1,000,000  | 1,500,000  | 350  |\n| 1,500,000  | 2,000,000  | 400 |\nIf Gross Receipts Are:\n|  |  |  |\n| :-: | :-: | :-: |\n| Over | But Not More Than | Business LicenseTax Shall Be |\n| $ 2,000,000  | $ 3,000,000  | $ 500 plus 20¢ per $1,000 or fraction thereof over $2,000,000 and up to $3,000,000  |\n| 3,000,000  | 4,000,000  | 700 plus 15¢ per $1,000 or fraction thereof over $3,000,000 and up to $4,000,000  |\n| 4,000,000  | 5,000,000  | 850 plus 10¢ per $1,000 or fraction thereof over $4,000,000 and up to $5,000,000  |\n| 5,000,000  | 10,000,000  | 1,050 plus 5¢ per $1,000 or fraction thereof over $5,000,000 and up to $10,000,000  |\n| 10,000,000  | 1,300 plus 4¢ per $1,000 or fraction thereof over $10,000,000 \\*The city will calculate the tax due based on 7.5¢ per $100.00 and sales tax received, with a minimum of $1,300.00 and maximum of $35,000.00 (After 2010 the maximum will be indexed with inflation) |  |\n\\*Editor's note—Added at the city's direction.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 290 § 1(part), 1983: Ord. 232 § 7-1, 1977)."
+  },
+  {
+    "id": "5.20.010.B",
+    "section": "5.20.010",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Tax based on gross receipts, number of employees, or square footage",
+    "article": null,
+    "text": "Tax Based Upon Number of Employees. Notwithstanding the provisions of subsection A of this section, every person manufacturing any goods, wares, or merchandise; any person engaged in the business of operating any warehouse for the storage of wholesale or retail goods, wares or merchandise; or any person whose administrative headquarters are within the boundaries of the city, shall pay an annual business license tax that is the greater of the sum that would be due under subsection A of this section, or that would be due under the following schedule:\n$18.00 for first person employed—or $18.00 per 1 employee\n9.00 per person, next 19 persons employed—or $189.00 per 20 employees\n4.50 per person, next 80 persons employed—or $549.00 per 100 employees\n3.75 per person, next 100 persons employed—or $924.00 per 200 employees\n2.25 per person, for every person employed over 200 persons.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 290 § 1(part), 1983: Ord. 232 § 7-1, 1977)."
+  },
+  {
+    "id": "5.20.010.C",
+    "section": "5.20.010",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Tax based on gross receipts, number of employees, or square footage",
+    "article": null,
+    "text": "Storage Facilities. Any person engaged in the business of operating, leasing, supplying or providing storage facilities not covered in subsection B of this section, shall pay an annual business license tax that is the greater of $.10 per square foot of storage space, or that which would be due under subsection A.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 290 § 1(part), 1983: Ord. 232 § 7-1, 1977)."
+  },
+  {
+    "id": "5.20.010.D",
+    "section": "5.20.010",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "D",
+    "heading": "Tax based on gross receipts, number of employees, or square footage",
+    "article": null,
+    "text": "Rental of Commercial or Residential Property. Every person engaged in the business of operating rental units, whether they be used for commercial or residential purposes, shall pay as an annual business license tax the sum that would be due under subsection A of this section, except that in the case of residential rental, such an annual business license tax will not be levied upon the gross receipts from any property with less than five (5) units.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 290 § 1(part), 1983: Ord. 232 § 7-1, 1977)."
+  },
+  {
+    "id": "5.20.011.A",
+    "section": "5.20.011",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Liquid storage facilities",
+    "article": null,
+    "text": "Any person engaged in the business of operating, leasing, supplying or providing a liquid storage facility shall pay an annual business license tax of up to six cents ($0.06) per barrel delivered over the rack in the preceding calendar year, with the exact rate to be determined each year by the Brisbane City Council; provided, however, that the tax imposed on SFPP, L.P. (or its successor) for the liquid storage facility at the Brisbane Terminal, located at 950 Tunnel Avenue, Brisbane, CA shall in no event be more than four hundred thousand dollars ($400,000.00) annually.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 587, § 1, 11-5-13; Ord. No. 646, § 1, 11-5-19)"
+  },
+  {
+    "id": "5.20.011.B",
+    "section": "5.20.011",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Liquid storage facilities",
+    "article": null,
+    "text": "The annual amount of liquid storage facilities business license tax payable by any person shall be reduced by the amount of sales or use tax received by the city attributable to such person, or sales tax attributable to other persons, based on sales of liquid storage facilities as the point of sale, during the same calendar year (the \"sales tax credit\").",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 587, § 1, 11-5-13; Ord. No. 646, § 1, 11-5-19)"
+  },
+  {
+    "id": "5.20.015.A",
+    "section": "5.20.015",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Special tax for capital improvements",
+    "article": null,
+    "text": "Designation of Special Tax. The special tax imposed by this section shall be known and designated as the capital improvement tax.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 535, § 1, 11-4-08)"
+  },
+  {
+    "id": "5.20.015.B",
+    "section": "5.20.015",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Special tax for capital improvements",
+    "article": null,
+    "text": "Definitions of Capital Improvement and Capital Improvement Project. As used in this section, the following terms shall have the meanings set forth below:\n1\\. The term \"capital improvement\" means any asset having an acquisition, construction, or installation cost of twenty-five thousand dollars ($25,000.00) or more and a useful life of ten (10) years or more, as shown on the financial records of the city.\n2\\. The term \"capital improvement project\" means any capital improvement financed, in whole or in part, with proceeds of the capital improvement tax.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 535, § 1, 11-4-08)"
+  },
+  {
+    "id": "5.20.015.C",
+    "section": "5.20.015",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Special tax for capital improvements",
+    "article": null,
+    "text": "Use of Special Tax. The proceeds of the capital improvement tax shall be utilized only for the acquisition, construction, installation, maintenance, repair, and replacement of capital improvements owned, or to be constructed or acquired by the city. Such proceeds shall be allocated each fiscal year to specific capital improvement projects identified in the city's annual budget, subject to adjustments as may be approved from time to time during the fiscal year by resolution of the city council.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.015.C-1",
+      "A-5.20.015.C-2"
+    ],
+    "history": "(Ord. No. 535, § 1, 11-4-08)"
+  },
+  {
+    "id": "5.20.015.D",
+    "section": "5.20.015",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "D",
+    "heading": "Special tax for capital improvements",
+    "article": null,
+    "text": "Accounting and Annual Report. All proceeds of the capital improvement tax shall be accounted for in a separate capital improvement tax fund, which is hereby established as part of the city's financial records. Disbursements from the capital improvement tax fund shall only be made for payment of costs related to capital improvement projects. Not later than March 1st of each year, the city's director of administrative services shall submit an annual report to the city council showing the total amount of capital improvement tax proceeds deposited to the capital improvement tax fund during the preceding fiscal year, the nature and amount of expenditures from said Fund during the preceding fiscal year, and the current status of each capital improvement project being financed by such disbursements.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.015.D-1",
+      "A-5.20.015.D-2",
+      "A-5.20.015.D-3"
+    ],
+    "history": "(Ord. No. 535, § 1, 11-4-08)"
+  },
+  {
+    "id": "5.20.015.E",
+    "section": "5.20.015",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "E",
+    "heading": "Special tax for capital improvements",
+    "article": null,
+    "text": "Application of Special Tax. The capital improvement tax shall be imposed upon every person who is taxed under subsection 5.20.010(A) of this chapter, having annual gross sales or gross receipts in excess of ten million dollars ($10,000,000.00). The capital improvement tax shall be in addition to any amount that may be payable by that person as a general business license tax pursuant to subsection 5.20.010(A) of this chapter and shall be paid at the same time and along with payment of the general business license tax. Persons having annual gross sales or gross receipts of ten million dollars ($10,000,000.00) or less shall be exempt from the capital improvement tax.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 535, § 1, 11-4-08)"
+  },
+  {
+    "id": "5.20.015.F",
+    "section": "5.20.015",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "F",
+    "heading": "Special tax for capital improvements",
+    "article": null,
+    "text": "Calculation of Capital Improvement Tax. The special tax shall be seven and one-half cents (7½ ¢) per one hundred dollars ($100.00) or fraction thereof of the annual gross sales or gross receipts of every person who is subject to the capital improvement tax, reduced by the amount of general business license tax payable by such person pursuant to subsection 5.20.010(A) of this chapter.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 535, § 1, 11-4-08)"
+  },
+  {
+    "id": "5.20.015.G",
+    "section": "5.20.015",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "G",
+    "heading": "Special tax for capital improvements",
+    "article": null,
+    "text": "Credit For Sales Tax Received by the City. The annual amount of capital improvement tax payable by any person shall be reduced by the amount of sales or use tax received by the city attributable to such person during the same calendar year (the \"sales tax credit\"). In the event the sales tax credit for any single year exceeds the capital improvement tax payable by that person for the same year, the excess sales tax credit shall be applied toward reduction of the general business license tax payable by that person pursuant to subsection 5.20.010(A) of this chapter for the same year, but in no event shall the general business license tax be reduced below the minimum payment of one thousand three hundred dollars ($1,300.00).",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 535, § 1, 11-4-08)"
+  },
+  {
+    "id": "5.20.015.H",
+    "section": "5.20.015",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "H",
+    "heading": "Special tax for capital improvements",
+    "article": null,
+    "text": "Limit on Total Amount of General and Special Business License Taxes. The total amount of the general business license tax payable by any person pursuant to subsection 5.20.010(A) of this chapter plus the capital improvement tax payable by that person, as calculated in accordance with subsections 5.20.015(f) and 5.20.015(g) of this section, shall in no event exceed the following limit:\n1\\. Ten thousand dollars ($10,000.00) for the calendar year 2009;\n2\\. Twenty-two thousand five hundred dollars ($22,500.00) for the calendar year 2010;\n3\\. Thirty-five thousand dollars ($35,000.00) for the calendar year 2011.\n4\\. For the calendar year beginning on January 1, 2012, and on January 1st of each calendar year thereafter (the \"adjustment date\"), the limit shall be thirty-five thousand dollars ($35,000.00), plus an amount obtained by multiplying thirty-five thousand dollars ($35,000.00) by a fraction, the numerator of which shall be the Consumer Price Index published by the United States Department of Labor, Bureau of Labor Statistics, for Urban Wage Earners and Clerical Workers, All Items, for the San Francisco-Oakland Statistical Area (\"CPI\") published nearest to the adjustment date, and the denominator of which shall be the CPI published nearest to January 1, 2011.\nWhere the combined total of the general business license tax and the capital improvement tax exceeds the applicable limit set forth above, the excess shall be deducted from the Capital Improvement Tax and not the general business license tax.\na. Administrative Regulations. The city's director of administrative services is authorized to adopt rules and regulations for implementation of this section, consistent with the provisions hereof. Any decision or determination of the director with regard to the adoption or application of such rules and regulations may be appealed to the city manager and any ruling by the city manager may be further appealed to the city council. Appeals to the city manager or the city council shall be made by filing a notice of appeal with the city clerk within thirty (30) days after the date on which the final decision or determination is made by the director of administrative services or the city manager, as the case may be. The notice of appeal shall set forth the grounds of the appeal and may be accompanied by any documents the appellant intends to submit in support of the appeal.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [
+      "A-5.20.015.H-1",
+      "A-5.20.015.H-2"
+    ],
+    "history": "(Ord. No. 535, § 1, 11-4-08)"
+  },
+  {
+    "id": "5.20.020",
+    "section": "5.20.020",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Delivery by vehicle",
+    "article": null,
+    "text": "Every person not having a fixed place of business within the city, and not being otherwise licensed in Chapters 5.04 through 5.24, who regularly delivers goods, wares, or merchandise of any kind by vehicle or who provides any service by the use of vehicles in the city, shall pay a license tax of thirty dollars ($30.00) annually; provided, that any such person may elect to pay a license tax under Section 5.20.010, measured by gross receipts from business done within the city.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [
+      "A-5.20.020-1"
+    ],
+    "history": "(Ord. 232 § 7-2, 1977)."
+  },
+  {
+    "id": "5.20.025.A",
+    "section": "5.20.025",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Cannabis business",
+    "article": null,
+    "text": "\"Cannabis business\" means a person issued a cannabis operator permit pursuant to Chapter 17.33.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 647, § 2, 11-5-19)"
+  },
+  {
+    "id": "5.20.025.B",
+    "section": "5.20.025",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Cannabis business",
+    "article": null,
+    "text": "The license tax is as follows and may be adjusted by city council by resolution or ordinance:\n1\\. One percent (1%) of gross receipts and up to two percent (2%) of gross receipts for commercial cannabis testing operations.\n2\\. One percent (1%) of gross receipts and up to two percent (2%) of gross receipts for commercial cannabis distribution operations.\n3\\. One percent (1%) of gross receipts and up to four percent (4%) of gross receipts for commercial cannabis manufacturing operations.\n4\\. One percent (1%) of gross receipts and up to five percent (5%) of gross receipts for commercial cannabis retail operations.\n5\\. One percent (1%) of gross receipts and up to six percent (6%) of gross receipts for a commercial cannabis business not otherwise included in this subsection B.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 647, § 2, 11-5-19)"
+  },
+  {
+    "id": "5.20.025.C",
+    "section": "5.20.025",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Cannabis business",
+    "article": null,
+    "text": "The license tax imposed is an excise tax and not a sales and use tax and is in addition to any other fees required under the Brisbane Municipal Code.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 647, § 2, 11-5-19)"
+  },
+  {
+    "id": "5.20.025.D",
+    "section": "5.20.025",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "D",
+    "heading": "Cannabis business",
+    "article": null,
+    "text": "The payment of a tax required under this section, and its acceptance by the city, shall not entitle any person to engage in any cannabis business unless the person has complied with all of the requirements of Chapter 17.33 and all other applicable state or local laws. No tax paid under this section shall be construed as authorizing the conduct or continuance of any illegal or unlawful business, or any business in violation of any state or local laws.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 647, § 2, 11-5-19)"
+  },
+  {
+    "id": "5.20.025.E",
+    "section": "5.20.025",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "E",
+    "heading": "Cannabis business",
+    "article": null,
+    "text": "Commercial cannabis businesses operating unlawfully in the city are subject to the license taxes under this section, in addition to any applicable penalties or fines under local and state laws.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 647, § 2, 11-5-19)"
+  },
+  {
+    "id": "5.20.030",
+    "section": "5.20.030",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Itinerant vendors",
+    "article": null,
+    "text": "Every person engaged in the business or occupation of any itinerant vendor shall pay a license tax of twenty-five dollars ($25.00) per day in advance. \"Itinerant vendor\" means and includes all persons, both principal and agent, who engage in a temporary and transient business in the city, selling goods, wares and merchandise with the intention of continuing the business in the city for a period of not more than ninety (90) days, and who, for the purpose Of carrying on such business, hires, leases or occupies any room, building, or structure for the exhibition or sale of such goods, wares or merchandise, or from which room, building, or structure the sales shall be made or business solicited by means of samples or delivery from house to house. The person or firm so engaged shall not be relieved from the provisions of this section by reason of this section by reason of associating temporarily with any local dealer, trader, merchant, or auctioneer, or by conducting such temporary or transient business in connection with, or as a part of, or in the name of any local dealer, trader, merchant or auctioneer. The provisions of this section shall not apply to commercial travelers or selling agents selling their goods to dealers, whether selling for present or future deliveries, by sample or otherwise, nor to hawkers on the street, nor peddlers from vehicles, not to persons selling fruit, vegetables, butter, eggs, or other fruits or ranch products.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-3, 1977)."
+  },
+  {
+    "id": "5.20.035.A",
+    "section": "5.20.035",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Hotels and other places designed for occupancy by transients",
+    "article": null,
+    "text": "Definitions. The definitions used in this Section 5.20.035 shall be the same as the definitions in Section 3.24.020 of the Brisbane Municipal Code, as said Section may be amended from time to time.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 673, § 1, 7-7-22)"
+  },
+  {
+    "id": "5.20.035.B",
+    "section": "5.20.035",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Hotels and other places designed for occupancy by transients",
+    "article": null,
+    "text": "Every operator shall pay a daily business license tax of two dollars and fifty cents ($2.50) for every room in a hotel for which a transient has paid rent.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 673, § 1, 7-7-22)"
+  },
+  {
+    "id": "5.20.035.C",
+    "section": "5.20.035",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Hotels and other places designed for occupancy by transients",
+    "article": null,
+    "text": "The business license tax under this Section 5.20.035 shall be paid in four (4) installments, due no later than January 1, April 1, July 1 and October 1 of each year.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 673, § 1, 7-7-22)"
+  },
+  {
+    "id": "5.20.035.D",
+    "section": "5.20.035",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "D",
+    "heading": "Hotels and other places designed for occupancy by transients",
+    "article": null,
+    "text": "Beginning January 1, 2024 and on January 1 of each subsequent year (\"the adjustment date\"), the two dollars and fifty cents ($2.50) referred to in subsection B of this section may be increased by multiplying the two dollars and fifty cents ($2.50) by a fraction, the numerator of which shall be the Consumer Price Index published by the United States Department of Labor, Bureau of Labor Statistics, for Urban Wage Earners and Clerical Workers, All Items, for the San Francisco-Oakland-Hayward Statistical Area (\"CPI\") published nearest to the adjustment date and denominator of which shall be the CPI published nearest to the date the business license tax was set at two dollars and fifty cents ($2.50).",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 673, § 1, 7-7-22)"
+  },
+  {
+    "id": "5.20.036",
+    "section": "5.20.036",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Definitions",
+    "article": null,
+    "text": "Terms used in Sections 5.20.037 through 5.20.043 shall have the same meanings as the definitions of those terms in Section 3.24.020 of this code, as said section may be amended from time to time.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.037",
+    "section": "5.20.037",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Reporting and remitting",
+    "article": null,
+    "text": "Each operator shall, on or before the last day of April, July, October and January, make a return to the tax administrator, on forms provided by the tax administrator, of the total rooms rented during the previous three (3) months and the amount of tax calculated for such room rentals. The full amount of the tax calculated shall be remitted to the tax administrator at the time the return is filed. The tax administrator may require additional information in any returned. Such actions may be appealed under Section 5.20.040. Returns and payments are due immediately upon cessation of any business for any reason.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.20.037-1",
+      "A-5.20.037-2"
+    ],
+    "record_ids": [
+      "A-5.20.037-1",
+      "A-5.20.037-2",
+      "A-5.20.037-3"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.038.A",
+    "section": "5.20.038",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Penalties and interest",
+    "article": null,
+    "text": "Original Delinquency. Any operator who fails to remit any tax imposed by Section 5.20.035 within the time required shall pay a penalty of ten percent (10%) of the amount of the tax in addition to the amount of the tax.",
+    "class": "penalty",
+    "attaches_to": [
+      "A-5.20.037-2"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.038.B",
+    "section": "5.20.038",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Penalties and interest",
+    "article": null,
+    "text": "Continued Delinquency. Any operator who fails to remit any delinquent remittance on or before thirty (30) days following the date on which the remittance first became delinquent shall pay a second delinquency penalty of ten percent (10%) of the amount of the tax in addition to the amount of the tax and the ten percent (10%) penalty first imposed.",
+    "class": "penalty",
+    "attaches_to": [
+      "A-5.20.037-2"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.038.C",
+    "section": "5.20.038",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Penalties and interest",
+    "article": null,
+    "text": "Fraud. If the tax administrator determines that the non-payment of any remittance due under Section 5.20.035 is due to fraud, a penalty of twenty five percent (25%) of the amount of the tax shall be added thereto, in addition to the penalties stated in subsections A and B of this section.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.20.037-2"
+    ],
+    "record_ids": [
+      "A-5.20.038.C-1"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.038.D",
+    "section": "5.20.038",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "D",
+    "heading": "Penalties and interest",
+    "article": null,
+    "text": "Interest. In addition to the penalties imposed, any operator who fails to remit any tax imposed by Section 5.20.035 shall pay interest a the rate of one percent per month or fraction thereof on the amount of the tax, exclusive of penalties, from the date on which the remittance first became delinquent until paid in full.",
+    "class": "penalty",
+    "attaches_to": [
+      "A-5.20.037-2"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.038.E",
+    "section": "5.20.038",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "E",
+    "heading": "Penalties and interest",
+    "article": null,
+    "text": "Penalties and Interest Merged With Tax. Every penalty imposed and such interest as accrues under this Section shall become part of the tax required to be paid by Section 5.20.035.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "A-5.20.037-2"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.039.A",
+    "section": "5.20.039",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Failure to collect and report tax—determination of tax by tax administrator",
+    "article": null,
+    "text": "Assessment of Estimated Tax. If any operator shall fail or refuse to pay the tax and to make, within the time provided in Section 5.20.036, the tax administrator shall proceed in such manner as the tax administrator may deem best to obtain facts and information upon which to base the tax administrator's estimate of the tax due. As soon as the tax administrator shall procure such facts and information as the tax administrator is able to obtain upon which to base the assessment of any tax imposed by Section 5.20.035 and payable by any operator who has failed or refused to pay the same and to make such report and remittance, the tax administrator shall proceed to determine and assess against such operator the tax, penalty and interest provided by Section 5.20.038. The tax administrator may include in the assessment costs of any necessary audits or investigations.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.039.A-1",
+      "A-5.20.039.A-2",
+      "A-5.20.039.A-3"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.039.B",
+    "section": "5.20.039",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Failure to collect and report tax—determination of tax by tax administrator",
+    "article": null,
+    "text": "Notice of Assessment—Determination of Tax. Where a determination and assessment of the tax is made under subsection A of this section, the tax administrator shall give notice of the amount so assessed by serving it personally or by depositing it in the United States mail, postage prepaid, addressed to the operator so assessed at the operator's last known place of address. Such operator may, within ten (10) days after the serving or mailing of such notice, make application in writing to the tax administrator for a hearing on the amount assessed. If application by the operator for a hearing is not made within the time prescribed, the tax, penalties, and interest, if any, determined by the tax administrator shall become final and conclusive and immediately due and payable. If such application is made, the tax administrator shall give no less than five (5) days' written notice in the manner prescribed herein to the operator to show cause at a time and place fixed in the notice why the amount specified in the notice should not be fixed for such tax, penalties and interest. At such hearing, the operator may appear and offer evidence why such specified tax, penalties and interest should not be so fixed. After such hearing, the tax administrator shall determine the proper tax, penalties and interest to be remitted and shall thereafter give written notice to the operator in the manner prescribed herein of such determination and the amount of such tax, penalties and interest. The amount determined to be due shall be paid in full within fifteen (15) days unless an appeal is taken as provided in Section 5.20.040.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.20.039.B-2"
+    ],
+    "record_ids": [
+      "A-5.20.039.B-1",
+      "A-5.20.039.B-2",
+      "A-5.20.039.B-3",
+      "A-5.20.039.B-4",
+      "A-5.20.039.B-5",
+      "A-5.20.039.B-6",
+      "A-5.20.039.B-7"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.040",
+    "section": "5.20.040",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Appeal",
+    "article": null,
+    "text": "Any operator aggrieved by any decision of the tax administrator with respect to the amount of such tax, penalties and interest, if any, may appeal to the city manager by filing a notice of appeal with the city clerk within fifteen (15) days of the serving or mailing of the determination of tax due. The city manager shall fix a time and place for hearing such appeal, and the city clerk shall give notice in writing to such operator at the operator's last known place of address. The city manager may designate a neutral hearing officer to hear the appeal and make a recommendation to the city manager as to the appeal. The findings of the city manager shall be final and conclusive and shall be served on the operator/appellant in the manner prescribed above for service of notice of hearing. Any amount found to be due shall be immediately due and payable upon service of the notice.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.20.040-5"
+    ],
+    "record_ids": [
+      "A-5.20.040-1",
+      "A-5.20.040-2",
+      "A-5.20.040-3",
+      "A-5.20.040-4",
+      "A-5.20.040-5"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.041",
+    "section": "5.20.041",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Records",
+    "article": null,
+    "text": "It shall be the duty of every operator liable for the payment to the city of any tax imposed by Section 5.20.035 to keep and preserve, for a period of three (3) years, all records as may be necessary to determine the amount of such tax as the operator may have been liable for the payment to the city, which records the tax administrator shall have the right to inspect at all reasonable times. Such records shall be maintained at the operator's premises or shall be available for delivery to the tax administrator within two (2) weeks after request. Such records shall be so maintained for at least six (6) months after a change of operator. The records shall include at least the following: Daily summaries of rooms rented.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.041-1",
+      "A-5.20.041-2"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.042.A",
+    "section": "5.20.042",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Refunds",
+    "article": null,
+    "text": "Whenever the amount of any tax, penalty or interest has been overpaid or paid more than once, or has been erroneously or illegally paid or received by the city under Section 5.20.035 or 5.20.036, it may be refunded as provided in subsections B and C of this section provided a claim in writing therefor, stating under penalty of perjury the specific grounds upon which the claim is founded, is filed with the tax administrator within three (3) years of the date of payment or the date the tax was due, whichever was earlier.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.042.A-1",
+      "A-5.20.042.B-1"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.042.B",
+    "section": "5.20.042",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Refunds",
+    "article": null,
+    "text": "An operator may claim a refund or take a credit against taxed to be remitted in the amount overpaid, paid more than once, or erroneously or illegally paid or received when it is established to the satisfaction of the tax administrator that the tax paid or received was overpaid, paid more than once, or erroneously or illegally paid or received by the city.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.042.B-1"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.042.C",
+    "section": "5.20.042",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Refunds",
+    "article": null,
+    "text": "No refund shall be paid under the provisions of this section unless the operator establishes the right thereto by written records showing entitlement to such refund.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.042.C-1"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.043.A",
+    "section": "5.20.043",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Collection of tax",
+    "article": null,
+    "text": "Actions to Collect. Any tax required to be paid by any operator under Section 5.20.035 shall be deemed a debt owned by the operator to the city. Any operator owing money to the city under Section 5.20.035 shall be liable to an action brought in the name of the city for recovery of such amount.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.20.037-2"
+    ],
+    "record_ids": [
+      "A-5.20.043.A-1"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.043.B",
+    "section": "5.20.043",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Collection of tax",
+    "article": null,
+    "text": "Notice of Intent to Record a Lien—Hearing. If the amount required to be paid to the city under Section 5.20.035 is not paid when due, the tax administrator may within three (3) years after the amount is due, in addition to any other rights or remedies available for collection of such amount, give written notice to the operator and the owner of the property on which the hotel is located, if different, of the city's intent to record a lien against the property on which the operator's hotel is located. The notice shall specify a time and place at which a hearing will be conducted by the tax administrator to consider any objections by the operator or property owner to the recording of such lien, which hearing shall not be less than fifteen (15) days from the date of the notice. The date of the hearing may be continued from time to time by the tax administrator. At the conclusion of the hearing, the tax administrator shall render a decision as to whether a lien should be filed with respect to any amount payable to the city under Section 5.20.035 that the tax administrator finds is then delinquent. The decision of the tax administrator may be appealed to the city manage as provided in Section 5.20.040.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.043.B-1",
+      "A-5.20.043.B-2",
+      "A-5.20.043.B-3",
+      "A-5.20.043.B-4"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.043.C",
+    "section": "5.20.043",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Collection of tax",
+    "article": null,
+    "text": "Recordation and Enforcement of Tax Lien. Upon a final determination of the amount of the delinquency by the tax administrator of the city manager on appeal, as the case may be, the tax administrator may filed for record in the office of the San Mateo County recorder a tax lien specifying the amount of the tax, penalty and interest due, the name and address as it appears on the records of the operator liable for same and the name of the property owner, and the legal description of the property on which the hotel is located. From the time of the filing for record, the amount required to be paid together with penalties and interest constitutes a lien upon such real property. Such lien shall be valid for a period of ten (10) years and may be enforced by an action to foreclose the lien in a manner prescribed by law.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.20.043.C-1"
+    ],
+    "record_ids": [
+      "A-5.20.043.C-1"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.043.D",
+    "section": "5.20.043",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "D",
+    "heading": "Collection of tax",
+    "article": null,
+    "text": "Successor's Liability—Withholding by Purchaser. If any operator liable for any amount under Section 5.20.035 sells or transfers the hotel or any ownership interest therein, the successor or transferee shall withhold sufficient funds out of the purchase price to cover such amount until the former operator produces a receipt from the tax administrator showing that it has been paid or a certificate stating that no amount is due.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.043.D-1"
+    ],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.043.E",
+    "section": "5.20.043",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "E",
+    "heading": "Collection of tax",
+    "article": null,
+    "text": "Liability of Purchase. If the purchaser of a hotel fails to withhold funds from the purchase price as required, the purchaser shall become liable for the payment of the amount required to be withheld to the extent of the purchase price.",
+    "class": "penalty",
+    "attaches_to": [
+      "A-5.20.043.D-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.043.F",
+    "section": "5.20.043",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "F",
+    "heading": "Collection of tax",
+    "article": null,
+    "text": "Continued Liability of Operator. The sale or transfer of a hotel, dismissal of the operator, or other termination of the rights of an operator to operate the hotel shall not relieve the operator from liability for taxes due or owing under Section 5.20.035.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "A-5.20.037-2"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.044",
+    "section": "5.20.044",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Violations",
+    "article": null,
+    "text": "Any violations of Sections 5.20.035 through 5.20.043 shall be punishable by fines, penalties and enforcement provisions set forth in Chapters 1.14, 1.16, and 1.18 of this code.",
+    "class": "penalty",
+    "attaches_to": [
+      "A-5.20.037-1",
+      "A-5.20.037-2",
+      "A-5.20.041-1",
+      "A-5.20.043.D-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 2, 12-15-22)"
+  },
+  {
+    "id": "5.20.050.A",
+    "section": "5.20.050",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Solicitors",
+    "article": null,
+    "text": "Every person conducting the business of solicitor shall pay a quarterly license tax of twenty-five dollars ($25.00) in advance. This section shall not apply to persons engaged in the business of solicitor when such persons are the employees of licensees engaged in such business.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-5, 1977)."
+  },
+  {
+    "id": "5.20.050.B",
+    "section": "5.20.050",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Solicitors",
+    "article": null,
+    "text": "For the purpose of this section, \"solicitor\" is defined to be one who engages in the business of going from house to house, place to place, or in or along the streets within the city, selling or taking orders for, or offering to sell or take orders for goods, wares, merchandise, advertising, or other things of value for future delivery, or for services to be performed in the future.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-5, 1977)."
+  },
+  {
+    "id": "5.20.060.A",
+    "section": "5.20.060",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Contractors and related occupations",
+    "article": null,
+    "text": "Every person who engages in the business of contracting within the city shall pay a license tax of thirty-five dollars ($35.00) per quarter; provided, that any such person may elect to pay a license tax under Section 5.20.010, measured by gross receipts from business done within the city.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [
+      "A-5.20.060.A-1"
+    ],
+    "history": "(Ord. 232 § 7-6, 1977)."
+  },
+  {
+    "id": "5.20.060.B",
+    "section": "5.20.060",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Contractors and related occupations",
+    "article": null,
+    "text": "All specialty contractors engaging in the business of contracting within the city which require a state license as provided in Chapter 9, Subdivision 3 of the Business and Professions Code of the state shall pay a license tax of twenty-five dollars ($25.00) per quarter; provided, that any such specialty contractor may elect to pay a license tax under Section 5.20.010, measured by gross receipts from business done within the city.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [
+      "A-5.20.060.B-1"
+    ],
+    "history": "(Ord. 232 § 7-6, 1977)."
+  },
+  {
+    "id": "5.20.070",
+    "section": "5.20.070",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Handbill distributors",
+    "article": null,
+    "text": "Every person conducting the business of advertising by the distribution of handbills, circulars or other written or printed advertising material, not having a fixed place of business with the city, shall pay a semiannual license fee of one hundred fifty dollars ($150.00).",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-7, 1977)."
+  },
+  {
+    "id": "5.20.080",
+    "section": "5.20.080",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Real estate broker",
+    "article": null,
+    "text": "Every licensed real estate broker conducting the business of selling or offering for sale any real property not owned by such person, which property is located within the city, but with no fixed place of business within the city shall pay a license fee of seventy-five dollars ($75.00) semiannually; provided, that any such real estate broker may elect to pay a license fee under Section 5.20.010, measured by gross receipts from business done within the city.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [
+      "A-5.20.080-1"
+    ],
+    "history": "(Ord. 232 § 7-8, 1977)."
+  },
+  {
+    "id": "5.20.090",
+    "section": "5.20.090",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Mediumship",
+    "article": null,
+    "text": "Every person who conducts, carries on, practices, or who professes to conduct, carry on, or practice the business or art of astrology, palmistry, phrenology, life reading, fortunetelling, cartomancy, clairvoyance, clairaudience, crystal gazing, hypnotism, mediumship, prophecy, augury, divination, magic, or necromancy, and demands or receives a fee for the exercise or exhibition of his art therein, directly or indirectly, either as a gift, donation or otherwise, or makes an exhibition thereof at any place where admission is charged, shall pay a license fee of one hundred dollars ($100.00) per day.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-9, 1977)."
+  },
+  {
+    "id": "5.20.100.A",
+    "section": "5.20.100",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Recycling establishments",
+    "article": null,
+    "text": "Definition of Recycling Establishment. As used in this Section 5.20.100, the term \"recycling establishment\" means an establishment engaged in the business of collecting, sorting, cleansing, treating, processing, or reconstituting waste or other discarded materials for the purpose of reuse in altered form. Notwithstanding the foregoing, for the purposes of this Section 5.20.100 the term \"recycling establishment\" shall not include any of the following:\n1\\. A \"scavenger,\" as defined in Section 8.24.010(F) of this code, having a contract with the city to collect garbage, rubbish and waste matter pursuant to Chapter 8.24 of this code.\n2\\. An \"authorized recycling agent,\" as defined in Section 8.32.020(A) of this code, having a contract with the city to collect recyclable materials pursuant to Chapter 8.32 of this code.\n3\\. An \"applicant,\" as defined in Section 15.75.010 of this code, engaged in the performance of a \"covered project,\" as defined and governed by Chapter 15.75 of this code pertaining to construction and demolition debris.\n4\\. An establishment primarily engaged in the recycling of soil, including the incidental recycling of rock, stone, concrete or rebar.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 569, § 1, 12-5-11; Ord. No. 628, 11-7-17)"
+  },
+  {
+    "id": "5.20.100.B",
+    "section": "5.20.100",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Recycling establishments",
+    "article": null,
+    "text": "Business License Tax. Every recycling establishment, as defined in subsection A of this section, that recycles one hundred thousand (100,000) tons or more of material during any single calendar year shall pay a business license tax of up to four million dollars ($4,000,000.00) per year, subject to adjustments as provided in subsection C of this section. The business license tax imposed by this section shall become effective in an amount as determined by the city council up to the authorized ceiling amount on such date as established by city Council resolution. The business license tax shall be paid in two (2) equal installments, due not later than January 1 and July 1 of each year.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 569, § 1, 12-5-11; Ord. No. 628, 11-7-17)"
+  },
+  {
+    "id": "5.20.100.C",
+    "section": "5.20.100",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Recycling establishments",
+    "article": null,
+    "text": "Beginning January 1, 2018 and on January 1 of each subsequent year (the \"adjustment date\"), the business license tax payable under subsection B of this section 5.20.100 may be increased to any amount within the authorized ceiling of four million dollars ($4,000,000.00) per year. On any adjustment date, after the business license tax has been set at the authorized ceiling of four million dollars ($4,000,000.00) per year, the business license tax payable under subsection B of this section shall be whichever of the following is the greater: (1) the tax charged for immediately preceding year plus three percent (3%) of such tax or (2) four million dollars ($4,000,000.00) plus an amount obtained by multiplying four million dollars ($4,000,000.00) by a fraction, the numerator of which shall be the Consumer Price Index published by the United States Department of Labor, Bureau of Labor Statistics, for Urban Wage Earners and Clerical Workers, All Items, for the San Francisco-Oakland Statistical Area (\"CPI\") published nearest to the adjustment date and the denominator of which shall be the CPI published nearest to the date the business license tax was set at four million dollars ($4,000,000.00) per year. The city council may, by resolution, adopt a business license tax for any calendar year in an amount below the maximum tax that could be charged under the three percent (3%) or CPI adjustment provided in this subsection C.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 569, § 1, 12-5-11; Ord. No. 628, 11-7-17)"
+  },
+  {
+    "id": "5.20.110",
+    "section": "5.20.110",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Movie theaters",
+    "article": null,
+    "text": "Every person conducting or carrying on the business of operating a movie theater, theater, concert hall, auditorium, stadium, park, arena, racetrack, flea market, or other place of amusement or business where an admission charge is levied for the privilege of entering onto private property shall pay a weekly license fee as follows:",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 238 § 1, 1978; Ord. 232 § 7-11, 1977)."
+  },
+  {
+    "id": "5.20.110.A",
+    "section": "5.20.110",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Movie theaters",
+    "article": null,
+    "text": "The license fee shall be twenty-five cents ($.25) for each person admitted over the age of twelve (12) years.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 238 § 1, 1978; Ord. 232 § 7-11, 1977)."
+  },
+  {
+    "id": "5.20.110.B",
+    "section": "5.20.110",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Movie theaters",
+    "article": null,
+    "text": "Such admission charge shall be determined exclusive of any applicable sales taxes, and shall not include refunds of admission charges.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 238 § 1, 1978; Ord. 232 § 7-11, 1977)."
+  },
+  {
+    "id": "5.20.110.C",
+    "section": "5.20.110",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Movie theaters",
+    "article": null,
+    "text": "On Monday of each week, the persons charging for admissions referred to in this section shall submit an accounting showing the number of paid admissions during the preceding week and such other information and in such form as shall be prescribed by the license collector. Said accounting shall be filed with the license collector and all moneys due the city thereunder shall be paid to the license collector each Monday for the preceding week. Should Monday fall on a holiday, the accounting and money due shall be payable on the next following workday.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.110.C-1"
+    ],
+    "history": "(Ord. 238 § 1, 1978; Ord. 232 § 7-11, 1977)."
+  },
+  {
+    "id": "5.20.110.D",
+    "section": "5.20.110",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "D",
+    "heading": "Movie theaters",
+    "article": null,
+    "text": "Should the licensee fail to file the accounting and make payments as prescribed in this section, the license collector shall impose penalties as prescribed by Section 5.24.070. The license collector may institute license revocation proceedings as set forth in Section 5.16.120 for failure to make payments due under this section within five (5) days after demand.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.110.D-1",
+      "A-5.20.110.D-2"
+    ],
+    "history": "(Ord. 238 § 1, 1978; Ord. 232 § 7-11, 1977)."
+  },
+  {
+    "id": "5.20.120",
+    "section": "5.20.120",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Pawnbrokers",
+    "article": null,
+    "text": "All pawnbrokers and pawnbroker establishments shall pay an annual license fee of five thousand dollars ($5,000.00). The fee shall be paid in advance for each year or portion thereof prior to the issuance of the license.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-12, 1977)."
+  },
+  {
+    "id": "5.20.125.A",
+    "section": "5.20.125",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Soil recycling establishment",
+    "article": null,
+    "text": "Definition of Soil Recycling Establishment. As used in this section, the term \"soil recycling establishment\" means an establishment engaged primarily in the recycling of soil, including the incidental recycling of rock, stone, or rebar.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 627, 11-7-17)"
+  },
+  {
+    "id": "5.20.125.B",
+    "section": "5.20.125",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Soil recycling establishment",
+    "article": null,
+    "text": "Any soil recycling establishment shall pay an annual business license tax of twenty percent (20%) of its gross receipts or two hundred thousand dollars ($200,000.00), whichever is greater; provided, however, the city council may by resolution impose a business license tax for a soil recycling establishment for any calendar year in an amount below the maximum tax that could be charged under this subsection. The business license tax shall be paid in two (2) equal installments, due not later than January 1 and July 1 of each year.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 627, 11-7-17)"
+  },
+  {
+    "id": "5.20.125.C",
+    "section": "5.20.125",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Soil recycling establishment",
+    "article": null,
+    "text": "Beginning January 1, 2019 and on January 1 of each subsequent year (the \"adjustment date\"), the two hundred thousand dollars ($200,000.00) referred to in subsection B of this section may be increased by multiplying the two hundred thousand dollars ($200,000.00) by a fraction, the numerator of which shall be the Consumer Price Index published by the United States Department of Labor, Bureau of Labor Statistics, for Urban Wage Earners and Clerical Workers, All Items, for the San Francisco-Oakland-Hayward Statistical Area (\"CPI\") published nearest to the adjustment date and the denominator of which shall be the CPI published nearest to the date the business license tax was set at two hundred thousand dollars ($200,000.00) per year.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 627, 11-7-17)"
+  },
+  {
+    "id": "5.20.130",
+    "section": "5.20.130",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Circuses and carnivals",
+    "article": null,
+    "text": "All circuses and carnivals shall pay a business license fee of one hundred fifty dollars ($150.00) for the first day of operation, and fifty dollars ($50.00) for each day thereafter during the period of the permit as issued by the city council. The fee shall be paid in advance prior to the issuance of the license. The fee shall be in lieu of fees set forth in Section 5.20.110.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-13, 1977)."
+  },
+  {
+    "id": "5.20.140.A",
+    "section": "5.20.140",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Catering and ice cream vending trucks",
+    "article": null,
+    "text": "Fee. All businesses operating catering or ice cream vending trucks and vehicles shall pay a semiannual license fee of fifty dollars ($50.00). The fee shall be paid in advance for each year or portion thereof prior to the issuance of the license.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-14, 1977)."
+  },
+  {
+    "id": "5.20.140.B",
+    "section": "5.20.140",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Catering and ice cream vending trucks",
+    "article": null,
+    "text": "Permits. Prior to the operation of a catering or ice cream vending vehicle in the city, a permit must be obtained from the Brisbane police department approving hours of operation, routes, limitation of noise level and other matters determined by the chief of police, which may affect the health, safety or peace of the citizens of Brisbane. The chief of police or his designee may revoke the permit if the conditions thereon are violated or if the business operation becomes a nuisance. Any action of the chief of police in denying, revoking or setting conditions for the permit may be appealed within ten (10) days of the action to the city council for hearing and final determination.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.140.B-1",
+      "A-5.20.140.B-2",
+      "A-5.20.140.B-3"
+    ],
+    "history": "(Ord. 232 § 7-14, 1977)."
+  },
+  {
+    "id": "5.20.140.C",
+    "section": "5.20.140",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Catering and ice cream vending trucks",
+    "article": null,
+    "text": "Background Check for Ice Cream Vendors. The police department shall conduct a background search, including fingerprinting of all vendors of ice cream and other products sold from vehicles where the customers are primarily minors. There shall be a fee of twenty dollars ($20.00) payable in advance, for each background search and investigation of each driver or vendor. Upon good cause, the chief of police or his designee may refuse to issue a permit to operate the business within the city. The decision may be appealed to the city council as set forth in Section 5.16.130.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.20.140.C-1"
+    ],
+    "record_ids": [
+      "A-5.20.140.C-1",
+      "A-5.20.140.C-2",
+      "A-5.20.140.C-3"
+    ],
+    "history": "(Ord. 232 § 7-14, 1977)."
+  },
+  {
+    "id": "5.20.150",
+    "section": "5.20.150",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Amusement concessions",
+    "article": null,
+    "text": "Every person conducting any amusement concession, not in conjunction with a carnival or fair, shall pay a license tax for each concession and device as follows:",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-15, 1977)."
+  },
+  {
+    "id": "5.20.150.A",
+    "section": "5.20.150",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Amusement concessions",
+    "article": null,
+    "text": "Merry-go-round, ferris wheel, dodgem, swing or other mechanical device for the carrying of passengers, fifty dollars ($50.00) quarterly;",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-15, 1977)."
+  },
+  {
+    "id": "5.20.150.B",
+    "section": "5.20.150",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Amusement concessions",
+    "article": null,
+    "text": "Ball and ring throwing games, spin-the-wheel, mechanical and electrical games, shooting gallery, keno, lotto, and other and similar games of chance; provided, and to the extent that, these games are otherwise permitted by state law, forty dollars ($40.00) quarterly;",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-15, 1977)."
+  },
+  {
+    "id": "5.20.150.C",
+    "section": "5.20.150",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Amusement concessions",
+    "article": null,
+    "text": "Sales of merchandise or foodstuffs, not in connection with any game of chance, twenty dollars ($20.00) quarterly.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-15, 1977)."
+  },
+  {
+    "id": "5.20.160",
+    "section": "5.20.160",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Boxing or wrestling exhibitions",
+    "article": null,
+    "text": "Every person staging a boxing or wrestling exhibition shall pay a license tax of one hundred dollars ($100.00) for each such exhibition.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-16, 1977)."
+  },
+  {
+    "id": "5.20.170",
+    "section": "5.20.170",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Secondhand dealers, or collectors, not auto or machine wrecking",
+    "article": null,
+    "text": "The license fee for all secondhand dealers or collectors, not auto or machine wrecking, doing business within the city shall be one hundred fifty dollars ($150.00) annually.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-17, 1977)."
+  },
+  {
+    "id": "5.20.180",
+    "section": "5.20.180",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Waste recycling",
+    "article": null,
+    "text": "Every person conducting or carrying on the business of recycling non-water-soluble, non-decomposable wastes and industrial wastes shall pay a license fee as follows:",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-18, 1977)."
+  },
+  {
+    "id": "5.20.180.A",
+    "section": "5.20.180",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Waste recycling",
+    "article": null,
+    "text": "The business license fee shall be five cents ($.05) for every ton of waste either stored or brought into the city, and an additional five cents ($.05) for every ton of recycled waste which is removed from the city.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-18, 1977)."
+  },
+  {
+    "id": "5.20.180.B",
+    "section": "5.20.180",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Waste recycling",
+    "article": null,
+    "text": "On the first of each month, the persons subject to the license requirements of this section shall submit an accounting showing the number of tons of waste brought into the city during the preceding month and the number of tons of recycled waste which was removed from the city in the preceding month. The information shall be provided in such form as shall be prescribed by the license collector. The accounting shall be filed with the license collector and all moneys due to the city thereunder shall be paid to the license collector on the first of each month for the preceding month. Should the first fall on a holiday or weekend, the accounting and money due shall be payable on the next following work day.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.180.B-1"
+    ],
+    "history": "(Ord. 232 § 7-18, 1977)."
+  },
+  {
+    "id": "5.20.180.C",
+    "section": "5.20.180",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Waste recycling",
+    "article": null,
+    "text": "Should the licensee fail to file the accounting and make payments as prescribed in this section, the license collector shall impose penalties as prescribed by Section 5.24.070. The license collector may institute license revocation proceedings as set forth in Section 5.16.120, for failure to make payments due under this section within five (5) days after demand.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.20.180.C-1",
+      "A-5.20.180.C-2"
+    ],
+    "history": "(Ord. 232 § 7-18, 1977)."
+  },
+  {
+    "id": "5.20.190",
+    "section": "5.20.190",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Auto wreckers",
+    "article": null,
+    "text": "Every person conducting the business of auto wrecking shall pay the annual license fee of two hundred dollars ($200.00).",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-19, 1977)."
+  },
+  {
+    "id": "5.20.200",
+    "section": "5.20.200",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Taxicabs",
+    "article": null,
+    "text": "Every person engaging in the business of operating a taxicab shall pay the annual license fee of five dollars ($5.00) per vehicle.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-20, 1977)."
+  },
+  {
+    "id": "5.20.210",
+    "section": "5.20.210",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Commercial kennels",
+    "article": null,
+    "text": "The annual license fee for each kennel in the city, both commercial and noncommercial, shall be twenty-five dollars ($25.00) for the first ten (10) dogs kept or proposed to be kept or any lesser number, and five dollars ($5.00) for each additional dog in excess of ten (10) to be kept on the premises.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-21, 1977)."
+  },
+  {
+    "id": "5.20.220",
+    "section": "5.20.220",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Outdoor advertising",
+    "article": null,
+    "text": "Every person engaging in the business of outdoor advertising shall pay, as an annual license fee, a sum of eight percent (8%) of actual gross receipts as defined in Section 5.04.110 of this code; however, any person who maintains a double-faced, twenty by sixty foot (20' x 60') (or equivalent square footage) painted bulletin outdoor advertising structure within the limits of this city shall pay a minimum fee of eighteen thousand dollars ($18,000.00) per year.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 290 § 1(part), 1983: Ord. 232 § 7-22, 1977)."
+  },
+  {
+    "id": "5.20.230",
+    "section": "5.20.230",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Mechanical amusement devices",
+    "article": null,
+    "text": "Any person carrying on the business of distributing or operating mechanical amusement devices, as defined in Chapter 5.44, shall pay annual license fees as follows:",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-23, 1977)."
+  },
+  {
+    "id": "5.20.230.A",
+    "section": "5.20.230",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Mechanical amusement devices",
+    "article": null,
+    "text": "The distributor of mechanical amusement devices shall pay the annual license fee of one hundred dollars ($100.00).",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-23, 1977)."
+  },
+  {
+    "id": "5.20.230.B",
+    "section": "5.20.230",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Mechanical amusement devices",
+    "article": null,
+    "text": "An operator of mechanical amusement devices shall pay an annual license fee per premises of operations of six percent (6%) of gross receipts with the maximum annual fee per premises to be three hundred fifty dollars ($350.00).",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 7-23, 1977)."
+  },
+  {
+    "id": "5.20.235.A",
+    "section": "5.20.235",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Peddlers, hawkers, and street vendors",
+    "article": null,
+    "text": "Every person carrying on the business of a peddler of any goods, wares or merchandise shall pay a license tax of twenty five dollars ($25.00) per day in advance.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 3, 12-15-22)"
+  },
+  {
+    "id": "5.20.235.B",
+    "section": "5.20.235",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Peddlers, hawkers, and street vendors",
+    "article": null,
+    "text": "For purposes of this section, a \"peddler\" is defined to be and includes every person not having a regularly established place of business in the city, who travels from place to place, or has a stand upon any public street, alley, or other public place, doorway of any building, unenclosed or vacant lot, or parcel of land, who sells or offers for sale any goods, wares or merchandise in the person's possession.",
+    "class": "definition",
+    "attaches_to": [
+      "glossary"
+    ],
+    "record_ids": [],
+    "history": "(Ord. No. 676, § 3, 12-15-22)"
+  },
+  {
+    "id": "5.20.240.A",
+    "section": "5.20.240",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Residential business license tax",
+    "article": null,
+    "text": "A residential business license tax is imposed solely for revenue purposes on the development and construction of all residential structures in the sum of fifty cents ($.50) per square foot of gross floor area of the dwelling unit. No such tax shall be imposed upon the development or construction of any such single-family residential unit for which a building permit has been issued.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 250 § 2, 1979; Ord. 240 § 1, 1978: Ord. 232 § 10-4, 1977)."
+  },
+  {
+    "id": "5.20.240.B",
+    "section": "5.20.240",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Residential business license tax",
+    "article": null,
+    "text": "Unless and until the city council adopts a resolution directing that the business license tax authorized by the ordinance codified in subsection A of this section, adopted June 28, 1978, be collected, henceforth from the adoption date of Ordinance 250, codified in this subsection, a moratorium is established on the collection of the business license taxes authorized by subsection A of this section. Except as otherwise provided for herein, subsection A of this section shall remain in full force and effect.",
+    "class": "operative",
+    "attaches_to": [
+      "A-5.20.240.B-1"
+    ],
+    "record_ids": [
+      "A-5.20.240.B-1"
+    ],
+    "history": "(Ord. 250 § 2, 1979; Ord. 240 § 1, 1978: Ord. 232 § 10-4, 1977)."
+  },
+  {
+    "id": "5.20.250",
+    "section": "5.20.250",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "Due dates for payment of fees",
+    "article": null,
+    "text": "Unless otherwise specifically provided:",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-3, 1977)."
+  },
+  {
+    "id": "5.20.250.A",
+    "section": "5.20.250",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "A",
+    "heading": "Due dates for payment of fees",
+    "article": null,
+    "text": "All annual license fees, under the provisions of Chapters 5.04 through 5.24, shall be due and payable in advance of the first day of January of each year.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-3, 1977)."
+  },
+  {
+    "id": "5.20.250.B",
+    "section": "5.20.250",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "B",
+    "heading": "Due dates for payment of fees",
+    "article": null,
+    "text": "All semiannual license fees, under the provisions of Chapters 5.04 through 5.24, shall be due and payable in advance on the first day of January and July of each year;",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-3, 1977)."
+  },
+  {
+    "id": "5.20.250.C",
+    "section": "5.20.250",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "C",
+    "heading": "Due dates for payment of fees",
+    "article": null,
+    "text": "All quarterly license fees, under the provisions of Chapters 5.04 through 5.24, shall be due and payable in advance on the first day of January, April, July and October of each year;",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-3, 1977)."
+  },
+  {
+    "id": "5.20.250.D",
+    "section": "5.20.250",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "D",
+    "heading": "Due dates for payment of fees",
+    "article": null,
+    "text": "All monthly license fees, under the provisions of Chapters 5.04 through 5.24, shall be due and payable on the first day of each month succeeding the licensed period;",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-3, 1977)."
+  },
+  {
+    "id": "5.20.250.E",
+    "section": "5.20.250",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "E",
+    "heading": "Due dates for payment of fees",
+    "article": null,
+    "text": "All weekly license fees, under the provisions of Chapters 5.04 through 5.24, shall be due and payable on the first Monday following the licensed period; and",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-3, 1977)."
+  },
+  {
+    "id": "5.20.250.F",
+    "section": "5.20.250",
+    "chapter": "5.20",
+    "division": "I",
+    "label": "F",
+    "heading": "Due dates for payment of fees",
+    "article": null,
+    "text": "All daily flat-rate license taxes, under the provisions of Chapters 5.04 through 5.24, shall be due and payable each day in advance.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-3, 1977)."
+  },
+  {
+    "id": "5.20.260",
+    "section": "5.20.260",
+    "chapter": "5.20",
+    "division": "I",
+    "label": null,
+    "heading": "License fees for less than full period",
+    "article": null,
+    "text": "License fees for less than the full license period shall be prorated on the basis of the number of months or fraction thereof remaining in said period.",
+    "class": "fee",
+    "attaches_to": [
+      "A-5.16.070-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 3-4, 1977)."
+  },
+  {
+    "id": "5.24.010",
+    "section": "5.24.010",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "Evidence of business",
+    "article": null,
+    "text": "In any action brought under or arising out of any of the provisions of Chapters 5.04 through 5.24, or any amendment thereto, the fact that a party thereto represented himself or herself as engaged in any business or calling for the transaction of which a license is required, or that such party exhibited a sign indicating such business or calling, shall be conclusive evidence of the liability of such party to pay for a license as required by Chapters 5.04 through 5.24.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 10-1, 1977)."
+  },
+  {
+    "id": "5.24.020",
+    "section": "5.24.020",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "Nonwaivability",
+    "article": null,
+    "text": "The licensing of any business pursuant to Chapters 5.04 through 5.24 shall not constitute a waiver by the city of the violation by the licensee of any other ordinances of the city, whether or not known to the license collector at the time of the issuance of the license.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 10-3, 1977)."
+  },
+  {
+    "id": "5.24.030",
+    "section": "5.24.030",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "Penalty for nonpayment of annual and semiannual licenses",
+    "article": null,
+    "text": "Every annual or semiannual license which is not paid within a period of thirty (30) days from the time the same becomes due and payable is declared to be delinquent, and the license collector shall thereupon add to the license and collect a penalty of ten percent (10%) of the license so delinquent; and if such license is not paid within sixty (60) days from the time such license becomes due and payable, an additional sum of fifteen percent (15%) of the license shall be added to the license and collected as a penalty.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.24.030-1"
+    ],
+    "history": "(Ord. 232 § 6-1, 1977)."
+  },
+  {
+    "id": "5.24.040",
+    "section": "5.24.040",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "Penalty for nonpayment of quarterly license",
+    "article": null,
+    "text": "Every quarterly license which is not paid within a period of ten (10) days from the time the same becomes due and payable is declared to be delinquent, and the license collector shall thereupon add to such license and collect a penalty of ten percent (10%) of the license so delinquent; and, if such license is not paid within twenty (20) days from the time such license becomes due and payable, an additional sum of fifteen percent (15%) of the license shall be added to the license and collected as a penalty.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.24.040-1"
+    ],
+    "history": "(Ord. 232 § 6-2, 1977)."
+  },
+  {
+    "id": "5.24.050",
+    "section": "5.24.050",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "Penalties for nonpayment of daily, weekly and monthly licenses",
+    "article": null,
+    "text": "Every daily, weekly, or monthly license which is not paid at the close of business on the day when the same was due and payable is declared to be delinquent, and the license collector shall thereupon add to the license and collect a penalty of ten percent (10%) of the license as delinquent; and, if such license is not paid within three (3) days from the time such license became due and payable, an additional sum of fifteen percent (15%) of the license shall be added to the license and collected as a penalty.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.24.050-1"
+    ],
+    "history": "(Ord. 232 § 6-3, 1977)."
+  },
+  {
+    "id": "5.24.060",
+    "section": "5.24.060",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "License a debt",
+    "article": null,
+    "text": "The amount of any license fee and penalty imposed by Chapters 5.04 through 5.24 shall be deemed a debt to the city, and any person carrying on any business without first having procured a license from the city to do so shall be liable to an action in the name of the city in any court of competent jurisdiction, for the amount of license and penalties imposed on such business.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-5.24.060-1"
+    ],
+    "history": "(Ord. 232 § 6-4, 1977)."
+  },
+  {
+    "id": "5.24.070",
+    "section": "5.24.070",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "Evidence of liability",
+    "article": null,
+    "text": "In any action brought under or arising out of any of the provisions of Chapters 5.04 through 5.24, the fact that a party thereto represented himself as engaged in any business or calling for which a license is required, or that such party exhibiting a sign indicating such business or calling, shall be conclusive evidence of the liability of such party to pay for a license for such business.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 6-5, 1977)."
+  },
+  {
+    "id": "5.24.080",
+    "section": "5.24.080",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "Violation—Penalties",
+    "article": null,
+    "text": "The violation of any of the provisions of this chapter shall constitute a misdemeanor, punishable by the fines, penalties and enforcement provisions set forth in Chapters 1.14, 1.16 and 1.18 of this code.",
+    "class": "penalty",
+    "attaches_to": [
+      "A-5.08.050.B-1",
+      "A-5.12.010-1",
+      "A-5.12.020-1",
+      "A-5.12.060-1",
+      "A-5.12.060-2",
+      "A-5.12.080-1",
+      "A-5.16.010-1",
+      "A-5.16.020.A-1",
+      "A-5.16.020.B-1",
+      "A-5.16.020.B-3",
+      "A-5.16.030-1",
+      "A-5.16.040.B-1",
+      "A-5.16.060-1",
+      "A-5.16.080.A-1",
+      "A-5.16.080.B-1",
+      "A-5.16.090-1",
+      "A-5.16.090-3",
+      "A-5.16.100-2",
+      "A-5.16.130-4",
+      "A-5.20.037-1",
+      "A-5.20.037-2",
+      "A-5.20.039.B-7",
+      "A-5.20.041-1",
+      "A-5.20.043.D-1",
+      "A-5.20.110.C-1",
+      "A-5.20.140.B-1",
+      "A-5.20.180.B-1",
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 6-6, 1977). (Ord. No. 554, § 4, 1-18-11)"
+  },
+  {
+    "id": "5.24.090",
+    "section": "5.24.090",
+    "chapter": "5.24",
+    "division": "I",
+    "label": null,
+    "heading": "Remedies cumulative",
+    "article": null,
+    "text": "All remedies prescribed under this chapter shall be cumulative and the use of one or more remedies by the city shall not bar the use of any other remedy for the purpose of enforcing the provisions of Chapters 5.04 through 5.24.",
+    "class": "legal_effect",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 232 § 6-7, 1977)."
+  }
+]

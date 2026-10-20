@@ -1,0 +1,12 @@
+{
+  "origin": "/tmp/claude-0/-home-user-test-repo/d026e187-2e28-5e0d-b2d2-bb751352de1b/scratchpad/title5/title5.txt",
+  "format": "text",
+  "sha256": "f3ae545b772f09c8fb72dd2118bd149b46aee35de6e8d854d5996f2781ea04ef",
+  "retrieved_at": "2026-10-20T03:02:26+00:00",
+  "chars": 192762,
+  "lines": 3580,
+  "currency": {
+    "supplement": "42",
+    "created": "2026-07-01"
+  }
+}

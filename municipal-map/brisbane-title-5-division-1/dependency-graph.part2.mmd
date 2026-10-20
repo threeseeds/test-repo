@@ -1,0 +1,62 @@
+flowchart LR
+  subgraph g_5_20["5.20"]
+    A_5_20_037_1["5.20.037-1<br/>make<br/><i>operator</i>"]
+    A_5_20_037_2["5.20.037-2<br/>remit<br/><i>operator</i>"]
+    A_5_20_037_3["5.20.037-3<br/>require<br/><i>tax-administrator</i>"]
+    A_5_20_038_C_1["5.20.038.C-1<br/>determine<br/><i>tax-administrator</i>"]
+    A_5_20_039_A_1["5.20.039.A-1<br/>obtain<br/><i>tax-administrator</i>"]
+    A_5_20_039_A_2["5.20.039.A-2<br/>determine and assess<br/><i>tax-administrator</i>"]
+    A_5_20_039_A_3["5.20.039.A-3<br/>include in the assessment<br/><i>tax-administrator</i>"]
+    A_5_20_039_B_1["5.20.039.B-1<br/>give notice of<br/><i>tax-administrator</i>"]
+    A_5_20_039_B_2["5.20.039.B-2<br/>apply in writing<br/><i>operator</i>"]
+    A_5_20_039_B_3["5.20.039.B-3<br/>give written notice of<br/><i>tax-administrator</i>"]
+    A_5_20_039_B_4["5.20.039.B-4<br/>appear and offer evidence<br/><i>operator</i>"]
+    A_5_20_039_B_5["5.20.039.B-5<br/>determine<br/><i>tax-administrator</i>"]
+    A_5_20_039_B_6["5.20.039.B-6<br/>give written notice of<br/><i>tax-administrator</i>"]
+    A_5_20_039_B_7["5.20.039.B-7<br/>pay in full<br/><i>operator</i>"]
+    A_5_20_040_1["5.20.040-1<br/>appeal<br/><i>operator</i>"]
+    A_5_20_040_2["5.20.040-2<br/>fix<br/><i>city-manager</i>"]
+    A_5_20_040_3["5.20.040-3<br/>give written notice of<br/><i>city-clerk</i>"]
+    A_5_20_040_5["5.20.040-5<br/>serve<br/><i>city-clerk</i>"]
+    A_5_20_041_1["5.20.041-1<br/>keep and preserve<br/><i>operator</i>"]
+    A_5_20_041_2["5.20.041-2<br/>inspect<br/><i>tax-administrator</i>"]
+    A_5_20_042_A_1["5.20.042.A-1<br/>refund<br/><i>tax-administrator</i>"]
+    A_5_20_042_B_1["5.20.042.B-1<br/>claim a refund or take a credit<br/><i>operator</i>"]
+    A_5_20_042_C_1["5.20.042.C-1<br/>pay<br/><i>tax-administrator</i>"]
+    A_5_20_043_B_1["5.20.043.B-1<br/>give written notice of<br/><i>tax-administrator</i>"]
+    A_5_20_043_B_2["5.20.043.B-2<br/>conduct<br/><i>tax-administrator</i>"]
+    A_5_20_043_B_3["5.20.043.B-3<br/>render a decision on<br/><i>tax-administrator</i>"]
+    A_5_20_043_B_4["5.20.043.B-4<br/>appeal<br/><i>aggrieved-person</i>"]
+    A_5_20_043_C_1["5.20.043.C-1<br/>file for record<br/><i>tax-administrator</i>"]
+    A_5_20_043_D_1["5.20.043.D-1<br/>withhold<br/><i>successor-or-transferee</i>"]
+  end
+  A_5_20_037_1 -->|"triggers"| A_5_20_037_2
+  A_5_20_039_A_1 -->|"triggers"| A_5_20_039_A_2
+  A_5_20_039_A_2 -->|"triggers"| A_5_20_039_A_3
+  A_5_20_039_A_2 -->|"triggers"| A_5_20_039_B_1
+  A_5_20_039_B_1 -->|"triggers"| A_5_20_039_B_2
+  A_5_20_039_B_2 -->|"triggers"| A_5_20_039_B_3
+  A_5_20_039_B_3 -->|"triggers"| A_5_20_039_B_4
+  A_5_20_039_B_3 -->|"triggers"| A_5_20_039_B_5
+  A_5_20_039_B_5 -->|"triggers"| A_5_20_039_B_6
+  A_5_20_039_B_6 -->|"triggers"| A_5_20_039_B_7
+  A_5_20_039_B_6 -->|"triggers"| A_5_20_040_1
+  A_5_20_040_1 -->|"triggers"| A_5_20_040_2
+  A_5_20_040_2 -->|"triggers"| A_5_20_040_3
+  A_5_20_040_2 -->|"triggers"| A_5_20_040_5
+  A_5_20_042_B_1 -->|"triggers"| A_5_20_042_A_1
+  A_5_20_043_B_1 -->|"triggers"| A_5_20_043_B_2
+  A_5_20_043_B_2 -->|"triggers"| A_5_20_043_B_3
+  A_5_20_043_B_3 -->|"triggers"| A_5_20_043_B_4
+  A_5_20_043_B_3 -->|"triggers"| A_5_20_043_C_1
+  A_5_20_040_1 -->|"reference"| A_5_20_043_B_4
+  A_5_20_037_1 -->|"produces-input"| A_5_20_037_3
+  A_5_20_037_1 -.->|"reference (inferred)"| A_5_20_039_A_1
+  A_5_20_038_C_1 -.->|"produces-input (inferred)"| A_5_20_039_A_2
+  A_5_20_040_1 -->|"exception-of"| A_5_20_039_B_7
+  A_5_20_040_5 -->|"produces-input"| A_5_20_043_C_1
+  A_5_20_037_2 -.->|"produces-input (inferred)"| A_5_20_042_B_1
+  A_5_20_041_1 -->|"produces-input"| A_5_20_041_2
+  A_5_20_041_1 -.->|"produces-input (inferred)"| A_5_20_042_C_1
+  A_5_20_042_C_1 -->|"exception-of"| A_5_20_042_A_1
+  A_5_20_037_2 -.->|"condition-precedent (inferred)"| A_5_20_043_D_1

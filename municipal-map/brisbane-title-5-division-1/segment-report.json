@@ -1,0 +1,50 @@
+{
+  "source": "/tmp/claude-0/-home-user-test-repo/d026e187-2e28-5e0d-b2d2-bb751352de1b/scratchpad/runs/division-1/source.txt",
+  "profile": "municode",
+  "chapters_filter": "5.04:5.24",
+  "line_stats": {
+    "lines": 3581,
+    "blank": 1757,
+    "noise": 792,
+    "structure": 67,
+    "heading": 227,
+    "history": 233,
+    "body": 498,
+    "note": 3,
+    "footnote": 2,
+    "front_matter_text": 2
+  },
+  "sections_found": 92,
+  "provisions": 176,
+  "chapters": [
+    "5.04",
+    "5.08",
+    "5.12",
+    "5.16",
+    "5.20",
+    "5.24"
+  ],
+  "per_chapter": {
+    "5.04": 14,
+    "5.08": 5,
+    "5.12": 8,
+    "5.16": 16,
+    "5.20": 40,
+    "5.24": 9
+  },
+  "empty_provisions": [],
+  "unassigned_body_lines": [],
+  "front_matter_text_lines": [
+    [
+      2,
+      "Title 5 BUSINESS LICENSES, TAXES AND REGULATIONS",
+      "front_matter"
+    ],
+    [
+      93,
+      "BUSINESS LICENSES, TAXES AND REGULATIONS[1](#footnote1)",
+      "front_matter"
+    ]
+  ],
+  "warnings": []
+}

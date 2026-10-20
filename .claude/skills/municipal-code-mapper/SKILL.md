@@ -25,7 +25,7 @@ Status: all stages work. The dependency stage was exercised on the Eastvale fixt
 - **Literal modality.** Classify by the operative word; flag oddities `O-AMBIG`.
 - **Fees attach; they are not records.** Enforcement steps are full records.
 - **Do not spawn subagents** unless the user asks. Work chapter by chapter.
-- Work in a run directory, default `municipal-map/<scope-slug>/`. Keep source text out of the repository.
+- Work in a run directory, default `municipal-map/<scope-slug>/`. Commit the outputs (maps, data, reports) but not the normalized source text of a whole title (`source.txt`); `provenance.json` records its hash and supplement.
 
 Scripts are in `scripts/` (Python 3, `jsonschema` needed for `validate.py`). Run them as
 `python3 -I <skill dir>/scripts/<name>.py`. `scripts/README.md` documents each one. Read the
@@ -124,6 +124,7 @@ cycles, outputs nothing consumes, and anything that looks like a gap in the code
 edge_review.py RUN table           # the pending edges, for the user
 edge_review.py RUN apply --accept E-012,E-013 --reject E-040     # or --accept-all; then build_deps.py
 report.py RUN --actions actions.frozen.json --provisions provisions.frozen.json --title "<scope>"
+graph_html.py RUN --title "<Name> Dependency Map" --subtitle "<scope and supplement>"   # interactive graph page
 ```
 The second-order map is final when no edge is pending. Report the counts accepted and rejected.
 
