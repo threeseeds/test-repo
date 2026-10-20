@@ -15,7 +15,7 @@ title is not committed.
 | Action records | 128 (69 duties, 31 powers, 18 permissions, 9 prohibitions, 1 entitlement) |
 | Orphans | 21, all resolved by the user's instruction "accept all best guesses" (`orphans.json` holds each answer) |
 | First-order map | Frozen (`actions.frozen.json`) |
-| Dependencies | 234 edges: 48 derived triggers, 186 judgment edges. 3 inferred edges await review (E-114, E-118, E-122; see `edge-review.md`) |
+| Dependencies | 234 edges: 48 derived triggers, 186 judgment edges. All reviewed: 39 inferred edges accepted (none rejected), so none await review |
 
 ## Files
 
@@ -48,5 +48,5 @@ title is not committed.
 Save the Title 5 text (for example the Municode export), then follow `SKILL.md`. To re-check these files
 against the source, run
 `python3 -I scripts/validate.py municipal-map/brisbane-title-5-division-1 --stage deps --actions actions.frozen.json --provisions provisions.frozen.json --source <normalized source>.txt`
-from the skill directory. To record a decision on the three pending edges, use `scripts/edge_review.py`, then
+from the skill directory. To record decisions on inferred edges, use `scripts/edge_review.py`, then
 `build_deps.py`, `graph.py`, `report.py` and `graph_html.py`.

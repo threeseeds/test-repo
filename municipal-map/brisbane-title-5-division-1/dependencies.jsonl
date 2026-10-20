@@ -64,15 +64,15 @@
 {"from": "5.16.120-2", "to": "5.16.140.B-1", "type": "condition-precedent", "basis": "explicit", "conf": "high", "ev": "\"If any such license shall have been revoked\""}
 {"from": "5.16.090-2", "to": "5.16.090-1", "type": "exception-of", "basis": "explicit", "conf": "high", "ev": "\"without the written consent of the city council endorsed thereon\""}
 {"from": "5.16.100-2", "to": "5.16.100-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "a duplicate is issued, and charged for, only on satisfactory proof of the loss", "status": "accepted"}
-{"from": "5.16.070-1", "to": "5.24.030-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid"}
+{"from": "5.16.070-1", "to": "5.24.030-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid", "status": "accepted"}
 {"from": "5.24.030-1", "to": "5.24.060-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"the amount of license and penalties imposed on such business\""}
 {"from": "5.24.030-1", "to": "5.20.110.D-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
 {"from": "5.24.030-1", "to": "5.20.180.C-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
-{"from": "5.16.070-1", "to": "5.24.040-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid"}
+{"from": "5.16.070-1", "to": "5.24.040-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid", "status": "accepted"}
 {"from": "5.24.040-1", "to": "5.24.060-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"the amount of license and penalties imposed on such business\""}
 {"from": "5.24.040-1", "to": "5.20.110.D-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
 {"from": "5.24.040-1", "to": "5.20.180.C-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
-{"from": "5.16.070-1", "to": "5.24.050-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid"}
+{"from": "5.16.070-1", "to": "5.24.050-1", "type": "enforcement", "basis": "inferred", "conf": "high", "ev": "the license fee attached to the issuance becomes delinquent if unpaid", "status": "accepted"}
 {"from": "5.24.050-1", "to": "5.24.060-1", "type": "produces-input", "basis": "explicit", "conf": "medium", "ev": "\"the amount of license and penalties imposed on such business\""}
 {"from": "5.24.050-1", "to": "5.20.110.D-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}
 {"from": "5.24.050-1", "to": "5.20.180.C-1", "type": "reference", "basis": "inferred", "conf": "high", "ev": "ORP-19: \"Section 5.24.070\" read as Sections 5.24.030 through 5.24.050", "status": "accepted"}

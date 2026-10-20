@@ -58,7 +58,7 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - **Exit:** simulated user answers on the fixture produce a frozen map matching golden;
   re-run reuses saved resolutions with no re-asking.
 
-### Phase 5 — Second-order map (DONE: build, Division I, interactive graph page; 3 inferred edges (E-114, E-118, E-122) await the user's review)
+### Phase 5 — Second-order map (DONE: build, Division I, interactive graph page; all 39 inferred edges reviewed and accepted)
 - `references/dependencies.md` with edge types and inference heuristics.
 - SKILL.md stages 7–8: edge extraction (explicit and inferred), inferred-edge review pass,
   graph analytics, reports and Mermaid output.

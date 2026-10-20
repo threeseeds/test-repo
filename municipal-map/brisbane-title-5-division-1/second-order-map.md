@@ -39,11 +39,7 @@ No cycles.
 
 ## Edges awaiting review
 
-| Edge | From | To | Type | Confidence | Evidence |
-|---|---|---|---|---|---|
-| E-114 | 5.16.070-1 | 5.24.030-1 | enforcement | high | the license fee attached to the issuance becomes delinquent if unpaid |
-| E-118 | 5.16.070-1 | 5.24.040-1 | enforcement | high | the license fee attached to the issuance becomes delinquent if unpaid |
-| E-122 | 5.16.070-1 | 5.24.050-1 | enforcement | high | the license fee attached to the issuance becomes delinquent if unpaid |
+None.
 
 ## All edges
 
@@ -162,15 +158,15 @@ No cycles.
 | E-111 | 5.16.120-2 | 5.16.140.B-1 | condition-precedent | explicit | accepted |
 | E-112 | 5.16.090-2 | 5.16.090-1 | exception-of | explicit | accepted |
 | E-113 | 5.16.100-2 | 5.16.100-1 | condition-precedent | inferred | accepted |
-| E-114 | 5.16.070-1 | 5.24.030-1 | enforcement | inferred | pending_review |
+| E-114 | 5.16.070-1 | 5.24.030-1 | enforcement | inferred | accepted |
 | E-115 | 5.24.030-1 | 5.24.060-1 | produces-input | explicit | accepted |
 | E-116 | 5.24.030-1 | 5.20.110.D-1 | reference | inferred | accepted |
 | E-117 | 5.24.030-1 | 5.20.180.C-1 | reference | inferred | accepted |
-| E-118 | 5.16.070-1 | 5.24.040-1 | enforcement | inferred | pending_review |
+| E-118 | 5.16.070-1 | 5.24.040-1 | enforcement | inferred | accepted |
 | E-119 | 5.24.040-1 | 5.24.060-1 | produces-input | explicit | accepted |
 | E-120 | 5.24.040-1 | 5.20.110.D-1 | reference | inferred | accepted |
 | E-121 | 5.24.040-1 | 5.20.180.C-1 | reference | inferred | accepted |
-| E-122 | 5.16.070-1 | 5.24.050-1 | enforcement | inferred | pending_review |
+| E-122 | 5.16.070-1 | 5.24.050-1 | enforcement | inferred | accepted |
 | E-123 | 5.24.050-1 | 5.24.060-1 | produces-input | explicit | accepted |
 | E-124 | 5.24.050-1 | 5.20.110.D-1 | reference | inferred | accepted |
 | E-125 | 5.24.050-1 | 5.20.180.C-1 | reference | inferred | accepted |

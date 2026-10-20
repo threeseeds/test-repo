@@ -1268,7 +1268,7 @@
       "basis": "inferred",
       "confidence": "high",
       "evidence": "the license fee attached to the issuance becomes delinquent if unpaid",
-      "status": "pending_review"
+      "status": "accepted"
     },
     {
       "id": "E-115",
@@ -1308,7 +1308,7 @@
       "basis": "inferred",
       "confidence": "high",
       "evidence": "the license fee attached to the issuance becomes delinquent if unpaid",
-      "status": "pending_review"
+      "status": "accepted"
     },
     {
       "id": "E-119",
@@ -1348,7 +1348,7 @@
       "basis": "inferred",
       "confidence": "high",
       "evidence": "the license fee attached to the issuance becomes delinquent if unpaid",
-      "status": "pending_review"
+      "status": "accepted"
     },
     {
       "id": "E-123",
