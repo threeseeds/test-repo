@@ -49,7 +49,7 @@ the second-order map. Run on a real chapter only after the fixture passes.
   orphan is flagged with the right code; no false orphans on standing prohibitions
   or definitions.
 
-### Phase 4 — Orphan resolution loop
+### Phase 4 — Orphan resolution loop (DONE: resolve.py, table, freeze gate; exercised on Brisbane Division I)
 - Batched Q&A protocol, grouped by type, with best guess and basis.
 - Bulk-rule support; write-back of resolutions; re-validation; second-round handling.
 - Freeze gate for the first-order map; known-gaps carry-over.

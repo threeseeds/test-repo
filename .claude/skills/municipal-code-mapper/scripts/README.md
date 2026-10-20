@@ -15,7 +15,8 @@ expand.py   RUN                      -> actions.json (+ provisions.json classifi
             (model: write orphans.json)
 validate.py RUN --stage extract      -> checks the model's output
 orphan_table.py RUN                  -> the tables shown to the user
-            (user: resolve orphans; patches applied; records frozen)
+            (user answers; model records resolutions in orphans.json)
+resolve.py  RUN                      -> actions.frozen.json, provisions.frozen.json
 validate.py RUN --stage frozen
             (model: propose dependencies.json)
 validate.py RUN --stage deps
@@ -30,6 +31,7 @@ report.py   RUN --title "Brisbane Title 5" -> first-order-map.md, second-order-m
 | `expand.py` | Expands the model's terse extraction sheet (`extraction.jsonl`) and `classification.json` into full records, assigns ids, resolves cross-references, applies fee/penalty/exemption/legal-effect attachments, and updates `provisions.json`. Writes nothing if any quote is not verbatim or any reference is dangling. Format in the script header. |
 | `validate.py` | Schema validation and the spec's integrity checks: verbatim quotes, the coverage invariant, actor and reference integrity, orphan/flag consistency, no open orphans at freeze, graph endpoints, and triggers-edge consistency. `--json` for machine output. Exit 1 on any problem. |
 | `graph.py` | Roots, leaves, cycles, longest chain, dangling outputs and external dependencies, in two views (explicit edges only, and with inferred edges). Renders Mermaid, splitting large graphs into components. `--group chapter\|actor`, `--hide-types enforcement`. |
+| `resolve.py` | Applies orphan resolutions (patches, in id order) to the pre-resolution records and writes `actions.frozen.json` and `provisions.frozen.json`. Refuses to freeze while an orphan is open, a patch is malformed, or a record is left unresolved. Inputs are never modified. |
 | `orphan_table.py` | Renders open orphans as the grouped tables the user answers from (missing signals, missing actors, unclear actions, everything else), with lettered options. |
 | `score.py` | Scores a run against golden files: classification accuracy, record precision/recall, field accuracy, orphan precision/recall, explicit-edge precision/recall. |
 | `report.py` | Renders the first-order register and views, the second-order report with labeled cycles and edges awaiting review, and the coverage ledger. |

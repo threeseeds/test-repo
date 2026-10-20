@@ -14,9 +14,7 @@ orphans are resolved the first-order map is **frozen**; only then is the second-
 (dependency) map built. Full design: `docs/SPEC.md` at the repository root. Decisions already made
 with the user are in SPEC section 17; follow them and do not re-ask.
 
-Status: stages 0 to 6 below work. Stages 7 and 8 (dependency map) come in a later phase, as does
-the script that applies orphan answers; until then you apply answers by hand as described in
-stage 6.
+Status: stages 0 to 6 below work. Stages 7 and 8 (dependency map) come in a later phase.
 
 ## Ground rules
 
@@ -94,15 +92,18 @@ Render the tables with `orphan_table.py RUN` and paste them as the response, gro
 `references/orphans.md` specifies (`# | Provision | Quote | What the text doesn't say | My best guess (basis) | Options`).
 Group records that share one pattern into a single orphan (for example four agentless "may be
 appealed" provisions) and offer a bulk rule.
-Wait for answers. Record each as a `resolution` with a self-contained `patch` and set the
-orphan status. Apply the patches to `actions.json` yourself, in orphan-id order, set
-`resolution_note`, and recompute each affected provision's `attaches_to` and `record_ids`
-(drop duplicate/superseded records from attachments). If answers create new orphans, ask again,
-smaller. Accepting a gap (`accept_gap`) keeps the record's flag and sets `status: known_gap`.
+Wait for answers. Record each as a `resolution` on its orphan (`type`, `answer`, a self-contained
+`patch`), set the orphan `status` to `resolved` or `known_gap`, and write the file. Then freeze:
 ```
-validate.py RUN --stage frozen --source RUN/source.txt
-report.py RUN --title "<scope>"    # first-order-map.md, coverage.md
+resolve.py RUN                     # applies patches in id order -> actions.frozen.json, provisions.frozen.json
+validate.py RUN --stage frozen --actions actions.frozen.json --provisions provisions.frozen.json --source RUN/source.txt
+report.py RUN --actions actions.frozen.json --provisions provisions.frozen.json --title "<scope>"
 ```
+`resolve.py` refuses to freeze while any orphan is open and never edits its inputs, so changing an
+answer and re-running reproduces the map. If answers create new orphans, ask again, smaller.
+`accept_gap` keeps the record's flag and sets `status: known_gap`. A bulk rule from the user
+("accept all best guesses") is recorded as `type: bulk_rule` on each orphan it covers; compute
+any patch that depends on other answers from the frozen state of those answers.
 Show the user the frozen map's summary and a sample of 5 records beside their source text so they
 can spot-check. The first-order map is frozen when `--stage frozen` passes.
 
