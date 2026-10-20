@@ -39,7 +39,7 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - **Exit:** scripts pass on golden files; fail correctly on injected faults. Met: 42 tests; the
   segmenter also reproduces all 227 sections / 18 chapters of Brisbane Title 5 and passes `validate.py`.
 
-### Phase 3 — Reference docs and SKILL.md (first-order) (IN PROGRESS: skill, references, expand/score/orphan_table done; Division I extraction at the orphan-resolution gate; blind fixture run not yet done)
+### Phase 3 — Reference docs and SKILL.md (first-order) (DONE: skill, references, expand/score/orphan_table; Division I extracted. Blind fixture run: 6 of 7 planted orphan types found, no false orphans on standing rules or definitions; the missing-signal case in 9.10.050.D was missed and the instructions were clarified)
 - Write `references/*.md` (construct, classification, orphans, drafting cues).
 - SKILL.md stages 0–5: intake, segment, classify, registries, extract, audit.
 - `scripts/score.py`: compare a run to the golden files (precision/recall on records, orphan
@@ -58,7 +58,7 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - **Exit:** simulated user answers on the fixture produce a frozen map matching golden;
   re-run reuses saved resolutions with no re-asking.
 
-### Phase 5 — Second-order map
+### Phase 5 — Second-order map (DONE for build and Division I; user review of inferred edges pending)
 - `references/dependencies.md` with edge types and inference heuristics.
 - SKILL.md stages 7–8: edge extraction (explicit and inferred), inferred-edge review pass,
   graph analytics, reports and Mermaid output.

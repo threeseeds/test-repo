@@ -41,6 +41,12 @@ extraction.jsonl line (only p, q, mod, verb/obj via "act", and sig are always ne
    "cond": ["..."], "out": ["artifact:completeness-determination"],
    "flags": ["O-SIG"], "link": {"id": "L-9.10.060.C", "rel": "alternative"},
    "conflict": ["9.10.100"], "ext": ["external:Chapter 9.30"]}
+   Vocabulary:
+     sig.type   event | state | time | request | upstream_action | discretionary | standing | unknown
+     mod        duty | prohibition | permission | power | entitlement
+     time.kind  deadline | window | period | recurrence | continuous
+     flags      O-SIG | O-ACT | O-VERB | O-CP | O-XREF | O-AMBIG | O-CONFLICT | O-CLASS
+     link       records that share one link id are the alternatives (rel "alternative") or co-actors (rel "joint")
 Records get ids A-<provision id>-<n>, numbered per provision in file order.
 
 Usage:  expand.py RUN_DIR [--sheet extraction.jsonl] [--classification classification.json]

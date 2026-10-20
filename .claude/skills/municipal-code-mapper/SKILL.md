@@ -11,10 +11,10 @@ Turns code text into this construct, one record per atomic obligation:
 
 Anything that does not fit becomes an **orphan** and is put to the user in a table. Once the
 orphans are resolved the first-order map is **frozen**; only then is the second-order
-(dependency) map built. Full design: `docs/SPEC.md` at the repository root. Decisions already made
-with the user are in SPEC section 17; follow them and do not re-ask.
+(dependency) map built. Full design: `docs/SPEC.md` at the repository root (not needed to run the skill). Decisions already made
+with the user are in `references/decisions.md`; follow them and do not re-ask.
 
-Status: stages 0 to 6 below work. Stages 7 and 8 (dependency map) come in a later phase.
+Status: all stages work. The dependency stage was exercised on the Eastvale fixture and on Brisbane Division I.
 
 ## Ground rules
 
@@ -49,7 +49,7 @@ Tell the user the supplement/date the text states.
 segment.py RUN/source.txt --out RUN [--chapters 5.04:5.24] --strict
 validate.py RUN --stage segment --source RUN/source.txt
 ```
-Read `segment-report.json`. Resolve every warning before going on: tell the user about run-on
+Read `segment-report.json`. Title and front-matter lines before the first section are listed there and ignored. Resolve every warning before going on: tell the user about run-on
 paragraphs or unplaced lines. Nothing is dropped silently. Confirm section/provision counts per
 chapter with the user if they look wrong.
 
@@ -107,9 +107,25 @@ any patch that depends on other answers from the frozen state of those answers.
 Show the user the frozen map's summary and a sample of 5 records beside their source text so they
 can spot-check. The first-order map is frozen when `--stage frozen` passes.
 
-### 7–8. Dependency map (not yet built)
-Tell the user the second-order map is the next phase. Do not start it before the first-order
-map is frozen.
+### 7. Dependencies
+Only after the first-order map is frozen. Read `references/dependencies.md`, then:
+```
+build_deps.py RUN                  # derives the triggers edges; writes dependencies.json
+# write RUN/dependencies.jsonl (edge sheet: judgment edges with evidence, cycle labels), then
+build_deps.py RUN
+validate.py RUN --stage deps --actions actions.frozen.json --provisions provisions.frozen.json --source RUN/source.txt
+graph.py RUN --actions actions.frozen.json --analysis-out analysis.json --mermaid dependency-graph.mmd --hide-types enforcement --group chapter
+```
+Label every cycle in the sheet and rebuild. Report roots (entry points), the longest chains,
+cycles, outputs nothing consumes, and anything that looks like a gap in the code.
+
+### 8. Review inferred edges, then report
+```
+edge_review.py RUN table           # the pending edges, for the user
+edge_review.py RUN apply --accept E-012,E-013 --reject E-040     # or --accept-all; then build_deps.py
+report.py RUN --actions actions.frozen.json --provisions provisions.frozen.json --title "<scope>"
+```
+The second-order map is final when no edge is pending. Report the counts accepted and rejected.
 
 ## What to tell the user at each gate
 
@@ -117,5 +133,7 @@ map is frozen.
 - After stage 5: records by modality, counts of orphans by code, and any assumption you made that
   the user should know about (e.g. "rate provisions are attached to the license issuance record").
 - After stage 6: counts resolved / known gaps, and the path to the reports.
+- After stage 7: edges by type, entry points, longest chains, cycles, and observations about the code.
+- After stage 8: edges accepted / rejected, and the path to the reports.
 
 Keep summaries short; findings live in the files and reports.

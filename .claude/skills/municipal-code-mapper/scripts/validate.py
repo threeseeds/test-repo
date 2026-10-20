@@ -205,6 +205,9 @@ def check_deps(rep, actions, deps):
             rep.err("self-loop", e["id"], "edge from a node to itself")
         if e["type"] == "triggers":
             triggers.add((e["from"], e["to"]))
+            tgt = rd.get(e["to"])
+            if tgt is not None and tgt["signal"].get("ref") != e["from"]:
+                rep.err("triggers-without-signal-ref", e["id"], f"{e['to']} has no signal ref to {e['from']}")
         if e["basis"] == "explicit" and e["status"] == "pending_review":
             rep.err("explicit-pending", e["id"], "explicit edges are accepted, not pending")
     for r in actions:

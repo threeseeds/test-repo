@@ -39,6 +39,11 @@ Rules:
 - A deadline is `timing`, not a signal. "Within 15 days after the notice" has signal
   `upstream_action` (the notice) and timing 15 days after signal. A bare "within 15 days" with no
   anchor is an `O-SIG`.
+- **Do not supply a trigger the text does not state.** A duty that has only a deadline ("before
+  a permit is issued", "annually") and no triggering event is signal `unknown` with `O-SIG`, even
+  when one trigger is obvious (an application). Put the guess in the orphan's `best_guess`. Use
+  `upstream_action` or `event` only when the text names the event ("after the application is
+  filed"). Recurrence with a stated date ("on or before March 1 of each year") is `time`.
 - If a signal depends on a *condition* ("if the amount is measured by gross receipts") put the
   trigger in `signal` and any extra qualifier in `conditions`.
 - Prefer `upstream_action` over `event` whenever the triggering event is another mapped act. That

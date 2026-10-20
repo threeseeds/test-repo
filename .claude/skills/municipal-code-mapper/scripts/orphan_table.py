@@ -58,6 +58,7 @@ def main(argv=None):
     text = render(rows, a.max_words) if rows else f"No {a.status} orphans.\n"
     if a.out:
         write_text(a.out, text)
+        print(f"wrote {len(rows)} {a.status} orphan(s) as tables to {a.out}")
     else:
         sys.stdout.write(text)
     return 0

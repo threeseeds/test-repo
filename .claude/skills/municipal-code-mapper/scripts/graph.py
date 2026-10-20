@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fileio import read_text, write_text, read_json, write_json
 
 
-CONSUMING = {"triggers", "produces-input", "condition-precedent", "temporal"}
+CONSUMING = {"triggers", "produces-input", "condition-precedent", "temporal", "exception-of"}
 GRAPH_EXCLUDED = ("duplicate_of", "superseded_by")
 
 

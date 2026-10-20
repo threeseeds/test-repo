@@ -27,7 +27,7 @@ gets a stub record with `signal: unknown`, `actor: null`, or the closest fit, pl
  "options": ["<choice 1>", "<choice 2>", "Other"], "status": "open"}
 ```
 
-`options` always has at least two entries and ends with an open choice.
+`options` always has at least two entries and ends with an open choice ("Other"); write it yourself, the table script only letters the list. `quote` is verbatim text from one provision; when an orphan spans two provisions (a conflict), quote the first and name both in `provision`.
 
 ## Presenting orphans to the user: one table per group
 

@@ -21,6 +21,10 @@ class OrphanTableTests(TmpCase):
             else:
                 self.assertNotIn(row, t)          # known gaps are not listed under --status resolved
 
+    def test_out_file_reports_what_it_wrote(self):
+        p = run("orphan_table.py", GOLD, "--status", "resolved", "--out", self.tmp + "/q.md")
+        self.assertIn("wrote", p.stdout); self.assertTrue(os.path.exists(self.tmp + "/q.md"))
+
     def test_options_are_lettered(self):
         t = self.table()
         self.assertIn("a) Filing of the application<br>b) Request by the director<br>c) Other", t)

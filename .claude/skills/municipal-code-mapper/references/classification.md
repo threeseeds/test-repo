@@ -22,6 +22,15 @@ Classify every provision before extracting. Unlisted provisions default to `oper
 | `reserved` | Reserved / repealed | Listed in the coverage ledger |
 | `unclassifiable` | You cannot tell | Orphan `O-CLASS` |
 
+## Telling the similar classes apart
+
+| If the provision… | Class | Example |
+|---|---|---|
+| declares what a violation is or how it is punished (infraction, misdemeanor, fine, penalty rate) | `penalty` | "Any violation of this chapter is an infraction." |
+| limits scope, term or duration, or relates the rules to other law | `applicability` | "A permit shall expire one year after the date of issuance." |
+| says a fact is deemed, final, conclusive, cumulative or not waived, with no act by anyone | `legal_effect` | "The decision … shall be final and conclusive." |
+| excuses someone from a rule | `exemption` | "shall not apply to newspapers" |
+
 ## Decision rules
 
 1. If it tells someone to do, not do, or be allowed to do something: **operative**, even when
