@@ -299,7 +299,8 @@
                 "fee",
                 "applicability",
                 "exemption",
-                "penalty"
+                "penalty",
+                "legal_effect"
               ]
             },
             "provision": {

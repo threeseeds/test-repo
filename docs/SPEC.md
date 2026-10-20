@@ -129,9 +129,10 @@ wrongly reported as an orphan.
 | **Definition** | Stored in a glossary; attached to every record whose fields use the term |
 | **Purpose/intent/findings** | Attached as interpretive context to the chapter; not mapped |
 | **Penalty/enforcement** | Attached as `consequence` to the records it sanctions; also mapped as enforcement actions when it assigns duties (e.g. "the city attorney may prosecute") |
-| **Exemption/exception** | Attached as `exceptions[]` to affected records |
+| **Exemption/exception** | Its id is added to `exceptions[]` on each affected record |
 | **Fee/rate schedule** | Attached to the record whose action incurs the fee |
 | **Applicability/scope** | Attached to the chapter or sections it limits |
+| **Legal effect** | Self-executing rules with no actor or act: "shall be deemed a debt", "conclusive evidence", "final and conclusive", "remedies are cumulative", "does not waive". Attached to the records they bear on, or the chapter. Not orphans. |
 | **Cross-reference/incorporation** | Becomes an external or internal reference edge |
 | **Reserved/repealed** | Logged in the coverage ledger, not mapped |
 | **Unclassifiable** | Surfaced as an orphan |
