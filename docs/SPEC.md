@@ -1,6 +1,6 @@
 # Municipal Code Obligation Mapper — Specification
 
-Status: DRAFT v0.1 (for review before any build work)
+Status: v1.0 (open questions resolved; ready for Phase 1)
 Skill name (proposed): `municipal-code-mapper`
 
 ## 1. Purpose
@@ -344,25 +344,32 @@ The second-order stage does **not** begin until the first-order map is frozen.
 | One sentence → many obligations | Atomic splitting rule; records link to shared provision |
 | Interpretive disputes ("may" vs "shall" in context) | `O-AMBIG`, not silently decided |
 
-## 17. Open questions for the user
+## 17. Decisions (resolved)
 
-1. **Jurisdiction and test chapter.** Which city and which chapter should we use as the
-   first real target and basis for the fixture? (A fictional fixture is still useful
-   for planted defects.)
-2. **"Responsible person" granularity.** Is a role ("Director of Public Works") enough,
-   or do you need department plus position, or named office-holders where the code names
-   them?
-3. **Multiple actors.** When two actors share a duty (joint) or one duty falls to either
-   of two actors (alternative), should these be one record with a list, or separate
-   records linked by a joint/alternative relation? (Recommended: separate linked records.)
-4. **Enforcement provisions.** Should violation → citation → penalty → appeal be mapped as
-   full actions in the second-order graph, or only attached as consequences? (Spec
-   currently maps them as `enforcement` edges.)
-5. **Shall-vs-may.** Some codes use "shall" loosely or "may" for mandatory acts. Should
-   the skill default to the literal word and flag, or apply the jurisdiction's
-   construction clause if the code has one?
-6. **Fee and rate schedules.** Attach only, or also generate a "payment by applicant"
-   action record for each fee?
-7. **Scale.** Largest chapter you expect to run? That drives the subagent fan-out design.
-8. **Reuse.** One-off use, or to be shared with a team (affects how much we document
-   and whether it ships as a plugin)?
+| # | Question | Decision |
+|---|---|---|
+| 1 | First real target | **Brisbane, California Municipal Code, Title 5 (Business Licenses, Taxation and Regulations)**, https://library.municode.com/ca/brisbane/codes/municipal_code?nodeId=TIT5BULITARE |
+| 2 | Actor granularity | **Role as written**, with aliases reconciled in the actor registry. No separate department or named-individual fields. |
+| 3 | Joint/alternative actors | **Separate linked records**, tagged `joint` or `alternative` with a shared link ID. |
+| 4 | Enforcement | **Full actions in the graph** (violation, notice/citation, penalty, appeal), connected by `enforcement` edges. |
+| 5 | Shall vs. may | **Literal word, flag oddities** as `O-AMBIG` for the user to decide. |
+| 6 | Fees and rates | **Attach to the action that incurs them.** No separate payment records. |
+| 7 | Scale | **Whole Title 5 in one run** (many chapters). Section-wise extraction with shared registries is a core requirement, not an extra. |
+| 8 | Audience | **Team.** Skill lives in the repo (`.claude/skills/`) so teammates get it on checkout; needs usage docs and a worked example. |
+
+### 17.1 Consequences of the decisions
+
+- **Municode access.** From the cloud environment, `library.municode.com` is blocked by the
+  network policy (proxy returns 403), so URL intake cannot be relied on here. The skill
+  keeps URL mode for environments that allow it, but the supported path for Title 5 is
+  files or pasted text per chapter. User supplies the text (e.g. Municode's per-chapter
+  or full-title download, or copy/paste).
+- **Multi-chapter run.** Cross-chapter references inside Title 5 resolve to real nodes
+  rather than external stubs; only references outside Title 5 (other titles, state law
+  such as the California Business and Professions Code) remain external stubs.
+- **Processing order.** Pass 1 builds title-wide glossary and actor registry (definitions
+  chapters first); pass 2 extracts per chapter, in parallel where possible; orphan
+  Q&A is batched per chapter, with bulk rules carried across chapters; the dependency
+  pass runs once on the frozen title-wide map.
+- **Team use.** Add `README` usage notes under the skill, the worked fixture example, and
+  a short contributor note on how the golden tests work.

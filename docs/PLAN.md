@@ -1,6 +1,6 @@
 # Municipal Code Obligation Mapper — Build Plan
 
-Companion to `SPEC.md`. Status: DRAFT v0.1.
+Companion to `SPEC.md`. Status: v1.0.
 
 ## Guiding approach
 
@@ -10,13 +10,13 @@ the second-order map. Run on a real chapter only after the fixture passes.
 
 ## Phases
 
-### Phase 0 — Resolve open questions
-- Answer SPEC §17 (jurisdiction, actor granularity, joint actors, enforcement, shall/may,
-  fees, scale, reuse).
-- Pick the first real chapter.
+### Phase 0 — Resolve open questions (DONE)
+- SPEC §17 answered. Target: Brisbane, CA Municipal Code Title 5. Whole title per run, team use.
 - **Exit:** SPEC v1.0 agreed.
 
-### Phase 1 — Fixture and schemas
+### Phase 1 — Fixture, schemas, and source acquisition
+- Obtain Title 5 text as files (Municode is blocked from this environment; user supplies
+  per-chapter downloads or pasted text). Confirm format and test `ingest.py` on it.
 - Write a small fictional municipal chapter (about 25 sections) containing every
   provision class and planted defects: agentless passive, signal-less duty, vague
   "ensure compliance", dangling cross-reference, conflicting duties, a legitimate
@@ -55,15 +55,17 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - **Exit:** explicit edges match the hand-built reference graph; inferred edges are
   labeled; planted cycle is detected and labeled.
 
-### Phase 6 — Real-chapter pilot
-- Run on the chosen chapter with the user in the loop.
+### Phase 6 — Real-title pilot
+- Run on one Title 5 chapter first with the user in the loop, then the whole title.
 - Capture friction: question quality, over/under-flagging, graph readability.
 - Tune prompts, orphan templates and graph splitting.
 - **Exit:** user accepts first-order and second-order maps for the chapter.
 
-### Phase 7 — Scale and polish
-- Section-wise subagent fan-out with shared registries for long chapters.
+### Phase 7 — Scale and team readiness
+- Section-wise subagent fan-out with shared registries (needed for whole-Title-5 runs;
+  prototype the registry-sharing design in Phase 3 so it is not a late surprise).
 - Multi-chapter runs and external-stub replacement.
+- Team docs: skill README, worked example, contributor note on golden tests.
 - Optional extras (decide later): XLSX export, interactive HTML graph, plugin packaging.
 
 ## Deliverables by phase
@@ -99,4 +101,5 @@ the second-order map. Run on a real chapter only after the fixture passes.
 
 ## Next step
 
-Answer SPEC §17, then start Phase 1.
+Start Phase 1: user supplies Title 5 text (or one chapter to start); build the fictional
+fixture and schemas.
