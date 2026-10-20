@@ -166,7 +166,7 @@ Rules:
 
 ### 6.0 Resolution types
 
-An answer is stored on the orphan as a `resolution` with a `patch` of record fields. Types: `answer` (fills the missing piece), `duplicate` (record restates another; excluded from the graph), `superseded` (one of two conflicting records controls), `external` (reference points outside the run), `accept_gap` (stays flagged, carried as a known gap), `bulk_rule` (a user rule applied to many orphans).
+An answer is stored on the orphan as a `resolution` with a `patch` of record fields. Patches are applied in orphan-id order and must be self-contained: each sets `status` and the remaining `orphan_flags` for the record it touches, so a record with two orphans ends `resolved` with no flags only after both patches apply. Types: `answer` (fills the missing piece), `duplicate` (record restates another; excluded from the graph), `superseded` (one of two conflicting records controls), `external` (reference points outside the run), `accept_gap` (stays flagged, carried as a known gap), `bulk_rule` (a user rule applied to many orphans).
 
 ### 6.1 Resolution Q&A (batched, grouped by type)
 
@@ -290,6 +290,22 @@ All written to an output directory (default `municipal-map/<chapter-slug>/`):
   "orphan_flags": []
 }
 ```
+
+## 12.1 Provision inventory conventions (from segmentation)
+
+- A provision is a section, or a top-level lettered paragraph (`A.`, `B.`, ...). Deeper
+  numbered or lettered items stay inside the parent provision's text.
+- Provision fields include `chapter`, `division` and `article` context and the section's
+  `history` line (e.g. `(Ord. 232 § 3-5, 1977).`).
+- Editor's notes that follow a section's history line are not provision text; they go to
+  `notes.json`. A note inside a table is part of the table and stays in the text.
+- Footnote markers are stripped from text and recorded as `footnote_refs`; footnote bodies go
+  to `footnotes.json`.
+- A table-of-contents entry (heading with no body) is superseded by the later heading with a
+  body. A heading with no body is kept only if it reads `Reserved` or `Repealed`.
+- A skipped paragraph label (a run-on in the source) starts a new provision and raises a
+  warning; the script never silently drops a line.
+- Publisher-specific page furniture is configured in `profiles/*.json`.
 
 ## 13. Skill packaging
 

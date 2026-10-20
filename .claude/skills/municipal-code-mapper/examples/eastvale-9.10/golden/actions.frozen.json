@@ -215,11 +215,8 @@
     "outputs": [
       "artifact:insurance-certificate"
     ],
-    "status": "orphan",
-    "orphan_flags": [
-      "O-SIG",
-      "O-ACT"
-    ],
+    "status": "resolved",
+    "orphan_flags": [],
     "link": null,
     "conflict_with": [],
     "resolution_note": "ORP-02 (O-ACT): Applicant; counterparty is the director."

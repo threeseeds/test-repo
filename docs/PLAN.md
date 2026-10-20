@@ -14,7 +14,7 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - SPEC §17 answered. Target: Brisbane, CA Municipal Code Title 5. Whole title per run, team use.
 - **Exit:** SPEC v1.0 agreed.
 
-### Phase 1 — Fixture, schemas, and source acquisition (DONE: fixture, schemas, golden outputs; Title 5 segmentation check moves to Phase 2)
+### Phase 1 — Fixture, schemas, and source acquisition (DONE)
 - Source: user's Google Drive file `Title_5___BUSINESS_LICENSES__TAXES_AND_REGULATIONS.docx`
   (Brisbane CA, Supp. No. 42; 18 chapters, 227 sections), read via the Drive connector and
   kept out of the repo. Municode itself is blocked from this environment.
@@ -29,18 +29,22 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - JSON Schemas for provisions, actions, actors, orphans, dependencies.
 - **Exit:** fixture and golden files reviewed by user.
 
-### Phase 2 — Deterministic scripts
+### Phase 2 — Deterministic scripts (DONE)
 - `ingest.py`: file, paste and URL intake with fallback messaging.
 - `segment.py`: provision inventory with stable IDs; verify no text lost.
 - `validate.py`: schema, verbatim grounding, coverage invariant, reference integrity.
 - `graph.py`: roots, leaves, cycles, chains, unreachable, dangling outputs, Mermaid.
 - `report.py`: JSON to markdown views.
 - Unit tests against the fixture.
-- **Exit:** scripts pass on golden files; fail correctly on injected faults.
+- **Exit:** scripts pass on golden files; fail correctly on injected faults. Met: 42 tests; the
+  segmenter also reproduces all 227 sections / 18 chapters of Brisbane Title 5 and passes `validate.py`.
 
 ### Phase 3 — Reference docs and SKILL.md (first-order)
 - Write `references/*.md` (construct, classification, orphans, drafting cues).
 - SKILL.md stages 0–5: intake, segment, classify, registries, extract, audit.
+- `scripts/score.py`: compare a run to the golden files (precision/recall on records, orphan
+  codes and explicit edges; inferred-edge recall) so extraction quality is measured, not eyeballed.
+- Prototype the shared actor registry and glossary design for whole-title runs here.
 - **Exit:** on the fixture, extraction recovers the golden actions and every planted
   orphan is flagged with the right code; no false orphans on standing prohibitions
   or definitions.
@@ -49,6 +53,8 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - Batched Q&A protocol, grouped by type, with best guess and basis.
 - Bulk-rule support; write-back of resolutions; re-validation; second-round handling.
 - Freeze gate for the first-order map; known-gaps carry-over.
+- `scripts/resolve.py`: apply orphan patches in id order, recompute provision attachments,
+  refuse to freeze while orphans are open, and reuse saved resolutions on re-runs.
 - **Exit:** simulated user answers on the fixture produce a frozen map matching golden;
   re-run reuses saved resolutions with no re-asking.
 

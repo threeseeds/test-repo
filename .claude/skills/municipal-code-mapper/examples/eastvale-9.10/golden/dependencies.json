@@ -410,5 +410,46 @@
       "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
       "status": "accepted"
     }
+  ],
+  "cycle_notes": [
+    {
+      "view": "explicit_only",
+      "members": [
+        "A-9.10.070.C-1",
+        "A-9.10.070.D-1"
+      ],
+      "label": "Renewal loop",
+      "exit": "permittee does not renew, or the director denies the renewal"
+    },
+    {
+      "view": "explicit_only",
+      "members": [
+        "A-9.10.120.B-1",
+        "A-9.10.140.A-1",
+        "A-9.10.140.B-1",
+        "A-9.10.140.C-1"
+      ],
+      "label": "Revocation loop",
+      "exit": "permittee surrenders the revoked permit"
+    },
+    {
+      "view": "with_inferred",
+      "members": [
+        "A-9.10.040-1",
+        "A-9.10.060.A-1",
+        "A-9.10.060.B-1",
+        "A-9.10.070.C-1",
+        "A-9.10.070.D-1",
+        "A-9.10.080.A-1",
+        "A-9.10.120.B-1",
+        "A-9.10.120.C-1",
+        "A-9.10.130.A-1",
+        "A-9.10.140.A-1",
+        "A-9.10.140.B-1",
+        "A-9.10.140.C-1"
+      ],
+      "label": "Enforcement feedback across cases",
+      "exit": "needs review of the inferred edges before it is treated as real"
+    }
   ]
 }

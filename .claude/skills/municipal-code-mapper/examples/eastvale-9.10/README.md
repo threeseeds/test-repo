@@ -10,7 +10,7 @@ It exists to test the mapper against known answers, including deliberately plant
 
 | File | Meaning |
 |---|---|
-| `provisions.json` | Expected segmentation and classification of all 40 provisions, with attachments |
+| `provisions.json` | Expected segmentation and classification of all 40 provisions, with attachments (`segment.py` must reproduce everything except `class`, `attaches_to` and `record_ids`) |
 | `actors.json` | Expected actor registry (roles as written, aliases reconciled) |
 | `glossary.json` | Definitions from 9.10.020 |
 | `actions.pre-resolution.json` | Expected extraction output: 29 Action Records, orphans still flagged |
@@ -43,6 +43,10 @@ Add synthetic unit cases for those in Phase 2/3.
 
 ## How to test
 
+`scripts/validate.py` checks the golden files themselves (`--stage deps --actions actions.frozen.json`);
+the unit tests in `tests/` run every script against them. To check a skill run against this
+fixture, compare it with the golden files as below.
+
 Explicit edges (`basis: explicit`) must match exactly. Inferred edges (`basis: inferred`) are
 scored as recall: the skill should propose each of them, and may propose extras.
 Free-text fields (`summary`, `evidence`, `answer`) are illustrative and not compared.
@@ -50,4 +54,5 @@ Free-text fields (`summary`, `evidence`, `answer`) are illustrative and not comp
 ## Maintenance
 
 The golden files are committed data, edited by hand. If you change `source.md`, update the
-golden files and re-run the validator.
+golden files and run the tests. Orphan patches are applied in id order and must be
+self-contained (see SPEC section 6.0).

@@ -24,7 +24,10 @@
             "text": "filing of the application",
             "confidence": "explicit",
             "ref": "A-9.10.050.A-1"
-          }
+          },
+          "orphan_flags": [
+            "O-ACT"
+          ]
         }
       }
     },
@@ -60,7 +63,9 @@
             "id": "ACT-director",
             "text": "the director",
             "confidence": "explicit"
-          }
+          },
+          "status": "resolved",
+          "orphan_flags": []
         }
       }
     },
@@ -144,7 +149,8 @@
       "answer": "Four feet controls; 9.10.100 is a drafting error.",
       "patch": {
         "A-9.10.080.E-1": {
-          "status": "resolved"
+          "status": "resolved",
+          "orphan_flags": []
         },
         "A-9.10.100-1": {
           "status": "resolved",

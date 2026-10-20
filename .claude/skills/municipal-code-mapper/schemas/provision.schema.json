@@ -9,6 +9,7 @@
     "required": [
       "id",
       "section",
+      "chapter",
       "label",
       "heading",
       "article",
@@ -56,8 +57,10 @@
           "applicability",
           "cross_reference",
           "reserved",
-          "unclassifiable"
-        ]
+          "unclassifiable",
+          null
+        ],
+        "description": "null only in the segmenter output, before classification"
       },
       "attaches_to": {
         "type": "array",
@@ -77,6 +80,28 @@
         "items": {
           "type": "string",
           "pattern": "^external:"
+        }
+      },
+      "chapter": {
+        "type": "string",
+        "pattern": "^[0-9]+\\.[0-9]+$"
+      },
+      "division": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "history": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "footnote_refs": {
+        "type": "array",
+        "items": {
+          "type": "integer"
         }
       }
     }

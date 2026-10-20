@@ -78,6 +78,38 @@
           }
         }
       }
+    },
+    "cycle_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "view",
+          "members",
+          "label"
+        ],
+        "properties": {
+          "view": {
+            "enum": [
+              "explicit_only",
+              "with_inferred"
+            ]
+          },
+          "members": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "label": {
+            "type": "string"
+          },
+          "exit": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }
