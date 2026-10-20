@@ -15,8 +15,12 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - **Exit:** SPEC v1.0 agreed.
 
 ### Phase 1 — Fixture, schemas, and source acquisition
-- Obtain Title 5 text as files (Municode is blocked from this environment; user supplies
-  per-chapter downloads or pasted text). Confirm format and test `ingest.py` on it.
+- Source: user's Google Drive file `Title_5___BUSINESS_LICENSES__TAXES_AND_REGULATIONS.docx`
+  (Brisbane CA, Supp. No. 42; 18 chapters, 227 sections), read via the Drive connector and
+  kept out of the repo. Municode itself is blocked from this environment.
+- Source quirks for `ingest.py`/`segment.py`: repeated page headers and "Created:" footers,
+  a table of contents, repeated division headings, fee tables as Markdown tables, footnotes
+  at the end of the title, block references like "Chapters 5.04 through 5.24".
 - Write a small fictional municipal chapter (about 25 sections) containing every
   provision class and planted defects: agentless passive, signal-less duty, vague
   "ensure compliance", dangling cross-reference, conflicting duties, a legitimate
@@ -56,7 +60,9 @@ the second-order map. Run on a real chapter only after the fixture passes.
   labeled; planted cycle is detected and labeled.
 
 ### Phase 6 — Real-title pilot
-- Run on one Title 5 chapter first with the user in the loop, then the whole title.
+- Pilot on Division I (Ch. 5.04–5.24, about 92 sections: definitions, administration,
+  requirements/exemptions, application/issuance, fees, enforcement) with the user in the
+  loop, then Division II chapters, then the whole title.
 - Capture friction: question quality, over/under-flagging, graph readability.
 - Tune prompts, orphan templates and graph splitting.
 - **Exit:** user accepts first-order and second-order maps for the chapter.
