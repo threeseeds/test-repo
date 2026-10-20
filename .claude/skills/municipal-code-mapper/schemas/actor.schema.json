@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "actor.schema.json",
+  "title": "Actor registry",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "label",
+      "kind",
+      "aliases",
+      "defined_in"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^ACT-[a-z0-9-]+$"
+      },
+      "label": {
+        "type": "string"
+      },
+      "kind": {
+        "enum": [
+          "official",
+          "body",
+          "department",
+          "private_party",
+          "tribunal",
+          "external_agency",
+          "public_body",
+          "public"
+        ]
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "defined_in": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  }
+}

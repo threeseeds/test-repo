@@ -14,7 +14,7 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - SPEC §17 answered. Target: Brisbane, CA Municipal Code Title 5. Whole title per run, team use.
 - **Exit:** SPEC v1.0 agreed.
 
-### Phase 1 — Fixture, schemas, and source acquisition
+### Phase 1 — Fixture, schemas, and source acquisition (DONE: fixture, schemas, golden outputs; Title 5 segmentation check moves to Phase 2)
 - Source: user's Google Drive file `Title_5___BUSINESS_LICENSES__TAXES_AND_REGULATIONS.docx`
   (Brisbane CA, Supp. No. 42; 18 chapters, 227 sections), read via the Drive connector and
   kept out of the repo. Municode itself is blocked from this environment.

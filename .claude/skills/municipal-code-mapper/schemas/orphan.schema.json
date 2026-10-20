@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "orphan.schema.json",
+  "title": "Orphans",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "code",
+      "records",
+      "provision",
+      "quote",
+      "missing",
+      "best_guess",
+      "basis",
+      "options",
+      "status"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^ORP-[0-9]+$"
+      },
+      "code": {
+        "enum": [
+          "O-SIG",
+          "O-ACT",
+          "O-VERB",
+          "O-CP",
+          "O-XREF",
+          "O-AMBIG",
+          "O-CONFLICT",
+          "O-CLASS"
+        ]
+      },
+      "records": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "provision": {
+        "type": "string"
+      },
+      "quote": {
+        "type": "string"
+      },
+      "missing": {
+        "type": "string"
+      },
+      "best_guess": {
+        "type": "string"
+      },
+      "basis": {
+        "type": "string"
+      },
+      "options": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+          "type": "string"
+        }
+      },
+      "status": {
+        "enum": [
+          "open",
+          "resolved",
+          "known_gap"
+        ]
+      },
+      "resolution": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "answer",
+          "patch"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "answer",
+              "duplicate",
+              "superseded",
+              "external",
+              "accept_gap",
+              "bulk_rule"
+            ]
+          },
+          "answer": {
+            "type": "string"
+          },
+          "patch": {
+            "type": "object",
+            "description": "record id -> fields replaced on that record"
+          }
+        }
+      }
+    }
+  }
+}

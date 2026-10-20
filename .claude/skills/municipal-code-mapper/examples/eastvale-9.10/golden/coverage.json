@@ -1,0 +1,361 @@
+[
+  {
+    "provision": "9.10.010",
+    "class": "purpose",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "9.10.020.A",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-9.10.050.A-1",
+      "A-9.10.050.C-1",
+      "A-9.10.060.A-1",
+      "A-9.10.060.B-1",
+      "A-9.10.060.C-1",
+      "A-9.10.060.C-2"
+    ]
+  },
+  {
+    "provision": "9.10.020.B",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-9.10.050.A-1",
+      "A-9.10.050.C-1",
+      "A-9.10.060.A-1",
+      "A-9.10.060.B-1",
+      "A-9.10.060.C-1",
+      "A-9.10.070.C-1",
+      "A-9.10.070.D-1",
+      "A-9.10.090.A-1",
+      "A-9.10.140.A-1",
+      "A-9.10.140.B-1",
+      "A-9.10.140.C-1"
+    ]
+  },
+  {
+    "provision": "9.10.020.C",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-9.10.130.A-1",
+      "A-9.10.130.B-1",
+      "A-9.10.130.C-1"
+    ]
+  },
+  {
+    "provision": "9.10.020.D",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-9.10.070.C-1",
+      "A-9.10.070.D-1",
+      "A-9.10.080.D-1",
+      "A-9.10.140.A-1",
+      "A-9.10.140.B-1",
+      "A-9.10.140.C-1"
+    ]
+  },
+  {
+    "provision": "9.10.020.E",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-9.10.080.A-1",
+      "A-9.10.080.B-1",
+      "A-9.10.080.C-1",
+      "A-9.10.080.E-1",
+      "A-9.10.090.B-1",
+      "A-9.10.110-1",
+      "A-9.10.120.B-1"
+    ]
+  },
+  {
+    "provision": "9.10.030",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "9.10.040",
+    "class": "operative",
+    "records": [
+      "A-9.10.040-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.050.A",
+    "class": "operative",
+    "records": [
+      "A-9.10.050.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.050.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-9.10.050.A-1"
+    ]
+  },
+  {
+    "provision": "9.10.050.C",
+    "class": "operative",
+    "records": [
+      "A-9.10.050.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.050.D",
+    "class": "operative",
+    "records": [
+      "A-9.10.050.D-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.060.A",
+    "class": "operative",
+    "records": [
+      "A-9.10.060.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.060.B",
+    "class": "operative",
+    "records": [
+      "A-9.10.060.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.060.C",
+    "class": "operative",
+    "records": [
+      "A-9.10.060.C-1",
+      "A-9.10.060.C-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.070.A",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "A-9.10.060.A-1",
+      "A-9.10.070.C-1"
+    ]
+  },
+  {
+    "provision": "9.10.070.B",
+    "class": "operative",
+    "records": [
+      "A-9.10.070.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.070.C",
+    "class": "operative",
+    "records": [
+      "A-9.10.070.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.070.D",
+    "class": "operative",
+    "records": [
+      "A-9.10.070.D-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.080.A",
+    "class": "operative",
+    "records": [
+      "A-9.10.080.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.080.B",
+    "class": "operative",
+    "records": [
+      "A-9.10.080.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.080.C",
+    "class": "operative",
+    "records": [
+      "A-9.10.080.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.080.D",
+    "class": "operative",
+    "records": [
+      "A-9.10.080.D-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.080.E",
+    "class": "operative",
+    "records": [
+      "A-9.10.080.E-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.090.A",
+    "class": "operative",
+    "records": [
+      "A-9.10.090.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.090.B",
+    "class": "operative",
+    "records": [
+      "A-9.10.090.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.100",
+    "class": "operative",
+    "records": [
+      "A-9.10.100-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.110",
+    "class": "operative",
+    "records": [
+      "A-9.10.110-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.120.A",
+    "class": "penalty",
+    "records": [],
+    "attached_to": [
+      "A-9.10.040-1",
+      "A-9.10.050.A-1",
+      "A-9.10.050.D-1",
+      "A-9.10.070.C-1",
+      "A-9.10.080.A-1",
+      "A-9.10.080.B-1",
+      "A-9.10.080.C-1",
+      "A-9.10.080.E-1",
+      "A-9.10.090.B-1",
+      "A-9.10.110-1",
+      "A-9.10.140.C-1",
+      "chapter"
+    ]
+  },
+  {
+    "provision": "9.10.120.B",
+    "class": "operative",
+    "records": [
+      "A-9.10.120.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.120.C",
+    "class": "operative",
+    "records": [
+      "A-9.10.120.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.130.A",
+    "class": "operative",
+    "records": [
+      "A-9.10.130.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.130.B",
+    "class": "operative",
+    "records": [
+      "A-9.10.130.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.130.C",
+    "class": "operative",
+    "records": [
+      "A-9.10.130.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.130.D",
+    "class": "operative",
+    "records": [
+      "A-9.10.130.D-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.140.A",
+    "class": "operative",
+    "records": [
+      "A-9.10.140.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.140.B",
+    "class": "operative",
+    "records": [
+      "A-9.10.140.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.140.C",
+    "class": "operative",
+    "records": [
+      "A-9.10.140.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.150",
+    "class": "reserved",
+    "records": [],
+    "attached_to": []
+  },
+  {
+    "provision": "9.10.160",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  }
+]

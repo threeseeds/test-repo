@@ -1,0 +1,1578 @@
+[
+  {
+    "id": "A-9.10.040-1",
+    "provision_refs": [
+      "9.10.040"
+    ],
+    "source_quote": "No person shall operate as a sidewalk vendor without a valid permit issued under this chapter.",
+    "signal": {
+      "type": "standing",
+      "text": "No person shall … without a valid permit",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-any-person",
+      "text": "No person",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "operate as sidewalk vendor",
+      "object": "without a valid permit issued under this chapter",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.050.A-1",
+    "provision_refs": [
+      "9.10.050.A"
+    ],
+    "source_quote": "An applicant for a sidewalk vending permit shall file a written application with the director on a form provided by the director.",
+    "signal": {
+      "type": "state",
+      "text": "applicant seeks a sidewalk vending permit",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-applicant",
+      "text": "An applicant",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "file",
+      "object": "written application, on director-provided form",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-director",
+      "text": "the director",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "fee",
+        "provision": "9.10.050.B",
+        "summary": "fee established by resolution of the council"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.A",
+        "summary": "definition of applicant"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      }
+    ],
+    "outputs": [
+      "artifact:application"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.050.C-1",
+    "provision_refs": [
+      "9.10.050.C"
+    ],
+    "source_quote": "The director shall review each application for completeness within five business days after it is filed.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "after it is filed",
+      "confidence": "explicit",
+      "ref": "A-9.10.050.A-1"
+    },
+    "actor": {
+      "id": "ACT-director",
+      "text": "The director",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "review",
+      "object": "each application for completeness",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 5,
+      "unit": "days",
+      "from": "signal",
+      "direction": "after",
+      "business_days": true,
+      "text": "within five business days after it is filed"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.A",
+        "summary": "definition of applicant"
+      }
+    ],
+    "outputs": [
+      "artifact:completeness-determination"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.050.D-1",
+    "provision_refs": [
+      "9.10.050.D"
+    ],
+    "source_quote": "A certificate of insurance shall be submitted before a permit is issued.",
+    "signal": {
+      "type": "unknown",
+      "text": null,
+      "confidence": null
+    },
+    "actor": null,
+    "modality": "duty",
+    "action": {
+      "verb": "submit",
+      "object": "certificate of insurance",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": "issuance",
+      "direction": "before",
+      "business_days": false,
+      "text": "before a permit is issued"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [],
+    "outputs": [
+      "artifact:insurance-certificate"
+    ],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-SIG",
+      "O-ACT"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.060.A-1",
+    "provision_refs": [
+      "9.10.060.A"
+    ],
+    "source_quote": "Within ten business days after an application is determined complete, the director shall issue or deny the permit.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "after an application is determined complete",
+      "confidence": "explicit",
+      "ref": "A-9.10.050.C-1"
+    },
+    "actor": {
+      "id": "ACT-director",
+      "text": "the director",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "issue or deny",
+      "object": "the permit",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 10,
+      "unit": "days",
+      "from": "signal",
+      "direction": "after",
+      "business_days": true,
+      "text": "Within ten business days after an application is determined complete"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "applicability",
+        "provision": "9.10.070.A",
+        "summary": "permit expires one year after issuance"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.A",
+        "summary": "definition of applicant"
+      }
+    ],
+    "outputs": [
+      "artifact:permit",
+      "artifact:denial"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.060.B-1",
+    "provision_refs": [
+      "9.10.060.B"
+    ],
+    "source_quote": "The director shall deny the permit if the applicant has an unpaid fine under this chapter.",
+    "signal": {
+      "type": "state",
+      "text": "the applicant has an unpaid fine under this chapter",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-director",
+      "text": "The director",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "deny",
+      "object": "the permit",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [
+      "applicant has an unpaid fine under this chapter"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.A",
+        "summary": "definition of applicant"
+      }
+    ],
+    "outputs": [
+      "artifact:denial"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.060.C-1",
+    "provision_refs": [
+      "9.10.060.C"
+    ],
+    "source_quote": "The director or the director's designee shall notify the applicant of a denial in writing, stating the reasons.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a denial",
+      "confidence": "explicit",
+      "ref": "A-9.10.060.A-1"
+    },
+    "actor": {
+      "id": "ACT-director",
+      "text": "The director",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "notify",
+      "object": "the applicant of a denial in writing, stating the reasons",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.A",
+        "summary": "definition of applicant"
+      }
+    ],
+    "outputs": [
+      "artifact:denial-notice"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-9.10.060.C",
+      "relation": "alternative"
+    },
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.060.C-2",
+    "provision_refs": [
+      "9.10.060.C"
+    ],
+    "source_quote": "The director or the director's designee shall notify the applicant of a denial in writing, stating the reasons.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a denial",
+      "confidence": "explicit",
+      "ref": "A-9.10.060.A-1"
+    },
+    "actor": {
+      "id": "ACT-director-designee",
+      "text": "the director's designee",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "notify",
+      "object": "the applicant of a denial in writing, stating the reasons",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-applicant",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.A",
+        "summary": "definition of applicant"
+      }
+    ],
+    "outputs": [
+      "artifact:denial-notice"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": {
+      "link_id": "L-9.10.060.C",
+      "relation": "alternative"
+    },
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.070.B-1",
+    "provision_refs": [
+      "9.10.070.B"
+    ],
+    "source_quote": "The permittee shall renew the permit annually.",
+    "signal": {
+      "type": "unknown",
+      "text": null,
+      "confidence": null
+    },
+    "actor": {
+      "id": "ACT-permittee",
+      "text": "The permittee",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "renew",
+      "object": "the permit annually",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-director",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.D",
+        "summary": "definition of permittee"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      }
+    ],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-SIG"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.070.C-1",
+    "provision_refs": [
+      "9.10.070.C"
+    ],
+    "source_quote": "A permittee shall file a renewal application with the director at least thirty days before the permit expires.",
+    "signal": {
+      "type": "time",
+      "text": "at least thirty days before the permit expires",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-permittee",
+      "text": "A permittee",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "file",
+      "object": "renewal application",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-director",
+      "text": "the director",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 30,
+      "unit": "days",
+      "from": "permit expiry",
+      "direction": "before",
+      "business_days": false,
+      "text": "at least thirty days before the permit expires"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "applicability",
+        "provision": "9.10.070.A",
+        "summary": "permit expires one year after issuance"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.D",
+        "summary": "definition of permittee"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      }
+    ],
+    "outputs": [
+      "artifact:renewal-application"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.070.D-1",
+    "provision_refs": [
+      "9.10.070.D"
+    ],
+    "source_quote": "The director shall act on a renewal application in the manner provided in Section 9.10.060.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a renewal application",
+      "confidence": "explicit",
+      "ref": "A-9.10.070.C-1"
+    },
+    "actor": {
+      "id": "ACT-director",
+      "text": "The director",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "act on",
+      "object": "renewal application, as provided in Section 9.10.060",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-permittee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.D",
+        "summary": "definition of permittee"
+      }
+    ],
+    "outputs": [
+      "artifact:permit"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.080.A-1",
+    "provision_refs": [
+      "9.10.080.A"
+    ],
+    "source_quote": "A sidewalk vendor shall display the permit in a conspicuous place on the vending cart at all times while vending.",
+    "signal": {
+      "type": "state",
+      "text": "while vending",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-sidewalk-vendor",
+      "text": "A sidewalk vendor",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "display",
+      "object": "the permit in a conspicuous place on the vending cart",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "continuous",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "at all times while vending"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.E",
+        "summary": "definition of sidewalk vendor"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.080.B-1",
+    "provision_refs": [
+      "9.10.080.B"
+    ],
+    "source_quote": "No sidewalk vendor shall vend within one hundred feet of an elementary school entrance during school hours.",
+    "signal": {
+      "type": "standing",
+      "text": "No sidewalk vendor shall vend …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-sidewalk-vendor",
+      "text": "sidewalk vendor",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "vend",
+      "object": "within one hundred feet of an elementary school entrance during school hours",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [
+      "within 100 feet of an elementary school entrance",
+      "during school hours"
+    ],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.E",
+        "summary": "definition of sidewalk vendor"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.080.C-1",
+    "provision_refs": [
+      "9.10.080.C"
+    ],
+    "source_quote": "Each vendor shall ensure compliance with all applicable health regulations.",
+    "signal": {
+      "type": "standing",
+      "text": "Each vendor shall ensure …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-sidewalk-vendor",
+      "text": "Each vendor",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "ensure compliance",
+      "object": "with all applicable health regulations",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.E",
+        "summary": "definition of sidewalk vendor"
+      }
+    ],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-VERB"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.080.D-1",
+    "provision_refs": [
+      "9.10.080.D"
+    ],
+    "source_quote": "A permittee may operate between the hours of 7:00 a.m. and 9:00 p.m.",
+    "signal": {
+      "type": "standing",
+      "text": "A permittee may operate …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-permittee",
+      "text": "A permittee",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "operate",
+      "object": "between 7:00 a.m. and 9:00 p.m.",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": {
+      "kind": "window",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "between 7:00 a.m. and 9:00 p.m."
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.D",
+        "summary": "definition of permittee"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.080.E-1",
+    "provision_refs": [
+      "9.10.080.E"
+    ],
+    "source_quote": "No vending cart shall exceed four feet in width.",
+    "signal": {
+      "type": "standing",
+      "text": "No vending cart shall exceed …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-sidewalk-vendor",
+      "text": "vending cart (operated by the vendor)",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "use a cart exceeding",
+      "object": "four feet in width",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.E",
+        "summary": "definition of sidewalk vendor"
+      }
+    ],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-CONFLICT"
+    ],
+    "link": null,
+    "conflict_with": [
+      "A-9.10.100-1"
+    ],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.090.A-1",
+    "provision_refs": [
+      "9.10.090.A"
+    ],
+    "source_quote": "The director may, by written order, designate streets on which sidewalk vending is prohibited.",
+    "signal": {
+      "type": "discretionary",
+      "text": "The director may …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-director",
+      "text": "The director",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "designate",
+      "object": "streets on which sidewalk vending is prohibited, by written order",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      }
+    ],
+    "outputs": [
+      "artifact:street-designation-order"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.090.B-1",
+    "provision_refs": [
+      "9.10.090.B"
+    ],
+    "source_quote": "No sidewalk vendor shall vend on a street designated under subsection A.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a street designated under subsection A",
+      "confidence": "explicit",
+      "ref": "A-9.10.090.A-1"
+    },
+    "actor": {
+      "id": "ACT-sidewalk-vendor",
+      "text": "sidewalk vendor",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "vend",
+      "object": "on a designated street",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.E",
+        "summary": "definition of sidewalk vendor"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.100-1",
+    "provision_refs": [
+      "9.10.100"
+    ],
+    "source_quote": "Vending carts shall not exceed five feet in width.",
+    "signal": {
+      "type": "standing",
+      "text": "Vending carts shall not exceed …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-sidewalk-vendor",
+      "text": "Vending carts (operated by the vendor)",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "use a cart exceeding",
+      "object": "five feet in width",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-public",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.E",
+        "summary": "definition of sidewalk vendor"
+      }
+    ],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-CONFLICT"
+    ],
+    "link": null,
+    "conflict_with": [
+      "A-9.10.080.E-1"
+    ],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.110-1",
+    "provision_refs": [
+      "9.10.110"
+    ],
+    "source_quote": "A sidewalk vendor who sells food shall obtain a health certificate from the county health department pursuant to Section 9.10.135 before vending.",
+    "signal": {
+      "type": "state",
+      "text": "sells food",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-sidewalk-vendor",
+      "text": "A sidewalk vendor who sells food",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "obtain",
+      "object": "a health certificate from the county health department, pursuant to Section 9.10.135",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-county-health-department",
+      "text": "the county health department",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": "vending",
+      "direction": "before",
+      "business_days": false,
+      "text": "before vending"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.E",
+        "summary": "definition of sidewalk vendor"
+      }
+    ],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-XREF"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.120.B-1",
+    "provision_refs": [
+      "9.10.120.B"
+    ],
+    "source_quote": "Upon observing a violation of this chapter, a code enforcement officer shall issue a written citation to the vendor.",
+    "signal": {
+      "type": "event",
+      "text": "Upon observing a violation of this chapter",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-code-enforcement-officer",
+      "text": "a code enforcement officer",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "issue",
+      "object": "a written citation",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-sidewalk-vendor",
+      "text": "the vendor",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.E",
+        "summary": "definition of sidewalk vendor"
+      }
+    ],
+    "outputs": [
+      "artifact:citation"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.120.C-1",
+    "provision_refs": [
+      "9.10.120.C"
+    ],
+    "source_quote": "A person who is issued a citation shall pay a fine of one hundred dollars within thirty days after the citation is issued.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the citation is issued",
+      "confidence": "explicit",
+      "ref": "A-9.10.120.B-1"
+    },
+    "actor": {
+      "id": "ACT-cited-person",
+      "text": "A person who is issued a citation",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "pay",
+      "object": "a fine of one hundred dollars",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 30,
+      "unit": "days",
+      "from": "signal",
+      "direction": "after",
+      "business_days": false,
+      "text": "within thirty days after the citation is issued"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:fine-payment"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.130.A-1",
+    "provision_refs": [
+      "9.10.130.A"
+    ],
+    "source_quote": "A person who receives a citation may appeal to the hearing officer within fifteen days after receipt of the citation.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "receipt of the citation",
+      "confidence": "explicit",
+      "ref": "A-9.10.120.B-1"
+    },
+    "actor": {
+      "id": "ACT-cited-person",
+      "text": "A person who receives a citation",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "appeal",
+      "object": "the citation",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-hearing-officer",
+      "text": "the hearing officer",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 15,
+      "unit": "days",
+      "from": "signal",
+      "direction": "after",
+      "business_days": false,
+      "text": "within fifteen days after receipt of the citation"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.C",
+        "summary": "definition of hearing officer"
+      }
+    ],
+    "outputs": [
+      "artifact:appeal"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.130.B-1",
+    "provision_refs": [
+      "9.10.130.B"
+    ],
+    "source_quote": "The hearing officer may hold a hearing within thirty days after an appeal is filed.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "an appeal is filed",
+      "confidence": "explicit",
+      "ref": "A-9.10.130.A-1"
+    },
+    "actor": {
+      "id": "ACT-hearing-officer",
+      "text": "The hearing officer",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "hold",
+      "object": "a hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-cited-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 30,
+      "unit": "days",
+      "from": "signal",
+      "direction": "after",
+      "business_days": false,
+      "text": "within thirty days after an appeal is filed"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.C",
+        "summary": "definition of hearing officer"
+      }
+    ],
+    "outputs": [
+      "artifact:hearing"
+    ],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-AMBIG"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.130.C-1",
+    "provision_refs": [
+      "9.10.130.C"
+    ],
+    "source_quote": "The hearing officer may affirm, modify, or dismiss the citation.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing",
+      "confidence": "explicit",
+      "ref": "A-9.10.130.B-1"
+    },
+    "actor": {
+      "id": "ACT-hearing-officer",
+      "text": "The hearing officer",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "affirm, modify, or dismiss",
+      "object": "the citation",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-cited-person",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.C",
+        "summary": "definition of hearing officer"
+      }
+    ],
+    "outputs": [
+      "artifact:hearing-decision"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.130.D-1",
+    "provision_refs": [
+      "9.10.130.D"
+    ],
+    "source_quote": "If the hearing officer affirms the citation, the person shall pay the fine within ten days after the decision.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing officer affirms the citation",
+      "confidence": "explicit",
+      "ref": "A-9.10.130.C-1"
+    },
+    "actor": {
+      "id": "ACT-cited-person",
+      "text": "the person",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "pay",
+      "object": "the fine",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-city",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 10,
+      "unit": "days",
+      "from": "signal",
+      "direction": "after",
+      "business_days": false,
+      "text": "within ten days after the decision"
+    },
+    "conditions": [
+      "hearing officer affirms the citation"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:fine-payment"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.140.A-1",
+    "provision_refs": [
+      "9.10.140.A"
+    ],
+    "source_quote": "The director may revoke a permit if the permittee has been cited for three or more violations within any twelve month period.",
+    "signal": {
+      "type": "state",
+      "text": "the permittee has been cited for three or more violations within any twelve month period",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-director",
+      "text": "The director",
+      "confidence": "explicit"
+    },
+    "modality": "power",
+    "action": {
+      "verb": "revoke",
+      "object": "a permit",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-permittee",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [
+      "permittee cited for three or more violations within any twelve month period"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.D",
+        "summary": "definition of permittee"
+      }
+    ],
+    "outputs": [
+      "artifact:revocation"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.140.B-1",
+    "provision_refs": [
+      "9.10.140.B"
+    ],
+    "source_quote": "The director shall give written notice of revocation to the permittee.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "revocation",
+      "confidence": "explicit",
+      "ref": "A-9.10.140.A-1"
+    },
+    "actor": {
+      "id": "ACT-director",
+      "text": "The director",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give",
+      "object": "written notice of revocation",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-permittee",
+      "text": "the permittee",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.D",
+        "summary": "definition of permittee"
+      }
+    ],
+    "outputs": [
+      "artifact:revocation-notice"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-9.10.140.C-1",
+    "provision_refs": [
+      "9.10.140.C"
+    ],
+    "source_quote": "A permittee shall surrender a revoked permit to the director upon receipt of the notice of revocation.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "receipt of the notice of revocation",
+      "confidence": "explicit",
+      "ref": "A-9.10.140.B-1"
+    },
+    "actor": {
+      "id": "ACT-permittee",
+      "text": "A permittee",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "surrender",
+      "object": "the revoked permit",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-director",
+      "text": "the director",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": {
+      "provision_refs": [
+        "9.10.120.A"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "9.10.020.D",
+        "summary": "definition of permittee"
+      },
+      {
+        "kind": "definition",
+        "provision": "9.10.020.B",
+        "summary": "definition of director"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  }
+]

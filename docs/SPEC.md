@@ -53,7 +53,7 @@ that both maps are built from.
 
 | Field | Meaning | Notes |
 |---|---|---|
-| `id` | Stable ID, `A-<section>-<n>` | e.g. `A-8.12.040-2` |
+| `id` | Stable ID, `A-<provision-id>-<n>` | Provision ids are the section number plus `.<label>` for lettered subdivisions, e.g. `A-9.10.050.C-1` |
 | `provision_refs[]` | Section/subsection/paragraph IDs it derives from | Required; ≥1 |
 | `source_quote` | Verbatim text span supporting the record | Required; never paraphrased |
 | `signal` | What triggers the action (see §4.1) | May be unresolved → orphan |
@@ -63,10 +63,15 @@ that both maps are built from.
 | `counterparty` | To whom owed / who is affected or benefits | Optional; see §4.4 |
 | `timing` | Deadline, period, frequency, duration | e.g. "within 10 days of signal" |
 | `conditions[]` | Further qualifiers beyond the triggering signal | e.g. "if the lot exceeds 1 acre" |
-| `exceptions[]` | Carve-outs that suspend the action | Linked exception records |
-| `consequence` | Penalty/sanction/default if not performed | Linked penalty provisions |
+| `exceptions[]` | Provision ids of carve-outs that suspend the action | Linked exception provisions |
+| `consequence` | Penalty/sanction/default if not performed | `{provision_refs, summary}` pointing at penalty provisions |
+| `attachments[]` | Definitions, fees, and applicability/term provisions attached to this record | `{kind, provision, summary}` |
 | `outputs[]` | Artifacts/states the action produces | Feeds second-order map |
-| `status` | `complete`, `orphan`, `resolved`, `external` | |
+| `status` | `complete`, `orphan`, `resolved`, `known_gap` | `known_gap` = user accepted the orphan as unresolvable |
+| `link` | `{link_id, relation}` where relation is `joint` or `alternative` | Used for records split from one provision across several actors |
+| `conflict_with[]` | Record ids in direct conflict (`O-CONFLICT`) | |
+| `duplicate_of` / `superseded_by` | Set by a resolution; the record stays in the register but is not a graph node | |
+| `external_refs[]` | `external:<cite>` stubs the record depends on | |
 | `orphan_flags[]` | Which gaps remain (see §6) | |
 | `confidence` | `explicit` or `inferred` per field | Inferred values are visible, never hidden |
 | `resolution_note` | User's answer and date, if an orphan was resolved | Provenance |
@@ -81,6 +86,7 @@ The trigger that makes the action due. Typed:
 - **Request** — another party asks ("upon written request").
 - **Upstream action** — completion/outcome of another action ("after the director issues a
   determination"). *This type is the bridge to the second-order map (§8).*
+- **Discretionary** — the actor acts at its own judgment (typical for `may`/power provisions such as "the director may designate…"). A valid signal, not an orphan.
 - **Standing/continuous** — applies at all times to everyone in a class ("No person shall…").
   Recorded explicitly as `standing` so it is not mistaken for a *missing* signal.
 
@@ -145,7 +151,7 @@ An orphan is any record or provision that cannot be fully expressed in the const
 | `O-ACT` | Actor unknown | "A permit shall be obtained." (By whom?) |
 | `O-VERB` | Action unclear | "Owners shall ensure compliance." (What concrete act?) |
 | `O-CP` | Counterparty unclear where it matters | Right asserted but holder unspecified |
-| `O-XREF` | Reference unresolved | "…pursuant to Section 12.04" outside scope or nonexistent |
+| `O-XREF` | Reference cannot be resolved | "…pursuant to Section 9.10.135" where no such section exists, or a vague reference ("applicable law"). A reference to a *real* section outside the run scope is an external stub, not an orphan. |
 | `O-AMBIG` | Multiple plausible readings | "may" as permission vs. discretion |
 | `O-CONFLICT` | Two provisions assign incompatible duties | |
 | `O-CLASS` | Provision cannot be classified | |
@@ -157,6 +163,10 @@ Rules:
   guess is only recorded as `inferred` until the user confirms.
 - Orphans are never silently resolved. Nothing becomes `resolved` without a user answer
   or an explicit user rule ("treat all unspecified actors as the City Manager").
+
+### 6.0 Resolution types
+
+An answer is stored on the orphan as a `resolution` with a `patch` of record fields. Types: `answer` (fills the missing piece), `duplicate` (record restates another; excluded from the graph), `superseded` (one of two conflicting records controls), `external` (reference points outside the run), `accept_gap` (stays flagged, carried as a known gap), `bulk_rule` (a user rule applied to many orphans).
 
 ### 6.1 Resolution Q&A (batched, grouped by type)
 
@@ -185,7 +195,7 @@ A register of all Action Records plus views:
 
 ## 8. Second-order map: logical dependencies
 
-Directed graph. Nodes = Action Records. Edge `A → B` means "B depends on A".
+Directed graph. Nodes = Action Records (plus external stubs). Edge `A → B` means "B depends on A". Direction conventions: `reference` runs from the referenced provision to the one that invokes it; `exception-of` runs from the overriding record to the one it overrides; `enforcement` runs from the duty to the citation step that responds to its breach; `delegation` runs from the delegating actor's record to the delegate's.
 
 | Edge type | Definition | Evidence |
 |---|---|---|
@@ -210,8 +220,10 @@ edges are retained as `rejected` so they are not re-proposed on re-runs.
 - **Leaves/terminals** — actions with no dependants.
 - **Critical chains** — longest dependency chains (e.g. application → completeness review
   → hearing → decision → appeal → ...).
-- **Cycles** — flagged, not fatal (appeals and renewals legitimately loop); each cycle is
-  labeled and checked for a stated exit.
+- **Cycles** — flagged, not fatal (renewals and enforcement loops legitimately recur); each cycle is
+  labeled and checked for a stated exit. Cycles are reported in two views: *explicit edges
+  only* (the firm structure) and *with inferred edges* (which can merge separate loops into
+  one large feedback component that needs review).
 - **Unreachable actions** — actions whose antecedent is never produced by any mapped
   action (candidate gaps or external dependencies).
 - **Dangling outputs** — artifacts produced but never consumed.

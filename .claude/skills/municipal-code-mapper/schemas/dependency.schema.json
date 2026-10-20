@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dependency.schema.json",
+  "title": "Dependency graph",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "from",
+          "to",
+          "type",
+          "basis",
+          "confidence",
+          "evidence",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^E-[0-9]+$"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "triggers",
+              "produces-input",
+              "condition-precedent",
+              "temporal",
+              "reference",
+              "enforcement",
+              "exception-of",
+              "delegation"
+            ]
+          },
+          "basis": {
+            "enum": [
+              "explicit",
+              "inferred"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "accepted",
+              "pending_review",
+              "rejected"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
