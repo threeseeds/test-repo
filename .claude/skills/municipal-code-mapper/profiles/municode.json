@@ -1,0 +1,21 @@
+{
+  "name": "municode",
+  "description": "Municode / American Legal text exported to Word or PDF and converted to text. Page furniture and repeated headers are noise; structure lines set context.",
+  "noise": [
+    "^.*,\\s*Municipal Code(\\s+Created:.*)?$",
+    "^Created: \\d{4}-\\d\\d-\\d\\d.*$",
+    "^\\(Supp\\. No\\. \\d+\\)$",
+    "^Page( \\d+)? of( \\d+)?$",
+    "^Title \\d+\\s+-\\s+.*$",
+    "^Title \\d+\\s*$",
+    "^(Sections|Chapters):$"
+  ],
+  "footnotes_marker": "^[A-Z0-9 ]*FOOTNOTES$",
+  "history": "^\\((Ord|Res)\\b.*\\)\\.?$",
+  "section_heading": "^(\\d+\\.\\d+\\.\\d+) (.{1,160}\\.)$",
+  "chapter_line": "^Chapter (\\d+\\.\\d+)(?: -)? ([A-Z][A-Z0-9 ,'’&.\\-—/()]*)$",
+  "division_line": "^DIVISION ([IVXLC]+)\\.?(?: -)? (.+)$",
+  "article_line": "^ARTICLE ([IVXLC]+)\\.? (.+)$",
+  "footnote_marker_in_text": "\\[(\\d+)\\]\\(#footnote\\d+\\)",
+  "reserved_heading": "^(Reserved|Repealed)\\b"
+}

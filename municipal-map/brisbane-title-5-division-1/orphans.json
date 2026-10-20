@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "ORP-01",
+    "code": "O-SIG",
+    "records": [
+      "A-5.16.090-2"
+    ],
+    "provision": "5.16.090",
+    "quote": "without the written consent of the city council endorsed thereon",
+    "missing": "Nothing says what prompts the council to consent (or when it acts).",
+    "best_guess": "Upon an application to transfer or assign the license, or to change its location",
+    "basis": "The next sentence refers to \"the person applying for such transfer or change\" and sets the $5 fee.",
+    "options": [
+      "Upon an application for transfer, assignment or change of location",
+      "On the council's own motion",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): Upon an application to transfer or assign the license, or to change its location",
+      "patch": {
+        "A-5.16.090-2": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "signal": {
+            "type": "event",
+            "text": "an application to transfer or assign the license, or to change its location",
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-02",
+    "code": "O-SIG",
+    "records": [
+      "A-5.20.140.C-1"
+    ],
+    "provision": "5.20.140.C",
+    "quote": "The police department shall conduct a background search, including fingerprinting of all vendors of ice cream and other products sold from vehicles where the customers are primarily minors.",
+    "missing": "Nothing says when the police department must run the background search.",
+    "best_guess": "Each time a vendor or driver applies for a permit under 5.20.140.B (a $20 fee is payable in advance for each search)",
+    "basis": "\"Each background search and investigation of each driver or vendor\" carries a fee, and refusal \"to issue a permit\" follows the search.",
+    "options": [
+      "Upon each permit application, and for each driver",
+      "Periodically (for example annually)",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): Each time a vendor or driver applies for a permit under 5.20.140.B (a $20 fee is payable in advance for each search)",
+      "patch": {
+        "A-5.20.140.C-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "signal": {
+            "type": "event",
+            "text": "a vendor or driver applies for a permit under 5.20.140.B",
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-03",
+    "code": "O-ACT",
+    "records": [
+      "A-5.08.050.B-3"
+    ],
+    "provision": "5.08.050.B",
+    "quote": "no license shall be issued thereon, except as ordered by the city council",
+    "missing": "Passive: who must not issue a license except as the council orders.",
+    "best_guess": "License collector",
+    "basis": "5.16.060 gives the license collector the power to issue licenses.",
+    "options": [
+      "License collector",
+      "The city (as in 5.08.050.A)",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): License collector",
+      "patch": {
+        "A-5.08.050.B-3": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-license-collector",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-04",
+    "code": "O-ACT",
+    "records": [
+      "A-5.12.020-1"
+    ],
+    "provision": "5.12.020",
+    "quote": "A separate license must be obtained for each branch establishment or location of the business transacted and carried on, and for each separate unrelated type of business at the same location",
+    "missing": "Passive: who must obtain a separate license for each branch or type of business.",
+    "best_guess": "The person carrying on the business",
+    "basis": "5.12.010 and 5.16.010 put the duty to hold a license on the person carrying on the business.",
+    "options": [
+      "Person carrying on the business",
+      "Licensee",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The person carrying on the business",
+      "patch": {
+        "A-5.12.020-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-any-person",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-05",
+    "code": "O-ACT",
+    "records": [
+      "A-5.12.060-2"
+    ],
+    "provision": "5.12.060",
+    "quote": "A copy of the order blank, contract form, or other papers used by such person in taking orders, shall be attached to the application for the information of the license collector.",
+    "missing": "Passive: who must attach the order blank or contract form to the application.",
+    "best_guess": "The person claiming the interstate-commerce exemption",
+    "basis": "The same sentence refers to \"such person in taking orders\" and the preceding sentence imposes the filing duty on the claimant.",
+    "options": [
+      "The claimant",
+      "The license collector",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The person claiming the interstate-commerce exemption",
+      "patch": {
+        "A-5.12.060-2": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-exemption-claimant",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-06",
+    "code": "O-ACT",
+    "records": [
+      "A-5.16.050-7"
+    ],
+    "provision": "5.16.050",
+    "quote": "Notice of such findings shall be served upon the applicant in the manner prescribed above for serving notices of assessment.",
+    "missing": "Passive: who serves notice of the council's findings.",
+    "best_guess": "License collector",
+    "basis": "The license collector gives every other notice in this section; the council only makes findings.",
+    "options": [
+      "License collector",
+      "City council or its clerk",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): License collector",
+      "patch": {
+        "A-5.16.050-7": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-license-collector",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-07",
+    "code": "O-ACT",
+    "records": [
+      "A-5.16.060-1"
+    ],
+    "provision": "5.16.060",
+    "quote": "All applications for the issuance of a license are to be referred to the license collector of the city",
+    "missing": "Passive: who refers applications to the license collector.",
+    "best_guess": "The applicant (this restates 5.16.010, which already requires application to the license collector)",
+    "basis": "5.16.010 and 5.16.070 already require the applicant to apply to the license collector.",
+    "options": [
+      "Duplicate of 5.16.010 (leave out of the map)",
+      "City staff who receive applications elsewhere",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The applicant (this restates 5.16.010, which already requires application to the license collector) [restates 5.16.010; kept as its own record, flagged here for the dependency pass]",
+      "patch": {
+        "A-5.16.060-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-applicant",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-08",
+    "code": "O-ACT",
+    "records": [
+      "A-5.16.090-1"
+    ],
+    "provision": "5.16.090",
+    "quote": "No license or permit issued under any provision of Chapters 5.04 through 5.24 shall be in any manner transferred or assigned, or authorize any person other than the person named in the license, to carry on the business therein nam",
+    "missing": "Passive: who is barred from transferring or assigning a license (or using it for another person or place) without council consent.",
+    "best_guess": "The licensee",
+    "basis": "Only the licensee holds the license and could transfer it.",
+    "options": [
+      "The licensee",
+      "The license collector (shall not recognize a transfer)",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The licensee",
+      "patch": {
+        "A-5.16.090-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-licensee",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-09",
+    "code": "O-ACT",
+    "records": [
+      "A-5.16.140.B-1",
+      "A-5.16.140.B-3"
+    ],
+    "provision": "5.16.140.B",
+    "quote": "neither the holder thereof, nor any person acting for him directly or indirectly, shall be entitled to another license to carry on the same or any similar business within the city unless the application for such license is approve",
+    "missing": "Who may not issue another license to the holder of a revoked license (B-1), and who may make further applications directly to the license collector once the council approves (B-3).",
+    "best_guess": "B-1: license collector. B-3: the former holder of the revoked license.",
+    "basis": "The text speaks of what the holder is \"entitled\" to and of applications that \"may be made\", without naming who acts.",
+    "options": [
+      "B-1 license collector; B-3 former license holder",
+      "B-1 city council; B-3 former license holder",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): B-1: license collector. B-3: the former holder of the revoked license.",
+      "patch": {
+        "A-5.16.140.B-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-license-collector",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.16.140.B-3": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-revoked-licensee",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-10",
+    "code": "O-ACT",
+    "records": [
+      "A-5.20.015.C-1",
+      "A-5.20.015.C-2",
+      "A-5.20.015.D-1",
+      "A-5.20.015.D-2"
+    ],
+    "provision": "5.20.015.C and D",
+    "quote": "The proceeds of the capital improvement tax shall be utilized only for the acquisition, construction, installation, maintenance, repair, and replacement of capital improvements owned, or to be constructed or acquired by the city.",
+    "missing": "Passive: who must use, allocate, account for and disburse the capital improvement tax proceeds.",
+    "best_guess": "The city",
+    "basis": "The tax and fund are the city's; only the annual report (5.20.015.D, third sentence) names an official (the director of administrative services).",
+    "options": [
+      "The city",
+      "Director of administrative services",
+      "City council (allocation by budget)",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The city",
+      "patch": {
+        "A-5.20.015.C-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-city",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.20.015.C-2": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-city",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.20.015.D-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-city",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.20.015.D-2": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-city",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-11",
+    "code": "O-ACT",
+    "records": [
+      "A-5.20.015.H-2",
+      "A-5.20.043.B-4",
+      "A-5.20.140.B-3",
+      "A-5.20.140.C-3"
+    ],
+    "provision": "5.20.015.H; 5.20.043.B; 5.20.140.B; 5.20.140.C",
+    "quote": "Appeals to the city manager or the city council shall be made by filing a notice of appeal with the city clerk within thirty (30) days after the date on which the final decision or determination is made by the director of administ",
+    "missing": "Passive \"may be appealed\": who may appeal the decision.",
+    "best_guess": "The person aggrieved by the decision (bulk rule: apply the same answer to all four)",
+    "basis": "In each case the decision affects an identifiable person (the rule's subject, the operator or property owner, the permit holder, the vendor).",
+    "options": [
+      "The person aggrieved by the decision (apply to all four)",
+      "Answer each one separately",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The person aggrieved by the decision (bulk rule: apply the same answer to all four)",
+      "patch": {
+        "A-5.20.015.H-2": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-aggrieved-person",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.20.043.B-4": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-aggrieved-person",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.20.140.B-3": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-aggrieved-person",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.20.140.C-3": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-aggrieved-person",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-12",
+    "code": "O-ACT",
+    "records": [
+      "A-5.20.037-2"
+    ],
+    "provision": "5.20.037",
+    "quote": "The full amount of the tax calculated shall be remitted to the tax administrator at the time the return is filed.",
+    "missing": "Passive: who remits the tax with the return.",
+    "best_guess": "The operator",
+    "basis": "The operator files the return in the previous sentence.",
+    "options": [
+      "The operator",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The operator",
+      "patch": {
+        "A-5.20.037-2": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-operator",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-13",
+    "code": "O-ACT",
+    "records": [
+      "A-5.20.039.B-7"
+    ],
+    "provision": "5.20.039.B",
+    "quote": "The amount determined to be due shall be paid in full within fifteen (15) days unless an appeal is taken as provided in Section 5.20.040.",
+    "missing": "Passive: who must pay the amount determined to be due within 15 days.",
+    "best_guess": "The operator",
+    "basis": "The operator is the subject of the assessment and hearing.",
+    "options": [
+      "The operator",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The operator",
+      "patch": {
+        "A-5.20.039.B-7": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-operator",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-14",
+    "code": "O-ACT",
+    "records": [
+      "A-5.20.040-5"
+    ],
+    "provision": "5.20.040",
+    "quote": "The findings of the city manager shall be final and conclusive and shall be served on the operator/appellant in the manner prescribed above for service of notice of hearing.",
+    "missing": "Passive: who serves the city manager's findings on the operator.",
+    "best_guess": "City clerk",
+    "basis": "The city clerk gives the notice of hearing in the same section.",
+    "options": [
+      "City clerk",
+      "City manager",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): City clerk",
+      "patch": {
+        "A-5.20.040-5": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-city-clerk",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-15",
+    "code": "O-ACT",
+    "records": [
+      "A-5.20.042.A-1",
+      "A-5.20.042.C-1"
+    ],
+    "provision": "5.20.042.A and C",
+    "quote": "it may be refunded as provided in subsections B and C of this section provided a claim in writing therefor, stating under penalty of perjury the specific grounds upon which the claim is founded, is filed with the tax administrator",
+    "missing": "Passive: who refunds the overpaid amount (A) and who may not pay a refund without written records (C).",
+    "best_guess": "Tax administrator",
+    "basis": "5.20.042.B says refunds are established \"to the satisfaction of the tax administrator\".",
+    "options": [
+      "Tax administrator",
+      "The city (finance function)",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): Tax administrator",
+      "patch": {
+        "A-5.20.042.A-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-tax-administrator",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.20.042.C-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-tax-administrator",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-16",
+    "code": "O-ACT",
+    "records": [
+      "A-5.20.043.A-1",
+      "A-5.24.060-1"
+    ],
+    "provision": "5.20.043.A; 5.24.060",
+    "quote": "Any operator owing money to the city under Section 5.20.035 shall be liable to an action brought in the name of the city for recovery of such amount.",
+    "missing": "Who brings the action \"in the name of the city\" to recover the amount owed.",
+    "best_guess": "The city, through its city attorney (neither provision names anyone)",
+    "basis": "Actions \"in the name of the city\" are ordinarily brought by the city attorney; the code names no one in these sections.",
+    "options": [
+      "The city (city attorney)",
+      "Tax administrator or license collector",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The city, through its city attorney (neither provision names anyone)",
+      "patch": {
+        "A-5.20.043.A-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-city",
+            "text": null,
+            "confidence": "inferred"
+          }
+        },
+        "A-5.24.060-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-city",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-17",
+    "code": "O-ACT",
+    "records": [
+      "A-5.20.140.B-1"
+    ],
+    "provision": "5.20.140.B",
+    "quote": "Prior to the operation of a catering or ice cream vending vehicle in the city, a permit must be obtained from the Brisbane police department",
+    "missing": "Passive: who must obtain the police department permit before operating a catering or ice cream vehicle.",
+    "best_guess": "The business operating the vehicle",
+    "basis": "5.20.140.A addresses \"all businesses operating catering or ice cream vending trucks and vehicles\".",
+    "options": [
+      "The business operating the vehicle",
+      "The vehicle driver",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): The business operating the vehicle",
+      "patch": {
+        "A-5.20.140.B-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "actor": {
+            "id": "ACT-catering-business",
+            "text": null,
+            "confidence": "inferred"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-18",
+    "code": "O-XREF",
+    "records": [
+      "A-5.20.039.A-1"
+    ],
+    "provision": "5.20.039.A",
+    "quote": "make, within the time provided in Section 5.20.036",
+    "missing": "\"The time provided in Section 5.20.036\": 5.20.036 only defines terms; the filing time is in 5.20.037.",
+    "best_guess": "Section 5.20.037",
+    "basis": "5.20.037 sets the quarterly return and remittance dates.",
+    "options": [
+      "Read as Section 5.20.037",
+      "Leave as written and accept as a known gap",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): Section 5.20.037",
+      "patch": {
+        "A-5.20.039.A-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "signal": {
+            "type": "event",
+            "text": "an operator fails or refuses to pay the tax and to make the return within the time provided (cited as Section 5.20.036, read as Section 5.20.037)",
+            "confidence": "explicit"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-19",
+    "code": "O-XREF",
+    "records": [
+      "A-5.20.110.D-1",
+      "A-5.20.180.C-1"
+    ],
+    "provision": "5.20.110.D; 5.20.180.C",
+    "quote": "the license collector shall impose penalties as prescribed by Section 5.24.070",
+    "missing": "\"Penalties as prescribed by Section 5.24.070\": 5.24.070 is \"Evidence of liability\"; the delinquency penalties are in 5.24.030 through 5.24.050.",
+    "best_guess": "Sections 5.24.030 through 5.24.050",
+    "basis": "Those sections prescribe the penalties for nonpayment, and 5.24.070 does not.",
+    "options": [
+      "Read as 5.24.030-5.24.050",
+      "Leave as written and accept as a known gap",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): Sections 5.24.030 through 5.24.050",
+      "patch": {
+        "A-5.20.110.D-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "action": {
+            "verb": "impose",
+            "object": "penalties as prescribed by Sections 5.24.030 through 5.24.050 (cited as Section 5.24.070)",
+            "confidence": "explicit"
+          }
+        },
+        "A-5.20.180.C-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "action": {
+            "verb": "impose",
+            "object": "penalties as prescribed by Sections 5.24.030 through 5.24.050 (cited as Section 5.24.070)",
+            "confidence": "explicit"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-20",
+    "code": "O-AMBIG",
+    "records": [
+      "A-5.08.040.B-1",
+      "A-5.08.040.B-2",
+      "A-5.08.040.C-1",
+      "A-5.08.040.C-2"
+    ],
+    "provision": "5.08.040",
+    "quote": "shall have and exercise the power and it shall be their duty",
+    "missing": "\"Shall have and exercise the power and it shall be their duty\": are entering any place of business, demanding the license, and requiring a signature mandatory duties, or discretionary powers exercised \"at any reasonable time\"?",
+    "best_guess": "Discretionary power (no trigger or frequency is stated, so a continuous duty cannot be applied)",
+    "basis": "The acts have no trigger; \"any reasonable time\" describes permitted timing, not an obligation to act.",
+    "options": [
+      "Power (discretionary)",
+      "Duty (mandatory)",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): Discretionary power (no trigger or frequency is stated, so a continuous duty cannot be applied)",
+      "patch": {
+        "A-5.08.040.B-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "modality": "power",
+          "signal": {
+            "type": "discretionary",
+            "text": "at any reasonable time",
+            "confidence": "explicit"
+          }
+        },
+        "A-5.08.040.B-2": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "modality": "power",
+          "signal": {
+            "type": "discretionary",
+            "text": "at any reasonable time",
+            "confidence": "explicit"
+          }
+        },
+        "A-5.08.040.C-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "modality": "power",
+          "signal": {
+            "type": "discretionary",
+            "text": "the power to require a signature of the holder of any fee license",
+            "confidence": "explicit"
+          }
+        },
+        "A-5.08.040.C-2": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "modality": "power",
+          "signal": {
+            "type": "discretionary",
+            "text": "the power to require a signature of the holder of any fee license",
+            "confidence": "explicit"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ORP-21",
+    "code": "O-AMBIG",
+    "records": [],
+    "provision": "5.24.080",
+    "quote": "The violation of any of the provisions of this chapter shall constitute a misdemeanor",
+    "missing": "Which provisions does \"the violation of any of the provisions of this chapter\" cover: only Chapter 5.24, or all of Chapters 5.04 through 5.24?",
+    "best_guess": "All of Chapters 5.04 through 5.24",
+    "basis": "The code treats Chapters 5.04-5.24 as one unit (\"Chapters 5.04 through 5.24\" appears throughout), and 5.12.010 makes unlicensed business \"unlawful\".",
+    "options": [
+      "Chapters 5.04 through 5.24",
+      "Chapter 5.24 only, as written",
+      "Other"
+    ],
+    "status": "resolved",
+    "resolution": {
+      "type": "bulk_rule",
+      "answer": "Accepted my best guess (user: \"Accept all best guesses\"): all of Chapters 5.04 through 5.24. Applied to every duty and prohibition of a private party in Division I.",
+      "patch": {
+        "A-5.08.050.B-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.12.010-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.12.020-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.12.060-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.12.060-2": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.12.080-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.010-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.020.A-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.020.B-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.020.B-3": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.030-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.040.B-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.060-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.080.A-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.080.B-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.090-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.090-3": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.100-2": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.16.130-4": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.20.037-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.20.044",
+              "5.24.080"
+            ],
+            "summary": "Violations of 5.20.035-5.20.043 punishable under Chapters 1.14, 1.16 and 1.18; violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.20.037-2": {
+          "consequence": {
+            "provision_refs": [
+              "5.20.038.A",
+              "5.20.038.B",
+              "5.20.038.D",
+              "5.20.044",
+              "5.20.038.C",
+              "5.24.080"
+            ],
+            "summary": "Penalties and interest; violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.20.039.B-7": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.20.041-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.20.044",
+              "5.24.080"
+            ],
+            "summary": "Violations of 5.20.035-5.20.043 punishable under Chapters 1.14, 1.16 and 1.18; violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.20.043.D-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.20.043.E",
+              "5.20.044",
+              "5.24.080"
+            ],
+            "summary": "Purchaser who fails to withhold becomes liable for the amount, up to the purchase price; violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.20.110.C-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.20.180.B-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        },
+        "A-5.20.140.B-1": {
+          "consequence": {
+            "provision_refs": [
+              "5.24.080"
+            ],
+            "summary": "violation is a misdemeanor (5.24.080)"
+          }
+        }
+      }
+    }
+  }
+]

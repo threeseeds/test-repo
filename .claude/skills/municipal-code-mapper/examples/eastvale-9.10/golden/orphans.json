@@ -1,0 +1,224 @@
+[
+  {
+    "id": "ORP-01",
+    "code": "O-SIG",
+    "records": [
+      "A-9.10.050.D-1"
+    ],
+    "provision": "9.10.050.D",
+    "missing": "What triggers the duty to submit the certificate of insurance",
+    "best_guess": "upstream_action: filing of the application (A-9.10.050.A-1)",
+    "basis": "\"before a permit is issued\" fixes a deadline but not a trigger; the application is the first event in the process.",
+    "options": [
+      "Filing of the application",
+      "Request by the director",
+      "Other"
+    ],
+    "resolution": {
+      "type": "answer",
+      "answer": "Filing of the application.",
+      "patch": {
+        "A-9.10.050.D-1": {
+          "signal": {
+            "type": "upstream_action",
+            "text": "filing of the application",
+            "confidence": "explicit",
+            "ref": "A-9.10.050.A-1"
+          },
+          "orphan_flags": [
+            "O-ACT"
+          ]
+        }
+      }
+    },
+    "quote": "A certificate of insurance shall be submitted before a permit is issued.",
+    "status": "resolved"
+  },
+  {
+    "id": "ORP-02",
+    "code": "O-ACT",
+    "records": [
+      "A-9.10.050.D-1"
+    ],
+    "provision": "9.10.050.D",
+    "missing": "Who must submit the certificate (passive voice, no agent)",
+    "best_guess": "ACT-applicant",
+    "basis": "Insurance is part of the permit application; the applicant is the party seeking the permit.",
+    "options": [
+      "Applicant",
+      "Permittee",
+      "Other"
+    ],
+    "resolution": {
+      "type": "answer",
+      "answer": "Applicant; counterparty is the director.",
+      "patch": {
+        "A-9.10.050.D-1": {
+          "actor": {
+            "id": "ACT-applicant",
+            "text": "applicant",
+            "confidence": "explicit"
+          },
+          "counterparty": {
+            "id": "ACT-director",
+            "text": "the director",
+            "confidence": "explicit"
+          },
+          "status": "resolved",
+          "orphan_flags": []
+        }
+      }
+    },
+    "quote": "A certificate of insurance shall be submitted before a permit is issued.",
+    "status": "resolved"
+  },
+  {
+    "id": "ORP-03",
+    "code": "O-SIG",
+    "records": [
+      "A-9.10.070.B-1"
+    ],
+    "provision": "9.10.070.B",
+    "missing": "When or why the permittee must renew (\"annually\" gives a period, not a trigger)",
+    "best_guess": "Restatement of A-9.10.070.C-1 (renewal filed 30 days before expiry)",
+    "basis": "9.10.070.C supplies the trigger and deadline for the same act.",
+    "options": [
+      "Duplicate of 9.10.070.C",
+      "Separate duty with its own trigger",
+      "Other"
+    ],
+    "resolution": {
+      "type": "duplicate",
+      "answer": "Duplicate of 9.10.070.C.",
+      "patch": {
+        "A-9.10.070.B-1": {
+          "status": "resolved",
+          "duplicate_of": "A-9.10.070.C-1",
+          "orphan_flags": []
+        }
+      }
+    },
+    "quote": "The permittee shall renew the permit annually.",
+    "status": "resolved"
+  },
+  {
+    "id": "ORP-04",
+    "code": "O-VERB",
+    "records": [
+      "A-9.10.080.C-1"
+    ],
+    "provision": "9.10.080.C",
+    "missing": "What concrete act \"ensure compliance\" requires",
+    "best_guess": "comply with applicable health regulations (no specific act identifiable)",
+    "basis": "The provision incorporates other law by reference and names no act.",
+    "options": [
+      "Treat as a general duty to comply",
+      "Specify acts (e.g., maintain a health permit)",
+      "Accept as a known gap"
+    ],
+    "resolution": {
+      "type": "accept_gap",
+      "answer": "Accept as a known gap; do not invent acts.",
+      "patch": {
+        "A-9.10.080.C-1": {
+          "status": "known_gap"
+        }
+      }
+    },
+    "quote": "Each vendor shall ensure compliance with all applicable health regulations.",
+    "status": "known_gap"
+  },
+  {
+    "id": "ORP-05",
+    "code": "O-CONFLICT",
+    "records": [
+      "A-9.10.080.E-1",
+      "A-9.10.100-1"
+    ],
+    "provision": "9.10.080.E / 9.10.100",
+    "missing": "Four-foot limit in 9.10.080.E conflicts with five-foot limit in 9.10.100",
+    "best_guess": "No basis to choose; both are prohibitions on the same act with different thresholds",
+    "basis": "Same actor, same act, different limit.",
+    "options": [
+      "Four feet controls",
+      "Five feet controls",
+      "Leave both and note the conflict"
+    ],
+    "resolution": {
+      "type": "superseded",
+      "answer": "Four feet controls; 9.10.100 is a drafting error.",
+      "patch": {
+        "A-9.10.080.E-1": {
+          "status": "resolved",
+          "orphan_flags": []
+        },
+        "A-9.10.100-1": {
+          "status": "resolved",
+          "superseded_by": "A-9.10.080.E-1",
+          "orphan_flags": []
+        }
+      }
+    },
+    "quote": "No vending cart shall exceed four feet in width.",
+    "status": "resolved"
+  },
+  {
+    "id": "ORP-06",
+    "code": "O-XREF",
+    "records": [
+      "A-9.10.110-1"
+    ],
+    "provision": "9.10.110",
+    "missing": "Section 9.10.135 does not exist in this chapter",
+    "best_guess": "A health-certificate provision elsewhere in the code (outside this run)",
+    "basis": "The section number follows no existing section; the subject suggests an out-of-scope health chapter.",
+    "options": [
+      "Typo for another section in scope",
+      "Reference to another chapter (name it)",
+      "Accept as a known gap"
+    ],
+    "resolution": {
+      "type": "external",
+      "answer": "Intended reference is Chapter 9.30 (health certificates), outside this run.",
+      "patch": {
+        "A-9.10.110-1": {
+          "status": "resolved",
+          "orphan_flags": [],
+          "external_refs": [
+            "external:Chapter 9.30"
+          ]
+        }
+      }
+    },
+    "quote": "A sidewalk vendor who sells food shall obtain a health certificate from the county health department pursuant to Section 9.10.135 before vending.",
+    "status": "resolved"
+  },
+  {
+    "id": "ORP-07",
+    "code": "O-AMBIG",
+    "records": [
+      "A-9.10.130.B-1"
+    ],
+    "provision": "9.10.130.B",
+    "missing": "\"may hold a hearing within thirty days\" reads as permission but carries a mandatory-looking deadline",
+    "best_guess": "duty (mandatory hearing)",
+    "basis": "A deadline attached to a discretionary act is unusual and an appeal right would be empty without a hearing.",
+    "options": [
+      "Duty",
+      "Permission"
+    ],
+    "resolution": {
+      "type": "answer",
+      "answer": "Treat as a duty; \"may\" is a drafting error.",
+      "patch": {
+        "A-9.10.130.B-1": {
+          "modality": "duty",
+          "status": "resolved",
+          "orphan_flags": []
+        }
+      }
+    },
+    "quote": "The hearing officer may hold a hearing within thirty days after an appeal is filed.",
+    "status": "resolved"
+  }
+]

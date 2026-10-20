@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ACT-any-person",
+    "label": "any person",
+    "kind": "private_party",
+    "aliases": [
+      "person",
+      "No person"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-sidewalk-vendor",
+    "label": "sidewalk vendor",
+    "kind": "private_party",
+    "aliases": [
+      "sidewalk vendor",
+      "vendor",
+      "each vendor",
+      "A sidewalk vendor who sells food"
+    ],
+    "defined_in": "9.10.020.E"
+  },
+  {
+    "id": "ACT-applicant",
+    "label": "applicant",
+    "kind": "private_party",
+    "aliases": [
+      "applicant",
+      "An applicant for a sidewalk vending permit"
+    ],
+    "defined_in": "9.10.020.A"
+  },
+  {
+    "id": "ACT-permittee",
+    "label": "permittee",
+    "kind": "private_party",
+    "aliases": [
+      "permittee",
+      "A permittee",
+      "The permittee"
+    ],
+    "defined_in": "9.10.020.D"
+  },
+  {
+    "id": "ACT-cited-person",
+    "label": "person issued a citation",
+    "kind": "private_party",
+    "aliases": [
+      "A person who is issued a citation",
+      "A person who receives a citation",
+      "the person"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-director",
+    "label": "director of community development",
+    "kind": "official",
+    "aliases": [
+      "director",
+      "the director"
+    ],
+    "defined_in": "9.10.020.B"
+  },
+  {
+    "id": "ACT-director-designee",
+    "label": "director's designee",
+    "kind": "official",
+    "aliases": [
+      "the director's designee"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-hearing-officer",
+    "label": "hearing officer",
+    "kind": "tribunal",
+    "aliases": [
+      "hearing officer",
+      "the hearing officer"
+    ],
+    "defined_in": "9.10.020.C"
+  },
+  {
+    "id": "ACT-code-enforcement-officer",
+    "label": "code enforcement officer",
+    "kind": "official",
+    "aliases": [
+      "a code enforcement officer"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-council",
+    "label": "council",
+    "kind": "body",
+    "aliases": [
+      "the council"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-city",
+    "label": "the city",
+    "kind": "public_body",
+    "aliases": [
+      "city"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-public",
+    "label": "the public",
+    "kind": "public",
+    "aliases": [],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-county-health-department",
+    "label": "county health department",
+    "kind": "external_agency",
+    "aliases": [
+      "the county health department"
+    ],
+    "defined_in": null
+  }
+]

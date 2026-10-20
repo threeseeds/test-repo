@@ -1,0 +1,1627 @@
+[
+  {
+    "provision": "5.04.010",
+    "class": "purpose",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.04.020",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.04.030",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.040",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-5.08.030-4",
+      "A-5.08.050.A-1",
+      "A-5.16.040.A-1",
+      "A-5.20.015.C-1",
+      "A-5.20.015.C-2",
+      "A-5.20.015.D-1",
+      "A-5.20.015.D-2",
+      "A-5.20.043.D-1"
+    ]
+  },
+  {
+    "provision": "5.04.050",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.060",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.070",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.080",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.090",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.100",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.A",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.B",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.C",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.D",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.E",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.F",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.G",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.H",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.I",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.110.J",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.04.120",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-5.08.020-1",
+      "A-5.08.030-1",
+      "A-5.08.030-2",
+      "A-5.08.030-3",
+      "A-5.08.030-4",
+      "A-5.12.020-1",
+      "A-5.12.060-1",
+      "A-5.12.060-2",
+      "A-5.12.080-1",
+      "A-5.16.010-1",
+      "A-5.16.020.A-1",
+      "A-5.16.020.B-1",
+      "A-5.16.020.B-2",
+      "A-5.16.020.B-3",
+      "A-5.16.020.C-1",
+      "A-5.16.030-1",
+      "A-5.16.040.A-2",
+      "A-5.16.040.B-1",
+      "A-5.16.050-1",
+      "A-5.16.050-2",
+      "A-5.16.050-3",
+      "A-5.16.050-4",
+      "A-5.16.050-5",
+      "A-5.16.060-1",
+      "A-5.16.060-2",
+      "A-5.16.060-3",
+      "A-5.16.060-4",
+      "A-5.16.070-1",
+      "A-5.16.090-3",
+      "A-5.16.100-1",
+      "A-5.16.100-2",
+      "A-5.16.110-1",
+      "A-5.16.120-1",
+      "A-5.16.120-2",
+      "A-5.16.140.B-3",
+      "A-5.16.150-1",
+      "A-5.16.150-3",
+      "A-5.20.020-1",
+      "A-5.20.060.A-1",
+      "A-5.20.060.B-1",
+      "A-5.20.080-1",
+      "A-5.20.110.C-1",
+      "A-5.20.110.D-1",
+      "A-5.20.110.D-2",
+      "A-5.20.180.B-1",
+      "A-5.20.180.C-1",
+      "A-5.20.180.C-2",
+      "A-5.24.030-1",
+      "A-5.24.040-1",
+      "A-5.24.050-1"
+    ]
+  },
+  {
+    "provision": "5.04.130",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-5.08.030-2",
+      "A-5.08.030-3",
+      "A-5.08.040.A-1",
+      "A-5.08.040.A-2",
+      "A-5.08.040.B-1",
+      "A-5.08.040.B-2",
+      "A-5.08.040.C-1",
+      "A-5.08.040.C-2",
+      "A-5.08.050.B-1",
+      "A-5.08.050.B-2",
+      "A-5.12.010-1",
+      "A-5.16.010-1",
+      "A-5.16.040.A-1",
+      "A-5.16.050-1",
+      "A-5.16.050-2",
+      "A-5.16.050-3",
+      "A-5.16.050-4",
+      "A-5.16.050-5",
+      "A-5.16.050-6",
+      "A-5.16.150-1",
+      "A-5.16.150-2",
+      "A-5.16.150-3",
+      "A-5.20.020-1",
+      "A-5.20.060.A-1",
+      "A-5.20.060.B-1",
+      "A-5.20.080-1",
+      "A-5.24.060-1"
+    ]
+  },
+  {
+    "provision": "5.04.140",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.08.010",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.08.020",
+    "class": "operative",
+    "records": [
+      "A-5.08.020-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.08.030",
+    "class": "operative",
+    "records": [
+      "A-5.08.030-1",
+      "A-5.08.030-2",
+      "A-5.08.030-3",
+      "A-5.08.030-4"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.08.040",
+    "class": "operative",
+    "records": [
+      "A-5.08.040.A-1",
+      "A-5.08.040.A-2",
+      "A-5.08.040.B-1",
+      "A-5.08.040.B-2",
+      "A-5.08.040.C-1",
+      "A-5.08.040.C-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.08.040.A",
+    "class": "operative",
+    "records": [
+      "A-5.08.040.A-1",
+      "A-5.08.040.A-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.08.040.B",
+    "class": "operative",
+    "records": [
+      "A-5.08.040.B-1",
+      "A-5.08.040.B-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.08.040.C",
+    "class": "operative",
+    "records": [
+      "A-5.08.040.C-1",
+      "A-5.08.040.C-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.08.050.A",
+    "class": "operative",
+    "records": [
+      "A-5.08.050.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.08.050.B",
+    "class": "operative",
+    "records": [
+      "A-5.08.050.B-1",
+      "A-5.08.050.B-2",
+      "A-5.08.050.B-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.12.010",
+    "class": "operative",
+    "records": [
+      "A-5.12.010-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.12.020",
+    "class": "operative",
+    "records": [
+      "A-5.12.020-1",
+      "A-5.12.020-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.12.030",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-5.12.010-1"
+    ]
+  },
+  {
+    "provision": "5.12.040",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-5.12.010-1"
+    ]
+  },
+  {
+    "provision": "5.12.050",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-5.12.010-1"
+    ]
+  },
+  {
+    "provision": "5.12.060",
+    "class": "operative",
+    "records": [
+      "A-5.12.060-1",
+      "A-5.12.060-2"
+    ],
+    "attached_to": [
+      "A-5.12.010-1"
+    ]
+  },
+  {
+    "provision": "5.12.070",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-5.12.010-1"
+    ]
+  },
+  {
+    "provision": "5.12.080",
+    "class": "operative",
+    "records": [
+      "A-5.12.080-1"
+    ],
+    "attached_to": [
+      "A-5.12.010-1"
+    ]
+  },
+  {
+    "provision": "5.16.010",
+    "class": "operative",
+    "records": [
+      "A-5.16.010-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.020.A",
+    "class": "operative",
+    "records": [
+      "A-5.16.020.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.020.B",
+    "class": "operative",
+    "records": [
+      "A-5.16.020.B-1",
+      "A-5.16.020.B-2",
+      "A-5.16.020.B-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.020.C",
+    "class": "operative",
+    "records": [
+      "A-5.16.020.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.030",
+    "class": "operative",
+    "records": [
+      "A-5.16.030-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.040.A",
+    "class": "operative",
+    "records": [
+      "A-5.16.040.A-1",
+      "A-5.16.040.A-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.040.B",
+    "class": "operative",
+    "records": [
+      "A-5.16.040.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.040.C",
+    "class": "operative",
+    "records": [
+      "A-5.16.040.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.050",
+    "class": "operative",
+    "records": [
+      "A-5.16.050-1",
+      "A-5.16.050-2",
+      "A-5.16.050-3",
+      "A-5.16.050-4",
+      "A-5.16.050-5",
+      "A-5.16.050-6",
+      "A-5.16.050-7"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.060",
+    "class": "operative",
+    "records": [
+      "A-5.16.060-1",
+      "A-5.16.060-2",
+      "A-5.16.060-3",
+      "A-5.16.060-4",
+      "A-5.16.060-5"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.070",
+    "class": "operative",
+    "records": [
+      "A-5.16.070-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.070.A",
+    "class": "operative",
+    "records": [
+      "A-5.16.070-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.070.B",
+    "class": "operative",
+    "records": [
+      "A-5.16.070-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.070.C",
+    "class": "operative",
+    "records": [
+      "A-5.16.070-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.070.D",
+    "class": "operative",
+    "records": [
+      "A-5.16.070-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.070.E",
+    "class": "operative",
+    "records": [
+      "A-5.16.070-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.070.F",
+    "class": "operative",
+    "records": [
+      "A-5.16.070-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.080.A",
+    "class": "operative",
+    "records": [
+      "A-5.16.080.A-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.080.B",
+    "class": "operative",
+    "records": [
+      "A-5.16.080.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.090",
+    "class": "operative",
+    "records": [
+      "A-5.16.090-1",
+      "A-5.16.090-2",
+      "A-5.16.090-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.100",
+    "class": "operative",
+    "records": [
+      "A-5.16.100-1",
+      "A-5.16.100-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.110",
+    "class": "operative",
+    "records": [
+      "A-5.16.110-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.120",
+    "class": "operative",
+    "records": [
+      "A-5.16.120-1",
+      "A-5.16.120-2",
+      "A-5.16.120-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.130",
+    "class": "operative",
+    "records": [
+      "A-5.16.130-1",
+      "A-5.16.130-2",
+      "A-5.16.130-3",
+      "A-5.16.130-4",
+      "A-5.16.130-5",
+      "A-5.16.130-6",
+      "A-5.16.130-7"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.140.A",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "A-5.16.050-6",
+      "A-5.16.060-2",
+      "A-5.16.130-5"
+    ]
+  },
+  {
+    "provision": "5.16.140.B",
+    "class": "operative",
+    "records": [
+      "A-5.16.140.B-1",
+      "A-5.16.140.B-2",
+      "A-5.16.140.B-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.150",
+    "class": "operative",
+    "records": [
+      "A-5.16.150-1",
+      "A-5.16.150-2",
+      "A-5.16.150-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.16.160",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.20.010.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.010.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.010.C",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.010.D",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.011.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.011.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.015.A",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.015.B",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.015.C",
+    "class": "operative",
+    "records": [
+      "A-5.20.015.C-1",
+      "A-5.20.015.C-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.015.D",
+    "class": "operative",
+    "records": [
+      "A-5.20.015.D-1",
+      "A-5.20.015.D-2",
+      "A-5.20.015.D-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.015.E",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.015.F",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.015.G",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.015.H",
+    "class": "operative",
+    "records": [
+      "A-5.20.015.H-1",
+      "A-5.20.015.H-2"
+    ],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.020",
+    "class": "operative",
+    "records": [
+      "A-5.20.020-1"
+    ],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.025.A",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.025.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.025.C",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.20.025.D",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.20.025.E",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.20.030",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.035.A",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.035.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.035.C",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.035.D",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.036",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.037",
+    "class": "operative",
+    "records": [
+      "A-5.20.037-1",
+      "A-5.20.037-2",
+      "A-5.20.037-3"
+    ],
+    "attached_to": [
+      "A-5.20.037-1",
+      "A-5.20.037-2"
+    ]
+  },
+  {
+    "provision": "5.20.038.A",
+    "class": "penalty",
+    "records": [],
+    "attached_to": [
+      "A-5.20.037-2"
+    ]
+  },
+  {
+    "provision": "5.20.038.B",
+    "class": "penalty",
+    "records": [],
+    "attached_to": [
+      "A-5.20.037-2"
+    ]
+  },
+  {
+    "provision": "5.20.038.C",
+    "class": "operative",
+    "records": [
+      "A-5.20.038.C-1"
+    ],
+    "attached_to": [
+      "A-5.20.037-2"
+    ]
+  },
+  {
+    "provision": "5.20.038.D",
+    "class": "penalty",
+    "records": [],
+    "attached_to": [
+      "A-5.20.037-2"
+    ]
+  },
+  {
+    "provision": "5.20.038.E",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "A-5.20.037-2"
+    ]
+  },
+  {
+    "provision": "5.20.039.A",
+    "class": "operative",
+    "records": [
+      "A-5.20.039.A-1",
+      "A-5.20.039.A-2",
+      "A-5.20.039.A-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.039.B",
+    "class": "operative",
+    "records": [
+      "A-5.20.039.B-1",
+      "A-5.20.039.B-2",
+      "A-5.20.039.B-3",
+      "A-5.20.039.B-4",
+      "A-5.20.039.B-5",
+      "A-5.20.039.B-6",
+      "A-5.20.039.B-7"
+    ],
+    "attached_to": [
+      "A-5.20.039.B-2"
+    ]
+  },
+  {
+    "provision": "5.20.040",
+    "class": "operative",
+    "records": [
+      "A-5.20.040-1",
+      "A-5.20.040-2",
+      "A-5.20.040-3",
+      "A-5.20.040-4",
+      "A-5.20.040-5"
+    ],
+    "attached_to": [
+      "A-5.20.040-5"
+    ]
+  },
+  {
+    "provision": "5.20.041",
+    "class": "operative",
+    "records": [
+      "A-5.20.041-1",
+      "A-5.20.041-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.042.A",
+    "class": "operative",
+    "records": [
+      "A-5.20.042.A-1",
+      "A-5.20.042.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.042.B",
+    "class": "operative",
+    "records": [
+      "A-5.20.042.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.042.C",
+    "class": "operative",
+    "records": [
+      "A-5.20.042.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.043.A",
+    "class": "operative",
+    "records": [
+      "A-5.20.043.A-1"
+    ],
+    "attached_to": [
+      "A-5.20.037-2"
+    ]
+  },
+  {
+    "provision": "5.20.043.B",
+    "class": "operative",
+    "records": [
+      "A-5.20.043.B-1",
+      "A-5.20.043.B-2",
+      "A-5.20.043.B-3",
+      "A-5.20.043.B-4"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.043.C",
+    "class": "operative",
+    "records": [
+      "A-5.20.043.C-1"
+    ],
+    "attached_to": [
+      "A-5.20.043.C-1"
+    ]
+  },
+  {
+    "provision": "5.20.043.D",
+    "class": "operative",
+    "records": [
+      "A-5.20.043.D-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.043.E",
+    "class": "penalty",
+    "records": [],
+    "attached_to": [
+      "A-5.20.043.D-1"
+    ]
+  },
+  {
+    "provision": "5.20.043.F",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "A-5.20.037-2"
+    ]
+  },
+  {
+    "provision": "5.20.044",
+    "class": "penalty",
+    "records": [],
+    "attached_to": [
+      "A-5.20.037-1",
+      "A-5.20.037-2",
+      "A-5.20.041-1",
+      "A-5.20.043.D-1"
+    ]
+  },
+  {
+    "provision": "5.20.050.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.050.B",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.060.A",
+    "class": "operative",
+    "records": [
+      "A-5.20.060.A-1"
+    ],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.060.B",
+    "class": "operative",
+    "records": [
+      "A-5.20.060.B-1"
+    ],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.070",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.080",
+    "class": "operative",
+    "records": [
+      "A-5.20.080-1"
+    ],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.090",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.100.A",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.100.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.100.C",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.110",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.110.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.110.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.110.C",
+    "class": "operative",
+    "records": [
+      "A-5.20.110.C-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.110.D",
+    "class": "operative",
+    "records": [
+      "A-5.20.110.D-1",
+      "A-5.20.110.D-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.120",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.125.A",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.125.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.125.C",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.130",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.140.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.140.B",
+    "class": "operative",
+    "records": [
+      "A-5.20.140.B-1",
+      "A-5.20.140.B-2",
+      "A-5.20.140.B-3"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.140.C",
+    "class": "operative",
+    "records": [
+      "A-5.20.140.C-1",
+      "A-5.20.140.C-2",
+      "A-5.20.140.C-3"
+    ],
+    "attached_to": [
+      "A-5.20.140.C-1"
+    ]
+  },
+  {
+    "provision": "5.20.150",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.150.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.150.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.150.C",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.160",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.170",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.180",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.180.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.180.B",
+    "class": "operative",
+    "records": [
+      "A-5.20.180.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.180.C",
+    "class": "operative",
+    "records": [
+      "A-5.20.180.C-1",
+      "A-5.20.180.C-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.20.190",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.200",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.210",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.220",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.230",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.230.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.230.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.235.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.235.B",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "5.20.240.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.240.B",
+    "class": "operative",
+    "records": [
+      "A-5.20.240.B-1"
+    ],
+    "attached_to": [
+      "A-5.20.240.B-1"
+    ]
+  },
+  {
+    "provision": "5.20.250",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.250.A",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.250.B",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.250.C",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.250.D",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.250.E",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.250.F",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.20.260",
+    "class": "fee",
+    "records": [],
+    "attached_to": [
+      "A-5.16.070-1"
+    ]
+  },
+  {
+    "provision": "5.24.010",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.24.020",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.24.030",
+    "class": "operative",
+    "records": [
+      "A-5.24.030-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.24.040",
+    "class": "operative",
+    "records": [
+      "A-5.24.040-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.24.050",
+    "class": "operative",
+    "records": [
+      "A-5.24.050-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.24.060",
+    "class": "operative",
+    "records": [
+      "A-5.24.060-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "5.24.070",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.24.080",
+    "class": "penalty",
+    "records": [],
+    "attached_to": [
+      "A-5.08.050.B-1",
+      "A-5.12.010-1",
+      "A-5.12.020-1",
+      "A-5.12.060-1",
+      "A-5.12.060-2",
+      "A-5.12.080-1",
+      "A-5.16.010-1",
+      "A-5.16.020.A-1",
+      "A-5.16.020.B-1",
+      "A-5.16.020.B-3",
+      "A-5.16.030-1",
+      "A-5.16.040.B-1",
+      "A-5.16.060-1",
+      "A-5.16.080.A-1",
+      "A-5.16.080.B-1",
+      "A-5.16.090-1",
+      "A-5.16.090-3",
+      "A-5.16.100-2",
+      "A-5.16.130-4",
+      "A-5.20.037-1",
+      "A-5.20.037-2",
+      "A-5.20.039.B-7",
+      "A-5.20.041-1",
+      "A-5.20.043.D-1",
+      "A-5.20.110.C-1",
+      "A-5.20.140.B-1",
+      "A-5.20.180.B-1",
+      "chapter"
+    ]
+  },
+  {
+    "provision": "5.24.090",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  }
+]

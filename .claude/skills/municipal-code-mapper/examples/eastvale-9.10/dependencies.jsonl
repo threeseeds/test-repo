@@ -1,0 +1,28 @@
+# Dependency sheet for the Eastvale fixture (build_deps.py expands this, plus derived triggers, to golden/dependencies.json)
+{"from": "9.10.050.D-1", "to": "9.10.060.A-1", "type": "temporal", "basis": "explicit", "conf": "high", "ev": "before a permit is issued"}
+{"from": "9.10.060.A-1", "to": "9.10.040-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "a valid permit issued under this chapter"}
+{"from": "9.10.060.A-1", "to": "9.10.070.C-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "before the permit expires"}
+{"from": "9.10.060.A-1", "to": "9.10.080.A-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "display the permit"}
+{"from": "9.10.060.A-1", "to": "9.10.140.A-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "revoke a permit"}
+{"from": "9.10.070.D-1", "to": "9.10.070.C-1", "type": "produces-input", "basis": "explicit", "conf": "high", "ev": "a renewed permit again expires one year after issuance (9.10.070.A), so renewal recurs (renewal loop)"}
+{"from": "9.10.060.A-1", "to": "9.10.070.D-1", "type": "reference", "basis": "explicit", "conf": "high", "ev": "in the manner provided in Section 9.10.060"}
+{"from": "9.10.060.C-1", "to": "9.10.060.C-2", "type": "delegation", "basis": "explicit", "conf": "high", "ev": "the director or the director's designee"}
+{"from": "9.10.060.B-1", "to": "9.10.060.A-1", "type": "exception-of", "basis": "inferred", "conf": "high", "ev": "denial is mandatory where an unpaid fine exists, overriding issuance"}
+{"from": "9.10.120.C-1", "to": "9.10.060.B-1", "type": "condition-precedent", "basis": "inferred", "conf": "medium", "ev": "an unpaid fine under this chapter arises from the fine payment duty"}
+{"from": "9.10.130.A-1", "to": "9.10.120.C-1", "type": "exception-of", "basis": "inferred", "conf": "low", "ev": "text is silent on whether an appeal stays the 30-day payment deadline"}
+{"from": "9.10.120.B-1", "to": "9.10.140.A-1", "type": "condition-precedent", "basis": "explicit", "conf": "high", "ev": "cited for three or more violations"}
+{"from": "external:Chapter 9.30", "to": "9.10.110-1", "type": "reference", "basis": "inferred", "conf": "medium", "ev": "user-confirmed intended reference (ORP-06)"}
+{"from": "9.10.040-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.050.A-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.050.D-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.070.C-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.080.A-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.080.B-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.080.C-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.080.E-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.090.B-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.110-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"from": "9.10.140.C-1", "to": "9.10.120.B-1", "type": "enforcement", "basis": "explicit", "conf": "high", "ev": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation"}
+{"cycle": {"view": "explicit_only", "members": ["9.10.070.C-1", "9.10.070.D-1"], "label": "Renewal loop", "exit": "permittee does not renew, or the director denies the renewal"}}
+{"cycle": {"view": "explicit_only", "members": ["9.10.120.B-1", "9.10.140.A-1", "9.10.140.B-1", "9.10.140.C-1"], "label": "Revocation loop", "exit": "permittee surrenders the revoked permit"}}
+{"cycle": {"view": "with_inferred", "members": ["9.10.040-1", "9.10.060.A-1", "9.10.060.B-1", "9.10.070.C-1", "9.10.070.D-1", "9.10.080.A-1", "9.10.120.B-1", "9.10.120.C-1", "9.10.130.A-1", "9.10.140.A-1", "9.10.140.B-1", "9.10.140.C-1"], "label": "Enforcement feedback across cases", "exit": "needs review of the inferred edges before it is treated as real"}}

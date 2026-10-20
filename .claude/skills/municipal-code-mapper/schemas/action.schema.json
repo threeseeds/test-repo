@@ -1,0 +1,399 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "action.schema.json",
+  "title": "Action records",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "provision_refs",
+      "source_quote",
+      "signal",
+      "actor",
+      "modality",
+      "action",
+      "counterparty",
+      "timing",
+      "conditions",
+      "exceptions",
+      "consequence",
+      "attachments",
+      "outputs",
+      "status",
+      "orphan_flags",
+      "link",
+      "conflict_with",
+      "resolution_note"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^A-[0-9]"
+      },
+      "provision_refs": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      },
+      "source_quote": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Verbatim substring of the provision text"
+      },
+      "signal": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "text",
+          "confidence"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "event",
+              "state",
+              "time",
+              "request",
+              "upstream_action",
+              "standing",
+              "discretionary",
+              "unknown"
+            ]
+          },
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "description": "Record id of the upstream action"
+          },
+          "confidence": {
+            "enum": [
+              "explicit",
+              "inferred",
+              null
+            ]
+          }
+        }
+      },
+      "actor": {
+        "anyOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "text",
+              "confidence"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^ACT-"
+              },
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "confidence": {
+                "enum": [
+                  "explicit",
+                  "inferred"
+                ]
+              }
+            }
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "modality": {
+        "enum": [
+          "duty",
+          "prohibition",
+          "permission",
+          "power",
+          "entitlement"
+        ]
+      },
+      "action": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "verb",
+          "object",
+          "confidence"
+        ],
+        "properties": {
+          "verb": {
+            "type": "string"
+          },
+          "object": {
+            "type": "string"
+          },
+          "confidence": {
+            "enum": [
+              "explicit",
+              "inferred"
+            ]
+          }
+        }
+      },
+      "counterparty": {
+        "anyOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "text",
+              "confidence"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^ACT-"
+              },
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "confidence": {
+                "enum": [
+                  "explicit",
+                  "inferred"
+                ]
+              }
+            }
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "timing": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "deadline",
+                  "window",
+                  "period",
+                  "recurrence",
+                  "continuous"
+                ]
+              },
+              "amount": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "from": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "direction": {
+                "enum": [
+                  "after",
+                  "before",
+                  null
+                ]
+              },
+              "business_days": {
+                "type": "boolean"
+              },
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "conditions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "exceptions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Provision ids of exceptions"
+      },
+      "consequence": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "provision_refs",
+              "summary"
+            ],
+            "properties": {
+              "provision_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "summary": {
+                "type": "string"
+              }
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "provision",
+            "summary"
+          ],
+          "properties": {
+            "kind": {
+              "enum": [
+                "definition",
+                "fee",
+                "applicability",
+                "exemption",
+                "penalty",
+                "legal_effect"
+              ]
+            },
+            "provision": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "outputs": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^artifact:"
+        }
+      },
+      "status": {
+        "enum": [
+          "complete",
+          "orphan",
+          "resolved",
+          "known_gap",
+          "external"
+        ]
+      },
+      "orphan_flags": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "O-SIG",
+            "O-ACT",
+            "O-VERB",
+            "O-CP",
+            "O-XREF",
+            "O-AMBIG",
+            "O-CONFLICT",
+            "O-CLASS"
+          ]
+        }
+      },
+      "link": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "link_id",
+              "relation"
+            ],
+            "properties": {
+              "link_id": {
+                "type": "string"
+              },
+              "relation": {
+                "enum": [
+                  "joint",
+                  "alternative"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "conflict_with": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "resolution_note": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "duplicate_of": {
+        "type": "string"
+      },
+      "superseded_by": {
+        "type": "string"
+      },
+      "external_refs": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^external:"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,684 @@
+[
+  {
+    "id": "9.10.010",
+    "section": "9.10.010",
+    "chapter": "9.10",
+    "division": null,
+    "label": null,
+    "heading": "Purpose",
+    "article": "I",
+    "text": "The purpose of this chapter is to protect public safety and the free use of public sidewalks by regulating sidewalk vending.",
+    "class": "purpose",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 1, 2019)."
+  },
+  {
+    "id": "9.10.020.A",
+    "section": "9.10.020",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Definitions",
+    "article": "I",
+    "text": "\"Applicant\" means a person who files an application for a permit under this chapter.",
+    "class": "definition",
+    "attaches_to": [
+      "A-9.10.050.A-1",
+      "A-9.10.050.C-1",
+      "A-9.10.060.A-1",
+      "A-9.10.060.B-1",
+      "A-9.10.060.C-1",
+      "A-9.10.060.C-2"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 2, 2019)."
+  },
+  {
+    "id": "9.10.020.B",
+    "section": "9.10.020",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Definitions",
+    "article": "I",
+    "text": "\"Director\" means the director of community development.",
+    "class": "definition",
+    "attaches_to": [
+      "A-9.10.050.A-1",
+      "A-9.10.050.C-1",
+      "A-9.10.060.A-1",
+      "A-9.10.060.B-1",
+      "A-9.10.060.C-1",
+      "A-9.10.070.C-1",
+      "A-9.10.070.D-1",
+      "A-9.10.090.A-1",
+      "A-9.10.140.A-1",
+      "A-9.10.140.B-1",
+      "A-9.10.140.C-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 2, 2019)."
+  },
+  {
+    "id": "9.10.020.C",
+    "section": "9.10.020",
+    "chapter": "9.10",
+    "division": null,
+    "label": "C",
+    "heading": "Definitions",
+    "article": "I",
+    "text": "\"Hearing officer\" means the city's administrative hearing officer.",
+    "class": "definition",
+    "attaches_to": [
+      "A-9.10.130.A-1",
+      "A-9.10.130.B-1",
+      "A-9.10.130.C-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 2, 2019)."
+  },
+  {
+    "id": "9.10.020.D",
+    "section": "9.10.020",
+    "chapter": "9.10",
+    "division": null,
+    "label": "D",
+    "heading": "Definitions",
+    "article": "I",
+    "text": "\"Permittee\" means a person who holds a valid permit issued under this chapter.",
+    "class": "definition",
+    "attaches_to": [
+      "A-9.10.070.C-1",
+      "A-9.10.070.D-1",
+      "A-9.10.080.D-1",
+      "A-9.10.140.A-1",
+      "A-9.10.140.B-1",
+      "A-9.10.140.C-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 2, 2019)."
+  },
+  {
+    "id": "9.10.020.E",
+    "section": "9.10.020",
+    "chapter": "9.10",
+    "division": null,
+    "label": "E",
+    "heading": "Definitions",
+    "article": "I",
+    "text": "\"Sidewalk vendor\" means a person who sells food or merchandise from a cart on a public sidewalk.",
+    "class": "definition",
+    "attaches_to": [
+      "A-9.10.080.A-1",
+      "A-9.10.080.B-1",
+      "A-9.10.080.C-1",
+      "A-9.10.080.E-1",
+      "A-9.10.090.B-1",
+      "A-9.10.110-1",
+      "A-9.10.120.B-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 2, 2019)."
+  },
+  {
+    "id": "9.10.030",
+    "section": "9.10.030",
+    "chapter": "9.10",
+    "division": null,
+    "label": null,
+    "heading": "Applicability",
+    "article": "I",
+    "text": "This chapter does not apply to a certified farmers' market operating under Chapter 9.20.",
+    "class": "applicability",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 3, 2019).",
+    "external_refs": [
+      "external:Chapter 9.20"
+    ]
+  },
+  {
+    "id": "9.10.040",
+    "section": "9.10.040",
+    "chapter": "9.10",
+    "division": null,
+    "label": null,
+    "heading": "Permit required",
+    "article": "II",
+    "text": "No person shall operate as a sidewalk vendor without a valid permit issued under this chapter.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.040-1"
+    ],
+    "history": "(Ord. 101 § 4, 2019)."
+  },
+  {
+    "id": "9.10.050.A",
+    "section": "9.10.050",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Application",
+    "article": "II",
+    "text": "An applicant for a sidewalk vending permit shall file a written application with the director on a form provided by the director.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.050.A-1"
+    ],
+    "history": "(Ord. 101 § 5, 2019)."
+  },
+  {
+    "id": "9.10.050.B",
+    "section": "9.10.050",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Application",
+    "article": "II",
+    "text": "The application shall be accompanied by the fee established by resolution of the council.",
+    "class": "fee",
+    "attaches_to": [
+      "A-9.10.050.A-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 5, 2019)."
+  },
+  {
+    "id": "9.10.050.C",
+    "section": "9.10.050",
+    "chapter": "9.10",
+    "division": null,
+    "label": "C",
+    "heading": "Application",
+    "article": "II",
+    "text": "The director shall review each application for completeness within five business days after it is filed.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.050.C-1"
+    ],
+    "history": "(Ord. 101 § 5, 2019)."
+  },
+  {
+    "id": "9.10.050.D",
+    "section": "9.10.050",
+    "chapter": "9.10",
+    "division": null,
+    "label": "D",
+    "heading": "Application",
+    "article": "II",
+    "text": "A certificate of insurance shall be submitted before a permit is issued.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.050.D-1"
+    ],
+    "history": "(Ord. 101 § 5, 2019)."
+  },
+  {
+    "id": "9.10.060.A",
+    "section": "9.10.060",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Issuance",
+    "article": "II",
+    "text": "Within ten business days after an application is determined complete, the director shall issue or deny the permit.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.060.A-1"
+    ],
+    "history": "(Ord. 101 § 6, 2019)."
+  },
+  {
+    "id": "9.10.060.B",
+    "section": "9.10.060",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Issuance",
+    "article": "II",
+    "text": "The director shall deny the permit if the applicant has an unpaid fine under this chapter.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.060.B-1"
+    ],
+    "history": "(Ord. 101 § 6, 2019)."
+  },
+  {
+    "id": "9.10.060.C",
+    "section": "9.10.060",
+    "chapter": "9.10",
+    "division": null,
+    "label": "C",
+    "heading": "Issuance",
+    "article": "II",
+    "text": "The director or the director's designee shall notify the applicant of a denial in writing, stating the reasons.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.060.C-1",
+      "A-9.10.060.C-2"
+    ],
+    "history": "(Ord. 101 § 6, 2019)."
+  },
+  {
+    "id": "9.10.070.A",
+    "section": "9.10.070",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Term and renewal",
+    "article": "II",
+    "text": "A permit shall expire one year after the date of issuance.",
+    "class": "applicability",
+    "attaches_to": [
+      "A-9.10.060.A-1",
+      "A-9.10.070.C-1"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 7, 2019)."
+  },
+  {
+    "id": "9.10.070.B",
+    "section": "9.10.070",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Term and renewal",
+    "article": "II",
+    "text": "The permittee shall renew the permit annually.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.070.B-1"
+    ],
+    "history": "(Ord. 101 § 7, 2019)."
+  },
+  {
+    "id": "9.10.070.C",
+    "section": "9.10.070",
+    "chapter": "9.10",
+    "division": null,
+    "label": "C",
+    "heading": "Term and renewal",
+    "article": "II",
+    "text": "A permittee shall file a renewal application with the director at least thirty days before the permit expires.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.070.C-1"
+    ],
+    "history": "(Ord. 101 § 7, 2019)."
+  },
+  {
+    "id": "9.10.070.D",
+    "section": "9.10.070",
+    "chapter": "9.10",
+    "division": null,
+    "label": "D",
+    "heading": "Term and renewal",
+    "article": "II",
+    "text": "The director shall act on a renewal application in the manner provided in Section 9.10.060.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.070.D-1"
+    ],
+    "history": "(Ord. 101 § 7, 2019)."
+  },
+  {
+    "id": "9.10.080.A",
+    "section": "9.10.080",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Operating requirements",
+    "article": "III",
+    "text": "A sidewalk vendor shall display the permit in a conspicuous place on the vending cart at all times while vending.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.080.A-1"
+    ],
+    "history": "(Ord. 101 § 8, 2019)."
+  },
+  {
+    "id": "9.10.080.B",
+    "section": "9.10.080",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Operating requirements",
+    "article": "III",
+    "text": "No sidewalk vendor shall vend within one hundred feet of an elementary school entrance during school hours.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.080.B-1"
+    ],
+    "history": "(Ord. 101 § 8, 2019)."
+  },
+  {
+    "id": "9.10.080.C",
+    "section": "9.10.080",
+    "chapter": "9.10",
+    "division": null,
+    "label": "C",
+    "heading": "Operating requirements",
+    "article": "III",
+    "text": "Each vendor shall ensure compliance with all applicable health regulations.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.080.C-1"
+    ],
+    "history": "(Ord. 101 § 8, 2019)."
+  },
+  {
+    "id": "9.10.080.D",
+    "section": "9.10.080",
+    "chapter": "9.10",
+    "division": null,
+    "label": "D",
+    "heading": "Operating requirements",
+    "article": "III",
+    "text": "A permittee may operate between the hours of 7:00 a.m. and 9:00 p.m.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.080.D-1"
+    ],
+    "history": "(Ord. 101 § 8, 2019)."
+  },
+  {
+    "id": "9.10.080.E",
+    "section": "9.10.080",
+    "chapter": "9.10",
+    "division": null,
+    "label": "E",
+    "heading": "Operating requirements",
+    "article": "III",
+    "text": "No vending cart shall exceed four feet in width.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.080.E-1"
+    ],
+    "history": "(Ord. 101 § 8, 2019)."
+  },
+  {
+    "id": "9.10.090.A",
+    "section": "9.10.090",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Prohibited streets",
+    "article": "III",
+    "text": "The director may, by written order, designate streets on which sidewalk vending is prohibited.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.090.A-1"
+    ],
+    "history": "(Ord. 101 § 9, 2019)."
+  },
+  {
+    "id": "9.10.090.B",
+    "section": "9.10.090",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Prohibited streets",
+    "article": "III",
+    "text": "No sidewalk vendor shall vend on a street designated under subsection A.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.090.B-1"
+    ],
+    "history": "(Ord. 101 § 9, 2019)."
+  },
+  {
+    "id": "9.10.100",
+    "section": "9.10.100",
+    "chapter": "9.10",
+    "division": null,
+    "label": null,
+    "heading": "Cart dimensions",
+    "article": "III",
+    "text": "Vending carts shall not exceed five feet in width.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.100-1"
+    ],
+    "history": "(Ord. 101 § 10, 2019)."
+  },
+  {
+    "id": "9.10.110",
+    "section": "9.10.110",
+    "chapter": "9.10",
+    "division": null,
+    "label": null,
+    "heading": "Food vendors",
+    "article": "III",
+    "text": "A sidewalk vendor who sells food shall obtain a health certificate from the county health department pursuant to Section 9.10.135 before vending.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.110-1"
+    ],
+    "history": "(Ord. 101 § 11, 2019)."
+  },
+  {
+    "id": "9.10.120.A",
+    "section": "9.10.120",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Violations and citations",
+    "article": "IV",
+    "text": "Any violation of this chapter is an infraction.",
+    "class": "penalty",
+    "attaches_to": [
+      "A-9.10.040-1",
+      "A-9.10.050.A-1",
+      "A-9.10.050.D-1",
+      "A-9.10.070.C-1",
+      "A-9.10.080.A-1",
+      "A-9.10.080.B-1",
+      "A-9.10.080.C-1",
+      "A-9.10.080.E-1",
+      "A-9.10.090.B-1",
+      "A-9.10.110-1",
+      "A-9.10.140.C-1",
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 12, 2019)."
+  },
+  {
+    "id": "9.10.120.B",
+    "section": "9.10.120",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Violations and citations",
+    "article": "IV",
+    "text": "Upon observing a violation of this chapter, a code enforcement officer shall issue a written citation to the vendor.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.120.B-1"
+    ],
+    "history": "(Ord. 101 § 12, 2019)."
+  },
+  {
+    "id": "9.10.120.C",
+    "section": "9.10.120",
+    "chapter": "9.10",
+    "division": null,
+    "label": "C",
+    "heading": "Violations and citations",
+    "article": "IV",
+    "text": "A person who is issued a citation shall pay a fine of one hundred dollars within thirty days after the citation is issued.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.120.C-1"
+    ],
+    "history": "(Ord. 101 § 12, 2019)."
+  },
+  {
+    "id": "9.10.130.A",
+    "section": "9.10.130",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Appeals",
+    "article": "IV",
+    "text": "A person who receives a citation may appeal to the hearing officer within fifteen days after receipt of the citation.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.130.A-1"
+    ],
+    "history": "(Ord. 101 § 13, 2019)."
+  },
+  {
+    "id": "9.10.130.B",
+    "section": "9.10.130",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Appeals",
+    "article": "IV",
+    "text": "The hearing officer may hold a hearing within thirty days after an appeal is filed.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.130.B-1"
+    ],
+    "history": "(Ord. 101 § 13, 2019)."
+  },
+  {
+    "id": "9.10.130.C",
+    "section": "9.10.130",
+    "chapter": "9.10",
+    "division": null,
+    "label": "C",
+    "heading": "Appeals",
+    "article": "IV",
+    "text": "The hearing officer may affirm, modify, or dismiss the citation.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.130.C-1"
+    ],
+    "history": "(Ord. 101 § 13, 2019)."
+  },
+  {
+    "id": "9.10.130.D",
+    "section": "9.10.130",
+    "chapter": "9.10",
+    "division": null,
+    "label": "D",
+    "heading": "Appeals",
+    "article": "IV",
+    "text": "If the hearing officer affirms the citation, the person shall pay the fine within ten days after the decision.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.130.D-1"
+    ],
+    "history": "(Ord. 101 § 13, 2019)."
+  },
+  {
+    "id": "9.10.140.A",
+    "section": "9.10.140",
+    "chapter": "9.10",
+    "division": null,
+    "label": "A",
+    "heading": "Revocation",
+    "article": "IV",
+    "text": "The director may revoke a permit if the permittee has been cited for three or more violations within any twelve month period.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.140.A-1"
+    ],
+    "history": "(Ord. 101 § 14, 2019)."
+  },
+  {
+    "id": "9.10.140.B",
+    "section": "9.10.140",
+    "chapter": "9.10",
+    "division": null,
+    "label": "B",
+    "heading": "Revocation",
+    "article": "IV",
+    "text": "The director shall give written notice of revocation to the permittee.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.140.B-1"
+    ],
+    "history": "(Ord. 101 § 14, 2019)."
+  },
+  {
+    "id": "9.10.140.C",
+    "section": "9.10.140",
+    "chapter": "9.10",
+    "division": null,
+    "label": "C",
+    "heading": "Revocation",
+    "article": "IV",
+    "text": "A permittee shall surrender a revoked permit to the director upon receipt of the notice of revocation.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-9.10.140.C-1"
+    ],
+    "history": "(Ord. 101 § 14, 2019)."
+  },
+  {
+    "id": "9.10.150",
+    "section": "9.10.150",
+    "chapter": "9.10",
+    "division": null,
+    "label": null,
+    "heading": "Reserved",
+    "article": "V",
+    "text": "Reserved.",
+    "class": "reserved",
+    "attaches_to": [],
+    "record_ids": [],
+    "history": null
+  },
+  {
+    "id": "9.10.160",
+    "section": "9.10.160",
+    "chapter": "9.10",
+    "division": null,
+    "label": null,
+    "heading": "Severability",
+    "article": "V",
+    "text": "If any provision of this chapter is held invalid, the remainder of this chapter shall remain in effect.",
+    "class": "applicability",
+    "attaches_to": [
+      "chapter"
+    ],
+    "record_ids": [],
+    "history": "(Ord. 101 § 15, 2019)."
+  }
+]

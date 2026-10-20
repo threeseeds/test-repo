@@ -1,0 +1,68 @@
+{
+  "classes": {
+    "9.10.010": "purpose",
+    "9.10.020.A": "definition",
+    "9.10.020.B": "definition",
+    "9.10.020.C": "definition",
+    "9.10.020.D": "definition",
+    "9.10.020.E": "definition",
+    "9.10.030": "applicability",
+    "9.10.050.B": "fee",
+    "9.10.070.A": "applicability",
+    "9.10.120.A": "penalty",
+    "9.10.150": "reserved",
+    "9.10.160": "applicability"
+  },
+  "attach": {
+    "9.10.120.A": {
+      "to": [
+        "9.10.040",
+        "9.10.050.A",
+        "9.10.050.D",
+        "9.10.070.B",
+        "9.10.070.C",
+        "9.10.080.A",
+        "9.10.080.B",
+        "9.10.080.C",
+        "9.10.080.E",
+        "9.10.090.B",
+        "9.10.100",
+        "9.10.110",
+        "9.10.140.C",
+        "chapter"
+      ],
+      "summary": "violation is an infraction"
+    },
+    "9.10.050.B": {
+      "to": [
+        "9.10.050.A"
+      ],
+      "summary": "fee established by resolution of the council"
+    },
+    "9.10.070.A": {
+      "to": [
+        "9.10.060.A",
+        "9.10.070.C"
+      ],
+      "summary": "permit expires one year after issuance"
+    },
+    "9.10.010": {
+      "to": [
+        "chapter"
+      ],
+      "summary": "The purpose of this chapter is to protect public safety and the free use of publ"
+    },
+    "9.10.030": {
+      "to": [
+        "chapter"
+      ],
+      "summary": "This chapter does not apply to a certified farmers' market operating under Chapt"
+    },
+    "9.10.160": {
+      "to": [
+        "chapter"
+      ],
+      "summary": "If any provision of this chapter is held invalid, the remainder of this chapter "
+    }
+  }
+}

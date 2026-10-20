@@ -1,0 +1,20 @@
+flowchart LR
+  subgraph g_5_20["5.20"]
+    A_5_20_110_D_1["5.20.110.D-1<br/>impose<br/><i>license-collector</i>"]
+    A_5_20_180_C_1["5.20.180.C-1<br/>impose<br/><i>license-collector</i>"]
+  end
+  subgraph g_5_24["5.24"]
+    A_5_24_030_1["5.24.030-1<br/>add and collect<br/><i>license-collector</i>"]
+    A_5_24_040_1["5.24.040-1<br/>add and collect<br/><i>license-collector</i>"]
+    A_5_24_050_1["5.24.050-1<br/>add and collect<br/><i>license-collector</i>"]
+    A_5_24_060_1["5.24.060-1<br/>bring an action in the name of the city<br/><i>city</i>"]
+  end
+  A_5_24_030_1 -->|"produces-input"| A_5_24_060_1
+  A_5_24_030_1 -.->|"reference (inferred)"| A_5_20_110_D_1
+  A_5_24_030_1 -.->|"reference (inferred)"| A_5_20_180_C_1
+  A_5_24_040_1 -->|"produces-input"| A_5_24_060_1
+  A_5_24_040_1 -.->|"reference (inferred)"| A_5_20_110_D_1
+  A_5_24_040_1 -.->|"reference (inferred)"| A_5_20_180_C_1
+  A_5_24_050_1 -->|"produces-input"| A_5_24_060_1
+  A_5_24_050_1 -.->|"reference (inferred)"| A_5_20_110_D_1
+  A_5_24_050_1 -.->|"reference (inferred)"| A_5_20_180_C_1

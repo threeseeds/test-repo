@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "provision.schema.json",
+  "title": "Provision",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "section",
+      "chapter",
+      "label",
+      "heading",
+      "article",
+      "text",
+      "class",
+      "attaches_to",
+      "record_ids"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[0-9]+(\\.[0-9]+)*(\\.[A-Za-z0-9]+)?$",
+        "description": "Section number, plus .<label> for a lettered subdivision (e.g. 9.10.050.A)"
+      },
+      "section": {
+        "type": "string"
+      },
+      "label": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "heading": {
+        "type": "string"
+      },
+      "article": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "text": {
+        "type": "string",
+        "minLength": 1
+      },
+      "class": {
+        "enum": [
+          "operative",
+          "definition",
+          "purpose",
+          "penalty",
+          "exemption",
+          "fee",
+          "applicability",
+          "legal_effect",
+          "cross_reference",
+          "reserved",
+          "unclassifiable",
+          null
+        ],
+        "description": "null only in the segmenter output, before classification"
+      },
+      "attaches_to": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Record ids, 'chapter' or 'glossary'"
+      },
+      "record_ids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "external_refs": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^external:"
+        }
+      },
+      "chapter": {
+        "type": "string",
+        "pattern": "^[0-9]+\\.[0-9]+$"
+      },
+      "division": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "history": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "footnote_refs": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

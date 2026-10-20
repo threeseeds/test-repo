@@ -1,0 +1,455 @@
+{
+  "nodes": [
+    "A-9.10.040-1",
+    "A-9.10.050.A-1",
+    "A-9.10.050.C-1",
+    "A-9.10.050.D-1",
+    "A-9.10.060.A-1",
+    "A-9.10.060.B-1",
+    "A-9.10.060.C-1",
+    "A-9.10.060.C-2",
+    "A-9.10.070.C-1",
+    "A-9.10.070.D-1",
+    "A-9.10.080.A-1",
+    "A-9.10.080.B-1",
+    "A-9.10.080.C-1",
+    "A-9.10.080.D-1",
+    "A-9.10.080.E-1",
+    "A-9.10.090.A-1",
+    "A-9.10.090.B-1",
+    "A-9.10.110-1",
+    "A-9.10.120.B-1",
+    "A-9.10.120.C-1",
+    "A-9.10.130.A-1",
+    "A-9.10.130.B-1",
+    "A-9.10.130.C-1",
+    "A-9.10.130.D-1",
+    "A-9.10.140.A-1",
+    "A-9.10.140.B-1",
+    "A-9.10.140.C-1",
+    "external:Chapter 9.30"
+  ],
+  "edges": [
+    {
+      "id": "E-001",
+      "from": "A-9.10.050.A-1",
+      "to": "A-9.10.050.C-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "after it is filed",
+      "status": "accepted"
+    },
+    {
+      "id": "E-002",
+      "from": "A-9.10.050.A-1",
+      "to": "A-9.10.050.D-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "filing of the application",
+      "status": "accepted"
+    },
+    {
+      "id": "E-003",
+      "from": "A-9.10.050.C-1",
+      "to": "A-9.10.060.A-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "after an application is determined complete",
+      "status": "accepted"
+    },
+    {
+      "id": "E-004",
+      "from": "A-9.10.060.A-1",
+      "to": "A-9.10.060.C-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "a denial",
+      "status": "accepted"
+    },
+    {
+      "id": "E-005",
+      "from": "A-9.10.060.A-1",
+      "to": "A-9.10.060.C-2",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "a denial",
+      "status": "accepted"
+    },
+    {
+      "id": "E-006",
+      "from": "A-9.10.070.C-1",
+      "to": "A-9.10.070.D-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "a renewal application",
+      "status": "accepted"
+    },
+    {
+      "id": "E-007",
+      "from": "A-9.10.090.A-1",
+      "to": "A-9.10.090.B-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "a street designated under subsection A",
+      "status": "accepted"
+    },
+    {
+      "id": "E-008",
+      "from": "A-9.10.120.B-1",
+      "to": "A-9.10.120.C-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the citation is issued",
+      "status": "accepted"
+    },
+    {
+      "id": "E-009",
+      "from": "A-9.10.120.B-1",
+      "to": "A-9.10.130.A-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "receipt of the citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-010",
+      "from": "A-9.10.130.A-1",
+      "to": "A-9.10.130.B-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "an appeal is filed",
+      "status": "accepted"
+    },
+    {
+      "id": "E-011",
+      "from": "A-9.10.130.B-1",
+      "to": "A-9.10.130.C-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the hearing",
+      "status": "accepted"
+    },
+    {
+      "id": "E-012",
+      "from": "A-9.10.130.C-1",
+      "to": "A-9.10.130.D-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the hearing officer affirms the citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-013",
+      "from": "A-9.10.140.A-1",
+      "to": "A-9.10.140.B-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "revocation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-014",
+      "from": "A-9.10.140.B-1",
+      "to": "A-9.10.140.C-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "receipt of the notice of revocation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-015",
+      "from": "A-9.10.050.D-1",
+      "to": "A-9.10.060.A-1",
+      "type": "temporal",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "before a permit is issued",
+      "status": "accepted"
+    },
+    {
+      "id": "E-016",
+      "from": "A-9.10.060.A-1",
+      "to": "A-9.10.040-1",
+      "type": "produces-input",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "a valid permit issued under this chapter",
+      "status": "accepted"
+    },
+    {
+      "id": "E-017",
+      "from": "A-9.10.060.A-1",
+      "to": "A-9.10.070.C-1",
+      "type": "produces-input",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "before the permit expires",
+      "status": "accepted"
+    },
+    {
+      "id": "E-018",
+      "from": "A-9.10.060.A-1",
+      "to": "A-9.10.080.A-1",
+      "type": "produces-input",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "display the permit",
+      "status": "accepted"
+    },
+    {
+      "id": "E-019",
+      "from": "A-9.10.060.A-1",
+      "to": "A-9.10.140.A-1",
+      "type": "produces-input",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "revoke a permit",
+      "status": "accepted"
+    },
+    {
+      "id": "E-020",
+      "from": "A-9.10.070.D-1",
+      "to": "A-9.10.070.C-1",
+      "type": "produces-input",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "a renewed permit again expires one year after issuance (9.10.070.A), so renewal recurs (renewal loop)",
+      "status": "accepted"
+    },
+    {
+      "id": "E-021",
+      "from": "A-9.10.060.A-1",
+      "to": "A-9.10.070.D-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "in the manner provided in Section 9.10.060",
+      "status": "accepted"
+    },
+    {
+      "id": "E-022",
+      "from": "A-9.10.060.C-1",
+      "to": "A-9.10.060.C-2",
+      "type": "delegation",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the director or the director's designee",
+      "status": "accepted"
+    },
+    {
+      "id": "E-023",
+      "from": "A-9.10.060.B-1",
+      "to": "A-9.10.060.A-1",
+      "type": "exception-of",
+      "basis": "inferred",
+      "confidence": "high",
+      "evidence": "denial is mandatory where an unpaid fine exists, overriding issuance",
+      "status": "pending_review"
+    },
+    {
+      "id": "E-024",
+      "from": "A-9.10.120.C-1",
+      "to": "A-9.10.060.B-1",
+      "type": "condition-precedent",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence": "an unpaid fine under this chapter arises from the fine payment duty",
+      "status": "pending_review"
+    },
+    {
+      "id": "E-025",
+      "from": "A-9.10.130.A-1",
+      "to": "A-9.10.120.C-1",
+      "type": "exception-of",
+      "basis": "inferred",
+      "confidence": "low",
+      "evidence": "text is silent on whether an appeal stays the 30-day payment deadline",
+      "status": "pending_review"
+    },
+    {
+      "id": "E-026",
+      "from": "A-9.10.120.B-1",
+      "to": "A-9.10.140.A-1",
+      "type": "condition-precedent",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "cited for three or more violations",
+      "status": "accepted"
+    },
+    {
+      "id": "E-027",
+      "from": "external:Chapter 9.30",
+      "to": "A-9.10.110-1",
+      "type": "reference",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence": "user-confirmed intended reference (ORP-06)",
+      "status": "pending_review"
+    },
+    {
+      "id": "E-028",
+      "from": "A-9.10.040-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-029",
+      "from": "A-9.10.050.A-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-030",
+      "from": "A-9.10.050.D-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-031",
+      "from": "A-9.10.070.C-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-032",
+      "from": "A-9.10.080.A-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-033",
+      "from": "A-9.10.080.B-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-034",
+      "from": "A-9.10.080.C-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-035",
+      "from": "A-9.10.080.E-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-036",
+      "from": "A-9.10.090.B-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-037",
+      "from": "A-9.10.110-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    },
+    {
+      "id": "E-038",
+      "from": "A-9.10.140.C-1",
+      "to": "A-9.10.120.B-1",
+      "type": "enforcement",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "Any violation of this chapter is an infraction; code enforcement officer shall issue a citation",
+      "status": "accepted"
+    }
+  ],
+  "cycle_notes": [
+    {
+      "view": "explicit_only",
+      "members": [
+        "A-9.10.070.C-1",
+        "A-9.10.070.D-1"
+      ],
+      "label": "Renewal loop",
+      "exit": "permittee does not renew, or the director denies the renewal"
+    },
+    {
+      "view": "explicit_only",
+      "members": [
+        "A-9.10.120.B-1",
+        "A-9.10.140.A-1",
+        "A-9.10.140.B-1",
+        "A-9.10.140.C-1"
+      ],
+      "label": "Revocation loop",
+      "exit": "permittee surrenders the revoked permit"
+    },
+    {
+      "view": "with_inferred",
+      "members": [
+        "A-9.10.040-1",
+        "A-9.10.060.A-1",
+        "A-9.10.060.B-1",
+        "A-9.10.070.C-1",
+        "A-9.10.070.D-1",
+        "A-9.10.080.A-1",
+        "A-9.10.120.B-1",
+        "A-9.10.120.C-1",
+        "A-9.10.130.A-1",
+        "A-9.10.140.A-1",
+        "A-9.10.140.B-1",
+        "A-9.10.140.C-1"
+      ],
+      "label": "Enforcement feedback across cases",
+      "exit": "needs review of the inferred edges before it is treated as real"
+    }
+  ]
+}
