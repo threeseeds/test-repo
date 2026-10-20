@@ -76,7 +76,9 @@ time so references stay accurate, appending lines in provision order. Then:
 ```
 expand.py RUN                      # writes actions.json, updates provisions.json
 ```
-Fix every error `expand.py` reports (it writes nothing until clean).
+Fix every error `expand.py` reports (it writes nothing until clean). A passive duty or
+prohibition with no stated agent is flagged `O-ACT` even when the actor is obvious; leave the
+record's `actor` null and put your guess in the orphan.
 
 ### 5. Audit
 Write `RUN/orphans.json` for every flagged record plus any provision you could not classify
@@ -88,8 +90,10 @@ Fix every problem. Coverage must be complete: each provision is the source of a 
 to one, or reserved.
 
 ### 6. Resolve orphans with the user (one table per group)
-Present the open orphans exactly as `references/orphans.md` specifies: grouped tables of
-`# | Provision | Quote | What the text doesn't say | My best guess (basis) | Options`.
+Render the tables with `orphan_table.py RUN` and paste them as the response, grouped as
+`references/orphans.md` specifies (`# | Provision | Quote | What the text doesn't say | My best guess (basis) | Options`).
+Group records that share one pattern into a single orphan (for example four agentless "may be
+appealed" provisions) and offer a bulk rule.
 Wait for answers. Record each as a `resolution` with a self-contained `patch` and set the
 orphan status. Apply the patches to `actions.json` yourself, in orphan-id order, set
 `resolution_note`, and recompute each affected provision's `attaches_to` and `record_ids`

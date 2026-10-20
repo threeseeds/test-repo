@@ -104,6 +104,18 @@ class ExpandTests(TmpCase):
         v = run("validate.py", self.run_dir, "--stage", "extract")
         self.assertEqual(v.returncode, 0, v.stdout)
 
+    def test_attach_can_target_a_single_record(self):
+        c = load(self.run_dir + "/classification.json")
+        c["attach"]["9.10.050.B"]["to"] = ["A-9.10.060.C-2"]
+        dump(self.run_dir + "/classification.json", c)
+        run("expand.py", self.run_dir, check=True)
+        recs = {r["id"]: r for r in load(self.run_dir + "/actions.json")}
+        self.assertIn("fee", [a["kind"] for a in recs["A-9.10.060.C-2"]["attachments"]])
+        self.assertNotIn("fee", [a["kind"] for a in recs["A-9.10.060.C-1"]["attachments"]])
+        c["attach"]["9.10.050.B"]["to"] = ["A-9.10.999-1"]
+        dump(self.run_dir + "/classification.json", c)
+        p = run("expand.py", self.run_dir); self.assertEqual(p.returncode, 1); self.assertIn("unknown record", p.stdout)
+
     def test_attach_to_provision_without_records_is_an_error(self):
         c = load(self.run_dir + "/classification.json"); c["attach"]["9.10.050.B"]["to"] = ["9.10.150"]; dump(self.run_dir + "/classification.json", c)
         p = run("expand.py", self.run_dir); self.assertEqual(p.returncode, 1); self.assertIn("has no records", p.stdout)

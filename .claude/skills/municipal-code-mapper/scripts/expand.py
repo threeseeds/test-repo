@@ -16,7 +16,7 @@ Outputs:
 classification.json
   {"classes": {"<provision id>": "<class>", ...},         # anything not listed is "operative";
                                                           # 'Reserved'/'Repealed' headings default to "reserved"
-   "attach":  {"<provision id>": {"to": ["<provision id>", "chapter", "glossary", ...],
+   "attach":  {"<provision id>": {"to": ["<provision id>", "<record id>", "chapter", "glossary", ...],
                                   "summary": "short text"}}}
   The class of an attaching provision decides the attachment kind: fee, applicability,
   legal_effect, definition (each becomes an entry in the target records' `attachments`);
@@ -149,12 +149,14 @@ def expand(prov, actors, classification, sheet):
         for t in spec["to"]:
             if t in ("chapter", "glossary"):
                 pd[src]["attaches_to"].append(t)
-            elif t not in pd:
+            elif t.startswith("A-") and t not in ids:
+                errs.append(f"attach: {src} targets unknown record {t}")
+            elif not t.startswith("A-") and t not in pd:
                 errs.append(f"attach: {src} targets unknown provision {t}")
-            elif not by_prov.get(t):
+            elif not t.startswith("A-") and not by_prov.get(t):
                 errs.append(f"attach: {src} targets {t}, which has no records")
             else:
-                for r in by_prov[t]:
+                for r in ([x for x in records if x["id"] == t] if t.startswith("A-") else by_prov[t]):
                     if kind == "penalty":
                         r["consequence"] = r["consequence"] or {"provision_refs": [], "summary": summary}
                         r["consequence"]["provision_refs"].append(src)

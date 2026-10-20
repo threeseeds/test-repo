@@ -39,7 +39,7 @@ the second-order map. Run on a real chapter only after the fixture passes.
 - **Exit:** scripts pass on golden files; fail correctly on injected faults. Met: 42 tests; the
   segmenter also reproduces all 227 sections / 18 chapters of Brisbane Title 5 and passes `validate.py`.
 
-### Phase 3 — Reference docs and SKILL.md (first-order)
+### Phase 3 — Reference docs and SKILL.md (first-order) (IN PROGRESS: skill, references, expand/score/orphan_table done; Division I extraction at the orphan-resolution gate; blind fixture run not yet done)
 - Write `references/*.md` (construct, classification, orphans, drafting cues).
 - SKILL.md stages 0–5: intake, segment, classify, registries, extract, audit.
 - `scripts/score.py`: compare a run to the golden files (precision/recall on records, orphan

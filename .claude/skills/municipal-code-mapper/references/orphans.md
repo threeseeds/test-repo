@@ -57,3 +57,21 @@ Each answer becomes a `resolution` on the orphan:
 self-contained (set `status` and the remaining `orphan_flags`). Set the orphan `status` to
 `resolved` or `known_gap`. Never mark an orphan resolved without an answer from the user or an
 explicit user rule.
+
+## Judgment calls from the Brisbane Division I run
+
+- **Strict on passive voice.** "A permit must be obtained", "shall be served", "may be appealed":
+  each is `O-ACT` with the actor left null and the likely actor in `best_guess`, even when it
+  is obvious. The user would rather confirm in bulk than have it assumed. Offer a bulk rule for
+  repeated patterns.
+- **One orphan, several records.** When several records share one gap and one fix (four
+  agentless "may be appealed" provisions), list them in a single orphan so the user answers once.
+- **Provision-level orphans** (`records: []`) are allowed when the question is about scope, for
+  example whether a penalty clause that says "this chapter" reaches the whole division.
+- **A reference to the wrong section** (a penalties cross-reference that lands on an evidence
+  rule) is `O-XREF` even though the target exists: the target does not say what the reference
+  claims.
+- **"Right to" an act** (the tax administrator's "right to inspect") is a `power`, not an
+  `entitlement`.
+- **Restatements are not orphans.** If a provision repeats a duty stated elsewhere, cover it
+  through `provision_refs` of one record and mention it in the summary; do not create a duplicate.

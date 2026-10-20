@@ -134,16 +134,16 @@ def segment(text, prof):
             expect = "A" if last_label is None else chr(ord(last_label) + 1)
             if m.group(1) >= expect:
                 if m.group(1) > expect:
-                    warnings.append(f"line {no}: label '{m.group(1)}.' skips '{expect}.' in {sec['section']}; "
-                                    f"check the source for a run-on or missing paragraph")
+                    warnings.append((sec["section"], f"line {no}: label '{m.group(1)}.' skips '{expect}.' in {sec['section']}; "
+                                    f"check the source for a run-on or missing paragraph"))
                 last_label = m.group(1)
                 cur = {"label": m.group(1), "text": m.group(2)}
                 sec["provisions"].append(cur)
                 stats["body"] += 1
                 continue
-            warnings.append(f"line {no}: '{m.group(1)}.' repeats an earlier label in {sec['section']}; kept as continuation")
+            warnings.append((sec["section"], f"line {no}: '{m.group(1)}.' repeats an earlier label in {sec['section']}; kept as continuation"))
         elif last_label is not None and re.search(r"[;:] " + chr(ord(last_label) + 1) + r"\. [A-Z]", s):
-            warnings.append(f"line {no}: possible inline paragraph '{chr(ord(last_label) + 1)}.' inside {sec['section']}.{last_label}; not split")
+            warnings.append((sec["section"], f"line {no}: possible inline paragraph '{chr(ord(last_label) + 1)}.' inside {sec['section']}.{last_label}; not split"))
         if cur is None:
             cur = {"label": None, "text": s}
             sec["provisions"].append(cur)
@@ -163,7 +163,7 @@ def build(sections, prof, in_scope):
             old = by_id[sec["section"]]
             old_body = any(p["text"] for p in old["provisions"])
             if old_body and has_body:
-                dup_notes.append(f"{sec['section']}: two sections with text (lines {old['line']} and {sec['line']}); kept the later one")
+                dup_notes.append((sec["section"], f"{sec['section']}: two sections with text (lines {old['line']} and {sec['line']}); kept the later one"))
             elif old_body and not has_body:
                 continue          # later bodyless repeat (e.g. a table of contents entry)
         by_id[sec["section"]] = sec
@@ -202,7 +202,8 @@ def main(argv=None):
     text = read_text(a.source)
     sections, footnotes, stats, unassigned, warnings = segment(text, prof)
     provs, dup_notes, notes = build(sections, prof, parse_chapter_filter(a.chapters))
-    warnings += dup_notes
+    in_scope_sections = {p["section"] for p in provs}
+    warnings = [m for sec_id, m in warnings + dup_notes if sec_id in in_scope_sections]
     empty = [p["id"] for p in provs if not p["text"]]
     body_unassigned = [u for u in unassigned if u[2] != "front_matter"]
     report = {"source": os.path.abspath(a.source), "profile": prof["name"], "chapters_filter": a.chapters,
