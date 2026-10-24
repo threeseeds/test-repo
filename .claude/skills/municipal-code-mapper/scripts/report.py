@@ -18,6 +18,13 @@ from fileio import read_text, write_text, read_json, write_json
 import graph as G
 
 
+def section_of(pid):
+    """Section a provision id belongs to: 5.16.090 for municode ids, 99.31 for CFR ids (99.31.a.1.i)."""
+    parts = pid.split(".")
+    if len(parts) > 2 and not all(x.isdigit() for x in parts):
+        return ".".join(parts[:2])
+    return pid.rsplit(".", 1)[0] if pid.count(".") > 2 else pid
+
 def cell(s):
     return str(s if s is not None else "").replace("|", "\\|").replace("\n", " ")
 
@@ -73,8 +80,8 @@ def first_order(actions, orphans, prov, actors, glossary, title):
     L.append("## By section\n")
     bysec = collections.defaultdict(list)
     for r in recs:
-        bysec[r["provision_refs"][0].rsplit(".", 1)[0] if r["provision_refs"][0].count(".") > 2 else r["provision_refs"][0]].append(r)
-    for sec in sorted(bysec, key=lambda s: [int(x) for x in s.split(".")]):
+        bysec[section_of(r["provision_refs"][0])].append(r)
+    for sec in sorted(bysec, key=lambda s: [(0, int(x), "") if x.isdigit() else (1, 0, x) for x in s.split(".")]):
         L.append(f"### {sec}\n")
         L.append(table(HEAD, [row(r) for r in bysec[sec]]))
     L.append("## By actor (obligation load)\n")
