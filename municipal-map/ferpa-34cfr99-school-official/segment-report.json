@@ -1,0 +1,110 @@
+{
+  "source": "/tmp/claude-0/-home-user-test-repo/d026e187-2e28-5e0d-b2d2-bb751352de1b/scratchpad/runs/ferpa-99/source.txt",
+  "profile": "cfr",
+  "chapters_filter": "99.1:99.5,99.7,99.30:99.33",
+  "only": [
+    "99.31:a.1"
+  ],
+  "line_stats": {
+    "lines": 2622,
+    "blank": 398,
+    "noise": 327,
+    "structure": 10,
+    "heading": 32,
+    "history": 79,
+    "body": 1528,
+    "note": 19,
+    "footnote": 0,
+    "front_matter_text": 10
+  },
+  "sections_found": 10,
+  "provisions": 145,
+  "chapters": [
+    "99.1",
+    "99.2",
+    "99.3",
+    "99.4",
+    "99.5",
+    "99.7",
+    "99.30",
+    "99.31",
+    "99.32",
+    "99.33"
+  ],
+  "per_chapter": {
+    "99.1": 1,
+    "99.2": 1,
+    "99.3": 1,
+    "99.4": 1,
+    "99.5": 1,
+    "99.7": 1,
+    "99.30": 1,
+    "99.31": 1,
+    "99.32": 1,
+    "99.33": 1
+  },
+  "empty_provisions": [],
+  "unassigned_body_lines": [],
+  "front_matter_text_lines": [
+    [
+      2,
+      "includes in its notice under paragraph",
+      "front_matter"
+    ],
+    [
+      3,
+      "(b) of this section:",
+      "front_matter"
+    ],
+    [
+      4,
+      "(1) A statement of the specific steps",
+      "front_matter"
+    ],
+    [
+      5,
+      "that the Secretary recommends the recipient or contractor take to comply;",
+      "front_matter"
+    ],
+    [
+      6,
+      "and",
+      "front_matter"
+    ],
+    [
+      7,
+      "(2) Provides a reasonable period of",
+      "front_matter"
+    ],
+    [
+      8,
+      "time, given all of the circumstances of",
+      "front_matter"
+    ],
+    [
+      9,
+      "the case, during which the recipient or",
+      "front_matter"
+    ],
+    [
+      10,
+      "contractor may comply voluntarily.",
+      "front_matter"
+    ],
+    [
+      11,
+      "(Authority: 20 U.S.C. 1221e–3(a)(1), 1232h)",
+      "front_matter"
+    ]
+  ],
+  "warnings": [
+    "line 166: joined 'section'",
+    "line 280: joined 'educational'",
+    "line 1335: joined 'Assistant'",
+    "line 1684: joined 'postsecondary'",
+    "line 2026: joined 'adjudication'",
+    "line 2148: joined 'information'",
+    "line 2380: joined 'educational'",
+    "108 lines after the appendix marker were not segmented"
+  ]
+}

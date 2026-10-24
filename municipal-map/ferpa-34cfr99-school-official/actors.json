@@ -1,0 +1,139 @@
+[
+  {
+    "id": "ACT-educational-agency-or-institution",
+    "label": "educational agency or institution",
+    "kind": "public_body",
+    "aliases": [
+      "agency or institution",
+      "the agency or institution",
+      "Each educational agency or institution",
+      "An agency or institution of elementary or secondary education",
+      "school"
+    ],
+    "defined_in": "99.3.educational-agency-or-institution"
+  },
+  {
+    "id": "ACT-parent",
+    "label": "parent",
+    "kind": "private_party",
+    "aliases": [
+      "parents",
+      "either parent"
+    ],
+    "defined_in": "99.3.parent"
+  },
+  {
+    "id": "ACT-eligible-student",
+    "label": "eligible student",
+    "kind": "private_party",
+    "aliases": [
+      "eligible students"
+    ],
+    "defined_in": "99.3.eligible-student"
+  },
+  {
+    "id": "ACT-parent-or-eligible-student",
+    "label": "parent or eligible student",
+    "kind": "private_party",
+    "aliases": [
+      "The parent or eligible student",
+      "parents or eligible students",
+      "a parent or eligible student"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-student",
+    "label": "student",
+    "kind": "private_party",
+    "aliases": [
+      "students"
+    ],
+    "defined_in": "99.3.student"
+  },
+  {
+    "id": "ACT-school-official",
+    "label": "school official",
+    "kind": "official",
+    "aliases": [
+      "school officials",
+      "other school officials, including teachers"
+    ],
+    "defined_in": "99.31.a.1.i.A"
+  },
+  {
+    "id": "ACT-outside-party",
+    "label": "contractor, consultant, volunteer, or other outsourced party",
+    "kind": "private_party",
+    "aliases": [
+      "A contractor, consultant, volunteer, or other party to whom an agency or institution has outsourced institutional services or functions",
+      "the outside party"
+    ],
+    "defined_in": "99.31.a.1.i.B"
+  },
+  {
+    "id": "ACT-receiving-party",
+    "label": "party to whom information is disclosed",
+    "kind": "private_party",
+    "aliases": [
+      "the party to whom the information is disclosed",
+      "A party that receives information"
+    ],
+    "defined_in": "99.3.party"
+  },
+  {
+    "id": "ACT-receiving-party-personnel",
+    "label": "officers, employees and agents of a receiving party",
+    "kind": "private_party",
+    "aliases": [
+      "The officers, employees, and agents of a party that receives information"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-state-or-federal-recipient",
+    "label": "State or local educational authority or Federal official or agency",
+    "kind": "external_agency",
+    "aliases": [
+      "A State or local educational authority or Federal official or agency listed in § 99.31(a)(3)"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-records-custodian",
+    "label": "school official responsible for the custody of the records",
+    "kind": "official",
+    "aliases": [
+      "The school official or his or her assistants who are responsible for the custody of the records"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-authorized-auditors",
+    "label": "parties authorized in § 99.31(a)(1) and (3) to audit recordkeeping",
+    "kind": "external_agency",
+    "aliases": [
+      "Those parties authorized in § 99.31(a) (1) and (3)"
+    ],
+    "defined_in": null
+  },
+  {
+    "id": "ACT-secretary",
+    "label": "Secretary of Education",
+    "kind": "official",
+    "aliases": [
+      "Secretary",
+      "the Secretary"
+    ],
+    "defined_in": "99.3.secretary"
+  },
+  {
+    "id": "ACT-department",
+    "label": "Department of Education",
+    "kind": "external_agency",
+    "aliases": [
+      "the Department"
+    ],
+    "defined_in": null
+  }
+]

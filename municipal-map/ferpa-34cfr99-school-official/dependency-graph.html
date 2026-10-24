@@ -1,0 +1,455 @@
+<title>FERPA Part 99 Dependency Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: toolbar over a pan-and-zoom graph, with a detail panel beside it (below it on phones).
+   Nodes are code provisions' action records; edges mean "right side depends on left side". */
+:root {
+  --bg: #f3f5f8; --surface: #ffffff; --ink: #17202b; --muted: #576374; --line: #d3dae3; --soft: #e9edf2;
+  --accent: #1d5fbf; --accent-ink: #ffffff; --warn: #9a5b00; --warn-bg: #fff3d6;
+  --c1: #4a6fa5; --c2: #1d8a85; --c3: #7f8c1c; --c4: #6a4fb3; --c5: #c0661a; --c6: #b3364a; --c7: #5f6b7a;
+  --e-triggers: #5d6978; --e-produces-input: #0b7fa3; --e-condition-precedent: #9b6a00; --e-temporal: #7a67a6;
+  --e-reference: #2c8556; --e-enforcement: #c23a3a; --e-exception-of: #b02f7d; --e-delegation: #46566b;
+  --up: #1d5fbf; --down: #c0661a;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #10151c; --surface: #18202a; --ink: #e6ebf2; --muted: #9aa7b7; --line: #2b3745; --soft: #212c38;
+  --accent: #6aa6ff; --accent-ink: #0b1220; --warn: #f0b95a; --warn-bg: #33270f;
+  --c1: #8db0e4; --c2: #54c3bb; --c3: #bccb55; --c4: #a99bea; --c5: #f0a35c; --c6: #f08a97; --c7: #9aa7b7;
+  --e-triggers: #9aa7b7; --e-produces-input: #5cc4e4; --e-condition-precedent: #e5b64d; --e-temporal: #b9a9dd;
+  --e-reference: #6fd49a; --e-enforcement: #f58a8a; --e-exception-of: #f48cc2; --e-delegation: #aab6c6;
+  --up: #6aa6ff; --down: #f0a35c; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #10151c; --surface: #18202a; --ink: #e6ebf2; --muted: #9aa7b7; --line: #2b3745; --soft: #212c38;
+  --accent: #6aa6ff; --accent-ink: #0b1220; --warn: #f0b95a; --warn-bg: #33270f;
+  --c1: #8db0e4; --c2: #54c3bb; --c3: #bccb55; --c4: #a99bea; --c5: #f0a35c; --c6: #f08a97; --c7: #9aa7b7;
+  --e-triggers: #9aa7b7; --e-produces-input: #5cc4e4; --e-condition-precedent: #e5b64d; --e-temporal: #b9a9dd;
+  --e-reference: #6fd49a; --e-enforcement: #f58a8a; --e-exception-of: #f48cc2; --e-delegation: #aab6c6;
+  --up: #6aa6ff; --down: #f0a35c; color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 var(--sans);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 12px; display: flex; flex-direction: column; gap: 10px; }
+h1 { margin: 0; font-size: 1.25rem; font-weight: 600; letter-spacing: -0.01em; text-wrap: balance; }
+.sub { color: var(--muted); margin: 2px 0 0; font-size: 0.86rem; }
+header { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: flex-end; justify-content: space-between; }
+.stats { display: flex; flex-wrap: wrap; gap: 4px 18px; font-variant-numeric: tabular-nums; }
+.stats div { display: flex; gap: 6px; align-items: baseline; }
+.stats b { font-size: 1.05rem; font-weight: 600; }
+.stats span { color: var(--muted); font-size: 0.8rem; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 8px 10px; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; }
+.group { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; min-width: 0; }
+.group > label.t { color: var(--muted); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; margin-right: 2px; }
+.chip { display: inline-flex; gap: 6px; align-items: center; padding: 3px 9px 3px 7px; border: 1px solid var(--line); border-radius: 99px;
+  background: var(--surface); color: var(--ink); font: inherit; font-size: 0.8rem; cursor: pointer; }
+.chip[aria-pressed="false"] { color: var(--muted); background: transparent; }
+.chip[aria-pressed="false"] .sw { opacity: 0.3; }
+.sw { width: 18px; height: 0; border-top: 2.5px solid currentColor; display: inline-block; }
+.dot { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.chip .n { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 0.74rem; }
+input[type="search"], select { font: inherit; font-size: 0.84rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: 4px 8px; min-width: 0; max-width: 100%; }
+input[type="search"] { width: 15ch; }
+button.tool { font: inherit; font-size: 0.82rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+button.tool:hover, .chip:hover { border-color: var(--accent); }
+button:focus-visible, .chip:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+main { flex: 1; min-height: 420px; display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 10px; }
+#stage { position: relative; min-height: 360px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+svg#g { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; user-select: none; }
+svg#g.drag { cursor: grabbing; }
+.zoom { position: absolute; right: 10px; bottom: 10px; display: flex; flex-direction: column; gap: 4px; }
+.zoom button { width: 32px; height: 32px; padding: 0; font-size: 1.1rem; line-height: 1; }
+.hint { position: absolute; left: 10px; bottom: 8px; color: var(--muted); font-size: 0.74rem; pointer-events: none; background: color-mix(in srgb, var(--surface) 85%, transparent); padding: 2px 6px; border-radius: 4px; }
+aside { min-height: 0; overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+aside h2 { margin: 0 0 4px; font-size: 1.02rem; font-weight: 600; }
+aside h3 { margin: 16px 0 6px; font-size: 0.72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+aside p { margin: 6px 0; }
+.id { font-family: var(--mono); font-size: 0.82rem; }
+.quote { margin: 8px 0; padding: 8px 10px; background: var(--soft); border-radius: 6px; font-size: 0.86rem; overflow-wrap: anywhere; }
+dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 3px 12px; margin: 8px 0; font-size: 0.86rem; }
+dt { color: var(--muted); } dd { margin: 0; overflow-wrap: anywhere; }
+ul.rel { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 3px; }
+ul.rel button { all: unset; display: grid; grid-template-columns: 14px minmax(0, 1fr); gap: 2px 8px; align-items: start; width: 100%; padding: 4px 6px; border-radius: 6px; cursor: pointer; font-size: 0.84rem; }
+ul.rel button:hover { background: var(--soft); }
+ul.rel button:focus-visible { outline: 2px solid var(--accent); }
+ul.rel .sw { width: 14px; margin-top: 8px; border-top-width: 2px; }
+ul.rel small { color: var(--muted); display: block; }
+details { margin: 4px 0; } summary { cursor: pointer; font-size: 0.84rem; color: var(--muted); }
+.tag { display: inline-block; padding: 1px 7px; border-radius: 99px; font-size: 0.74rem; border: 1px solid var(--line); color: var(--muted); }
+.tag.warn { color: var(--warn); background: var(--warn-bg); border-color: transparent; }
+.legend { display: flex; flex-direction: column; gap: 5px; font-size: 0.82rem; }
+.legend div { display: flex; gap: 8px; align-items: center; }
+.legend svg { flex: none; }
+.findings { padding-left: 18px; margin: 6px 0; } .findings li { margin: 3px 0; }
+.btnrow { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+/* graph */
+.edge { fill: none; stroke-width: 1.4; opacity: 0.8; }
+.edge.inferred { stroke-dasharray: 6 4; }
+.edge.pending { stroke-dasharray: 1.5 3.5; stroke-width: 2.2; stroke-linecap: round; }
+.edge.off { display: none; }
+.edge.dim, .hit.dim { opacity: 0.08; }
+.edge.hl, .edge.hov { opacity: 1; stroke-width: 2.4; }
+.edge.sel { opacity: 1; stroke-width: 3.2; }
+.hit { fill: none; stroke: transparent; stroke-width: 12; cursor: pointer; }
+.hit.off { display: none; }
+.node { cursor: pointer; outline: none; }
+.node rect.body { fill: color-mix(in srgb, var(--nc) 13%, var(--surface)); stroke: var(--nc); stroke-width: 1.3; }
+.node text { fill: var(--ink); pointer-events: none; }
+.node .nid { font: 500 10px var(--mono); fill: var(--muted); }
+.node .nv { font: 500 11.5px var(--sans); }
+.node.dim { opacity: 0.2; }
+svg.far .nv { opacity: 0; } svg.farther .nid { opacity: 0; }
+svg.far .node rect.body { stroke-width: 2; }
+.node.up rect.body { stroke: var(--up); stroke-width: 2.4; }
+.node.down rect.body { stroke: var(--down); stroke-width: 2.4; }
+.node.sel rect.body { stroke: var(--ink); stroke-width: 3; }
+.node.mark rect.body { stroke: var(--accent); stroke-width: 3; }
+.node:focus-visible rect.body { stroke: var(--accent); stroke-width: 3.4; }
+.node .root { fill: var(--surface); stroke: var(--nc); stroke-width: 1.5; }
+.lane { font: 600 11px var(--sans); fill: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+@media (max-width: 900px) {
+  main { grid-template-columns: minmax(0, 1fr); grid-template-rows: 62vh auto; }
+  body { height: auto; } html { height: auto; }
+  aside { max-height: none; }
+}
+@media (prefers-reduced-motion: no-preference) { .node, .edge { transition: opacity 0.12s; } }
+</style>
+
+<header>
+  <div>
+    <h1 id="ttl"></h1>
+    <p class="sub" id="sub"></p>
+  </div>
+  <div class="stats" id="stats" aria-label="Summary"></div>
+</header>
+
+<div class="bar" id="bar">
+  <div class="group" id="g-types" role="group" aria-label="Edge types"><label class="t">Edges</label></div>
+  <div class="group" role="group" aria-label="Basis">
+    <button class="chip" id="b-explicit" aria-pressed="true" title="Stated in the text"><span class="n">stated</span></button>
+    <button class="chip" id="b-inferred" aria-pressed="true" title="Reasoned from context"><span class="n">inferred</span></button>
+  </div>
+  <div class="group"><label class="t" for="colorby">Color</label>
+    <select id="colorby"><option value="chapter">chapter</option><option value="modality">modality</option><option value="kind">actor type</option></select></div>
+  <div class="group"><label class="t" for="hl">Highlight</label>
+    <select id="hl"><option value="none">nothing</option><option value="chain">longest chain</option><option value="cycle">cycles</option><option value="roots">entry points</option><option value="pending">edges awaiting review</option></select></div>
+  <div class="group"><label class="t" for="q">Find</label><input id="q" type="search" placeholder="id, act, actor, text" autocomplete="off"></div>
+  <button class="tool" id="reset">Reset view</button>
+</div>
+
+<main>
+  <div id="stage">
+    <svg id="g" role="img" aria-label="Dependency graph of action records"></svg>
+    <div class="zoom"><button class="tool" id="zi" aria-label="Zoom in">+</button><button class="tool" id="zo" aria-label="Zoom out">−</button><button class="tool" id="zf" aria-label="Fit to view">⤢</button></div>
+    <div class="hint">Drag to pan, scroll to zoom, click a record or a line.</div>
+  </div>
+  <aside id="panel" aria-live="polite"></aside>
+</main>
+
+<script type="application/json" id="data">{"title":"FERPA Part 99 Dependency Map","subtitle":"School official exception, 34 CFR 99.1-99.5, 99.7, 99.30-99.33 (2025 ed.)","chapters":["99.4","99.5","99.7","99.30","99.31","99.32","99.33"],"chapterTitles":{"99.1":"To which educational agencies or institutions do these regulations apply","99.2":"What is the purpose of these regulations","99.3":"What definitions apply to these regulations","99.4":"What are the rights of parents","99.5":"What are the rights of students","99.7":"What must an educational agency or institution include in its annual notification","99.30":"Under what conditions is prior consent required to disclose information","99.31":"Under what conditions is prior consent not required to disclose information","99.32":"What recordkeeping requirements exist concerning requests and disclosures","99.33":"What limitations apply to the redisclosure of information"},"counts":{"nodes":33,"edges":19,"stated":16,"inferred":3,"pending":0,"enforcement":0},"analysis":{"explicit_only":{"roots":["99.4-1","99.5.a.2-1","99.5.b-1","99.7.a.1-1","99.7.b-1","99.7.b.1-1","99.7.b.2-1","99.30.c.2-1","99.31.a-1","99.31.a.1.i.A-1","99.31.a.1.ii-1","99.31.a.1.ii-2","99.32.a.4-1","99.32.a.5-1","99.32.b.2.i-1","99.32.b.2.iii-1","99.32.c.1-1","99.32.c.2-1","99.32.c.3-1","99.33.a.1-1","99.33.b.1-1","99.33.b.2-1"],"cycles":[],"longest_chain":{"length":4,"path":["99.33.a.1-1","99.33.a.1-2","99.31.a.1.i.B-1","99.7.a.3.iii-1"]}},"with_inferred":{"roots":["99.4-1","99.5.a.2-1","99.5.b-1","99.7.a.1-1","99.7.b-1","99.7.b.1-1","99.7.b.2-1","99.30.c.2-1","99.31.a-1","99.31.a.1.i.A-1","99.31.a.1.ii-2","99.32.a.4-1","99.32.a.5-1","99.32.b.2.i-1","99.32.b.2.iii-1","99.32.c.1-1","99.32.c.2-1","99.32.c.3-1","99.33.a.1-1","99.33.b.1-1","99.33.b.2-1"],"cycles":[],"longest_chain":{"length":5,"path":["99.33.a.1-1","99.33.a.1-2","99.31.a.1.i.B-1","99.32.a.1-1","99.32.a.2-1"]}}},"nodes":[{"id":"99.4-1","ch":"99.4","heading":"What are the rights of parents","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"give full rights under the Act to","obj":"either parent","quote":"An educational agency or institution shall give full rights under the Act to either parent, unless the agency or institution has been provided with evidence that there is a court order, State statute, or legally binding document relating to such matters as divorce, separation, or custody that specifically revokes these rights.","sigType":"at all times","sigText":"An educational agency or institution shall give full rights …","cp":"parent","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.5.a.2-1","ch":"99.5","heading":"What are the rights of students","actor":"educational agency or institution","kind":"public_body","mod":"permission","modalityWord":"may","verb":"disclose","obj":"education records, or personally identifiable information from them, to a parent without the prior written consent of an eligible student","quote":"Nothing in this section prevents an educational agency or institution from disclosing education records, or personally identifiable information from education records, to a parent without the prior written consent of an eligible student","sigType":"at its discretion","sigText":"Nothing in this section prevents …","cp":"parent","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.5.b-1","ch":"99.5","heading":"What are the rights of students","actor":"educational agency or institution","kind":"public_body","mod":"permission","modalityWord":"may","verb":"give students","obj":"rights in addition to those given to parents","quote":"The Act and this part do not prevent educational agencies or institutions from giving students rights in addition to those given to parents.","sigType":"at its discretion","sigText":"The Act and this part do not prevent …","cp":"student","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.7.a.1-1","ch":"99.7","heading":"What must an educational agency or institution include in its annual notification","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"notify","obj":"parents of students in attendance, or eligible students in attendance, of their rights under the Act and Part 99; the notice must say they may inspect and review education records, seek amendment, consent to disclosures (except as § 99.31 allows) and file a complaint with the Department, and must give the procedures for inspection and for amendment under § 99.20","quote":"Each educational agency or institution shall annually notify parents of students currently in attendance, or eligible students currently in attendance, of their rights under the Act and this part.","sigType":"on a schedule","sigText":"annually","cp":"parent or eligible student","timing":"annually","out":["annual notification"],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.7.a.3.iii-1","ch":"99.7","heading":"What must an educational agency or institution include in its annual notification","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"specify in the annual notice","obj":"criteria for determining who constitutes a school official and what constitutes a legitimate educational interest","quote":"If the educational agency or institution has a policy of disclosing education records under § 99.31(a)(1), a specification of criteria for determining who constitutes a school official and what constitutes a legitimate educational interest.","sigType":"while","sigText":"the agency or institution has a policy of disclosing education records under § 99.31(a)(1)","cp":"parent or eligible student","timing":"","out":["school official criteria"],"consequence":"","exceptions":[],"att":[],"note":"ORP-02 (O-ACT): Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution; ORP-05 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): recorded as written, no contractor requirement added; carried as a known gap","status":"known_gap"},{"id":"99.7.b-1","ch":"99.7","heading":"What must an educational agency or institution include in its annual notification","actor":"educational agency or institution","kind":"public_body","mod":"permission","modalityWord":"may","verb":"provide the notice","obj":"by any means reasonably likely to inform the parents or eligible students of their rights","quote":"An educational agency or institution may provide this notice by any means that are reasonably likely to inform the parents or eligible students of their rights.","sigType":"at its discretion","sigText":"An educational agency or institution may provide this notice …","cp":"parent or eligible student","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.7.b.1-1","ch":"99.7","heading":"What must an educational agency or institution include in its annual notification","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"effectively notify","obj":"parents or eligible students who are disabled","quote":"An educational agency or institution shall effectively notify parents or eligible students who are disabled.","sigType":"while","sigText":"the parents or eligible students are disabled","cp":"parent or eligible student","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.7.b.2-1","ch":"99.7","heading":"What must an educational agency or institution include in its annual notification","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"effectively notify","obj":"parents who have a primary or home language other than English","quote":"An agency or institution of elementary or secondary education shall effectively notify parents who have a primary or home language other than English.","sigType":"while","sigText":"the parents have a primary or home language other than English","cp":"parent","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.30.a-1","ch":"99.30","heading":"Under what conditions is prior consent required to disclose information","actor":"parent or eligible student","kind":"private_party","mod":"duty","modalityWord":"must","verb":"provide","obj":"a signed and dated written consent that specifies the records that may be disclosed, states the purpose of the disclosure, and identifies the party or class of parties to whom the disclosure may be made","quote":"The parent or eligible student shall provide a signed and dated written consent before an educational agency or institution discloses personally identifiable information from the student’s education records, except as provided in § 99.31.","sigType":"while","sigText":"an educational agency or institution is to disclose personally identifiable information from the student’s education records","cp":"educational agency or institution","timing":"before an educational agency or institution discloses personally identifiable information","out":["written consent"],"consequence":"","exceptions":[],"att":[{"kind":"legal_effect","provision":"99.5.a.1","summary":"When a student becomes an eligible student, parents' rights and the consent required of them transfer to the student"}],"note":"ORP-06 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): duty of the parent or eligible student, as written","status":"resolved"},{"id":"99.30.c.1-1","ch":"99.30","heading":"Under what conditions is prior consent required to disclose information","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"provide","obj":"a copy of the records disclosed","quote":"If a parent or eligible student so requests, the educational agency or institution shall provide him or her with a copy of the records disclosed","sigType":"on request","sigText":"a parent or eligible student requests a copy after a disclosure under paragraph (a)","cp":"parent or eligible student","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.30.c.2-1","ch":"99.30","heading":"Under what conditions is prior consent required to disclose information","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"provide","obj":"the student with a copy of the records disclosed","quote":"If the parent of a student who is not an eligible student so requests, the agency or institution shall provide the student with a copy of the records disclosed.","sigType":"on request","sigText":"the parent of a student who is not an eligible student requests a copy","cp":"student","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.31.a-1","ch":"99.31","heading":"Under what conditions is prior consent not required to disclose information","actor":"educational agency or institution","kind":"public_body","mod":"permission","modalityWord":"may","verb":"disclose","obj":"personally identifiable information from an education record of a student without the consent required by § 99.30","quote":"An educational agency or institution may disclose personally identifiable information from an education record of a student without the consent required by § 99.30 if the disclosure meets one or more of the following conditions","sigType":"at its discretion","sigText":"An educational agency or institution may disclose …","cp":"parent or eligible student","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.31.a.1.i.A-1","ch":"99.31","heading":"Under what conditions is prior consent not required to disclose information","actor":"educational agency or institution","kind":"public_body","mod":"permission","modalityWord":"may","verb":"disclose personally identifiable information","obj":"to other school officials, including teachers, within the agency or institution whom the agency or institution has determined to have legitimate educational interests","quote":"The disclosure is to other school officials, including teachers, within the agency or institution whom the agency or institution has determined to have legitimate educational interests.","sigType":"at its discretion","sigText":"disclosure to other school officials within the agency or institution","cp":"school official","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.31.a.1.i.B-1","ch":"99.31","heading":"Under what conditions is prior consent not required to disclose information","actor":"educational agency or institution","kind":"public_body","mod":"permission","modalityWord":"may","verb":"consider as a school official under paragraph (a)(1)(i)","obj":"a contractor, consultant, volunteer, or other party to whom institutional services or functions have been outsourced","quote":"A contractor, consultant, volunteer, or other party to whom an agency or institution has outsourced institutional services or functions may be considered a school official under this paragraph provided that the outside party","sigType":"while","sigText":"an agency or institution has outsourced institutional services or functions to the party","cp":"contractor, consultant, volunteer, or other outsourced party","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"ORP-01 (O-ACT): Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution that outsourced the function; ORP-04 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): conditions are (B)(1)-(3) only; (A) stays separate","status":"resolved"},{"id":"99.31.a.1.ii-1","ch":"99.31","heading":"Under what conditions is prior consent not required to disclose information","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"use reasonable methods to ensure","obj":"that school officials obtain access to only those education records in which they have legitimate educational interests","quote":"An educational agency or institution must use reasonable methods to ensure that school officials obtain access to only those education records in which they have legitimate educational interests.","sigType":"at all times","sigText":"An educational agency or institution must use reasonable methods …","cp":"school official","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.31.a.1.ii-2","ch":"99.31","heading":"Under what conditions is prior consent not required to disclose information","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"ensure","obj":"that its administrative policy for controlling access to education records is effective and that it remains in compliance with the legitimate educational interest requirement in paragraph (a)(1)(i)(A)","quote":"An educational agency or institution that does not use physical or technological access controls must ensure that its administrative policy for controlling access to education records is effective and that it remains in compliance with the legitimate educational interest requirement in paragraph (a)(1)(i)(A) of this section","sigType":"while","sigText":"the agency or institution does not use physical or technological access controls","cp":"","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.32.a.1-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"maintain","obj":"a record of each request for access to and each disclosure of personally identifiable information from the education records of each student, including the names of State and local educational authorities and Federal officials and agencies listed in § 99.31(a)(3) that may make further disclosures; the record must name the parties who requested or received the information and the legitimate interests they had","quote":"An educational agency or institution must maintain a record of each request for access to and each disclosure of personally identifiable information from the education records of each student","sigType":"when","sigText":"a request for access to, or a disclosure of, personally identifiable information from a student’s education records","cp":"parent or eligible student","timing":"","out":["record of disclosures"],"consequence":"","exceptions":["99.32.d","99.32.d.1","99.32.d.2","99.32.d.3","99.32.d.4","99.32.d.5"],"att":[],"note":"","status":"complete"},{"id":"99.32.a.2-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"maintain","obj":"the record with the education records of the student","quote":"The agency or institution shall maintain the record with the education records of the student as long as the records are maintained.","sigType":"after","sigText":"the record of requests and disclosures is made","cp":"","timing":"as long as the records are maintained","out":[],"consequence":"","exceptions":["99.32.d","99.32.d.1","99.32.d.2","99.32.d.3","99.32.d.4","99.32.d.5"],"att":[],"note":"","status":"complete"},{"id":"99.32.a.4-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"obtain and make available","obj":"a copy of the record of further disclosures maintained under paragraph (b)(2)","quote":"An educational agency or institution must obtain a copy of the record of further disclosures maintained under paragraph (b)(2) of this section and make it available in response to a parent’s or eligible student’s request to review the record required under paragraph (a)(1) of this section","sigType":"on request","sigText":"a parent’s or eligible student’s request to review the record of requests and disclosures","cp":"parent or eligible student","timing":"","out":[],"consequence":"","exceptions":["99.32.d","99.32.d.1","99.32.d.2","99.32.d.3","99.32.d.4","99.32.d.5"],"att":[],"note":"","status":"complete"},{"id":"99.32.a.5-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"record","obj":"the articulable and significant threat to the health or safety of a student or other individuals that formed the basis for the disclosure, and the parties to whom the information was disclosed","quote":"An educational agency or institution must record the following information when it discloses personally identifiable information from education records under the health or safety emergency exception in § 99.31(a)(10) and § 99.36","sigType":"when","sigText":"the agency or institution discloses personally identifiable information under the health or safety emergency exception","cp":"","timing":"","out":[],"consequence":"","exceptions":["99.32.d","99.32.d.1","99.32.d.2","99.32.d.3","99.32.d.4","99.32.d.5"],"att":[],"note":"","status":"complete"},{"id":"99.32.b.1-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"include in the record of the disclosure","obj":"the names of the additional parties to which the receiving party may disclose the information on behalf of the agency or institution, and the legitimate interests under § 99.31 that each has","quote":"the record of the disclosure required under this section must include","sigType":"while","sigText":"an educational agency or institution discloses personally identifiable information with the understanding authorized under § 99.33(b)","cp":"","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"ORP-03 (O-ACT): Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution","status":"resolved"},{"id":"99.32.b.2.i-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"State or local educational authority or Federal official or agency","kind":"external_agency","mod":"duty","modalityWord":"must","verb":"record","obj":"the names of the additional parties to which it discloses information on behalf of an educational agency or institution, and their legitimate interests","quote":"A State or local educational authority or Federal official or agency listed in § 99.31(a)(3) that makes further disclosures of information from education records under § 99.33(b) must record the names of the additional parties to which it discloses information on behalf of an educational agency or institution and their legitimate interests in the information under § 99.31","sigType":"while","sigText":"it makes further disclosures under § 99.33(b) of information received from an agency or institution that has not recorded them, or from another such authority or official","cp":"educational agency or institution","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.32.b.2.ii-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"State or local educational authority or Federal official or agency","kind":"external_agency","mod":"permission","modalityWord":"may","verb":"maintain","obj":"the record by the student’s class, school, district, or other appropriate grouping rather than by the name of the student","quote":"A State or local educational authority or Federal official or agency that records further disclosures of information under paragraph (b)(2)(i) of this section may maintain the record by the student’s class, school, district, or other appropriate grouping rather than by the name of the student","sigType":"after","sigText":"it records further disclosures under paragraph (b)(2)(i)","cp":"","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.32.b.2.iii-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"State or local educational authority or Federal official or agency","kind":"external_agency","mod":"duty","modalityWord":"must","verb":"provide","obj":"a copy of the record of further disclosures to the educational agency or institution","quote":"Upon request of an educational agency or institution, a State or local educational authority or Federal official or agency listed in § 99.31(a)(3) that maintains a record of further disclosures under paragraph (b)(2)(i) of this section must provide a copy of the record of further disclosures to the educational agency or institution within a reasonable period of time not to exceed 30 days","sigType":"on request","sigText":"a request from an educational agency or institution","cp":"educational agency or institution","timing":"within a reasonable period of time not to exceed 30 days","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.32.c.1-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"parent or eligible student","kind":"private_party","mod":"permission","modalityWord":"may","verb":"inspect","obj":"the record of requests and disclosures relating to each student","quote":"The following parties may inspect the record relating to each student","sigType":"at its discretion","sigText":"The following parties may inspect …","cp":"","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.32.c.2-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"school official responsible for the custody of the records","kind":"official","mod":"permission","modalityWord":"may","verb":"inspect","obj":"the record of requests and disclosures relating to each student","quote":"The school official or his or her assistants who are responsible for the custody of the records.","sigType":"at its discretion","sigText":"The following parties may inspect …","cp":"","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.32.c.3-1","ch":"99.32","heading":"What recordkeeping requirements exist concerning requests and disclosures","actor":"parties authorized in § 99.31(a)(1) and (3) to audit recordkeeping","kind":"external_agency","mod":"permission","modalityWord":"may","verb":"inspect","obj":"the record of requests and disclosures relating to each student, for the purposes of auditing the recordkeeping procedures of the educational agency or institution","quote":"Those parties authorized in § 99.31(a) (1) and (3) for the purposes of auditing the recordkeeping procedures of the educational agency or institution","sigType":"at its discretion","sigText":"The following parties may inspect …","cp":"","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.33.a.1-1","ch":"99.33","heading":"What limitations apply to the redisclosure of information","actor":"educational agency or institution","kind":"public_body","mod":"permission","modalityWord":"may","verb":"disclose","obj":"personally identifiable information from an education record, only on the condition that the party to whom it is disclosed will not disclose it to any other party without the prior consent of the parent or eligible student","quote":"An educational agency or institution may disclose personally identifiable information from an education record only on the condition that the party to whom the information is disclosed will not disclose the information to any other party without the prior consent of the parent or eligible student","sigType":"at its discretion","sigText":"An educational agency or institution may disclose … only on the condition that …","cp":"party to whom information is disclosed","timing":"","out":[],"consequence":"","exceptions":["99.33.c"],"att":[],"note":"ORP-07 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): keep the three records as drafted","status":"resolved"},{"id":"99.33.a.1-2","ch":"99.33","heading":"What limitations apply to the redisclosure of information","actor":"party to whom information is disclosed","kind":"private_party","mod":"prohibition","modalityWord":"must not","verb":"disclose","obj":"the information to any other party without the prior consent of the parent or eligible student","quote":"the party to whom the information is disclosed will not disclose the information to any other party without the prior consent of the parent or eligible student","sigType":"after","sigText":"the agency or institution discloses personally identifiable information to the party","cp":"parent or eligible student","timing":"","out":[],"consequence":"","exceptions":["99.33.c"],"att":[],"note":"ORP-07 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): keep the three records as drafted","status":"resolved"},{"id":"99.33.a.2-1","ch":"99.33","heading":"What limitations apply to the redisclosure of information","actor":"officers, employees and agents of a receiving party","kind":"private_party","mod":"permission","modalityWord":"may","verb":"use","obj":"the information, but only for the purposes for which the disclosure was made","quote":"The officers, employees, and agents of a party that receives information under paragraph (a)(1) of this section may use the information, but only for the purposes for which the disclosure was made","sigType":"after","sigText":"a party receives information under paragraph (a)(1)","cp":"","timing":"","out":[],"consequence":"","exceptions":["99.33.c"],"att":[],"note":"ORP-07 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): keep the three records as drafted","status":"resolved"},{"id":"99.33.b.1-1","ch":"99.33","heading":"What limitations apply to the redisclosure of information","actor":"educational agency or institution","kind":"public_body","mod":"permission","modalityWord":"may","verb":"disclose","obj":"personally identifiable information with the understanding that the receiving party may make further disclosures on behalf of the agency or institution","quote":"Paragraph (a) of this section does not prevent an educational agency or institution from disclosing personally identifiable information with the understanding that the party receiving the information may make further disclosures of the information on behalf of the educational agency or institution","sigType":"at its discretion","sigText":"Paragraph (a) of this section does not prevent …","cp":"party to whom information is disclosed","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.33.b.2-1","ch":"99.33","heading":"What limitations apply to the redisclosure of information","actor":"party to whom information is disclosed","kind":"private_party","mod":"duty","modalityWord":"must","verb":"provide","obj":"the notification required under § 99.31(a)(9)(ii)","quote":"A party that receives a court order or lawfully issued subpoena and rediscloses personally identifiable information from education records on behalf of an educational agency or institution in response to that order or subpoena under § 99.31(a)(9) must provide the notification required under § 99.31(a)(9)(ii)","sigType":"when","sigText":"the party receives a court order or lawfully issued subpoena and rediscloses personally identifiable information on behalf of the agency or institution in response","cp":"parent or eligible student","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"},{"id":"99.33.d-1","ch":"99.33","heading":"What limitations apply to the redisclosure of information","actor":"educational agency or institution","kind":"public_body","mod":"duty","modalityWord":"must","verb":"inform","obj":"a party to whom disclosure is made of the requirements of paragraph (a)","quote":"An educational agency or institution must inform a party to whom disclosure is made of the requirements of paragraph (a) of this section","sigType":"when","sigText":"a disclosure is made to a party","cp":"party to whom information is disclosed","timing":"","out":[],"consequence":"","exceptions":[],"att":[],"note":"","status":"complete"}],"edges":[{"id":"E-001","f":"99.32.a.1-1","t":"99.32.a.2-1","ty":"triggers","ba":"explicit","cf":"high","ev":"the record of requests and disclosures is made","st":"accepted"},{"id":"E-002","f":"99.32.b.2.i-1","t":"99.32.b.2.ii-1","ty":"triggers","ba":"explicit","cf":"high","ev":"it records further disclosures under paragraph (b)(2)(i)","st":"accepted"},{"id":"E-003","f":"99.33.a.1-1","t":"99.33.a.1-2","ty":"triggers","ba":"explicit","cf":"high","ev":"the agency or institution discloses personally identifiable information to the party","st":"accepted"},{"id":"E-004","f":"99.33.a.1-1","t":"99.33.a.2-1","ty":"triggers","ba":"explicit","cf":"high","ev":"a party receives information under paragraph (a)(1)","st":"accepted"},{"id":"E-005","f":"99.33.a.1-1","t":"99.31.a.1.i.B-1","ty":"reference","ba":"explicit","cf":"high","ev":"\"is subject to the requirements of § 99.33(a) governing the use and redisclosure of personally identifiable information from education records\"","st":"accepted"},{"id":"E-006","f":"99.33.a.1-2","t":"99.31.a.1.i.B-1","ty":"reference","ba":"explicit","cf":"high","ev":"\"is subject to the requirements of § 99.33(a) governing the use and redisclosure of personally identifiable information from education records\"","st":"accepted"},{"id":"E-007","f":"99.33.a.2-1","t":"99.31.a.1.i.B-1","ty":"reference","ba":"explicit","cf":"high","ev":"\"is subject to the requirements of § 99.33(a) governing the use and redisclosure of personally identifiable information from education records\"","st":"accepted"},{"id":"E-008","f":"99.31.a.1.i.A-1","t":"99.31.a.1.i.B-1","ty":"reference","ba":"explicit","cf":"medium","ev":"\"may be considered a school official under this paragraph\" (paragraph (a)(1)(i), which includes (A))","st":"accepted"},{"id":"E-009","f":"99.31.a-1","t":"99.30.a-1","ty":"exception-of","ba":"explicit","cf":"high","ev":"99.31(a): \"may disclose … without the consent required by § 99.30\"; 99.30(a): \"except as provided in § 99.31\"","st":"accepted"},{"id":"E-010","f":"99.31.a.1.i.A-1","t":"99.7.a.3.iii-1","ty":"reference","ba":"explicit","cf":"high","ev":"\"has a policy of disclosing education records under § 99.31(a)(1)\"","st":"accepted"},{"id":"E-011","f":"99.31.a.1.i.B-1","t":"99.7.a.3.iii-1","ty":"reference","ba":"explicit","cf":"medium","ev":"\"has a policy of disclosing education records under § 99.31(a)(1)\"","st":"accepted"},{"id":"E-012","f":"99.31.a.1.i.A-1","t":"99.32.a.1-1","ty":"exception-of","ba":"explicit","cf":"high","ev":"99.32(d): \"Paragraph (a) of this section does not apply if … the disclosure was to … (2) A school official under § 99.31(a)(1)\"","st":"accepted"},{"id":"E-013","f":"99.31.a.1.i.B-1","t":"99.32.a.1-1","ty":"exception-of","ba":"inferred","cf":"medium","ev":"99.32(d)(2) exempts disclosures to \"a school official under § 99.31(a)(1)\"; (a)(1)(i)(B) allows an outside party to be \"considered a school official under this paragraph\". The text does not say in terms that 99.32(d)(2) reaches outside parties.","st":"accepted"},{"id":"E-014","f":"99.33.b.1-1","t":"99.32.b.1-1","ty":"reference","ba":"explicit","cf":"high","ev":"\"disclosing … with the understanding authorized under § 99.33(b)\"","st":"accepted"},{"id":"E-015","f":"99.32.a.1-1","t":"99.32.b.1-1","ty":"reference","ba":"explicit","cf":"high","ev":"\"the record of the disclosure required under this section\"","st":"accepted"},{"id":"E-016","f":"99.33.a.1-1","t":"99.33.d-1","ty":"reference","ba":"explicit","cf":"high","ev":"\"inform a party to whom disclosure is made of the requirements of paragraph (a) of this section\"","st":"accepted"},{"id":"E-017","f":"99.31.a.1.i.A-1","t":"99.31.a.1.ii-1","ty":"produces-input","ba":"inferred","cf":"medium","ev":"99.31(a)(1)(ii) covers \"school officials\"; this record is how a party comes to be treated as one under (a)(1)(i)","st":"accepted"},{"id":"E-018","f":"99.31.a.1.i.B-1","t":"99.31.a.1.ii-1","ty":"produces-input","ba":"inferred","cf":"medium","ev":"99.31(a)(1)(ii) covers \"school officials\"; this record is how a party comes to be treated as one under (a)(1)(i)","st":"accepted"},{"id":"E-019","f":"99.30.a-1","t":"99.30.c.1-1","ty":"reference","ba":"explicit","cf":"medium","ev":"\"after a disclosure under paragraph (a)\"","st":"accepted"}]}</script>
+<script>
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("data").textContent);
+  var NS = "http://www.w3.org/2000/svg";
+  var TYPE_LABEL = { "triggers": "triggers", "produces-input": "produces input", "condition-precedent": "condition precedent", "temporal": "temporal order",
+    "reference": "reference", "enforcement": "enforcement", "exception-of": "exception of", "delegation": "delegation" };
+  var TYPE_HELP = { "triggers": "A's completion is B's stated signal", "produces-input": "A's output is what B acts on", "condition-precedent": "B may occur only once A has",
+    "temporal": "the text orders A before B", "reference": "B invokes A's procedure by citation", "enforcement": "B answers a breach of A",
+    "exception-of": "A overrides or gates B", "delegation": "B is done through A's authority" };
+  var CH_COLORS = ["--c1", "--c2", "--c3", "--c4", "--c5", "--c6"];
+  var MOD_COLORS = { duty: "--c1", power: "--c4", permission: "--c2", prohibition: "--c6", entitlement: "--c5" };
+  var KIND_COLORS = { official: "--c1", body: "--c4", private_party: "--c5", tribunal: "--c2", department: "--c3", external_agency: "--c7", public_body: "--c6", public: "--c7" };
+  var KIND_LABEL = { official: "official", body: "council or board", private_party: "private party", tribunal: "tribunal", department: "department", external_agency: "outside agency", public_body: "the city", "public": "the public" };
+
+  var N = {}, order = [];
+  D.nodes.forEach(function (n) { N[n.id] = n; order.push(n.id); });
+  var E = D.edges.filter(function (e) { return e.st !== "rejected"; });
+  var EB = {}; E.forEach(function (e) { EB[e.id] = e; });
+  var out = {}, inn = {};
+  order.forEach(function (i) { out[i] = []; inn[i] = []; });
+  E.forEach(function (e) { if (out[e.f]) out[e.f].push(e); if (inn[e.t]) inn[e.t].push(e); });
+  var types = Object.keys(TYPE_LABEL).filter(function (t) { return E.some(function (e) { return e.ty === t; }); });
+
+  var st = { sel: null, selEdge: null, types: {}, explicit: true, inferred: true, color: "chapter", hl: "none", q: "" };
+  types.forEach(function (t) { st.types[t] = t !== "enforcement"; });
+
+  function el(tag, attrs, parent) { var x = document.createElementNS(NS, tag); for (var k in attrs) x.setAttribute(k, attrs[k]); if (parent) parent.appendChild(x); return x; }
+  function h(tag, props, kids) { var x = document.createElement(tag); for (var k in props || {}) { if (k === "text") x.textContent = props[k]; else if (k === "class") x.className = props[k]; else x.setAttribute(k, props[k]); }
+    (kids || []).forEach(function (c) { x.appendChild(typeof c === "string" ? document.createTextNode(c) : c); }); return x; }
+  function clip(s, n) { s = s || ""; return s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s; }
+  function cssv(v) { return "var(" + v + ")"; }
+
+  /* ---------- layout ---------- */
+  var W = 172, H = 40, GX = 84, GY = 12;
+  var pos = {};
+  function layout() {
+    var le = E.filter(function (e) { return e.ty !== "enforcement"; });
+    var adj = {}, radj = {}; order.forEach(function (i) { adj[i] = []; radj[i] = []; });
+    le.forEach(function (e) { adj[e.f].push(e.t); radj[e.t].push(e.f); });
+    var parent = {}; order.forEach(function (i) { parent[i] = i; });
+    function find(x) { while (parent[x] !== x) { parent[x] = parent[parent[x]]; x = parent[x]; } return x; }
+    le.forEach(function (e) { parent[find(e.f)] = find(e.t); });
+    var comps = {}; order.forEach(function (i) { (comps[find(i)] = comps[find(i)] || []).push(i); });
+    var list = Object.keys(comps).map(function (k) { return comps[k]; });
+    var multi = list.filter(function (c) { return c.length > 1; }).sort(function (a, b) { return b.length - a.length; });
+    var single = list.filter(function (c) { return c.length === 1; }).map(function (c) { return c[0]; });
+    var yBase = 0, lanes = [];
+    multi.forEach(function (comp) {
+      var set = {}; comp.forEach(function (i) { set[i] = true; });
+      var color = {}, back = {};
+      function dfs(s) { var stack = [[s, 0]]; color[s] = 1;
+        while (stack.length) { var top = stack[stack.length - 1], v = top[0];
+          if (top[1] < adj[v].length) { var w = adj[v][top[1]++]; if (!color[w]) { color[w] = 1; stack.push([w, 0]); } else if (color[w] === 1) back[v + ">" + w] = true; }
+          else { color[v] = 2; stack.pop(); } } }
+      comp.filter(function (i) { return !radj[i].length; }).concat(comp).forEach(function (i) { if (!color[i]) dfs(i); });
+      var layer = {}, indeg = {}, q = [];
+      comp.forEach(function (i) { indeg[i] = radj[i].filter(function (p) { return !back[p + ">" + i]; }).length; layer[i] = 0; if (!indeg[i]) q.push(i); });
+      while (q.length) { var v = q.shift(); adj[v].forEach(function (w) { if (back[v + ">" + w]) return; layer[w] = Math.max(layer[w], layer[v] + 1); if (--indeg[w] === 0) q.push(w); }); }
+      var L = 0; comp.forEach(function (i) { L = Math.max(L, layer[i]); });
+      var cols = []; for (var l = 0; l <= L; l++) cols.push([]);
+      comp.slice().sort().forEach(function (i) { cols[layer[i]].push(i); });
+      var y = {}; cols.forEach(function (c) { c.forEach(function (i, k) { y[i] = k; }); });
+      function sweep(down) {
+        var idx = down ? cols.map(function (_, i) { return i; }) : cols.map(function (_, i) { return cols.length - 1 - i; });
+        idx.forEach(function (l) { var c = cols[l];
+          var keys = {}; c.forEach(function (i) { var nb = (down ? radj[i] : adj[i]).filter(function (n) { return set[n]; });
+            keys[i] = nb.length ? nb.reduce(function (s, n) { return s + y[n]; }, 0) / nb.length : y[i]; });
+          c.sort(function (a, b) { return keys[a] - keys[b] || a.localeCompare(b); }); c.forEach(function (i, k) { y[i] = k; }); });
+      }
+      for (var it = 0; it < 6; it++) { sweep(true); sweep(false); }
+      var maxRows = Math.max.apply(null, cols.map(function (c) { return c.length; }));
+      cols.forEach(function (c, l) { var off = (maxRows - c.length) / 2;
+        c.forEach(function (i, k) { pos[i] = { x: l * (W + GX), y: yBase + (k + off) * (H + GY) }; }); });
+      lanes.push({ y: yBase - 10, label: comp.length + " records, " + (L + 1) + " steps" });
+      yBase += maxRows * (H + GY) + 70;
+    });
+    if (single.length) {
+      single.sort(); lanes.push({ y: yBase - 10, label: "No dependencies except enforcement (" + single.length + " records)" });
+      var perRow = 5;
+      single.forEach(function (i, k) { pos[i] = { x: (k % perRow) * (W + 24), y: yBase + Math.floor(k / perRow) * (H + GY) }; });
+    }
+    return lanes;
+  }
+  var lanes = layout();
+
+  /* ---------- draw ---------- */
+  var svg = document.getElementById("g");
+  var defs = el("defs", {}, svg);
+  types.forEach(function (t) { var m = el("marker", { id: "ar-" + t, viewBox: "0 0 10 10", refX: "9", refY: "5", markerWidth: "7", markerHeight: "7", orient: "auto-start-reverse" }, defs);
+    el("path", { d: "M0 1 L9 5 L0 9 z", fill: cssv("--e-" + t) }, m); });
+  var vp = el("g", {}, svg), gLanes = el("g", {}, vp), gEdges = el("g", {}, vp), gNodes = el("g", {}, vp);
+  lanes.forEach(function (l) { var t = el("text", { x: 0, y: l.y, class: "lane" }, gLanes); t.textContent = l.label; });
+  var ePath = {}, eHit = {};
+  E.forEach(function (e) {
+    var a = pos[e.f], b = pos[e.t]; if (!a || !b) return;
+    var x1 = a.x + W, y1 = a.y + H / 2, x2 = b.x, y2 = b.y + H / 2, d;
+    if (x2 - x1 > 20) { var dx = Math.max(40, (x2 - x1) / 2); d = "M" + x1 + " " + y1 + " C" + (x1 + dx) + " " + y1 + " " + (x2 - dx) + " " + y2 + " " + x2 + " " + y2; }
+    else { var s = 70; d = "M" + x1 + " " + y1 + " C" + (x1 + s) + " " + y1 + " " + (x2 - s) + " " + y2 + " " + x2 + " " + y2; }
+    var cls = "edge " + e.ba + (e.st === "pending_review" ? " pending" : "");
+    var p = el("path", { d: d, class: cls, stroke: cssv("--e-" + e.ty), "marker-end": "url(#ar-" + e.ty + ")", "data-id": e.id }, gEdges);
+    var tt = el("title", {}, p); tt.textContent = TYPE_LABEL[e.ty] + " · " + e.ba + (e.st === "pending_review" ? " · awaiting review" : "") + " · " + e.ev;
+    var hit = el("path", { d: d, class: "hit", "data-id": e.id }, gEdges);
+    hit.addEventListener("click", function (ev) { ev.stopPropagation(); selectEdge(e.id); });
+    hit.addEventListener("mouseenter", function () { p.classList.add("hov"); }); hit.addEventListener("mouseleave", function () { p.classList.remove("hov"); });
+    ePath[e.id] = p; eHit[e.id] = hit;
+  });
+  var nodeG = {};
+  order.forEach(function (i) {
+    var n = N[i], p = pos[i]; if (!p) return;
+    var g = el("g", { class: "node", transform: "translate(" + p.x + " " + p.y + ")", tabindex: "0", role: "button", "aria-label": i + ", " + n.verb + ", " + n.actor }, gNodes);
+    el("rect", { class: "body", width: W, height: H, rx: 6 }, g);
+    var t1 = el("text", { class: "nid", x: 10, y: 16 }, g); t1.textContent = i;
+    var t2 = el("text", { class: "nv", x: 10, y: 33 }, g); t2.textContent = clip(n.verb, 25);
+    var ti = el("title", {}, g); ti.textContent = n.actor + " (" + n.mod + "): " + n.verb + " " + n.obj;
+    g.addEventListener("click", function (ev) { ev.stopPropagation(); selectNode(i); });
+    g.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); selectNode(i); } });
+    nodeG[i] = g;
+  });
+
+  /* ---------- coloring ---------- */
+  function catOf(n) { return st.color === "chapter" ? n.ch : st.color === "modality" ? n.mod : n.kind; }
+  function varOf(n) {
+    if (st.color === "chapter") { var k = D.chapters.indexOf(n.ch); return CH_COLORS[k % CH_COLORS.length]; }
+    if (st.color === "modality") return MOD_COLORS[n.mod] || "--c7";
+    return KIND_COLORS[n.kind] || "--c7";
+  }
+  function paintNodes() { order.forEach(function (i) { if (nodeG[i]) nodeG[i].style.setProperty("--nc", cssv(varOf(N[i]))); }); }
+
+  /* ---------- state -> classes ---------- */
+  function edgeOn(e) { return st.types[e.ty] && (e.ba === "explicit" ? st.explicit : st.inferred); }
+  function closure(start, dir) {
+    var seen = {}, edges = {}, stack = [start];
+    while (stack.length) { var v = stack.pop(); (dir > 0 ? out[v] : inn[v]).forEach(function (e) { if (!edgeOn(e)) return; edges[e.id] = true; var w = dir > 0 ? e.t : e.f; if (!seen[w]) { seen[w] = true; stack.push(w); } }); }
+    return { nodes: seen, edges: edges };
+  }
+  function hlSets() {
+    var nodes = {}, edges = {}, an = D.analysis.with_inferred;
+    if (st.hl === "chain") { an.longest_chain.path.forEach(function (s) { (Array.isArray(s) ? s : [s]).forEach(function (i) { nodes[i] = true; }); }); }
+    else if (st.hl === "cycle") { an.cycles.forEach(function (c) { c.forEach(function (i) { nodes[i] = true; }); }); }
+    else if (st.hl === "roots") { D.analysis.explicit_only.roots.forEach(function (i) { nodes[i] = true; }); }
+    else if (st.hl === "pending") { E.forEach(function (e) { if (e.st === "pending_review") { edges[e.id] = true; nodes[e.f] = true; nodes[e.t] = true; } }); }
+    return { nodes: nodes, edges: edges, on: st.hl !== "none" };
+  }
+  function match(n) { var q = st.q.trim().toLowerCase(); if (!q) return true;
+    return (n.id + " " + n.verb + " " + n.obj + " " + n.actor + " " + n.quote + " " + n.heading).toLowerCase().indexOf(q) >= 0; }
+  function refresh() {
+    var up = {}, down = {}, ue = {}, de = {}, any = st.sel !== null || st.selEdge !== null;
+    if (st.sel) { var a = closure(st.sel, -1), b = closure(st.sel, 1); up = a.nodes; down = b.nodes; ue = a.edges; de = b.edges; }
+    var sel2 = st.selEdge ? EB[st.selEdge] : null, hs = hlSets(), q = st.q.trim() !== "";
+    var vis = 0;
+    E.forEach(function (e) { var p = ePath[e.id]; if (!p) return; var on = edgeOn(e); p.classList.toggle("off", !on); eHit[e.id].classList.toggle("off", !on); if (on) vis++;
+      var lit = ue[e.id] || de[e.id] || (sel2 && sel2.id === e.id) || (hs.on && hs.edges[e.id]) || (hs.on && !Object.keys(hs.edges).length && hs.nodes[e.f] && hs.nodes[e.t]);
+      var dim = (any || hs.on) && !lit; p.classList.toggle("dim", !!dim); eHit[e.id].classList.toggle("dim", !!dim);
+      p.classList.toggle("hl", !!(ue[e.id] || de[e.id] || (hs.on && lit))); p.classList.toggle("sel", !!(sel2 && sel2.id === e.id)); });
+    order.forEach(function (i) { var g = nodeG[i]; if (!g) return;
+      var isSel = st.sel === i || (sel2 && (sel2.f === i || sel2.t === i));
+      var lit = isSel || up[i] || down[i] || (hs.on && hs.nodes[i]);
+      g.classList.toggle("sel", st.sel === i); g.classList.toggle("up", !!up[i] && !isSel); g.classList.toggle("down", !!down[i] && !isSel && !up[i]);
+      g.classList.toggle("mark", !!(hs.on && hs.nodes[i]) && !isSel); 
+      var dim = ((any || hs.on) && !lit) || (q && !match(N[i])); g.classList.toggle("dim", !!dim); });
+    document.getElementById("shown").textContent = vis;
+  }
+
+  /* ---------- panel ---------- */
+  var panel = document.getElementById("panel");
+  function sw(t) { var s = h("span", { class: "sw" }); s.style.color = cssv("--e-" + t); return s; }
+  function legendSvg(cls, color) { var s = document.createElementNS(NS, "svg"); s.setAttribute("width", "34"); s.setAttribute("height", "10"); var p = el("path", { d: "M1 5 H33", class: "edge " + cls, stroke: color }, s); p.style.opacity = 1; return s; }
+  function overview() {
+    var an = D.analysis, c = D.counts, ch = an.with_inferred.longest_chain, f = [];
+    panel.replaceChildren();
+    panel.appendChild(h("h2", { text: "How to read this" }));
+    panel.appendChild(h("p", { text: "Each box is one action in the code: who must, may or must not do what. A line from A to B means B depends on A. Click a box to light up everything upstream (blue) and downstream (orange) of it, or click a line to see why it is there." }));
+    var row = h("div", { class: "btnrow" });
+    [["chain", "Longest chain"], ["cycle", "Cycles"], ["pending", "Awaiting review"], ["roots", "Entry points"]].forEach(function (b) {
+      var x = h("button", { class: "tool", text: b[1] }); x.addEventListener("click", function () { setHl(b[0]); }); row.appendChild(x); });
+    panel.appendChild(row);
+    panel.appendChild(h("h3", { text: "What the map shows" }));
+    var ul = h("ul", { class: "findings" });
+    ul.appendChild(h("li", { text: c.nodes + " records joined by " + c.edges + " dependencies: " + c.stated + " stated in the text or derived from it, " + c.inferred + " inferred." }));
+    ul.appendChild(h("li", { text: "Longest chain: " + ch.length + " steps (highlight it above)." }));
+    ul.appendChild(h("li", { text: an.explicit_only.cycles.length + " cycles from stated edges alone; " + an.with_inferred.cycles.length + " once inferred edges are included." }));
+    ul.appendChild(h("li", { text: c.pending ? c.pending + " inferred edges still await review (dotted lines)." : "No inferred edges await review." }));
+    ul.appendChild(h("li", { text: "Enforcement lines are hidden at first: " + c.enforcement + " of them connect every private duty to the prosecution and arrest records. Switch them on in the Edges row." }));
+    panel.appendChild(ul);
+    panel.appendChild(h("h3", { text: "Lines" }));
+    var lg = h("div", { class: "legend" });
+    types.forEach(function (t) { var r = h("div"); var s = document.createElementNS(NS, "svg"); s.setAttribute("width", "34"); s.setAttribute("height", "10");
+      el("path", { d: "M1 5 H33", stroke: cssv("--e-" + t), "stroke-width": "2.2", fill: "none" }, s); r.appendChild(s); r.appendChild(h("span", {}, [h("b", { text: TYPE_LABEL[t] }), " " + TYPE_HELP[t]])); lg.appendChild(r); });
+    var r1 = h("div"); r1.appendChild(legendSvg("explicit", cssv("--ink"))); r1.appendChild(h("span", { text: "solid: stated in the text" })); lg.appendChild(r1);
+    var r2 = h("div"); r2.appendChild(legendSvg("inferred", cssv("--ink"))); r2.appendChild(h("span", { text: "dashed: reasoned from context, accepted" })); lg.appendChild(r2);
+    var r3 = h("div"); r3.appendChild(legendSvg("inferred pending", cssv("--ink"))); r3.appendChild(h("span", { text: "dotted: awaiting your review" })); lg.appendChild(r3);
+    panel.appendChild(lg);
+    panel.appendChild(h("h3", { text: "Boxes" }));
+    var key = h("div", { class: "legend" }); var cats = {};
+    D.nodes.forEach(function (n) { cats[catOf(n)] = n; });
+    Object.keys(cats).sort().forEach(function (k) { var n = cats[k], r = h("div"); var d = h("span", { class: "dot" }); d.style.background = cssv(varOf(n)); r.appendChild(d);
+      var lab = st.color === "chapter" ? "Chapter " + k + (D.chapterTitles[k] ? " " + D.chapterTitles[k] : "") : st.color === "kind" ? (KIND_LABEL[k] || k) : k; r.appendChild(h("span", { text: lab })); key.appendChild(r); });
+    panel.appendChild(key);
+  }
+  function relList(edges, dir) {
+    var ul = h("ul", { class: "rel" });
+    edges.forEach(function (e) { var o = N[dir > 0 ? e.t : e.f], li = h("li"); var b = h("button", { type: "button" });
+      b.appendChild(sw(e.ty)); var t = h("span", {}, [h("span", { class: "id", text: o.id }), " " + clip(o.verb, 34), h("small", { text: TYPE_LABEL[e.ty] + " · " + e.ba + (e.st === "pending_review" ? " · awaiting review" : "") })]);
+      b.appendChild(t); b.addEventListener("click", function () { selectNode(o.id); }); li.appendChild(b); ul.appendChild(li); });
+    return ul;
+  }
+  function group(title, edges, dir) {
+    var wrap = h("div"); wrap.appendChild(h("h3", { text: title + " (" + edges.length + ")" }));
+    if (!edges.length) { wrap.appendChild(h("p", { class: "sub", text: dir < 0 ? "Nothing: this is an entry point." : "Nothing: this is an end point." })); return wrap; }
+    var core = edges.filter(function (e) { return e.ty !== "enforcement"; }), enf = edges.filter(function (e) { return e.ty === "enforcement"; });
+    if (core.length) wrap.appendChild(relList(core, dir));
+    if (enf.length) { var d = h("details"); d.appendChild(h("summary", { text: enf.length + " enforcement" })); d.appendChild(relList(enf, dir)); if (enf.length <= 4 || !core.length) d.open = true; wrap.appendChild(d); }
+    return wrap;
+  }
+  function whenText(n) {
+    var w = n.sigType, t = n.sigText || "";
+    if (["when", "while", "on a schedule", "on request", "after"].indexOf(w) < 0 || !t) return w;
+    return t.toLowerCase().indexOf(w) === 0 ? t : w + " " + t;
+  }
+  function showNode(i) {
+    var n = N[i]; panel.replaceChildren();
+    panel.appendChild(h("p", { class: "id", text: n.id + "  ·  " + n.heading }));
+    panel.appendChild(h("h2", { text: n.actor + " " + n.modalityWord + " " + n.verb }));
+    panel.appendChild(h("div", { class: "quote", text: "“" + n.quote + "”" }));
+    var dl = h("dl"); function row(k, v) { if (v) { dl.appendChild(h("dt", { text: k })); dl.appendChild(h("dd", { text: v })); } }
+    row("Object", n.obj); row("When", whenText(n)); row("To whom", n.cp); row("Timing", n.timing);
+    row("Produces", n.out.join(", ")); row("Consequence", n.consequence); row("Exceptions", n.exceptions.join(", "));
+    n.att.forEach(function (a) { row(a.kind, a.summary + " (" + a.provision + ")"); });
+    row("Resolved", n.note); row("Status", n.status === "complete" ? "" : n.status.replace("_", " "));
+    panel.appendChild(dl);
+    panel.appendChild(group("Depends on", inn[i], -1));
+    panel.appendChild(group("Leads to", out[i], 1));
+    var clr = h("button", { class: "tool", text: "Clear selection" }); clr.addEventListener("click", clear); panel.appendChild(h("p", {}, [clr]));
+  }
+  function showEdge(id) {
+    var e = EB[id], a = N[e.f], b = N[e.t]; panel.replaceChildren();
+    panel.appendChild(h("p", { class: "id", text: id }));
+    panel.appendChild(h("h2", {}, [sw(e.ty), " " + TYPE_LABEL[e.ty]]));
+    panel.appendChild(h("p", { text: TYPE_HELP[e.ty].replace("A", a.id).replace("B", b.id) + "." }));
+    var dl = h("dl"); function row(k, v) { dl.appendChild(h("dt", { text: k })); dl.appendChild(h("dd", { text: v })); }
+    row("Basis", e.ba === "explicit" ? "stated in the text" : "inferred from context"); row("Confidence", e.cf);
+    row("Review", e.st === "pending_review" ? "awaiting review" : "accepted"); panel.appendChild(dl);
+    panel.appendChild(h("h3", { text: "Evidence" })); panel.appendChild(h("div", { class: "quote", text: e.ev }));
+    [["From", a], ["To", b]].forEach(function (p) { panel.appendChild(h("h3", { text: p[0] })); var bt = h("button", { class: "tool", type: "button", text: p[1].id + "  " + clip(p[1].verb, 32) }); bt.addEventListener("click", function () { selectNode(p[1].id); }); panel.appendChild(bt); });
+    var clr = h("button", { class: "tool", text: "Clear selection" }); clr.addEventListener("click", clear); panel.appendChild(h("p", {}, [clr]));
+  }
+  function selectNode(i) { st.sel = i; st.selEdge = null; showNode(i); refresh(); panel.scrollTop = 0; }
+  function selectEdge(id) { st.selEdge = id; st.sel = null; showEdge(id); refresh(); panel.scrollTop = 0; }
+  function clear() { st.sel = null; st.selEdge = null; overview(); refresh(); }
+  function setHl(v) { st.hl = v; document.getElementById("hl").value = v; refresh(); }
+
+  /* ---------- controls ---------- */
+  var gt = document.getElementById("g-types");
+  types.forEach(function (t) { var c = E.filter(function (e) { return e.ty === t; }).length;
+    var b = h("button", { class: "chip", type: "button", "aria-pressed": String(st.types[t]), title: TYPE_HELP[t] }, [sw(t), TYPE_LABEL[t], h("span", { class: "n", text: String(c) })]);
+    b.addEventListener("click", function () { st.types[t] = !st.types[t]; b.setAttribute("aria-pressed", String(st.types[t])); refresh(); if (!st.sel && !st.selEdge) overview(); else if (st.sel) showNode(st.sel); });
+    gt.appendChild(b); });
+  function basisBtn(id, key) { var b = document.getElementById(id); var n = E.filter(function (e) { return e.ba === key; }).length; b.insertBefore(document.createTextNode(String(n) + " "), b.firstChild);
+    b.addEventListener("click", function () { st[key] = !st[key]; b.setAttribute("aria-pressed", String(st[key])); refresh(); }); }
+  basisBtn("b-explicit", "explicit"); basisBtn("b-inferred", "inferred");
+  document.getElementById("colorby").addEventListener("change", function (ev) { st.color = ev.target.value; paintNodes(); if (!st.sel && !st.selEdge) overview(); });
+  document.getElementById("hl").addEventListener("change", function (ev) { st.hl = ev.target.value; refresh(); });
+  var qi = document.getElementById("q");
+  qi.addEventListener("input", function () { st.q = qi.value; refresh(); });
+  qi.addEventListener("keydown", function (ev) { if (ev.key === "Enter") { var m = order.filter(function (i) { return match(N[i]) && nodeG[i]; })[0]; if (m) { selectNode(m); focusNode(m); } } });
+  document.getElementById("reset").addEventListener("click", function () { qi.value = ""; st.q = ""; st.hl = "none"; document.getElementById("hl").value = "none"; clear(); fit(); });
+  document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") clear(); });
+
+  /* ---------- pan and zoom ---------- */
+  var T = { x: 0, y: 0, k: 1 }, box = null;
+  function apply() { vp.setAttribute("transform", "translate(" + T.x + " " + T.y + ") scale(" + T.k + ")"); svg.classList.toggle("far", T.k < 0.55); svg.classList.toggle("farther", T.k < 0.3); }
+  function bounds() { var x1 = 1e9, y1 = 1e9, x2 = -1e9, y2 = -1e9; order.forEach(function (i) { var p = pos[i]; if (!p) return; x1 = Math.min(x1, p.x); y1 = Math.min(y1, p.y - 24); x2 = Math.max(x2, p.x + W); y2 = Math.max(y2, p.y + H); }); return { x1: x1, y1: y1, x2: x2, y2: y2 }; }
+  function fit() { var r = svg.getBoundingClientRect(), b = bounds(), pad = 24; box = b;
+    var k = Math.min((r.width - pad * 2) / (b.x2 - b.x1), (r.height - pad * 2) / (b.y2 - b.y1)); k = Math.max(0.12, Math.min(1.1, k));
+    T.k = k; T.x = pad - b.x1 * k + (r.width - pad * 2 - (b.x2 - b.x1) * k) / 2; T.y = pad - b.y1 * k; apply(); }
+  function zoomAt(f, cx, cy) { var k = Math.max(0.1, Math.min(3, T.k * f)); T.x = cx - (cx - T.x) * (k / T.k); T.y = cy - (cy - T.y) * (k / T.k); T.k = k; apply(); }
+  function focusNode(i) { var p = pos[i], r = svg.getBoundingClientRect(); if (!p) return; T.k = Math.max(T.k, 0.8); T.x = r.width / 2 - (p.x + W / 2) * T.k; T.y = r.height / 2 - (p.y + H / 2) * T.k; apply(); }
+  svg.addEventListener("wheel", function (ev) { ev.preventDefault(); var r = svg.getBoundingClientRect(); zoomAt(ev.deltaY < 0 ? 1.12 : 1 / 1.12, ev.clientX - r.left, ev.clientY - r.top); }, { passive: false });
+  var drag = null;
+  svg.addEventListener("pointerdown", function (ev) { if (ev.target.closest && ev.target.closest(".node, .hit")) return; drag = { x: ev.clientX, y: ev.clientY, tx: T.x, ty: T.y, moved: false }; svg.setPointerCapture(ev.pointerId); svg.classList.add("drag"); });
+  svg.addEventListener("pointermove", function (ev) { if (!drag) return; var dx = ev.clientX - drag.x, dy = ev.clientY - drag.y; if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true; T.x = drag.tx + dx; T.y = drag.ty + dy; apply(); });
+  function endDrag() { if (!drag) return; var moved = drag.moved; drag = null; svg.classList.remove("drag"); if (!moved) clear(); }
+  svg.addEventListener("pointerup", endDrag); svg.addEventListener("pointercancel", function () { drag = null; svg.classList.remove("drag"); });
+  function ctr() { var r = svg.getBoundingClientRect(); return [r.width / 2, r.height / 2]; }
+  document.getElementById("zi").addEventListener("click", function () { var c = ctr(); zoomAt(1.25, c[0], c[1]); });
+  document.getElementById("zo").addEventListener("click", function () { var c = ctr(); zoomAt(1 / 1.25, c[0], c[1]); });
+  document.getElementById("zf").addEventListener("click", fit);
+  var rt; window.addEventListener("resize", function () { clearTimeout(rt); rt = setTimeout(fit, 150); });
+
+  /* ---------- header and start ---------- */
+  document.getElementById("ttl").textContent = D.title;
+  document.getElementById("sub").textContent = D.subtitle;
+  var c = D.counts, sdiv = document.getElementById("stats");
+  [[c.nodes, "records"], [c.edges, "dependencies"], ["", "shown"], [D.analysis.explicit_only.roots.length, "entry points"], [D.analysis.with_inferred.cycles.length, "cycle" + (D.analysis.with_inferred.cycles.length === 1 ? "" : "s")]].forEach(function (s) {
+    var d = h("div"); var b = h("b", { text: String(s[0]) }); if (s[1] === "shown") b.id = "shown"; d.appendChild(b); d.appendChild(h("span", { text: s[1] })); sdiv.appendChild(d); });
+  paintNodes(); overview(); refresh();
+  function start() { fit(); }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(start); else start();
+  start();
+})();
+</script>

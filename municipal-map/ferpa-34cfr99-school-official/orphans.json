@@ -1,0 +1,227 @@
+[
+ {
+  "id": "ORP-01",
+  "code": "O-ACT",
+  "records": [
+   "A-99.31.a.1.i.B-1"
+  ],
+  "provision": "99.31.a.1.i.B",
+  "quote": "may be considered a school official under this paragraph",
+  "missing": "Passive voice: the text does not say who does the considering.",
+  "best_guess": "The educational agency or institution (the party that outsourced the function)",
+  "basis": "The sentence opens with the agency or institution that \"has outsourced\" the function; (a)(1)(i)(B)(2) makes the outside party subject to that agency's direct control.",
+  "options": [
+   "The educational agency or institution that outsourced the function",
+   "The educational agency or institution, and separately the outside party's status is a state of fact (no actor)",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution that outsourced the function",
+   "patch": {
+    "A-99.31.a.1.i.B-1": {
+     "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+     },
+     "status": "orphan",
+     "orphan_flags": [
+      "O-AMBIG"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-02",
+  "code": "O-ACT",
+  "records": [
+   "A-99.7.a.3.iii-1"
+  ],
+  "provision": "99.7.a.3.iii",
+  "quote": "a specification of criteria for determining who constitutes a school official",
+  "missing": "A noun phrase with no verb or agent: the text does not say who specifies the criteria.",
+  "best_guess": "The educational agency or institution, as part of the annual notification in 99.7(a)(1)",
+  "basis": "99.7(a)(1) makes each educational agency or institution responsible for the annual notice and (a)(3)(iii) lists a content item of it.",
+  "options": [
+   "The educational agency or institution",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution",
+   "patch": {
+    "A-99.7.a.3.iii-1": {
+     "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+     },
+     "status": "orphan",
+     "orphan_flags": [
+      "O-AMBIG"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-03",
+  "code": "O-ACT",
+  "records": [
+   "A-99.32.b.1-1"
+  ],
+  "provision": "99.32.b.1",
+  "quote": "the record of the disclosure required under this section must include",
+  "missing": "Passive voice: the text does not say who keeps the record or adds the listed content.",
+  "best_guess": "The educational agency or institution that makes the disclosure",
+  "basis": "The clause is conditioned on \"an educational agency or institution discloses\" and 99.32(a)(1) puts the recordkeeping duty on that same party.",
+  "options": [
+   "The educational agency or institution",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution",
+   "patch": {
+    "A-99.32.b.1-1": {
+     "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+     },
+     "status": "resolved",
+     "orphan_flags": []
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-04",
+  "code": "O-AMBIG",
+  "records": [
+   "A-99.31.a.1.i.B-1"
+  ],
+  "provision": "99.31.a.1.i.B",
+  "quote": "may be considered a school official under this paragraph provided that the outside party",
+  "missing": "\"Under this paragraph\" points back to (a)(1)(i), whose (A) requires a legitimate educational interest determination. The text does not say whether that determination also applies to the outside party in addition to the three conditions (B)(1)-(3).",
+  "best_guess": "Keep the three stated conditions as the record's conditions; show (A)'s legitimate-educational-interest determination only as a linked record, not as a fourth condition",
+  "basis": "Only (B)(1)-(3) follow \"provided that\". The (A) requirement is stated in its own paragraph and is not repeated in (B).",
+  "options": [
+   "Conditions are (B)(1)-(3) only; (A) stays a separate record (best guess)",
+   "Add (A)'s legitimate-educational-interest determination as a fourth condition of the outside-party record",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): conditions are (B)(1)-(3) only; (A) stays separate",
+   "patch": {
+    "A-99.31.a.1.i.B-1": {
+     "status": "resolved",
+     "orphan_flags": []
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-05",
+  "code": "O-AMBIG",
+  "records": [
+   "A-99.7.a.3.iii-1"
+  ],
+  "provision": "99.7.a.3.iii",
+  "quote": "a specification of criteria for determining who constitutes a school official and what constitutes a legitimate educational interest",
+  "missing": "The provision speaks of \"school official\" criteria and does not mention contractors or outside parties. The text does not say whether the annual-notice criteria must address outside parties treated as school officials under 99.31(a)(1)(i)(B).",
+  "best_guess": "Record it as written (criteria for who constitutes a school official), with no statement that outside parties must be covered; carry the question as a known gap",
+  "basis": "Neither 99.7(a)(3)(iii) nor 99.31(a)(1)(i)(B) refers to the other.",
+  "options": [
+   "Record as written; do not add a contractor requirement (best guess)",
+   "Record that the criteria must cover outside parties",
+   "Other"
+  ],
+  "status": "known_gap",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): recorded as written, no contractor requirement added; carried as a known gap",
+   "patch": {
+    "A-99.7.a.3.iii-1": {
+     "status": "known_gap",
+     "orphan_flags": [
+      "O-AMBIG"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-06",
+  "code": "O-AMBIG",
+  "records": [
+   "A-99.30.a-1"
+  ],
+  "provision": "99.30.a",
+  "quote": "The parent or eligible student shall provide a signed and dated written consent before an educational agency or institution discloses",
+  "missing": "\"Shall\" is addressed to the parent or eligible student, but the provision functions as a condition on the institution's disclosure; it is unclear whether it imposes a duty on the parent or a precondition to the institution's disclosure.",
+  "best_guess": "Literal word: a duty of the parent or eligible student, with the institution as counterparty (per the decision to classify by the operative word)",
+  "basis": "The operative word is \"shall\" and the subject is the parent or eligible student.",
+  "options": [
+   "Duty of the parent or eligible student, as written (best guess)",
+   "Permission of the institution to disclose, conditioned on consent",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): duty of the parent or eligible student, as written",
+   "patch": {
+    "A-99.30.a-1": {
+     "status": "resolved",
+     "orphan_flags": []
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-07",
+  "code": "O-AMBIG",
+  "records": [
+   "A-99.33.a.1-1",
+   "A-99.33.a.1-2",
+   "A-99.33.a.2-1"
+  ],
+  "provision": "99.33.a.1",
+  "quote": "may disclose personally identifiable information from an education record only on the condition that the party to whom the information is disclosed will not disclose the information to any other party",
+  "missing": "\"May ... only on the condition that\" and \"may use ... but only for\" combine a permission with a limit. The text does not say whether the limit is a separate prohibition on the receiving party or only a condition on the institution's permission.",
+  "best_guess": "Keep as drafted: a permission for the institution, a linked prohibition on the receiving party (99.33(a)(1)), and a permission with a purpose limit for the receiving party's personnel (99.33(a)(2))",
+  "basis": "The provision states what the receiving party \"will not\" do, which reads as a duty of that party. Decision: joint/alternative actors are separate linked records.",
+  "options": [
+   "Keep the three records as drafted (best guess)",
+   "Merge into permission records with the limit as a condition only (drop the receiving-party prohibition)",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): keep the three records as drafted",
+   "patch": {
+    "A-99.33.a.1-1": {
+     "status": "resolved",
+     "orphan_flags": []
+    },
+    "A-99.33.a.1-2": {
+     "status": "resolved",
+     "orphan_flags": []
+    },
+    "A-99.33.a.2-1": {
+     "status": "resolved",
+     "orphan_flags": []
+    }
+   }
+  }
+ }
+]

@@ -1,0 +1,1594 @@
+[
+  {
+    "id": "A-99.4-1",
+    "provision_refs": [
+      "99.4"
+    ],
+    "source_quote": "An educational agency or institution shall give full rights under the Act to either parent, unless the agency or institution has been provided with evidence that there is a court order, State statute, or legally binding document relating to such matters as divorce, separation, or custody that specifically revokes these rights.",
+    "signal": {
+      "type": "standing",
+      "text": "An educational agency or institution shall give full rights …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give full rights under the Act to",
+      "object": "either parent",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [
+      "unless the agency or institution has been provided with evidence of a court order, State statute, or legally binding document (divorce, separation, custody) that specifically revokes these rights"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.parent",
+        "summary": "definition of parent"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.5.a.2-1",
+    "provision_refs": [
+      "99.5.a.2"
+    ],
+    "source_quote": "Nothing in this section prevents an educational agency or institution from disclosing education records, or personally identifiable information from education records, to a parent without the prior written consent of an eligible student",
+    "signal": {
+      "type": "discretionary",
+      "text": "Nothing in this section prevents …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "an educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "disclose",
+      "object": "education records, or personally identifiable information from them, to a parent without the prior written consent of an eligible student",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent",
+      "text": "a parent",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "the disclosure meets the conditions in § 99.31(a)(8), § 99.31(a)(10), § 99.31(a)(15), or any other provision in § 99.31(a)"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.parent",
+        "summary": "definition of parent"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.5.b-1",
+    "provision_refs": [
+      "99.5.b"
+    ],
+    "source_quote": "The Act and this part do not prevent educational agencies or institutions from giving students rights in addition to those given to parents.",
+    "signal": {
+      "type": "discretionary",
+      "text": "The Act and this part do not prevent …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "educational agencies or institutions",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "give students",
+      "object": "rights in addition to those given to parents",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-student",
+      "text": "students",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.student",
+        "summary": "definition of student"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.7.a.1-1",
+    "provision_refs": [
+      "99.7.a.1",
+      "99.7.a.2",
+      "99.7.a.2.i",
+      "99.7.a.2.ii",
+      "99.7.a.2.iii",
+      "99.7.a.2.iv",
+      "99.7.a.3",
+      "99.7.a.3.i",
+      "99.7.a.3.ii"
+    ],
+    "source_quote": "Each educational agency or institution shall annually notify parents of students currently in attendance, or eligible students currently in attendance, of their rights under the Act and this part.",
+    "signal": {
+      "type": "time",
+      "text": "annually",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "Each educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "notify",
+      "object": "parents of students in attendance, or eligible students in attendance, of their rights under the Act and Part 99; the notice must say they may inspect and review education records, seek amendment, consent to disclosures (except as § 99.31 allows) and file a complaint with the Department, and must give the procedures for inspection and for amendment under § 99.20",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "recurrence",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "annually"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [
+      "artifact:annual-notification"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.7.a.3.iii-1",
+    "provision_refs": [
+      "99.7.a.3.iii"
+    ],
+    "source_quote": "If the educational agency or institution has a policy of disclosing education records under § 99.31(a)(1), a specification of criteria for determining who constitutes a school official and what constitutes a legitimate educational interest.",
+    "signal": {
+      "type": "state",
+      "text": "the agency or institution has a policy of disclosing education records under § 99.31(a)(1)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "specify in the annual notice",
+      "object": "criteria for determining who constitutes a school official and what constitutes a legitimate educational interest",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [
+      "artifact:school-official-criteria"
+    ],
+    "status": "known_gap",
+    "orphan_flags": [
+      "O-AMBIG"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-02 (O-ACT): Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution; ORP-05 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): recorded as written, no contractor requirement added; carried as a known gap"
+  },
+  {
+    "id": "A-99.7.b-1",
+    "provision_refs": [
+      "99.7.b"
+    ],
+    "source_quote": "An educational agency or institution may provide this notice by any means that are reasonably likely to inform the parents or eligible students of their rights.",
+    "signal": {
+      "type": "discretionary",
+      "text": "An educational agency or institution may provide this notice …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "provide the notice",
+      "object": "by any means reasonably likely to inform the parents or eligible students of their rights",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.7.b.1-1",
+    "provision_refs": [
+      "99.7.b.1"
+    ],
+    "source_quote": "An educational agency or institution shall effectively notify parents or eligible students who are disabled.",
+    "signal": {
+      "type": "state",
+      "text": "the parents or eligible students are disabled",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "effectively notify",
+      "object": "parents or eligible students who are disabled",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.7.b.2-1",
+    "provision_refs": [
+      "99.7.b.2"
+    ],
+    "source_quote": "An agency or institution of elementary or secondary education shall effectively notify parents who have a primary or home language other than English.",
+    "signal": {
+      "type": "state",
+      "text": "the parents have a primary or home language other than English",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An agency or institution of elementary or secondary education",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "effectively notify",
+      "object": "parents who have a primary or home language other than English",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent",
+      "text": "parents",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.parent",
+        "summary": "definition of parent"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.30.a-1",
+    "provision_refs": [
+      "99.30.a",
+      "99.30.b",
+      "99.30.b.1",
+      "99.30.b.2",
+      "99.30.b.3"
+    ],
+    "source_quote": "The parent or eligible student shall provide a signed and dated written consent before an educational agency or institution discloses personally identifiable information from the student’s education records, except as provided in § 99.31.",
+    "signal": {
+      "type": "state",
+      "text": "an educational agency or institution is to disclose personally identifiable information from the student’s education records",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "The parent or eligible student",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "provide",
+      "object": "a signed and dated written consent that specifies the records that may be disclosed, states the purpose of the disclosure, and identifies the party or class of parties to whom the disclosure may be made",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": "before",
+      "business_days": false,
+      "text": "before an educational agency or institution discloses personally identifiable information"
+    },
+    "conditions": [
+      "except as provided in § 99.31"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "legal_effect",
+        "provision": "99.5.a.1",
+        "summary": "When a student becomes an eligible student, parents' rights and the consent required of them transfer to the student"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [
+      "artifact:written-consent"
+    ],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-06 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): duty of the parent or eligible student, as written"
+  },
+  {
+    "id": "A-99.30.c.1-1",
+    "provision_refs": [
+      "99.30.c.1",
+      "99.30.c"
+    ],
+    "source_quote": "If a parent or eligible student so requests, the educational agency or institution shall provide him or her with a copy of the records disclosed",
+    "signal": {
+      "type": "request",
+      "text": "a parent or eligible student requests a copy after a disclosure under paragraph (a)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "provide",
+      "object": "a copy of the records disclosed",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.30.c.2-1",
+    "provision_refs": [
+      "99.30.c.2"
+    ],
+    "source_quote": "If the parent of a student who is not an eligible student so requests, the agency or institution shall provide the student with a copy of the records disclosed.",
+    "signal": {
+      "type": "request",
+      "text": "the parent of a student who is not an eligible student requests a copy",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "provide",
+      "object": "the student with a copy of the records disclosed",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-student",
+      "text": "the student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.student",
+        "summary": "definition of student"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.31.a-1",
+    "provision_refs": [
+      "99.31.a"
+    ],
+    "source_quote": "An educational agency or institution may disclose personally identifiable information from an education record of a student without the consent required by § 99.30 if the disclosure meets one or more of the following conditions",
+    "signal": {
+      "type": "discretionary",
+      "text": "An educational agency or institution may disclose …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "disclose",
+      "object": "personally identifiable information from an education record of a student without the consent required by § 99.30",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [
+      "the disclosure meets one or more of the conditions listed in § 99.31(a)"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.31.a.1.i.A-1",
+    "provision_refs": [
+      "99.31.a.1.i.A"
+    ],
+    "source_quote": "The disclosure is to other school officials, including teachers, within the agency or institution whom the agency or institution has determined to have legitimate educational interests.",
+    "signal": {
+      "type": "discretionary",
+      "text": "disclosure to other school officials within the agency or institution",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "disclose personally identifiable information",
+      "object": "to other school officials, including teachers, within the agency or institution whom the agency or institution has determined to have legitimate educational interests",
+      "confidence": "inferred"
+    },
+    "counterparty": {
+      "id": "ACT-school-official",
+      "text": "other school officials, including teachers",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "the agency or institution has determined that the school officials have legitimate educational interests"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.31.a.1.i.A",
+        "summary": "definition of school official"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.31.a.1.i.B-1",
+    "provision_refs": [
+      "99.31.a.1.i.B",
+      "99.31.a.1.i.B.1",
+      "99.31.a.1.i.B.2",
+      "99.31.a.1.i.B.3"
+    ],
+    "source_quote": "A contractor, consultant, volunteer, or other party to whom an agency or institution has outsourced institutional services or functions may be considered a school official under this paragraph provided that the outside party",
+    "signal": {
+      "type": "state",
+      "text": "an agency or institution has outsourced institutional services or functions to the party",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "consider as a school official under paragraph (a)(1)(i)",
+      "object": "a contractor, consultant, volunteer, or other party to whom institutional services or functions have been outsourced",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-outside-party",
+      "text": "A contractor, consultant, volunteer, or other party",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "the outside party performs an institutional service or function for which the agency or institution would otherwise use employees",
+      "the outside party is under the direct control of the agency or institution with respect to the use and maintenance of education records",
+      "the outside party is subject to the requirements of § 99.33(a) governing the use and redisclosure of personally identifiable information from education records"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.31.a.1.i.B",
+        "summary": "definition of outside party"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-01 (O-ACT): Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution that outsourced the function; ORP-04 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): conditions are (B)(1)-(3) only; (A) stays separate"
+  },
+  {
+    "id": "A-99.31.a.1.ii-1",
+    "provision_refs": [
+      "99.31.a.1.ii"
+    ],
+    "source_quote": "An educational agency or institution must use reasonable methods to ensure that school officials obtain access to only those education records in which they have legitimate educational interests.",
+    "signal": {
+      "type": "standing",
+      "text": "An educational agency or institution must use reasonable methods …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "use reasonable methods to ensure",
+      "object": "that school officials obtain access to only those education records in which they have legitimate educational interests",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-school-official",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.31.a.1.i.A",
+        "summary": "definition of school official"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.31.a.1.ii-2",
+    "provision_refs": [
+      "99.31.a.1.ii"
+    ],
+    "source_quote": "An educational agency or institution that does not use physical or technological access controls must ensure that its administrative policy for controlling access to education records is effective and that it remains in compliance with the legitimate educational interest requirement in paragraph (a)(1)(i)(A) of this section",
+    "signal": {
+      "type": "state",
+      "text": "the agency or institution does not use physical or technological access controls",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution that does not use physical or technological access controls",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "ensure",
+      "object": "that its administrative policy for controlling access to education records is effective and that it remains in compliance with the legitimate educational interest requirement in paragraph (a)(1)(i)(A)",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.a.1-1",
+    "provision_refs": [
+      "99.32.a.1",
+      "99.32.a.3",
+      "99.32.a.3.i",
+      "99.32.a.3.ii"
+    ],
+    "source_quote": "An educational agency or institution must maintain a record of each request for access to and each disclosure of personally identifiable information from the education records of each student",
+    "signal": {
+      "type": "event",
+      "text": "a request for access to, or a disclosure of, personally identifiable information from a student’s education records",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "maintain",
+      "object": "a record of each request for access to and each disclosure of personally identifiable information from the education records of each student, including the names of State and local educational authorities and Federal officials and agencies listed in § 99.31(a)(3) that may make further disclosures; the record must name the parties who requested or received the information and the legitimate interests they had",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [
+      "99.32.d",
+      "99.32.d.1",
+      "99.32.d.2",
+      "99.32.d.3",
+      "99.32.d.4",
+      "99.32.d.5"
+    ],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [
+      "artifact:record-of-disclosures"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.a.2-1",
+    "provision_refs": [
+      "99.32.a.2"
+    ],
+    "source_quote": "The agency or institution shall maintain the record with the education records of the student as long as the records are maintained.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the record of requests and disclosures is made",
+      "confidence": "explicit",
+      "ref": "A-99.32.a.1-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "maintain",
+      "object": "the record with the education records of the student",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": {
+      "kind": "continuous",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": null,
+      "business_days": false,
+      "text": "as long as the records are maintained"
+    },
+    "conditions": [],
+    "exceptions": [
+      "99.32.d",
+      "99.32.d.1",
+      "99.32.d.2",
+      "99.32.d.3",
+      "99.32.d.4",
+      "99.32.d.5"
+    ],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.a.4-1",
+    "provision_refs": [
+      "99.32.a.4"
+    ],
+    "source_quote": "An educational agency or institution must obtain a copy of the record of further disclosures maintained under paragraph (b)(2) of this section and make it available in response to a parent’s or eligible student’s request to review the record required under paragraph (a)(1) of this section",
+    "signal": {
+      "type": "request",
+      "text": "a parent’s or eligible student’s request to review the record of requests and disclosures",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "obtain and make available",
+      "object": "a copy of the record of further disclosures maintained under paragraph (b)(2)",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [
+      "99.32.d",
+      "99.32.d.1",
+      "99.32.d.2",
+      "99.32.d.3",
+      "99.32.d.4",
+      "99.32.d.5"
+    ],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.a.5-1",
+    "provision_refs": [
+      "99.32.a.5",
+      "99.32.a.5.i",
+      "99.32.a.5.ii"
+    ],
+    "source_quote": "An educational agency or institution must record the following information when it discloses personally identifiable information from education records under the health or safety emergency exception in § 99.31(a)(10) and § 99.36",
+    "signal": {
+      "type": "event",
+      "text": "the agency or institution discloses personally identifiable information under the health or safety emergency exception",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "record",
+      "object": "the articulable and significant threat to the health or safety of a student or other individuals that formed the basis for the disclosure, and the parties to whom the information was disclosed",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [
+      "99.32.d",
+      "99.32.d.1",
+      "99.32.d.2",
+      "99.32.d.3",
+      "99.32.d.4",
+      "99.32.d.5"
+    ],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.b.1-1",
+    "provision_refs": [
+      "99.32.b.1",
+      "99.32.b.1.i",
+      "99.32.b.1.ii"
+    ],
+    "source_quote": "the record of the disclosure required under this section must include",
+    "signal": {
+      "type": "state",
+      "text": "an educational agency or institution discloses personally identifiable information with the understanding authorized under § 99.33(b)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "include in the record of the disclosure",
+      "object": "the names of the additional parties to which the receiving party may disclose the information on behalf of the agency or institution, and the legitimate interests under § 99.31 that each has",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-03 (O-ACT): Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution"
+  },
+  {
+    "id": "A-99.32.b.2.i-1",
+    "provision_refs": [
+      "99.32.b.2.i",
+      "99.32.b.2.i.A",
+      "99.32.b.2.i.B"
+    ],
+    "source_quote": "A State or local educational authority or Federal official or agency listed in § 99.31(a)(3) that makes further disclosures of information from education records under § 99.33(b) must record the names of the additional parties to which it discloses information on behalf of an educational agency or institution and their legitimate interests in the information under § 99.31",
+    "signal": {
+      "type": "state",
+      "text": "it makes further disclosures under § 99.33(b) of information received from an agency or institution that has not recorded them, or from another such authority or official",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-state-or-federal-recipient",
+      "text": "A State or local educational authority or Federal official or agency listed in § 99.31(a)(3)",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "record",
+      "object": "the names of the additional parties to which it discloses information on behalf of an educational agency or institution, and their legitimate interests",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.b.2.ii-1",
+    "provision_refs": [
+      "99.32.b.2.ii"
+    ],
+    "source_quote": "A State or local educational authority or Federal official or agency that records further disclosures of information under paragraph (b)(2)(i) of this section may maintain the record by the student’s class, school, district, or other appropriate grouping rather than by the name of the student",
+    "signal": {
+      "type": "upstream_action",
+      "text": "it records further disclosures under paragraph (b)(2)(i)",
+      "confidence": "explicit",
+      "ref": "A-99.32.b.2.i-1"
+    },
+    "actor": {
+      "id": "ACT-state-or-federal-recipient",
+      "text": "A State or local educational authority or Federal official or agency",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "maintain",
+      "object": "the record by the student’s class, school, district, or other appropriate grouping rather than by the name of the student",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.b.2.iii-1",
+    "provision_refs": [
+      "99.32.b.2.iii"
+    ],
+    "source_quote": "Upon request of an educational agency or institution, a State or local educational authority or Federal official or agency listed in § 99.31(a)(3) that maintains a record of further disclosures under paragraph (b)(2)(i) of this section must provide a copy of the record of further disclosures to the educational agency or institution within a reasonable period of time not to exceed 30 days",
+    "signal": {
+      "type": "request",
+      "text": "a request from an educational agency or institution",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-state-or-federal-recipient",
+      "text": "a State or local educational authority or Federal official or agency listed in § 99.31(a)(3)",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "provide",
+      "object": "a copy of the record of further disclosures to the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 30,
+      "unit": "days",
+      "from": "request",
+      "direction": "after",
+      "business_days": false,
+      "text": "within a reasonable period of time not to exceed 30 days"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.c.1-1",
+    "provision_refs": [
+      "99.32.c.1",
+      "99.32.c"
+    ],
+    "source_quote": "The following parties may inspect the record relating to each student",
+    "signal": {
+      "type": "discretionary",
+      "text": "The following parties may inspect …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "The parent or eligible student",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "inspect",
+      "object": "the record of requests and disclosures relating to each student",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.c.2-1",
+    "provision_refs": [
+      "99.32.c.2",
+      "99.32.c"
+    ],
+    "source_quote": "The school official or his or her assistants who are responsible for the custody of the records.",
+    "signal": {
+      "type": "discretionary",
+      "text": "The following parties may inspect …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-records-custodian",
+      "text": "The school official or his or her assistants who are responsible for the custody of the records",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "inspect",
+      "object": "the record of requests and disclosures relating to each student",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.32.c.3-1",
+    "provision_refs": [
+      "99.32.c.3",
+      "99.32.c"
+    ],
+    "source_quote": "Those parties authorized in § 99.31(a) (1) and (3) for the purposes of auditing the recordkeeping procedures of the educational agency or institution",
+    "signal": {
+      "type": "discretionary",
+      "text": "The following parties may inspect …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-authorized-auditors",
+      "text": "Those parties authorized in § 99.31(a) (1) and (3)",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "inspect",
+      "object": "the record of requests and disclosures relating to each student, for the purposes of auditing the recordkeeping procedures of the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.33.a.1-1",
+    "provision_refs": [
+      "99.33.a.1"
+    ],
+    "source_quote": "An educational agency or institution may disclose personally identifiable information from an education record only on the condition that the party to whom the information is disclosed will not disclose the information to any other party without the prior consent of the parent or eligible student",
+    "signal": {
+      "type": "discretionary",
+      "text": "An educational agency or institution may disclose … only on the condition that …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "disclose",
+      "object": "personally identifiable information from an education record, only on the condition that the party to whom it is disclosed will not disclose it to any other party without the prior consent of the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-receiving-party",
+      "text": "the party to whom the information is disclosed",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [
+      "99.33.c"
+    ],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.party",
+        "summary": "definition of receiving party"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-07 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): keep the three records as drafted"
+  },
+  {
+    "id": "A-99.33.a.1-2",
+    "provision_refs": [
+      "99.33.a.1"
+    ],
+    "source_quote": "the party to whom the information is disclosed will not disclose the information to any other party without the prior consent of the parent or eligible student",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution discloses personally identifiable information to the party",
+      "confidence": "explicit",
+      "ref": "A-99.33.a.1-1"
+    },
+    "actor": {
+      "id": "ACT-receiving-party",
+      "text": "the party to whom the information is disclosed",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "disclose",
+      "object": "the information to any other party without the prior consent of the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [
+      "99.33.c"
+    ],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.party",
+        "summary": "definition of receiving party"
+      }
+    ],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-07 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): keep the three records as drafted"
+  },
+  {
+    "id": "A-99.33.a.2-1",
+    "provision_refs": [
+      "99.33.a.2"
+    ],
+    "source_quote": "The officers, employees, and agents of a party that receives information under paragraph (a)(1) of this section may use the information, but only for the purposes for which the disclosure was made",
+    "signal": {
+      "type": "upstream_action",
+      "text": "a party receives information under paragraph (a)(1)",
+      "confidence": "explicit",
+      "ref": "A-99.33.a.1-1"
+    },
+    "actor": {
+      "id": "ACT-receiving-party-personnel",
+      "text": "The officers, employees, and agents of a party that receives information under paragraph (a)(1)",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "use",
+      "object": "the information, but only for the purposes for which the disclosure was made",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [
+      "99.33.c"
+    ],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "resolved",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": "ORP-07 (O-AMBIG): Accepted my best guess (user: \"accept all best guesses\"): keep the three records as drafted"
+  },
+  {
+    "id": "A-99.33.b.1-1",
+    "provision_refs": [
+      "99.33.b.1",
+      "99.33.b.1.i",
+      "99.33.b.1.ii.A",
+      "99.33.b.1.ii.B"
+    ],
+    "source_quote": "Paragraph (a) of this section does not prevent an educational agency or institution from disclosing personally identifiable information with the understanding that the party receiving the information may make further disclosures of the information on behalf of the educational agency or institution",
+    "signal": {
+      "type": "discretionary",
+      "text": "Paragraph (a) of this section does not prevent …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "an educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "disclose",
+      "object": "personally identifiable information with the understanding that the receiving party may make further disclosures on behalf of the agency or institution",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-receiving-party",
+      "text": "the party receiving the information",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "the disclosures meet the requirements of § 99.31",
+      "the agency or institution has complied with the requirements of § 99.32(b), or a State or local educational authority or Federal official or agency listed in § 99.31(a)(3) has complied with § 99.32(b)(2)"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.party",
+        "summary": "definition of receiving party"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.33.b.2-1",
+    "provision_refs": [
+      "99.33.b.2"
+    ],
+    "source_quote": "A party that receives a court order or lawfully issued subpoena and rediscloses personally identifiable information from education records on behalf of an educational agency or institution in response to that order or subpoena under § 99.31(a)(9) must provide the notification required under § 99.31(a)(9)(ii)",
+    "signal": {
+      "type": "event",
+      "text": "the party receives a court order or lawfully issued subpoena and rediscloses personally identifiable information on behalf of the agency or institution in response",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-receiving-party",
+      "text": "A party that receives a court order or lawfully issued subpoena",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "provide",
+      "object": "the notification required under § 99.31(a)(9)(ii)",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.party",
+        "summary": "definition of receiving party"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.33.d-1",
+    "provision_refs": [
+      "99.33.d"
+    ],
+    "source_quote": "An educational agency or institution must inform a party to whom disclosure is made of the requirements of paragraph (a) of this section",
+    "signal": {
+      "type": "event",
+      "text": "a disclosure is made to a party",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "inform",
+      "object": "a party to whom disclosure is made of the requirements of paragraph (a)",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-receiving-party",
+      "text": "a party to whom disclosure is made",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "except for disclosures made under §§ 99.31(a)(8), (9), (11), (12), (14), (15), and (16), and to information that postsecondary institutions are required to disclose under the Clery Act to the accuser and accused regarding the outcome of any campus disciplinary proceeding brought alleging a sexual offense"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.party",
+        "summary": "definition of receiving party"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  }
+]

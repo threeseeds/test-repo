@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    "A-99.30.a-1",
+    "A-99.30.c.1-1",
+    "A-99.30.c.2-1",
+    "A-99.31.a-1",
+    "A-99.31.a.1.i.A-1",
+    "A-99.31.a.1.i.B-1",
+    "A-99.31.a.1.ii-1",
+    "A-99.31.a.1.ii-2",
+    "A-99.32.a.1-1",
+    "A-99.32.a.2-1",
+    "A-99.32.a.4-1",
+    "A-99.32.a.5-1",
+    "A-99.32.b.1-1",
+    "A-99.32.b.2.i-1",
+    "A-99.32.b.2.ii-1",
+    "A-99.32.b.2.iii-1",
+    "A-99.32.c.1-1",
+    "A-99.32.c.2-1",
+    "A-99.32.c.3-1",
+    "A-99.33.a.1-1",
+    "A-99.33.a.1-2",
+    "A-99.33.a.2-1",
+    "A-99.33.b.1-1",
+    "A-99.33.b.2-1",
+    "A-99.33.d-1",
+    "A-99.4-1",
+    "A-99.5.a.2-1",
+    "A-99.5.b-1",
+    "A-99.7.a.1-1",
+    "A-99.7.a.3.iii-1",
+    "A-99.7.b-1",
+    "A-99.7.b.1-1",
+    "A-99.7.b.2-1"
+  ],
+  "edges": [
+    {
+      "id": "E-001",
+      "from": "A-99.32.a.1-1",
+      "to": "A-99.32.a.2-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the record of requests and disclosures is made",
+      "status": "accepted"
+    },
+    {
+      "id": "E-002",
+      "from": "A-99.32.b.2.i-1",
+      "to": "A-99.32.b.2.ii-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "it records further disclosures under paragraph (b)(2)(i)",
+      "status": "accepted"
+    },
+    {
+      "id": "E-003",
+      "from": "A-99.33.a.1-1",
+      "to": "A-99.33.a.1-2",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution discloses personally identifiable information to the party",
+      "status": "accepted"
+    },
+    {
+      "id": "E-004",
+      "from": "A-99.33.a.1-1",
+      "to": "A-99.33.a.2-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "a party receives information under paragraph (a)(1)",
+      "status": "accepted"
+    },
+    {
+      "id": "E-005",
+      "from": "A-99.33.a.1-1",
+      "to": "A-99.31.a.1.i.B-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"is subject to the requirements of § 99.33(a) governing the use and redisclosure of personally identifiable information from education records\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-006",
+      "from": "A-99.33.a.1-2",
+      "to": "A-99.31.a.1.i.B-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"is subject to the requirements of § 99.33(a) governing the use and redisclosure of personally identifiable information from education records\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-007",
+      "from": "A-99.33.a.2-1",
+      "to": "A-99.31.a.1.i.B-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"is subject to the requirements of § 99.33(a) governing the use and redisclosure of personally identifiable information from education records\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-008",
+      "from": "A-99.31.a.1.i.A-1",
+      "to": "A-99.31.a.1.i.B-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "medium",
+      "evidence": "\"may be considered a school official under this paragraph\" (paragraph (a)(1)(i), which includes (A))",
+      "status": "accepted"
+    },
+    {
+      "id": "E-009",
+      "from": "A-99.31.a-1",
+      "to": "A-99.30.a-1",
+      "type": "exception-of",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "99.31(a): \"may disclose … without the consent required by § 99.30\"; 99.30(a): \"except as provided in § 99.31\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-010",
+      "from": "A-99.31.a.1.i.A-1",
+      "to": "A-99.7.a.3.iii-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"has a policy of disclosing education records under § 99.31(a)(1)\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-011",
+      "from": "A-99.31.a.1.i.B-1",
+      "to": "A-99.7.a.3.iii-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "medium",
+      "evidence": "\"has a policy of disclosing education records under § 99.31(a)(1)\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-012",
+      "from": "A-99.31.a.1.i.A-1",
+      "to": "A-99.32.a.1-1",
+      "type": "exception-of",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "99.32(d): \"Paragraph (a) of this section does not apply if … the disclosure was to … (2) A school official under § 99.31(a)(1)\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-013",
+      "from": "A-99.31.a.1.i.B-1",
+      "to": "A-99.32.a.1-1",
+      "type": "exception-of",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence": "99.32(d)(2) exempts disclosures to \"a school official under § 99.31(a)(1)\"; (a)(1)(i)(B) allows an outside party to be \"considered a school official under this paragraph\". The text does not say in terms that 99.32(d)(2) reaches outside parties.",
+      "status": "accepted"
+    },
+    {
+      "id": "E-014",
+      "from": "A-99.33.b.1-1",
+      "to": "A-99.32.b.1-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"disclosing … with the understanding authorized under § 99.33(b)\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-015",
+      "from": "A-99.32.a.1-1",
+      "to": "A-99.32.b.1-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"the record of the disclosure required under this section\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-016",
+      "from": "A-99.33.a.1-1",
+      "to": "A-99.33.d-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"inform a party to whom disclosure is made of the requirements of paragraph (a) of this section\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-017",
+      "from": "A-99.31.a.1.i.A-1",
+      "to": "A-99.31.a.1.ii-1",
+      "type": "produces-input",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence": "99.31(a)(1)(ii) covers \"school officials\"; this record is how a party comes to be treated as one under (a)(1)(i)",
+      "status": "accepted"
+    },
+    {
+      "id": "E-018",
+      "from": "A-99.31.a.1.i.B-1",
+      "to": "A-99.31.a.1.ii-1",
+      "type": "produces-input",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence": "99.31(a)(1)(ii) covers \"school officials\"; this record is how a party comes to be treated as one under (a)(1)(i)",
+      "status": "accepted"
+    },
+    {
+      "id": "E-019",
+      "from": "A-99.30.a-1",
+      "to": "A-99.30.c.1-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "medium",
+      "evidence": "\"after a disclosure under paragraph (a)\"",
+      "status": "accepted"
+    }
+  ]
+}

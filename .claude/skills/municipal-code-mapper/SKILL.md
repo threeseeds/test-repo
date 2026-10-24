@@ -47,6 +47,7 @@ Tell the user the supplement/date the text states.
 ### 1. Segment
 ```
 segment.py RUN/source.txt --out RUN [--chapters 5.04:5.24] --strict
+# federal regulation (CFR): add --profile profiles/cfr.json [--only 99.31:a.1]; validate quotes with --source RUN/source.clean.txt
 validate.py RUN --stage segment --source RUN/source.txt
 ```
 Read `segment-report.json`. Title and front-matter lines before the first section are listed there and ignored. Resolve every warning before going on: tell the user about run-on

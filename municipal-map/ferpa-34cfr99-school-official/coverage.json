@@ -1,0 +1,1220 @@
+[
+  {
+    "provision": "99.1.a",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.1.a.1",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.1.a.2",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.1.b",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.1.c",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.1.c.1",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.1.c.2",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.1.d",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.2",
+    "class": "purpose",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.3",
+    "class": "applicability",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.3.act",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.attendance",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.attendance.a",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.attendance.b",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.authorized-representative",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.biometric-record",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.dates-of-attendance",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.dates-of-attendance.a",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.dates-of-attendance.b",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.directory-information",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.directory-information.a",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.directory-information.b",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.directory-information.b.1",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.directory-information.b.2",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.directory-information.c",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.directory-information.c.1",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.directory-information.c.2",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.disciplinary-action-or-proceeding",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.disclosure",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program.a",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program.b",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program.c",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program.c.1",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program.c.2",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program.c.2.i",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program.c.2.ii",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.early-childhood-education-program.c.2.iii",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.educational-agency-or-institution",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-99.30.a-1",
+      "A-99.30.c.1-1",
+      "A-99.30.c.2-1",
+      "A-99.31.a-1",
+      "A-99.31.a.1.i.A-1",
+      "A-99.31.a.1.ii-1",
+      "A-99.31.a.1.ii-2",
+      "A-99.32.a.1-1",
+      "A-99.32.a.2-1",
+      "A-99.32.a.4-1",
+      "A-99.32.a.5-1",
+      "A-99.32.b.2.i-1",
+      "A-99.32.b.2.iii-1",
+      "A-99.33.a.1-1",
+      "A-99.33.b.1-1",
+      "A-99.33.d-1",
+      "A-99.4-1",
+      "A-99.5.a.2-1",
+      "A-99.5.b-1",
+      "A-99.7.a.1-1",
+      "A-99.7.b-1",
+      "A-99.7.b.1-1",
+      "A-99.7.b.2-1"
+    ]
+  },
+  {
+    "provision": "99.3.education-program",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.a",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.a.1",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.a.2",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.1",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.2",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.3.i",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.3.i.A",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.3.i.B",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.3.i.C",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.3.ii",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.4",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.4.i",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.4.ii",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.4.iii",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.5",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.education-records.b.6",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.eligible-student",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.institution-of-postsecondary-education",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.parent",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-99.4-1",
+      "A-99.5.a.2-1",
+      "A-99.7.b.2-1"
+    ]
+  },
+  {
+    "provision": "99.3.party",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-99.33.a.1-1",
+      "A-99.33.a.1-2",
+      "A-99.33.b.1-1",
+      "A-99.33.b.2-1",
+      "A-99.33.d-1"
+    ]
+  },
+  {
+    "provision": "99.3.personally-identifiable-information",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.personally-identifiable-information.a",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.personally-identifiable-information.b",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.personally-identifiable-information.c",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.personally-identifiable-information.d",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.personally-identifiable-information.e",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.personally-identifiable-information.f",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.personally-identifiable-information.g",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.record",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.secretary",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.3.student",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "A-99.30.c.2-1",
+      "A-99.5.b-1"
+    ]
+  },
+  {
+    "provision": "99.4",
+    "class": "operative",
+    "records": [
+      "A-99.4-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.5.a.1",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "A-99.30.a-1"
+    ]
+  },
+  {
+    "provision": "99.5.a.2",
+    "class": "operative",
+    "records": [
+      "A-99.5.a.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.5.b",
+    "class": "operative",
+    "records": [
+      "A-99.5.b-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.5.c",
+    "class": "legal_effect",
+    "records": [],
+    "attached_to": [
+      "chapter"
+    ]
+  },
+  {
+    "provision": "99.7.a.1",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.2",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.2.i",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.2.ii",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.2.iii",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.2.iv",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.3",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.3.i",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.3.ii",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.a.3.iii",
+    "class": "operative",
+    "records": [
+      "A-99.7.a.3.iii-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.b",
+    "class": "operative",
+    "records": [
+      "A-99.7.b-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.b.1",
+    "class": "operative",
+    "records": [
+      "A-99.7.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.7.b.2",
+    "class": "operative",
+    "records": [
+      "A-99.7.b.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.a",
+    "class": "operative",
+    "records": [
+      "A-99.30.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.b",
+    "class": "operative",
+    "records": [
+      "A-99.30.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.b.1",
+    "class": "operative",
+    "records": [
+      "A-99.30.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.b.2",
+    "class": "operative",
+    "records": [
+      "A-99.30.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.b.3",
+    "class": "operative",
+    "records": [
+      "A-99.30.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.c",
+    "class": "operative",
+    "records": [
+      "A-99.30.c.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.c.1",
+    "class": "operative",
+    "records": [
+      "A-99.30.c.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.c.2",
+    "class": "operative",
+    "records": [
+      "A-99.30.c.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.30.d",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.30.d.1",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.30.d.2",
+    "class": "definition",
+    "records": [],
+    "attached_to": [
+      "glossary"
+    ]
+  },
+  {
+    "provision": "99.31.a",
+    "class": "operative",
+    "records": [
+      "A-99.31.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.31.a.1.i.A",
+    "class": "operative",
+    "records": [
+      "A-99.31.a.1.i.A-1"
+    ],
+    "attached_to": [
+      "A-99.31.a.1.i.A-1",
+      "A-99.31.a.1.ii-1"
+    ]
+  },
+  {
+    "provision": "99.31.a.1.i.B",
+    "class": "operative",
+    "records": [
+      "A-99.31.a.1.i.B-1"
+    ],
+    "attached_to": [
+      "A-99.31.a.1.i.B-1"
+    ]
+  },
+  {
+    "provision": "99.31.a.1.i.B.1",
+    "class": "operative",
+    "records": [
+      "A-99.31.a.1.i.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.31.a.1.i.B.2",
+    "class": "operative",
+    "records": [
+      "A-99.31.a.1.i.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.31.a.1.i.B.3",
+    "class": "operative",
+    "records": [
+      "A-99.31.a.1.i.B-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.31.a.1.ii",
+    "class": "operative",
+    "records": [
+      "A-99.31.a.1.ii-1",
+      "A-99.31.a.1.ii-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.1",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.2",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.3",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.3.i",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.3.ii",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.4",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.4-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.5",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.5-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.5.i",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.5-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.a.5.ii",
+    "class": "operative",
+    "records": [
+      "A-99.32.a.5-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.b.1",
+    "class": "operative",
+    "records": [
+      "A-99.32.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.b.1.i",
+    "class": "operative",
+    "records": [
+      "A-99.32.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.b.1.ii",
+    "class": "operative",
+    "records": [
+      "A-99.32.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.b.2.i",
+    "class": "operative",
+    "records": [
+      "A-99.32.b.2.i-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.b.2.i.A",
+    "class": "operative",
+    "records": [
+      "A-99.32.b.2.i-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.b.2.i.B",
+    "class": "operative",
+    "records": [
+      "A-99.32.b.2.i-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.b.2.ii",
+    "class": "operative",
+    "records": [
+      "A-99.32.b.2.ii-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.b.2.iii",
+    "class": "operative",
+    "records": [
+      "A-99.32.b.2.iii-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.c",
+    "class": "operative",
+    "records": [
+      "A-99.32.c.1-1",
+      "A-99.32.c.2-1",
+      "A-99.32.c.3-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.c.1",
+    "class": "operative",
+    "records": [
+      "A-99.32.c.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.c.2",
+    "class": "operative",
+    "records": [
+      "A-99.32.c.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.c.3",
+    "class": "operative",
+    "records": [
+      "A-99.32.c.3-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.32.d",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.32.a.1-1",
+      "A-99.32.a.2-1",
+      "A-99.32.a.4-1",
+      "A-99.32.a.5-1"
+    ]
+  },
+  {
+    "provision": "99.32.d.1",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.32.a.1-1",
+      "A-99.32.a.2-1",
+      "A-99.32.a.4-1",
+      "A-99.32.a.5-1"
+    ]
+  },
+  {
+    "provision": "99.32.d.2",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.32.a.1-1",
+      "A-99.32.a.2-1",
+      "A-99.32.a.4-1",
+      "A-99.32.a.5-1"
+    ]
+  },
+  {
+    "provision": "99.32.d.3",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.32.a.1-1",
+      "A-99.32.a.2-1",
+      "A-99.32.a.4-1",
+      "A-99.32.a.5-1"
+    ]
+  },
+  {
+    "provision": "99.32.d.4",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.32.a.1-1",
+      "A-99.32.a.2-1",
+      "A-99.32.a.4-1",
+      "A-99.32.a.5-1"
+    ]
+  },
+  {
+    "provision": "99.32.d.5",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.32.a.1-1",
+      "A-99.32.a.2-1",
+      "A-99.32.a.4-1",
+      "A-99.32.a.5-1"
+    ]
+  },
+  {
+    "provision": "99.33.a.1",
+    "class": "operative",
+    "records": [
+      "A-99.33.a.1-1",
+      "A-99.33.a.1-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.33.a.2",
+    "class": "operative",
+    "records": [
+      "A-99.33.a.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.33.b.1",
+    "class": "operative",
+    "records": [
+      "A-99.33.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.33.b.1.i",
+    "class": "operative",
+    "records": [
+      "A-99.33.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.33.b.1.ii.A",
+    "class": "operative",
+    "records": [
+      "A-99.33.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.33.b.1.ii.B",
+    "class": "operative",
+    "records": [
+      "A-99.33.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.33.b.2",
+    "class": "operative",
+    "records": [
+      "A-99.33.b.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.33.c",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.33.a.1-1",
+      "A-99.33.a.1-2",
+      "A-99.33.a.2-1"
+    ]
+  },
+  {
+    "provision": "99.33.d",
+    "class": "operative",
+    "records": [
+      "A-99.33.d-1"
+    ],
+    "attached_to": []
+  }
+]
