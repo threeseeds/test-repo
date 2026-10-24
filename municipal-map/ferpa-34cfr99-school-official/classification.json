@@ -1,225 +1,321 @@
 {
-  "classes": {
-    "99.1.a": "applicability",
-    "99.1.a.1": "applicability",
-    "99.1.a.2": "applicability",
-    "99.1.b": "applicability",
-    "99.1.c": "applicability",
-    "99.1.c.1": "applicability",
-    "99.1.c.2": "applicability",
-    "99.1.d": "applicability",
-    "99.2": "purpose",
-    "99.3": "applicability",
-    "99.3.act": "definition",
-    "99.3.attendance": "definition",
-    "99.3.attendance.a": "definition",
-    "99.3.attendance.b": "definition",
-    "99.3.authorized-representative": "definition",
-    "99.3.biometric-record": "definition",
-    "99.3.dates-of-attendance": "definition",
-    "99.3.dates-of-attendance.a": "definition",
-    "99.3.dates-of-attendance.b": "definition",
-    "99.3.directory-information": "definition",
-    "99.3.directory-information.a": "definition",
-    "99.3.directory-information.b": "definition",
-    "99.3.directory-information.b.1": "definition",
-    "99.3.directory-information.b.2": "definition",
-    "99.3.directory-information.c": "definition",
-    "99.3.directory-information.c.1": "definition",
-    "99.3.directory-information.c.2": "definition",
-    "99.3.disciplinary-action-or-proceeding": "definition",
-    "99.3.disclosure": "definition",
-    "99.3.early-childhood-education-program": "definition",
-    "99.3.early-childhood-education-program.a": "definition",
-    "99.3.early-childhood-education-program.b": "definition",
-    "99.3.early-childhood-education-program.c": "definition",
-    "99.3.early-childhood-education-program.c.1": "definition",
-    "99.3.early-childhood-education-program.c.2": "definition",
-    "99.3.early-childhood-education-program.c.2.i": "definition",
-    "99.3.early-childhood-education-program.c.2.ii": "definition",
-    "99.3.early-childhood-education-program.c.2.iii": "definition",
-    "99.3.educational-agency-or-institution": "definition",
-    "99.3.education-program": "definition",
-    "99.3.education-records": "definition",
-    "99.3.education-records.a": "definition",
-    "99.3.education-records.a.1": "definition",
-    "99.3.education-records.a.2": "definition",
-    "99.3.education-records.b": "definition",
-    "99.3.education-records.b.1": "definition",
-    "99.3.education-records.b.2": "definition",
-    "99.3.education-records.b.3.i": "definition",
-    "99.3.education-records.b.3.i.A": "definition",
-    "99.3.education-records.b.3.i.B": "definition",
-    "99.3.education-records.b.3.i.C": "definition",
-    "99.3.education-records.b.3.ii": "definition",
-    "99.3.education-records.b.4": "definition",
-    "99.3.education-records.b.4.i": "definition",
-    "99.3.education-records.b.4.ii": "definition",
-    "99.3.education-records.b.4.iii": "definition",
-    "99.3.education-records.b.5": "definition",
-    "99.3.education-records.b.6": "definition",
-    "99.3.eligible-student": "definition",
-    "99.3.institution-of-postsecondary-education": "definition",
-    "99.3.parent": "definition",
-    "99.3.party": "definition",
-    "99.3.personally-identifiable-information": "definition",
-    "99.3.personally-identifiable-information.a": "definition",
-    "99.3.personally-identifiable-information.b": "definition",
-    "99.3.personally-identifiable-information.c": "definition",
-    "99.3.personally-identifiable-information.d": "definition",
-    "99.3.personally-identifiable-information.e": "definition",
-    "99.3.personally-identifiable-information.f": "definition",
-    "99.3.personally-identifiable-information.g": "definition",
-    "99.3.record": "definition",
-    "99.3.secretary": "definition",
-    "99.3.student": "definition",
-    "99.5.a.1": "legal_effect",
-    "99.5.c": "legal_effect",
-    "99.30.d": "definition",
-    "99.30.d.1": "definition",
-    "99.30.d.2": "definition",
-    "99.32.d": "exemption",
-    "99.32.d.1": "exemption",
-    "99.32.d.2": "exemption",
-    "99.32.d.3": "exemption",
-    "99.32.d.4": "exemption",
-    "99.32.d.5": "exemption",
-    "99.33.c": "exemption"
+ "classes": {
+  "99.1.a": "applicability",
+  "99.1.a.1": "applicability",
+  "99.1.a.2": "applicability",
+  "99.1.b": "applicability",
+  "99.1.c": "applicability",
+  "99.1.c.1": "applicability",
+  "99.1.c.2": "applicability",
+  "99.1.d": "applicability",
+  "99.2": "purpose",
+  "99.3": "applicability",
+  "99.3.act": "definition",
+  "99.3.attendance": "definition",
+  "99.3.attendance.a": "definition",
+  "99.3.attendance.b": "definition",
+  "99.3.authorized-representative": "definition",
+  "99.3.biometric-record": "definition",
+  "99.3.dates-of-attendance": "definition",
+  "99.3.dates-of-attendance.a": "definition",
+  "99.3.dates-of-attendance.b": "definition",
+  "99.3.directory-information": "definition",
+  "99.3.directory-information.a": "definition",
+  "99.3.directory-information.b": "definition",
+  "99.3.directory-information.b.1": "definition",
+  "99.3.directory-information.b.2": "definition",
+  "99.3.directory-information.c": "definition",
+  "99.3.directory-information.c.1": "definition",
+  "99.3.directory-information.c.2": "definition",
+  "99.3.disciplinary-action-or-proceeding": "definition",
+  "99.3.disclosure": "definition",
+  "99.3.early-childhood-education-program": "definition",
+  "99.3.early-childhood-education-program.a": "definition",
+  "99.3.early-childhood-education-program.b": "definition",
+  "99.3.early-childhood-education-program.c": "definition",
+  "99.3.early-childhood-education-program.c.1": "definition",
+  "99.3.early-childhood-education-program.c.2": "definition",
+  "99.3.early-childhood-education-program.c.2.i": "definition",
+  "99.3.early-childhood-education-program.c.2.ii": "definition",
+  "99.3.early-childhood-education-program.c.2.iii": "definition",
+  "99.3.educational-agency-or-institution": "definition",
+  "99.3.education-program": "definition",
+  "99.3.education-records": "definition",
+  "99.3.education-records.a": "definition",
+  "99.3.education-records.a.1": "definition",
+  "99.3.education-records.a.2": "definition",
+  "99.3.education-records.b": "definition",
+  "99.3.education-records.b.1": "definition",
+  "99.3.education-records.b.2": "definition",
+  "99.3.education-records.b.3.i": "definition",
+  "99.3.education-records.b.3.i.A": "definition",
+  "99.3.education-records.b.3.i.B": "definition",
+  "99.3.education-records.b.3.i.C": "definition",
+  "99.3.education-records.b.3.ii": "definition",
+  "99.3.education-records.b.4": "definition",
+  "99.3.education-records.b.4.i": "definition",
+  "99.3.education-records.b.4.ii": "definition",
+  "99.3.education-records.b.4.iii": "definition",
+  "99.3.education-records.b.5": "definition",
+  "99.3.education-records.b.6": "definition",
+  "99.3.eligible-student": "definition",
+  "99.3.institution-of-postsecondary-education": "definition",
+  "99.3.parent": "definition",
+  "99.3.party": "definition",
+  "99.3.personally-identifiable-information": "definition",
+  "99.3.personally-identifiable-information.a": "definition",
+  "99.3.personally-identifiable-information.b": "definition",
+  "99.3.personally-identifiable-information.c": "definition",
+  "99.3.personally-identifiable-information.d": "definition",
+  "99.3.personally-identifiable-information.e": "definition",
+  "99.3.personally-identifiable-information.f": "definition",
+  "99.3.personally-identifiable-information.g": "definition",
+  "99.3.record": "definition",
+  "99.3.secretary": "definition",
+  "99.3.student": "definition",
+  "99.5.a.1": "legal_effect",
+  "99.5.c": "legal_effect",
+  "99.30.d": "definition",
+  "99.30.d.1": "definition",
+  "99.30.d.2": "definition",
+  "99.32.d": "exemption",
+  "99.32.d.1": "exemption",
+  "99.32.d.2": "exemption",
+  "99.32.d.3": "exemption",
+  "99.32.d.4": "exemption",
+  "99.32.d.5": "exemption",
+  "99.33.c": "exemption",
+  "99.10.a.1": "applicability",
+  "99.10.a.2": "applicability",
+  "99.10.a.2.i": "applicability",
+  "99.10.a.2.ii": "applicability",
+  "99.12.a": "exemption",
+  "99.12.b": "exemption",
+  "99.12.b.1": "exemption",
+  "99.12.b.2": "exemption",
+  "99.12.b.3": "exemption",
+  "99.12.b.3.i": "exemption",
+  "99.12.b.3.ii": "exemption",
+  "99.12.b.3.ii.A": "exemption",
+  "99.12.b.3.ii.B": "exemption",
+  "99.12.b.3.ii.C": "exemption",
+  "99.12.c.1": "exemption",
+  "99.12.c.1.i": "exemption",
+  "99.12.c.1.ii": "exemption",
+  "99.10.f": "operative"
+ },
+ "attach": {
+  "99.1.a": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Which agencies and institutions Part 99 applies to"
   },
-  "attach": {
-    "99.1.a": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Which agencies and institutions Part 99 applies to"
-    },
-    "99.1.a.1": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Which agencies and institutions Part 99 applies to"
-    },
-    "99.1.a.2": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Which agencies and institutions Part 99 applies to"
-    },
-    "99.1.b": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Which agencies and institutions Part 99 applies to"
-    },
-    "99.1.c": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Which agencies and institutions Part 99 applies to"
-    },
-    "99.1.c.1": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Which agencies and institutions Part 99 applies to"
-    },
-    "99.1.c.2": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Which agencies and institutions Part 99 applies to"
-    },
-    "99.1.d": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Which agencies and institutions Part 99 applies to"
-    },
-    "99.2": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Purpose of Part 99"
-    },
-    "99.3": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "Lead-in to the definitions"
-    },
-    "99.5.a.1": {
-      "to": [
-        "A-99.30.a-1"
-      ],
-      "summary": "When a student becomes an eligible student, parents' rights and the consent required of them transfer to the student"
-    },
-    "99.5.c": {
-      "to": [
-        "chapter"
-      ],
-      "summary": "A student applying to another component of the same institution has no rights regarding that component's records until accepted and attending"
-    },
-    "99.32.d": {
-      "to": [
-        "A-99.32.a.1-1",
-        "A-99.32.a.2-1",
-        "A-99.32.a.4-1",
-        "A-99.32.a.5-1"
-      ],
-      "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
-    },
-    "99.32.d.1": {
-      "to": [
-        "A-99.32.a.1-1",
-        "A-99.32.a.2-1",
-        "A-99.32.a.4-1",
-        "A-99.32.a.5-1"
-      ],
-      "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
-    },
-    "99.32.d.2": {
-      "to": [
-        "A-99.32.a.1-1",
-        "A-99.32.a.2-1",
-        "A-99.32.a.4-1",
-        "A-99.32.a.5-1"
-      ],
-      "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
-    },
-    "99.32.d.3": {
-      "to": [
-        "A-99.32.a.1-1",
-        "A-99.32.a.2-1",
-        "A-99.32.a.4-1",
-        "A-99.32.a.5-1"
-      ],
-      "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
-    },
-    "99.32.d.4": {
-      "to": [
-        "A-99.32.a.1-1",
-        "A-99.32.a.2-1",
-        "A-99.32.a.4-1",
-        "A-99.32.a.5-1"
-      ],
-      "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
-    },
-    "99.32.d.5": {
-      "to": [
-        "A-99.32.a.1-1",
-        "A-99.32.a.2-1",
-        "A-99.32.a.4-1",
-        "A-99.32.a.5-1"
-      ],
-      "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
-    },
-    "99.33.c": {
-      "to": [
-        "A-99.33.a.1-1",
-        "A-99.33.a.1-2",
-        "A-99.33.a.2-1"
-      ],
-      "summary": "Paragraph (a) does not apply to disclosures under 99.31(a)(8), (9), (11), (12), (14), (15), (16) and certain Clery Act disclosures"
-    }
+  "99.1.a.1": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Which agencies and institutions Part 99 applies to"
+  },
+  "99.1.a.2": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Which agencies and institutions Part 99 applies to"
+  },
+  "99.1.b": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Which agencies and institutions Part 99 applies to"
+  },
+  "99.1.c": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Which agencies and institutions Part 99 applies to"
+  },
+  "99.1.c.1": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Which agencies and institutions Part 99 applies to"
+  },
+  "99.1.c.2": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Which agencies and institutions Part 99 applies to"
+  },
+  "99.1.d": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Which agencies and institutions Part 99 applies to"
+  },
+  "99.2": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Purpose of Part 99"
+  },
+  "99.3": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "Lead-in to the definitions"
+  },
+  "99.5.a.1": {
+   "to": [
+    "A-99.30.a-1"
+   ],
+   "summary": "When a student becomes an eligible student, parents' rights and the consent required of them transfer to the student"
+  },
+  "99.5.c": {
+   "to": [
+    "chapter"
+   ],
+   "summary": "A student applying to another component of the same institution has no rights regarding that component's records until accepted and attending"
+  },
+  "99.32.d": {
+   "to": [
+    "A-99.32.a.1-1",
+    "A-99.32.a.2-1",
+    "A-99.32.a.4-1",
+    "A-99.32.a.5-1"
+   ],
+   "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
+  },
+  "99.32.d.1": {
+   "to": [
+    "A-99.32.a.1-1",
+    "A-99.32.a.2-1",
+    "A-99.32.a.4-1",
+    "A-99.32.a.5-1"
+   ],
+   "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
+  },
+  "99.32.d.2": {
+   "to": [
+    "A-99.32.a.1-1",
+    "A-99.32.a.2-1",
+    "A-99.32.a.4-1",
+    "A-99.32.a.5-1"
+   ],
+   "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
+  },
+  "99.32.d.3": {
+   "to": [
+    "A-99.32.a.1-1",
+    "A-99.32.a.2-1",
+    "A-99.32.a.4-1",
+    "A-99.32.a.5-1"
+   ],
+   "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
+  },
+  "99.32.d.4": {
+   "to": [
+    "A-99.32.a.1-1",
+    "A-99.32.a.2-1",
+    "A-99.32.a.4-1",
+    "A-99.32.a.5-1"
+   ],
+   "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
+  },
+  "99.32.d.5": {
+   "to": [
+    "A-99.32.a.1-1",
+    "A-99.32.a.2-1",
+    "A-99.32.a.4-1",
+    "A-99.32.a.5-1"
+   ],
+   "summary": "Paragraph (a) recordkeeping does not apply to requests from, or disclosures to, these parties"
+  },
+  "99.33.c": {
+   "to": [
+    "A-99.33.a.1-1",
+    "A-99.33.a.1-2",
+    "A-99.33.a.2-1"
+   ],
+   "summary": "Paragraph (a) does not apply to disclosures under 99.31(a)(8), (9), (11), (12), (14), (15), (16) and certain Clery Act disclosures"
+  },
+  "99.12.a": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b.1": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b.2": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b.3": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b.3.i": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b.3.ii": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b.3.ii.A": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b.3.ii.B": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.b.3.ii.C": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.c.1": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.c.1.i": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
+  },
+  "99.12.c.1.ii": {
+   "to": [
+    "A-99.10.a-1"
+   ],
+   "summary": "limitation on the right to inspect and review (\u00a7 99.12)"
   }
+ }
 }

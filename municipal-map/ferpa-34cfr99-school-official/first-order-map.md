@@ -1,9 +1,9 @@
 # First-order map: 34 CFR Part 99 (FERPA) - school official exception
 
-145 provisions, 33 action records (0 excluded as duplicate/superseded), 7 orphans.
+195 provisions, 61 action records (0 excluded as duplicate/superseded), 11 orphans.
 
-**By modality:** duty 19, permission 13, prohibition 1  
-**By status:** complete 26, known_gap 1, resolved 6
+**By modality:** duty 39, permission 19, prohibition 3  
+**By status:** complete 48, known_gap 2, resolved 11
 
 ## By section
 
@@ -29,6 +29,64 @@
 | 99.7.b-1 | educational-agency-or-institution | permission | provide the notice by any means reasonably likely to inform the parents or eligible students of their rights | discretionary: An educational agency or institution may provide this notice … | parent-or-eligible-student |  |
 | 99.7.b.1-1 | educational-agency-or-institution | duty | effectively notify parents or eligible students who are disabled | state: the parents or eligible students are disabled | parent-or-eligible-student |  |
 | 99.7.b.2-1 | educational-agency-or-institution | duty | effectively notify parents who have a primary or home language other than English | state: the parents have a primary or home language other than English | parent |  |
+
+### 99.10
+
+| Record | Actor | Modality | Action | Signal | To whom | Timing |
+|---|---|---|---|---|---|---|
+| 99.10.a-1 | educational-agency-or-institution | duty | give the opportunity to inspect and review the student’s education records | standing: a parent or eligible student must be given the opportunity … | parent-or-eligible-student |  |
+| 99.10.b-1 | educational-agency-or-institution | duty | comply with a request for access to records | request: a request for access to records | parent-or-eligible-student | within a reasonable period of time, but not more than 45 days after it has received the request |
+| 99.10.c-1 | educational-agency-or-institution | duty | respond to reasonable requests for explanations and interpretations of the records | request: a reasonable request for explanations and interpretations of the records | parent-or-eligible-student |  |
+| 99.10.d-1 | educational-agency-or-institution | duty | provide a copy of the records requested, or make other arrangements for inspection and review the parent or eligible student | state: circumstances effectively prevent the parent or eligible student from exercising the right to inspect and review the student’s education records | parent-or-eligible-student |  |
+| 99.10.e-1 | educational-agency-or-institution | prohibition | destroy any education records | state: there is an outstanding request to inspect and review the records | parent-or-eligible-student |  |
+| 99.10.f-1 | eligible-student | permission | have reviewed by a physician or other appropriate professional of the student’s choice treatment records under paragraph (b)(4) of the definition of Education records in § 99.3 | discretionary: the student may have those records reviewed … | (unknown) |  |
+
+### 99.11
+
+| Record | Actor | Modality | Action | Signal | To whom | Timing |
+|---|---|---|---|---|---|---|
+| 99.11.a-1 | educational-agency-or-institution | permission | charge a fee for a copy of an education record which is made for the parent or eligible student | discretionary: an educational agency or institution may charge a fee … | parent-or-eligible-student |  |
+| 99.11.b-1 | educational-agency-or-institution | prohibition | charge a fee to search for or to retrieve the education records of a student | standing: An educational agency or institution may not charge a fee … | parent-or-eligible-student |  |
+
+### 99.12
+
+| Record | Actor | Modality | Action | Signal | To whom | Timing |
+|---|---|---|---|---|---|---|
+| 99.12.c.2-1 | educational-agency-or-institution | duty | give the names of the individuals who provided the letters and statements of recommendation | request: a student who has waived the right to inspect and review confidential letters asks for the names of the individuals who provided them | student |  |
+| 99.12.c.2.ii-1 | educational-agency-or-institution | duty | use the letters and statements of recommendation only for the purpose for which they were intended | state: a student has waived his or her rights under paragraph (b)(3)(i) | (unknown) |  |
+| 99.12.c.3.i-1 | student | permission | revoke a waiver under paragraph (b)(3)(i), with respect to any actions occurring after the revocation | discretionary: A waiver … may be revoked | (unknown) |  |
+| 99.12.c.3.ii-1 | student | duty | make in writing the revocation of a waiver | event: a waiver is revoked under paragraph (c)(3)(i) | (unknown) |  |
+
+### 99.20
+
+| Record | Actor | Modality | Action | Signal | To whom | Timing |
+|---|---|---|---|---|---|---|
+| 99.20.a-1 | parent-or-eligible-student | permission | ask to amend the record | state: the parent or eligible student believes the education records contain information that is inaccurate, misleading, or in violation of the student’s rights of privacy | educational-agency-or-institution |  |
+| 99.20.b-1 | educational-agency-or-institution | duty | decide whether to amend the record as requested | upstream_action: the agency or institution receives the request to amend | parent-or-eligible-student | within a reasonable time after the agency or institution receives the request |
+| 99.20.c-1 | educational-agency-or-institution | duty | inform the parent or eligible student of its decision and of his or her right to a hearing under § 99.21 | upstream_action: the agency or institution decides not to amend the record as requested | parent-or-eligible-student |  |
+
+### 99.21
+
+| Record | Actor | Modality | Action | Signal | To whom | Timing |
+|---|---|---|---|---|---|---|
+| 99.21.a-1 | educational-agency-or-institution | duty | give an opportunity for a hearing to challenge the content of the student’s education records on the grounds that the information is inaccurate, misleading, or in violation of the privacy rights of the student | request: a parent or eligible student requests a hearing | parent-or-eligible-student |  |
+| 99.21.b.1-1 | educational-agency-or-institution | duty | amend the record accordingly | upstream_action: the agency or institution decides after the hearing that the information is inaccurate, misleading, or otherwise in violation of the privacy rights of the student | (unknown) |  |
+| 99.21.b.1.ii-1 | educational-agency-or-institution | duty | inform in writing the parent or eligible student of the amendment | upstream_action: the agency or institution amends the record after the hearing | parent-or-eligible-student |  |
+| 99.21.b.2-1 | educational-agency-or-institution | duty | inform the parent or eligible student of the right to place a statement in the record commenting on the contested information or stating why he or she disagrees with the decision | upstream_action: the agency or institution decides after the hearing that the information is not inaccurate, misleading, or otherwise in violation of the privacy rights of the student | parent-or-eligible-student |  |
+| 99.21.c-1 | educational-agency-or-institution | duty | maintain the statement with the contested part of the record for as long as the record is maintained | event: a statement is placed in the education records of a student under paragraph (b)(2) | (unknown) |  |
+| 99.21.c.2-1 | educational-agency-or-institution | duty | disclose the statement together with the portion of the record to which it relates | event: the agency or institution discloses the portion of the record to which the statement relates | (unknown) |  |
+
+### 99.22
+
+| Record | Actor | Modality | Action | Signal | To whom | Timing |
+|---|---|---|---|---|---|---|
+| 99.22-1 | educational-agency-or-institution | duty | hold the hearing | upstream_action: the agency or institution receives the request for the hearing | parent-or-eligible-student | within a reasonable time after it has received the request for the hearing |
+| 99.22.b-1 | educational-agency-or-institution | duty | give notice of the date, time, and place of the hearing | upstream_action: the agency or institution is to hold the hearing | parent-or-eligible-student | reasonably in advance of the hearing |
+| 99.22.c-1 | educational-agency-or-institution | permission | conduct the hearing, if the individual does not have a direct interest in its outcome | upstream_action: the hearing is to be held | (unknown) |  |
+| 99.22.d-1 | educational-agency-or-institution | duty | give a full and fair opportunity to present evidence relevant to the issues raised under § 99.21 | upstream_action: the hearing is held | parent-or-eligible-student |  |
+| 99.22.d-2 | parent-or-eligible-student | permission | be assisted or represented at the hearing, at their own expense, by one or more individuals of his or her own choice, including an attorney | upstream_action: the hearing is held | (unknown) |  |
+| 99.22.e-1 | educational-agency-or-institution | duty | make its decision in writing the decision on the contested record | upstream_action: the hearing has been held | parent-or-eligible-student | within a reasonable period of time after the hearing |
+| 99.22.f-1 | educational-agency-or-institution | duty | base the decision solely on the evidence presented at the hearing, and include a summary of the evidence and the reasons the decision | upstream_action: the agency or institution makes its decision after the hearing | (unknown) |  |
 
 ### 99.30
 
@@ -87,7 +145,7 @@ permission 1
 
 ### educational-agency-or-institution
 
-duty 15, permission 8
+duty 34, permission 10, prohibition 2
 
 | Record | Modality | Action | Signal | To whom | Timing |
 |---|---|---|---|---|---|
@@ -114,15 +172,48 @@ duty 15, permission 8
 | 99.33.a.1-1 | permission | disclose personally identifiable information from an education record, only on the condition that the party to whom it is disclosed will not disclose it to any other party without the prior consent of the parent or eligible student | discretionary: An educational agency or institution may disclose … only on the condition that … | receiving-party |  |
 | 99.33.b.1-1 | permission | disclose personally identifiable information with the understanding that the receiving party may make further disclosures on behalf of the agency or institution | discretionary: Paragraph (a) of this section does not prevent … | receiving-party |  |
 | 99.33.d-1 | duty | inform a party to whom disclosure is made of the requirements of paragraph (a) | event: a disclosure is made to a party | receiving-party |  |
+| 99.10.a-1 | duty | give the opportunity to inspect and review the student’s education records | standing: a parent or eligible student must be given the opportunity … | parent-or-eligible-student |  |
+| 99.10.b-1 | duty | comply with a request for access to records | request: a request for access to records | parent-or-eligible-student | within a reasonable period of time, but not more than 45 days after it has received the request |
+| 99.10.c-1 | duty | respond to reasonable requests for explanations and interpretations of the records | request: a reasonable request for explanations and interpretations of the records | parent-or-eligible-student |  |
+| 99.10.d-1 | duty | provide a copy of the records requested, or make other arrangements for inspection and review the parent or eligible student | state: circumstances effectively prevent the parent or eligible student from exercising the right to inspect and review the student’s education records | parent-or-eligible-student |  |
+| 99.10.e-1 | prohibition | destroy any education records | state: there is an outstanding request to inspect and review the records | parent-or-eligible-student |  |
+| 99.11.a-1 | permission | charge a fee for a copy of an education record which is made for the parent or eligible student | discretionary: an educational agency or institution may charge a fee … | parent-or-eligible-student |  |
+| 99.11.b-1 | prohibition | charge a fee to search for or to retrieve the education records of a student | standing: An educational agency or institution may not charge a fee … | parent-or-eligible-student |  |
+| 99.12.c.2-1 | duty | give the names of the individuals who provided the letters and statements of recommendation | request: a student who has waived the right to inspect and review confidential letters asks for the names of the individuals who provided them | student |  |
+| 99.12.c.2.ii-1 | duty | use the letters and statements of recommendation only for the purpose for which they were intended | state: a student has waived his or her rights under paragraph (b)(3)(i) | (unknown) |  |
+| 99.20.b-1 | duty | decide whether to amend the record as requested | upstream_action: the agency or institution receives the request to amend | parent-or-eligible-student | within a reasonable time after the agency or institution receives the request |
+| 99.20.c-1 | duty | inform the parent or eligible student of its decision and of his or her right to a hearing under § 99.21 | upstream_action: the agency or institution decides not to amend the record as requested | parent-or-eligible-student |  |
+| 99.21.a-1 | duty | give an opportunity for a hearing to challenge the content of the student’s education records on the grounds that the information is inaccurate, misleading, or in violation of the privacy rights of the student | request: a parent or eligible student requests a hearing | parent-or-eligible-student |  |
+| 99.21.b.1-1 | duty | amend the record accordingly | upstream_action: the agency or institution decides after the hearing that the information is inaccurate, misleading, or otherwise in violation of the privacy rights of the student | (unknown) |  |
+| 99.21.b.1.ii-1 | duty | inform in writing the parent or eligible student of the amendment | upstream_action: the agency or institution amends the record after the hearing | parent-or-eligible-student |  |
+| 99.21.b.2-1 | duty | inform the parent or eligible student of the right to place a statement in the record commenting on the contested information or stating why he or she disagrees with the decision | upstream_action: the agency or institution decides after the hearing that the information is not inaccurate, misleading, or otherwise in violation of the privacy rights of the student | parent-or-eligible-student |  |
+| 99.21.c-1 | duty | maintain the statement with the contested part of the record for as long as the record is maintained | event: a statement is placed in the education records of a student under paragraph (b)(2) | (unknown) |  |
+| 99.21.c.2-1 | duty | disclose the statement together with the portion of the record to which it relates | event: the agency or institution discloses the portion of the record to which the statement relates | (unknown) |  |
+| 99.22-1 | duty | hold the hearing | upstream_action: the agency or institution receives the request for the hearing | parent-or-eligible-student | within a reasonable time after it has received the request for the hearing |
+| 99.22.b-1 | duty | give notice of the date, time, and place of the hearing | upstream_action: the agency or institution is to hold the hearing | parent-or-eligible-student | reasonably in advance of the hearing |
+| 99.22.c-1 | permission | conduct the hearing, if the individual does not have a direct interest in its outcome | upstream_action: the hearing is to be held | (unknown) |  |
+| 99.22.d-1 | duty | give a full and fair opportunity to present evidence relevant to the issues raised under § 99.21 | upstream_action: the hearing is held | parent-or-eligible-student |  |
+| 99.22.e-1 | duty | make its decision in writing the decision on the contested record | upstream_action: the hearing has been held | parent-or-eligible-student | within a reasonable period of time after the hearing |
+| 99.22.f-1 | duty | base the decision solely on the evidence presented at the hearing, and include a summary of the evidence and the reasons the decision | upstream_action: the agency or institution makes its decision after the hearing | (unknown) |  |
+
+### eligible-student
+
+permission 1
+
+| Record | Modality | Action | Signal | To whom | Timing |
+|---|---|---|---|---|---|
+| 99.10.f-1 | permission | have reviewed by a physician or other appropriate professional of the student’s choice treatment records under paragraph (b)(4) of the definition of Education records in § 99.3 | discretionary: the student may have those records reviewed … | (unknown) |  |
 
 ### parent-or-eligible-student
 
-duty 1, permission 1
+duty 1, permission 3
 
 | Record | Modality | Action | Signal | To whom | Timing |
 |---|---|---|---|---|---|
 | 99.30.a-1 | duty | provide a signed and dated written consent that specifies the records that may be disclosed, states the purpose of the disclosure, and identifies the party or class of parties to whom the disclosure may be made | state: an educational agency or institution is to disclose personally identifiable information from the student’s education records | educational-agency-or-institution | before an educational agency or institution discloses personally identifiable information |
 | 99.32.c.1-1 | permission | inspect the record of requests and disclosures relating to each student | discretionary: The following parties may inspect … | (unknown) |  |
+| 99.20.a-1 | permission | ask to amend the record | state: the parent or eligible student believes the education records contain information that is inaccurate, misleading, or in violation of the student’s rights of privacy | educational-agency-or-institution |  |
+| 99.22.d-2 | permission | be assisted or represented at the hearing, at their own expense, by one or more individuals of his or her own choice, including an attorney | upstream_action: the hearing is held | (unknown) |  |
 
 ### receiving-party
 
@@ -159,6 +250,15 @@ duty 2, permission 1
 | 99.32.b.2.ii-1 | permission | maintain the record by the student’s class, school, district, or other appropriate grouping rather than by the name of the student | upstream_action: it records further disclosures under paragraph (b)(2)(i) | (unknown) |  |
 | 99.32.b.2.iii-1 | duty | provide a copy of the record of further disclosures to the educational agency or institution | request: a request from an educational agency or institution | educational-agency-or-institution | within a reasonable period of time not to exceed 30 days |
 
+### student
+
+duty 1, permission 1
+
+| Record | Modality | Action | Signal | To whom | Timing |
+|---|---|---|---|---|---|
+| 99.12.c.3.i-1 | permission | revoke a waiver under paragraph (b)(3)(i), with respect to any actions occurring after the revocation | discretionary: A waiver … may be revoked | (unknown) |  |
+| 99.12.c.3.ii-1 | duty | make in writing the revocation of a waiver | event: a waiver is revoked under paragraph (c)(3)(i) | (unknown) |  |
+
 ## By counterparty (who owes what to whom)
 
 ### Owed to educational-agency-or-institution
@@ -168,6 +268,7 @@ duty 2, permission 1
 | 99.30.a-1 | parent-or-eligible-student | duty | provide a signed and dated written consent that specifies the records that may be disclosed, states the purpose of the disclosure, and identifies the party or class of parties to whom the disclosure may be made | inferred |
 | 99.32.b.2.i-1 | state-or-federal-recipient | duty | record the names of the additional parties to which it discloses information on behalf of an educational agency or institution, and their legitimate interests | inferred |
 | 99.32.b.2.iii-1 | state-or-federal-recipient | duty | provide a copy of the record of further disclosures to the educational agency or institution | explicit |
+| 99.20.a-1 | parent-or-eligible-student | permission | ask to amend the record | explicit |
 
 ### Owed to outside-party
 
@@ -197,6 +298,22 @@ duty 2, permission 1
 | 99.32.a.4-1 | educational-agency-or-institution | duty | obtain and make available a copy of the record of further disclosures maintained under paragraph (b)(2) | explicit |
 | 99.33.a.1-2 | receiving-party | prohibition | disclose the information to any other party without the prior consent of the parent or eligible student | explicit |
 | 99.33.b.2-1 | receiving-party | duty | provide the notification required under § 99.31(a)(9)(ii) | inferred |
+| 99.10.a-1 | educational-agency-or-institution | duty | give the opportunity to inspect and review the student’s education records | explicit |
+| 99.10.b-1 | educational-agency-or-institution | duty | comply with a request for access to records | inferred |
+| 99.10.c-1 | educational-agency-or-institution | duty | respond to reasonable requests for explanations and interpretations of the records | inferred |
+| 99.10.d-1 | educational-agency-or-institution | duty | provide a copy of the records requested, or make other arrangements for inspection and review the parent or eligible student | explicit |
+| 99.10.e-1 | educational-agency-or-institution | prohibition | destroy any education records | inferred |
+| 99.11.a-1 | educational-agency-or-institution | permission | charge a fee for a copy of an education record which is made for the parent or eligible student | explicit |
+| 99.11.b-1 | educational-agency-or-institution | prohibition | charge a fee to search for or to retrieve the education records of a student | inferred |
+| 99.20.b-1 | educational-agency-or-institution | duty | decide whether to amend the record as requested | inferred |
+| 99.20.c-1 | educational-agency-or-institution | duty | inform the parent or eligible student of its decision and of his or her right to a hearing under § 99.21 | explicit |
+| 99.21.a-1 | educational-agency-or-institution | duty | give an opportunity for a hearing to challenge the content of the student’s education records on the grounds that the information is inaccurate, misleading, or in violation of the privacy rights of the student | explicit |
+| 99.21.b.1.ii-1 | educational-agency-or-institution | duty | inform in writing the parent or eligible student of the amendment | explicit |
+| 99.21.b.2-1 | educational-agency-or-institution | duty | inform the parent or eligible student of the right to place a statement in the record commenting on the contested information or stating why he or she disagrees with the decision | explicit |
+| 99.22-1 | educational-agency-or-institution | duty | hold the hearing | explicit |
+| 99.22.b-1 | educational-agency-or-institution | duty | give notice of the date, time, and place of the hearing | explicit |
+| 99.22.d-1 | educational-agency-or-institution | duty | give a full and fair opportunity to present evidence relevant to the issues raised under § 99.21 | explicit |
+| 99.22.e-1 | educational-agency-or-institution | duty | make its decision in writing the decision on the contested record | inferred |
 
 ### Owed to receiving-party
 
@@ -219,30 +336,33 @@ duty 2, permission 1
 |---|---|---|---|---|
 | 99.5.b-1 | educational-agency-or-institution | permission | give students rights in addition to those given to parents | explicit |
 | 99.30.c.2-1 | educational-agency-or-institution | duty | provide the student with a copy of the records disclosed | explicit |
+| 99.12.c.2-1 | educational-agency-or-institution | duty | give the names of the individuals who provided the letters and statements of recommendation | explicit |
 
 ## By signal type
 
 | Signal type | Count | Records |
 |---|---|---|
-| discretionary | 10 | 99.5.a.2-1, 99.5.b-1, 99.7.b-1, 99.31.a-1, 99.31.a.1.i.A-1, 99.32.c.1-1, 99.32.c.2-1, 99.32.c.3-1, 99.33.a.1-1, 99.33.b.1-1 |
-| event | 4 | 99.32.a.1-1, 99.32.a.5-1, 99.33.b.2-1, 99.33.d-1 |
-| request | 4 | 99.30.c.1-1, 99.30.c.2-1, 99.32.a.4-1, 99.32.b.2.iii-1 |
-| standing | 2 | 99.4-1, 99.31.a.1.ii-1 |
-| state | 8 | 99.7.a.3.iii-1, 99.7.b.1-1, 99.7.b.2-1, 99.30.a-1, 99.31.a.1.i.B-1, 99.31.a.1.ii-2, 99.32.b.1-1, 99.32.b.2.i-1 |
+| discretionary | 13 | 99.5.a.2-1, 99.5.b-1, 99.7.b-1, 99.31.a-1, 99.31.a.1.i.A-1, 99.32.c.1-1, 99.32.c.2-1, 99.32.c.3-1, 99.33.a.1-1, 99.33.b.1-1, 99.10.f-1, 99.11.a-1, 99.12.c.3.i-1 |
+| event | 7 | 99.32.a.1-1, 99.32.a.5-1, 99.33.b.2-1, 99.33.d-1, 99.12.c.3.ii-1, 99.21.c-1, 99.21.c.2-1 |
+| request | 8 | 99.30.c.1-1, 99.30.c.2-1, 99.32.a.4-1, 99.32.b.2.iii-1, 99.10.b-1, 99.10.c-1, 99.12.c.2-1, 99.21.a-1 |
+| standing | 4 | 99.4-1, 99.31.a.1.ii-1, 99.10.a-1, 99.11.b-1 |
+| state | 12 | 99.7.a.3.iii-1, 99.7.b.1-1, 99.7.b.2-1, 99.30.a-1, 99.31.a.1.i.B-1, 99.31.a.1.ii-2, 99.32.b.1-1, 99.32.b.2.i-1, 99.10.d-1, 99.10.e-1, 99.12.c.2.ii-1, 99.20.a-1 |
 | time | 1 | 99.7.a.1-1 |
-| upstream_action | 4 | 99.32.a.2-1, 99.32.b.2.ii-1, 99.33.a.1-2, 99.33.a.2-1 |
+| upstream_action | 16 | 99.32.a.2-1, 99.32.b.2.ii-1, 99.33.a.1-2, 99.33.a.2-1, 99.20.b-1, 99.20.c-1, 99.21.b.1-1, 99.21.b.1.ii-1, 99.21.b.2-1, 99.22-1, 99.22.b-1, 99.22.c-1, 99.22.d-1, 99.22.d-2, 99.22.e-1, 99.22.f-1 |
 
 ## Actor x counterparty matrix
 
 | Actor \ To whom | educational-agency-or-institution | outside-party | parent | parent-or-eligible-student | receiving-party | school-official | student | — |
 |---|---|---|---|---|---|---|---|---|
 | authorized-auditors |  |  |  |  |  |  |  | 1 |
-| educational-agency-or-institution |  | 1 | 3 | 8 | 3 | 2 | 2 | 4 |
-| parent-or-eligible-student | 1 |  |  |  |  |  |  | 1 |
+| educational-agency-or-institution |  | 1 | 3 | 24 | 3 | 2 | 3 | 10 |
+| eligible-student |  |  |  |  |  |  |  | 1 |
+| parent-or-eligible-student | 2 |  |  |  |  |  |  | 2 |
 | receiving-party |  |  |  | 2 |  |  |  |  |
 | receiving-party-personnel |  |  |  |  |  |  |  | 1 |
 | records-custodian |  |  |  |  |  |  |  | 1 |
 | state-or-federal-recipient | 2 |  |  |  |  |  |  | 1 |
+| student |  |  |  |  |  |  |  | 2 |
 
 ## Attachments (fees, terms, applicability)
 
@@ -286,9 +406,14 @@ duty 2, permission 1
 | ORP-05 | O-AMBIG | 99.7.a.3.iii-1 | known_gap | Accepted my best guess (user: "accept all best guesses"): recorded as written, no contractor requirement added; carried as a known gap |
 | ORP-06 | O-AMBIG | 99.30.a-1 | resolved | Accepted my best guess (user: "accept all best guesses"): duty of the parent or eligible student, as written |
 | ORP-07 | O-AMBIG | 99.33.a.1-1, 99.33.a.1-2, 99.33.a.2-1 | resolved | Accepted my best guess (user: "accept all best guesses"): keep the three records as drafted |
+| ORP-08 | O-ACT | 99.10.a-1 | resolved | Accepted my best guess (user: "accept all best guesses"): the educational agency or institution, or SEA or its component |
+| ORP-09 | O-ACT | 99.12.c.3.i-1, 99.12.c.3.ii-1 | resolved | Accepted my best guess (user: "accept all best guesses"): the student who gave the waiver |
+| ORP-10 | O-ACT | 99.22.c-1, 99.22.f-1 | resolved | Accepted my best guess (user: "accept all best guesses"): the educational agency or institution |
+| ORP-11 | O-AMBIG | 99.10.f-1 | known_gap | Accepted my best guess (user: "accept all best guesses"): permission of the eligible student, no agency duty; carried as a known gap |
 
 ## Known gaps (accepted by the user, not resolved)
 
 | Record | Flags | Quote |
 |---|---|---|
 | 99.7.a.3.iii-1 | O-AMBIG | If the educational agency or institution has a policy of disclosing education records under § 99.31(a)(1), a specification of criteria for determining who constitutes a school official and what constitutes a legitimate educational interest. |
+| 99.10.f-1 | O-AMBIG | the student may have those records reviewed by a physician or other appropriate professional of the student’s choice |

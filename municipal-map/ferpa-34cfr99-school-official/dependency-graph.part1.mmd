@@ -1,0 +1,38 @@
+flowchart LR
+  subgraph g_99_20["99.20"]
+    A_99_20_a_1["99.20.a-1<br/>ask to amend<br/><i>parent-or-eligible-student</i>"]
+    A_99_20_b_1["99.20.b-1<br/>decide whether to amend<br/><i>educational-agency-or-institution</i>"]
+    A_99_20_c_1["99.20.c-1<br/>inform<br/><i>educational-agency-or-institution</i>"]
+  end
+  subgraph g_99_21["99.21"]
+    A_99_21_a_1["99.21.a-1<br/>give an opportunity for a hearing to challenge<br/><i>educational-agency-or-institution</i>"]
+    A_99_21_b_1_1["99.21.b.1-1<br/>amend<br/><i>educational-agency-or-institution</i>"]
+    A_99_21_b_1_ii_1["99.21.b.1.ii-1<br/>inform in writing<br/><i>educational-agency-or-institution</i>"]
+    A_99_21_b_2_1["99.21.b.2-1<br/>inform<br/><i>educational-agency-or-institution</i>"]
+    A_99_21_c_1["99.21.c-1<br/>maintain<br/><i>educational-agency-or-institution</i>"]
+    A_99_21_c_2_1["99.21.c.2-1<br/>disclose<br/><i>educational-agency-or-institution</i>"]
+  end
+  subgraph g_99_22["99.22"]
+    A_99_22_1["99.22-1<br/>hold<br/><i>educational-agency-or-institution</i>"]
+    A_99_22_b_1["99.22.b-1<br/>give notice of<br/><i>educational-agency-or-institution</i>"]
+    A_99_22_c_1["99.22.c-1<br/>conduct<br/><i>educational-agency-or-institution</i>"]
+    A_99_22_d_1["99.22.d-1<br/>give a full and fair opportunity to present<br/><i>educational-agency-or-institution</i>"]
+    A_99_22_d_2["99.22.d-2<br/>be assisted or represented<br/><i>parent-or-eligible-student</i>"]
+    A_99_22_e_1["99.22.e-1<br/>make its decision in writing<br/><i>educational-agency-or-institution</i>"]
+    A_99_22_f_1["99.22.f-1<br/>base the decision solely on the evidence presented at the hearing, and include a summary of the evidence and the reasons<br/><i>educational-agency-or-institution</i>"]
+  end
+  A_99_20_a_1 -->|"triggers"| A_99_20_b_1
+  A_99_20_b_1 -->|"triggers"| A_99_20_c_1
+  A_99_22_e_1 -->|"triggers"| A_99_21_b_1_1
+  A_99_21_b_1_1 -->|"triggers"| A_99_21_b_1_ii_1
+  A_99_22_e_1 -->|"triggers"| A_99_21_b_2_1
+  A_99_21_a_1 -->|"triggers"| A_99_22_1
+  A_99_22_1 -->|"triggers"| A_99_22_b_1
+  A_99_22_1 -->|"triggers"| A_99_22_c_1
+  A_99_22_1 -->|"triggers"| A_99_22_d_1
+  A_99_22_1 -->|"triggers"| A_99_22_d_2
+  A_99_22_1 -->|"triggers"| A_99_22_e_1
+  A_99_22_e_1 -->|"triggers"| A_99_22_f_1
+  A_99_21_a_1 -->|"reference"| A_99_20_c_1
+  A_99_21_b_2_1 -->|"reference"| A_99_21_c_1
+  A_99_21_b_2_1 -->|"reference"| A_99_21_c_2_1

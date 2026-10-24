@@ -40,7 +40,7 @@
 | 99.3.early-childhood-education-program.c.2.i | definition |  | glossary |
 | 99.3.early-childhood-education-program.c.2.ii | definition |  | glossary |
 | 99.3.early-childhood-education-program.c.2.iii | definition |  | glossary |
-| 99.3.educational-agency-or-institution | definition |  | 99.30.a-1, 99.30.c.1-1, 99.30.c.2-1, 99.31.a-1, 99.31.a.1.i.A-1, 99.31.a.1.ii-1, 99.31.a.1.ii-2, 99.32.a.1-1, 99.32.a.2-1, 99.32.a.4-1, 99.32.a.5-1, 99.32.b.2.i-1, 99.32.b.2.iii-1, 99.33.a.1-1, 99.33.b.1-1, 99.33.d-1, 99.4-1, 99.5.a.2-1, 99.5.b-1, 99.7.a.1-1, 99.7.b-1, 99.7.b.1-1, 99.7.b.2-1 |
+| 99.3.educational-agency-or-institution | definition |  | 99.10.b-1, 99.10.c-1, 99.10.d-1, 99.10.e-1, 99.11.a-1, 99.11.b-1, 99.12.c.2-1, 99.12.c.2.ii-1, 99.20.a-1, 99.20.b-1, 99.20.c-1, 99.21.a-1, 99.21.b.1-1, 99.21.b.1.ii-1, 99.21.b.2-1, 99.21.c-1, 99.21.c.2-1, 99.22-1, 99.22.b-1, 99.22.d-1, 99.22.e-1, 99.30.a-1, 99.30.c.1-1, 99.30.c.2-1, 99.31.a-1, 99.31.a.1.i.A-1, 99.31.a.1.ii-1, 99.31.a.1.ii-2, 99.32.a.1-1, 99.32.a.2-1, 99.32.a.4-1, 99.32.a.5-1, 99.32.b.2.i-1, 99.32.b.2.iii-1, 99.33.a.1-1, 99.33.b.1-1, 99.33.d-1, 99.4-1, 99.5.a.2-1, 99.5.b-1, 99.7.a.1-1, 99.7.b-1, 99.7.b.1-1, 99.7.b.2-1 |
 | 99.3.education-program | definition |  | glossary |
 | 99.3.education-records | definition |  | glossary |
 | 99.3.education-records.a | definition |  | glossary |
@@ -60,7 +60,7 @@
 | 99.3.education-records.b.4.iii | definition |  | glossary |
 | 99.3.education-records.b.5 | definition |  | glossary |
 | 99.3.education-records.b.6 | definition |  | glossary |
-| 99.3.eligible-student | definition |  | glossary |
+| 99.3.eligible-student | definition |  | 99.10.f-1 |
 | 99.3.institution-of-postsecondary-education | definition |  | glossary |
 | 99.3.parent | definition |  | 99.4-1, 99.5.a.2-1, 99.7.b.2-1 |
 | 99.3.party | definition |  | 99.33.a.1-1, 99.33.a.1-2, 99.33.b.1-1, 99.33.b.2-1, 99.33.d-1 |
@@ -74,7 +74,7 @@
 | 99.3.personally-identifiable-information.g | definition |  | glossary |
 | 99.3.record | definition |  | glossary |
 | 99.3.secretary | definition |  | glossary |
-| 99.3.student | definition |  | 99.30.c.2-1, 99.5.b-1 |
+| 99.3.student | definition |  | 99.12.c.2-1, 99.30.c.2-1, 99.5.b-1 |
 | 99.4 | operative | 99.4-1 |  |
 | 99.5.a.1 | legal_effect |  | 99.30.a-1 |
 | 99.5.a.2 | operative | 99.5.a.2-1 |  |
@@ -93,6 +93,56 @@
 | 99.7.b | operative | 99.7.b-1 |  |
 | 99.7.b.1 | operative | 99.7.b.1-1 |  |
 | 99.7.b.2 | operative | 99.7.b.2-1 |  |
+| 99.10.a | operative | 99.10.a-1 |  |
+| 99.10.a.1 | applicability | 99.10.a-1 |  |
+| 99.10.a.2 | applicability | 99.10.a-1 |  |
+| 99.10.a.2.i | applicability | 99.10.a-1 |  |
+| 99.10.a.2.ii | applicability | 99.10.a-1 |  |
+| 99.10.b | operative | 99.10.b-1 |  |
+| 99.10.c | operative | 99.10.c-1 |  |
+| 99.10.d | operative | 99.10.d-1 |  |
+| 99.10.d.1 | operative | 99.10.d-1 |  |
+| 99.10.d.2 | operative | 99.10.d-1 |  |
+| 99.10.e | operative | 99.10.e-1 |  |
+| 99.10.f | operative | 99.10.f-1 |  |
+| 99.11.a | operative | 99.11.a-1 |  |
+| 99.11.b | operative | 99.11.b-1 |  |
+| 99.12.a | exemption |  | 99.10.a-1 |
+| 99.12.b | exemption |  | 99.10.a-1 |
+| 99.12.b.1 | exemption |  | 99.10.a-1 |
+| 99.12.b.2 | exemption |  | 99.10.a-1 |
+| 99.12.b.3 | exemption |  | 99.10.a-1 |
+| 99.12.b.3.i | exemption |  | 99.10.a-1 |
+| 99.12.b.3.ii | exemption |  | 99.10.a-1 |
+| 99.12.b.3.ii.A | exemption |  | 99.10.a-1 |
+| 99.12.b.3.ii.B | exemption |  | 99.10.a-1 |
+| 99.12.b.3.ii.C | exemption |  | 99.10.a-1 |
+| 99.12.c.1 | exemption |  | 99.10.a-1 |
+| 99.12.c.1.i | exemption |  | 99.10.a-1 |
+| 99.12.c.1.ii | exemption |  | 99.10.a-1 |
+| 99.12.c.2 | operative | 99.12.c.2-1 |  |
+| 99.12.c.2.i | operative | 99.12.c.2-1 |  |
+| 99.12.c.2.ii | operative | 99.12.c.2.ii-1 |  |
+| 99.12.c.3.i | operative | 99.12.c.3.i-1 |  |
+| 99.12.c.3.ii | operative | 99.12.c.3.ii-1 |  |
+| 99.20.a | operative | 99.20.a-1 |  |
+| 99.20.b | operative | 99.20.b-1 |  |
+| 99.20.c | operative | 99.20.c-1 |  |
+| 99.21.a | operative | 99.21.a-1 |  |
+| 99.21.b.1 | operative | 99.21.b.1-1 |  |
+| 99.21.b.1.i | operative | 99.21.b.1-1 |  |
+| 99.21.b.1.ii | operative | 99.21.b.1.ii-1 |  |
+| 99.21.b.2 | operative | 99.21.b.2-1 |  |
+| 99.21.c | operative | 99.21.c-1 |  |
+| 99.21.c.1 | operative | 99.21.c-1 |  |
+| 99.21.c.2 | operative | 99.21.c.2-1 |  |
+| 99.22 | operative | 99.22-1 |  |
+| 99.22.a | operative | 99.22-1 |  |
+| 99.22.b | operative | 99.22.b-1 |  |
+| 99.22.c | operative | 99.22.c-1 |  |
+| 99.22.d | operative | 99.22.d-1, 99.22.d-2 |  |
+| 99.22.e | operative | 99.22.e-1 |  |
+| 99.22.f | operative | 99.22.f-1 |  |
 | 99.30.a | operative | 99.30.a-1 |  |
 | 99.30.b | operative | 99.30.a-1 |  |
 | 99.30.b.1 | operative | 99.30.a-1 |  |

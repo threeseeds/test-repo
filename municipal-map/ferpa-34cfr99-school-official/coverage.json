@@ -308,6 +308,27 @@
     "class": "definition",
     "records": [],
     "attached_to": [
+      "A-99.10.b-1",
+      "A-99.10.c-1",
+      "A-99.10.d-1",
+      "A-99.10.e-1",
+      "A-99.11.a-1",
+      "A-99.11.b-1",
+      "A-99.12.c.2-1",
+      "A-99.12.c.2.ii-1",
+      "A-99.20.a-1",
+      "A-99.20.b-1",
+      "A-99.20.c-1",
+      "A-99.21.a-1",
+      "A-99.21.b.1-1",
+      "A-99.21.b.1.ii-1",
+      "A-99.21.b.2-1",
+      "A-99.21.c-1",
+      "A-99.21.c.2-1",
+      "A-99.22-1",
+      "A-99.22.b-1",
+      "A-99.22.d-1",
+      "A-99.22.e-1",
       "A-99.30.a-1",
       "A-99.30.c.1-1",
       "A-99.30.c.2-1",
@@ -490,7 +511,7 @@
     "class": "definition",
     "records": [],
     "attached_to": [
-      "glossary"
+      "A-99.10.f-1"
     ]
   },
   {
@@ -608,6 +629,7 @@
     "class": "definition",
     "records": [],
     "attached_to": [
+      "A-99.12.c.2-1",
       "A-99.30.c.2-1",
       "A-99.5.b-1"
     ]
@@ -753,6 +775,407 @@
     "class": "operative",
     "records": [
       "A-99.7.b.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.a",
+    "class": "operative",
+    "records": [
+      "A-99.10.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.a.1",
+    "class": "applicability",
+    "records": [
+      "A-99.10.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.a.2",
+    "class": "applicability",
+    "records": [
+      "A-99.10.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.a.2.i",
+    "class": "applicability",
+    "records": [
+      "A-99.10.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.a.2.ii",
+    "class": "applicability",
+    "records": [
+      "A-99.10.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.b",
+    "class": "operative",
+    "records": [
+      "A-99.10.b-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.c",
+    "class": "operative",
+    "records": [
+      "A-99.10.c-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.d",
+    "class": "operative",
+    "records": [
+      "A-99.10.d-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.d.1",
+    "class": "operative",
+    "records": [
+      "A-99.10.d-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.d.2",
+    "class": "operative",
+    "records": [
+      "A-99.10.d-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.e",
+    "class": "operative",
+    "records": [
+      "A-99.10.e-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.10.f",
+    "class": "operative",
+    "records": [
+      "A-99.10.f-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.11.a",
+    "class": "operative",
+    "records": [
+      "A-99.11.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.11.b",
+    "class": "operative",
+    "records": [
+      "A-99.11.b-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.12.a",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b.1",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b.2",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b.3",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b.3.i",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b.3.ii",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b.3.ii.A",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b.3.ii.B",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.b.3.ii.C",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.c.1",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.c.1.i",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.c.1.ii",
+    "class": "exemption",
+    "records": [],
+    "attached_to": [
+      "A-99.10.a-1"
+    ]
+  },
+  {
+    "provision": "99.12.c.2",
+    "class": "operative",
+    "records": [
+      "A-99.12.c.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.12.c.2.i",
+    "class": "operative",
+    "records": [
+      "A-99.12.c.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.12.c.2.ii",
+    "class": "operative",
+    "records": [
+      "A-99.12.c.2.ii-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.12.c.3.i",
+    "class": "operative",
+    "records": [
+      "A-99.12.c.3.i-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.12.c.3.ii",
+    "class": "operative",
+    "records": [
+      "A-99.12.c.3.ii-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.20.a",
+    "class": "operative",
+    "records": [
+      "A-99.20.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.20.b",
+    "class": "operative",
+    "records": [
+      "A-99.20.b-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.20.c",
+    "class": "operative",
+    "records": [
+      "A-99.20.c-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.21.a",
+    "class": "operative",
+    "records": [
+      "A-99.21.a-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.21.b.1",
+    "class": "operative",
+    "records": [
+      "A-99.21.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.21.b.1.i",
+    "class": "operative",
+    "records": [
+      "A-99.21.b.1-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.21.b.1.ii",
+    "class": "operative",
+    "records": [
+      "A-99.21.b.1.ii-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.21.b.2",
+    "class": "operative",
+    "records": [
+      "A-99.21.b.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.21.c",
+    "class": "operative",
+    "records": [
+      "A-99.21.c-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.21.c.1",
+    "class": "operative",
+    "records": [
+      "A-99.21.c-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.21.c.2",
+    "class": "operative",
+    "records": [
+      "A-99.21.c.2-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.22",
+    "class": "operative",
+    "records": [
+      "A-99.22-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.22.a",
+    "class": "operative",
+    "records": [
+      "A-99.22-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.22.b",
+    "class": "operative",
+    "records": [
+      "A-99.22.b-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.22.c",
+    "class": "operative",
+    "records": [
+      "A-99.22.c-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.22.d",
+    "class": "operative",
+    "records": [
+      "A-99.22.d-1",
+      "A-99.22.d-2"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.22.e",
+    "class": "operative",
+    "records": [
+      "A-99.22.e-1"
+    ],
+    "attached_to": []
+  },
+  {
+    "provision": "99.22.f",
+    "class": "operative",
+    "records": [
+      "A-99.22.f-1"
     ],
     "attached_to": []
   },

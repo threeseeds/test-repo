@@ -1,5 +1,33 @@
 {
   "nodes": [
+    "A-99.10.a-1",
+    "A-99.10.b-1",
+    "A-99.10.c-1",
+    "A-99.10.d-1",
+    "A-99.10.e-1",
+    "A-99.10.f-1",
+    "A-99.11.a-1",
+    "A-99.11.b-1",
+    "A-99.12.c.2-1",
+    "A-99.12.c.2.ii-1",
+    "A-99.12.c.3.i-1",
+    "A-99.12.c.3.ii-1",
+    "A-99.20.a-1",
+    "A-99.20.b-1",
+    "A-99.20.c-1",
+    "A-99.21.a-1",
+    "A-99.21.b.1-1",
+    "A-99.21.b.1.ii-1",
+    "A-99.21.b.2-1",
+    "A-99.21.c-1",
+    "A-99.21.c.2-1",
+    "A-99.22-1",
+    "A-99.22.b-1",
+    "A-99.22.c-1",
+    "A-99.22.d-1",
+    "A-99.22.d-2",
+    "A-99.22.e-1",
+    "A-99.22.f-1",
     "A-99.30.a-1",
     "A-99.30.c.1-1",
     "A-99.30.c.2-1",
@@ -77,6 +105,126 @@
     },
     {
       "id": "E-005",
+      "from": "A-99.20.a-1",
+      "to": "A-99.20.b-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution receives the request to amend",
+      "status": "accepted"
+    },
+    {
+      "id": "E-006",
+      "from": "A-99.20.b-1",
+      "to": "A-99.20.c-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution decides not to amend the record as requested",
+      "status": "accepted"
+    },
+    {
+      "id": "E-007",
+      "from": "A-99.22.e-1",
+      "to": "A-99.21.b.1-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution decides after the hearing that the information is inaccurate, misleading, or otherwise in violation of the privacy rights of the student",
+      "status": "accepted"
+    },
+    {
+      "id": "E-008",
+      "from": "A-99.21.b.1-1",
+      "to": "A-99.21.b.1.ii-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution amends the record after the hearing",
+      "status": "accepted"
+    },
+    {
+      "id": "E-009",
+      "from": "A-99.22.e-1",
+      "to": "A-99.21.b.2-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution decides after the hearing that the information is not inaccurate, misleading, or otherwise in violation of the privacy rights of the student",
+      "status": "accepted"
+    },
+    {
+      "id": "E-010",
+      "from": "A-99.21.a-1",
+      "to": "A-99.22-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution receives the request for the hearing",
+      "status": "accepted"
+    },
+    {
+      "id": "E-011",
+      "from": "A-99.22-1",
+      "to": "A-99.22.b-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution is to hold the hearing",
+      "status": "accepted"
+    },
+    {
+      "id": "E-012",
+      "from": "A-99.22-1",
+      "to": "A-99.22.c-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the hearing is to be held",
+      "status": "accepted"
+    },
+    {
+      "id": "E-013",
+      "from": "A-99.22-1",
+      "to": "A-99.22.d-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the hearing is held",
+      "status": "accepted"
+    },
+    {
+      "id": "E-014",
+      "from": "A-99.22-1",
+      "to": "A-99.22.d-2",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the hearing is held",
+      "status": "accepted"
+    },
+    {
+      "id": "E-015",
+      "from": "A-99.22-1",
+      "to": "A-99.22.e-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the hearing has been held",
+      "status": "accepted"
+    },
+    {
+      "id": "E-016",
+      "from": "A-99.22.e-1",
+      "to": "A-99.22.f-1",
+      "type": "triggers",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "the agency or institution makes its decision after the hearing",
+      "status": "accepted"
+    },
+    {
+      "id": "E-017",
       "from": "A-99.33.a.1-1",
       "to": "A-99.31.a.1.i.B-1",
       "type": "reference",
@@ -86,7 +234,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-006",
+      "id": "E-018",
       "from": "A-99.33.a.1-2",
       "to": "A-99.31.a.1.i.B-1",
       "type": "reference",
@@ -96,7 +244,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-007",
+      "id": "E-019",
       "from": "A-99.33.a.2-1",
       "to": "A-99.31.a.1.i.B-1",
       "type": "reference",
@@ -106,7 +254,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-008",
+      "id": "E-020",
       "from": "A-99.31.a.1.i.A-1",
       "to": "A-99.31.a.1.i.B-1",
       "type": "reference",
@@ -116,7 +264,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-009",
+      "id": "E-021",
       "from": "A-99.31.a-1",
       "to": "A-99.30.a-1",
       "type": "exception-of",
@@ -126,7 +274,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-010",
+      "id": "E-022",
       "from": "A-99.31.a.1.i.A-1",
       "to": "A-99.7.a.3.iii-1",
       "type": "reference",
@@ -136,7 +284,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-011",
+      "id": "E-023",
       "from": "A-99.31.a.1.i.B-1",
       "to": "A-99.7.a.3.iii-1",
       "type": "reference",
@@ -146,7 +294,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-012",
+      "id": "E-024",
       "from": "A-99.31.a.1.i.A-1",
       "to": "A-99.32.a.1-1",
       "type": "exception-of",
@@ -156,7 +304,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-013",
+      "id": "E-025",
       "from": "A-99.31.a.1.i.B-1",
       "to": "A-99.32.a.1-1",
       "type": "exception-of",
@@ -166,7 +314,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-014",
+      "id": "E-026",
       "from": "A-99.33.b.1-1",
       "to": "A-99.32.b.1-1",
       "type": "reference",
@@ -176,7 +324,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-015",
+      "id": "E-027",
       "from": "A-99.32.a.1-1",
       "to": "A-99.32.b.1-1",
       "type": "reference",
@@ -186,7 +334,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-016",
+      "id": "E-028",
       "from": "A-99.33.a.1-1",
       "to": "A-99.33.d-1",
       "type": "reference",
@@ -196,7 +344,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-017",
+      "id": "E-029",
       "from": "A-99.31.a.1.i.A-1",
       "to": "A-99.31.a.1.ii-1",
       "type": "produces-input",
@@ -206,7 +354,7 @@
       "status": "accepted"
     },
     {
-      "id": "E-018",
+      "id": "E-030",
       "from": "A-99.31.a.1.i.B-1",
       "to": "A-99.31.a.1.ii-1",
       "type": "produces-input",
@@ -216,13 +364,83 @@
       "status": "accepted"
     },
     {
-      "id": "E-019",
+      "id": "E-031",
       "from": "A-99.30.a-1",
       "to": "A-99.30.c.1-1",
       "type": "reference",
       "basis": "explicit",
       "confidence": "medium",
       "evidence": "\"after a disclosure under paragraph (a)\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-032",
+      "from": "A-99.21.a-1",
+      "to": "A-99.20.c-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"inform the parent or eligible student of its decision and of his or her right to a hearing under § 99.21\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-033",
+      "from": "A-99.21.b.2-1",
+      "to": "A-99.21.c-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"places a statement in the education records of a student under paragraph (b)(2)\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-034",
+      "from": "A-99.21.b.2-1",
+      "to": "A-99.21.c.2-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "high",
+      "evidence": "\"places a statement in the education records of a student under paragraph (b)(2)\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-035",
+      "from": "A-99.10.a-1",
+      "to": "A-99.10.d-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "medium",
+      "evidence": "\"prevent the parent or eligible student from exercising the right to inspect and review the student’s education records\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-036",
+      "from": "A-99.10.a-1",
+      "to": "A-99.10.e-1",
+      "type": "reference",
+      "basis": "explicit",
+      "confidence": "medium",
+      "evidence": "\"an outstanding request to inspect and review the records under this section\"",
+      "status": "accepted"
+    },
+    {
+      "id": "E-037",
+      "from": "A-99.10.a-1",
+      "to": "A-99.10.b-1",
+      "type": "reference",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence": "99.10(b) speaks of \"a request for access to records\" and does not cite (a); read as the request to inspect and review that (a) gives a right to make",
+      "status": "accepted"
+    },
+    {
+      "id": "E-038",
+      "from": "A-99.10.d-1",
+      "to": "A-99.11.a-1",
+      "type": "produces-input",
+      "basis": "inferred",
+      "confidence": "medium",
+      "evidence": "99.10(d)(1) has the agency provide \"a copy of the records requested\"; 99.11(a) governs a fee \"for a copy of an education record which is made for the parent or eligible student\"",
       "status": "accepted"
     }
   ]

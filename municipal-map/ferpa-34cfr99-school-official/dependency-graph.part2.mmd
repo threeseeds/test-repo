@@ -1,0 +1,37 @@
+flowchart LR
+  subgraph g_99_31["99.31"]
+    A_99_31_a_1_i_A_1["99.31.a.1.i.A-1<br/>disclose personally identifiable information<br/><i>educational-agency-or-institution</i>"]
+    A_99_31_a_1_i_B_1["99.31.a.1.i.B-1<br/>consider as a school official under paragraph (a)(1)(i)<br/><i>educational-agency-or-institution</i>"]
+    A_99_31_a_1_ii_1["99.31.a.1.ii-1<br/>use reasonable methods to ensure<br/><i>educational-agency-or-institution</i>"]
+  end
+  subgraph g_99_32["99.32"]
+    A_99_32_a_1_1["99.32.a.1-1<br/>maintain<br/><i>educational-agency-or-institution</i>"]
+    A_99_32_a_2_1["99.32.a.2-1<br/>maintain<br/><i>educational-agency-or-institution</i>"]
+    A_99_32_b_1_1["99.32.b.1-1<br/>include in the record of the disclosure<br/><i>educational-agency-or-institution</i>"]
+  end
+  subgraph g_99_33["99.33"]
+    A_99_33_a_1_1["99.33.a.1-1<br/>disclose<br/><i>educational-agency-or-institution</i>"]
+    A_99_33_a_1_2["99.33.a.1-2<br/>disclose<br/><i>receiving-party</i>"]
+    A_99_33_a_2_1["99.33.a.2-1<br/>use<br/><i>receiving-party-personnel</i>"]
+    A_99_33_b_1_1["99.33.b.1-1<br/>disclose<br/><i>educational-agency-or-institution</i>"]
+    A_99_33_d_1["99.33.d-1<br/>inform<br/><i>educational-agency-or-institution</i>"]
+  end
+  subgraph g_99_7["99.7"]
+    A_99_7_a_3_iii_1["99.7.a.3.iii-1<br/>specify in the annual notice<br/><i>educational-agency-or-institution</i>"]
+  end
+  A_99_32_a_1_1 -->|"triggers"| A_99_32_a_2_1
+  A_99_33_a_1_1 -->|"triggers"| A_99_33_a_1_2
+  A_99_33_a_1_1 -->|"triggers"| A_99_33_a_2_1
+  A_99_33_a_1_1 -->|"reference"| A_99_31_a_1_i_B_1
+  A_99_33_a_1_2 -->|"reference"| A_99_31_a_1_i_B_1
+  A_99_33_a_2_1 -->|"reference"| A_99_31_a_1_i_B_1
+  A_99_31_a_1_i_A_1 -->|"reference"| A_99_31_a_1_i_B_1
+  A_99_31_a_1_i_A_1 -->|"reference"| A_99_7_a_3_iii_1
+  A_99_31_a_1_i_B_1 -->|"reference"| A_99_7_a_3_iii_1
+  A_99_31_a_1_i_A_1 -->|"exception-of"| A_99_32_a_1_1
+  A_99_31_a_1_i_B_1 -.->|"exception-of (inferred)"| A_99_32_a_1_1
+  A_99_33_b_1_1 -->|"reference"| A_99_32_b_1_1
+  A_99_32_a_1_1 -->|"reference"| A_99_32_b_1_1
+  A_99_33_a_1_1 -->|"reference"| A_99_33_d_1
+  A_99_31_a_1_i_A_1 -.->|"produces-input (inferred)"| A_99_31_a_1_ii_1
+  A_99_31_a_1_i_B_1 -.->|"produces-input (inferred)"| A_99_31_a_1_ii_1

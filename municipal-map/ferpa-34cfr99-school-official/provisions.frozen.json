@@ -618,6 +618,27 @@
     "text": "Educational agency or institution means any public or private agency or institution to which this part applies under § 99.1(a).",
     "class": "definition",
     "attaches_to": [
+      "A-99.10.b-1",
+      "A-99.10.c-1",
+      "A-99.10.d-1",
+      "A-99.10.e-1",
+      "A-99.11.a-1",
+      "A-99.11.b-1",
+      "A-99.12.c.2-1",
+      "A-99.12.c.2.ii-1",
+      "A-99.20.a-1",
+      "A-99.20.b-1",
+      "A-99.20.c-1",
+      "A-99.21.a-1",
+      "A-99.21.b.1-1",
+      "A-99.21.b.1.ii-1",
+      "A-99.21.b.2-1",
+      "A-99.21.c-1",
+      "A-99.21.c.2-1",
+      "A-99.22-1",
+      "A-99.22.b-1",
+      "A-99.22.d-1",
+      "A-99.22.e-1",
       "A-99.30.a-1",
       "A-99.30.c.1-1",
       "A-99.30.c.2-1",
@@ -960,7 +981,7 @@
     "text": "Eligible student means a student who has reached 18 years of age or is attending an institution of postsecondary education.",
     "class": "definition",
     "attaches_to": [
-      "glossary"
+      "A-99.10.f-1"
     ],
     "record_ids": [],
     "history": "(Authority: 20 U.S.C. 1232g) (Authority: 20 U.S.C. 1232g) (Authority: 20 U.S.C. 1232g(b)(1)(C), (b)(3), and (b)(5)) (Authority: 20 U.S.C. 1232g) (Authority: 20 U.S.C. 1232g(a)(5)(A)) (Authority: 20 U.S.C. 1232g(a)(5)(A)) (Authority: 20 U.S.C. 1232g(b)(1) and (b)(2)) (Authority: 20 U.S.C. 1232g(a)(3)) (Authority: 20 U.S.C. 1232g(b)(3), (b)(5)) (Authority: 20 U.S.C. 1232g(a)(4)) (Authority: 20 U.S.C. 1232g(d)) (Authority: 20 U.S.C. 1232g(d)) (Authority: 20 U.S.C. 1232g) (Authority: 20 U.S.C. 1232g(b)(4)(A)) (Authority: 20 U.S.C. 1232g) (Authority: 20 U.S.C. 1232g) (Authority: 20 U.S.C. 1232g) (Authority: 20 U.S.C. 1232g(a)(6)) [53 FR 11943, Apr. 11, 1988, as amended at 60 FR 3468, Jan. 17, 1995; 61 FR 59295, Nov. 21, 1996; 65 FR 41852, July 6, 2000; 73 FR 74851, Dec. 9, 2008; 76 FR 75641, Dec. 2, 2011]"
@@ -1190,6 +1211,7 @@
     "text": "Student, except as otherwise specifically provided in this part, means any individual who is or has been in attendance at an educational agency or institution and regarding whom the agency or institution maintains education records.",
     "class": "definition",
     "attaches_to": [
+      "A-99.12.c.2-1",
       "A-99.30.c.2-1",
       "A-99.5.b-1"
     ],
@@ -1483,6 +1505,807 @@
       "A-99.7.b.2-1"
     ],
     "history": "(Authority: 20 U.S.C. 1232g (e) and (f)) [61 FR 59295, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.a",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "a",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "Except as limited under § 99.12, a parent or eligible student must be given the opportunity to inspect and review the student’s education records. This provision applies to—",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.a-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.a.1",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "a.1",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "Any educational agency or institution; and",
+    "class": "applicability",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.a-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.a.2",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "a.2",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "Any State educational agency (SEA) and its components.",
+    "class": "applicability",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.a-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.a.2.i",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "a.2.i",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "For the purposes of subpart B of this part, an SEA and its components constitute an educational agency or institution.",
+    "class": "applicability",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.a-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.a.2.ii",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "a.2.ii",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "An SEA and its components are subject to subpart B of this part if the SEA maintains education records on students who are or have been in attendance at any school of an educational agency or institution subject to the Act and this part.",
+    "class": "applicability",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.a-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.b",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "b",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "The educational agency or institution, or SEA or its component, shall comply with a request for access to records within a reasonable period of time, but not more than 45 days after it has received the request.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.b-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.c",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "c",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "The educational agency or institution, or SEA or its component shall respond to reasonable requests for explanations and interpretations of the records.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.c-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.d",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "d",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "If circumstances effectively prevent the parent or eligible student from exercising the right to inspect and review the student’s education records, the educational agency or institution, or SEA or its component, shall—",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.d-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.d.1",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "d.1",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "Provide the parent or eligible student with a copy of the records requested; or",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.d-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.d.2",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "d.2",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "Make other arrangements for the parent or eligible student to inspect and review the requested records.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.d-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.e",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "e",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "The educational agency or institution, or SEA or its component shall not destroy any education records if there is an outstanding request to inspect and review the records under this section.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.e-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.10.f",
+    "section": "99.10",
+    "chapter": "99.10",
+    "division": "B",
+    "label": "f",
+    "heading": "What rights exist for a parent or eligible student to inspect and review education records",
+    "article": null,
+    "text": "While an education agency or institution is not required to give an eligible student access to treatment records under paragraph (b)(4) of the definition of Education records in § 99.3, the student may have those records reviewed by a physician or other appropriate professional of the student’s choice.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.10.f-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A) and (B)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.11.a",
+    "section": "99.11",
+    "chapter": "99.11",
+    "division": "B",
+    "label": "a",
+    "heading": "May an educational agency or institution charge a fee for copies of education records",
+    "article": null,
+    "text": "Unless the imposition of a fee effectively prevents a parent or eligible student from exercising the right to inspect and review the student’s education records, an educational agency or institution may charge a fee for a copy of an education record which is made for the parent or eligible student.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.11.a-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1))"
+  },
+  {
+    "id": "99.11.b",
+    "section": "99.11",
+    "chapter": "99.11",
+    "division": "B",
+    "label": "b",
+    "heading": "May an educational agency or institution charge a fee for copies of education records",
+    "article": null,
+    "text": "An educational agency or institution may not charge a fee to search for or to retrieve the education records of a student.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.11.b-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1))"
+  },
+  {
+    "id": "99.12.a",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "a",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "If the education records of a student contain information on more than one student, the parent or eligible student may inspect and review or be informed of only the specific information about that student.",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "A postsecondary institution does not have to permit a student to inspect and review education records that are:",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b.1",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b.1",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Financial records, including any information those records contain, of his or her parents;",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b.2",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b.2",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Confidential letters and confidential statements of recommendation placed in the education records of the student before January 1, 1975, as long as the statements are used only for the purposes for which they were specifically intended; and",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b.3",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b.3",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Confidential letters and confidential statements of recommendation placed in the student’s education records after January 1, 1975, if:",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b.3.i",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b.3.i",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "The student has waived his or her right to inspect and review those letters and statements; and",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b.3.ii",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b.3.ii",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Those letters and statements are related to the student’s:",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b.3.ii.A",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b.3.ii.A",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Admission to an educational institution;",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b.3.ii.B",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b.3.ii.B",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Application for employment; or",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.b.3.ii.C",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "b.3.ii.C",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Receipt of an honor or honorary recognition.",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.c.1",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "c.1",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "A waiver under paragraph (b)(3)(i) of this section is valid only if:",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.c.1.i",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "c.1.i",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "The educational agency or institution does not require the waiver as a condition for admission to or receipt of a service or benefit from the agency or institution; and",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.c.1.ii",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "c.1.ii",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "The waiver is made in writing and signed by the student, regardless of age.",
+    "class": "exemption",
+    "attaches_to": [
+      "A-99.10.a-1"
+    ],
+    "record_ids": [],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.c.2",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "c.2",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "If a student has waived his or her rights under paragraph (b)(3)(i) of this section, the educational institution shall:",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.12.c.2-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.c.2.i",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "c.2.i",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Give the student, on request, the names of the individuals who provided the letters and statements of recommendation; and",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.12.c.2-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.c.2.ii",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "c.2.ii",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "Use the letters and statements of recommendation only for the purpose for which they were intended.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.12.c.2.ii-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.c.3.i",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "c.3.i",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "A waiver under paragraph (b)(3)(i) of this section may be revoked with respect to any actions occurring after the revocation.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.12.c.3.i-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.12.c.3.ii",
+    "section": "99.12",
+    "chapter": "99.12",
+    "division": "B",
+    "label": "c.3.ii",
+    "heading": "What limitations exist on the right to inspect and review records",
+    "article": null,
+    "text": "A revocation under paragraph (c)(3)(i) of this section must be in writing.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.12.c.3.ii-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(1) (A), (B), (C), and (D)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.20.a",
+    "section": "99.20",
+    "chapter": "99.20",
+    "division": "C",
+    "label": "a",
+    "heading": "How can a parent or eligible student request amendment of the student’s education records",
+    "article": null,
+    "text": "If a parent or eligible student believes the education records relating to the student contain information that is inaccurate, misleading, or in violation of the student’s rights of privacy, he or she may ask the educational agency or institution to amend the record.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.20.a-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988; 53 FR 19368, May 27, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.20.b",
+    "section": "99.20",
+    "chapter": "99.20",
+    "division": "C",
+    "label": "b",
+    "heading": "How can a parent or eligible student request amendment of the student’s education records",
+    "article": null,
+    "text": "The educational agency or institution shall decide whether to amend the record as requested within a reasonable time after the agency or institution receives the request.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.20.b-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988; 53 FR 19368, May 27, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.20.c",
+    "section": "99.20",
+    "chapter": "99.20",
+    "division": "C",
+    "label": "c",
+    "heading": "How can a parent or eligible student request amendment of the student’s education records",
+    "article": null,
+    "text": "If the educational agency or institution decides not to amend the record as requested, it shall inform the parent or eligible student of its decision and of his or her right to a hearing under § 99.21.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.20.c-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988; 53 FR 19368, May 27, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.21.a",
+    "section": "99.21",
+    "chapter": "99.21",
+    "division": "C",
+    "label": "a",
+    "heading": "Under what conditions does a parent or eligible student have the right to a hearing",
+    "article": null,
+    "text": "An educational agency or institution shall give a parent or eligible student, on request, an opportunity for a hearing to challenge the content of the student’s education records on the grounds that the information contained in the education records is inaccurate, misleading, or in violation of the privacy rights of the student.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.21.a-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.21.b.1",
+    "section": "99.21",
+    "chapter": "99.21",
+    "division": "C",
+    "label": "b.1",
+    "heading": "Under what conditions does a parent or eligible student have the right to a hearing",
+    "article": null,
+    "text": "If, as a result of the hearing, the educational agency or institution decides that the information is inaccurate, misleading, or otherwise in violation of the privacy rights of the student, it shall:",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.21.b.1-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.21.b.1.i",
+    "section": "99.21",
+    "chapter": "99.21",
+    "division": "C",
+    "label": "b.1.i",
+    "heading": "Under what conditions does a parent or eligible student have the right to a hearing",
+    "article": null,
+    "text": "Amend the record accordingly; and",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.21.b.1-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.21.b.1.ii",
+    "section": "99.21",
+    "chapter": "99.21",
+    "division": "C",
+    "label": "b.1.ii",
+    "heading": "Under what conditions does a parent or eligible student have the right to a hearing",
+    "article": null,
+    "text": "Inform the parent or eligible student of the amendment in writing.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.21.b.1.ii-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.21.b.2",
+    "section": "99.21",
+    "chapter": "99.21",
+    "division": "C",
+    "label": "b.2",
+    "heading": "Under what conditions does a parent or eligible student have the right to a hearing",
+    "article": null,
+    "text": "If, as a result of the hearing, the educational agency or institution decides that the information in the education record is not inaccurate, misleading, or otherwise in violation of the privacy rights of the student, it shall inform the parent or eligible student of the right to place a statement in the record commenting on the contested information in the record or stating why he or she disagrees with the decision of the agency or institution, or both.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.21.b.2-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.21.c",
+    "section": "99.21",
+    "chapter": "99.21",
+    "division": "C",
+    "label": "c",
+    "heading": "Under what conditions does a parent or eligible student have the right to a hearing",
+    "article": null,
+    "text": "If an educational agency or institution places a statement in the education records of a student under paragraph (b)(2) of this section, the agency or institution shall:",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.21.c-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.21.c.1",
+    "section": "99.21",
+    "chapter": "99.21",
+    "division": "C",
+    "label": "c.1",
+    "heading": "Under what conditions does a parent or eligible student have the right to a hearing",
+    "article": null,
+    "text": "Maintain the statement with the contested part of the record for as long as the record is maintained; and",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.21.c-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.21.c.2",
+    "section": "99.21",
+    "chapter": "99.21",
+    "division": "C",
+    "label": "c.2",
+    "heading": "Under what conditions does a parent or eligible student have the right to a hearing",
+    "article": null,
+    "text": "Disclose the statement whenever it discloses the portion of the record to which the statement relates.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.21.c.2-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2)) [53 FR 11943, Apr. 11, 1988, as amended at 61 FR 59296, Nov. 21, 1996]"
+  },
+  {
+    "id": "99.22",
+    "section": "99.22",
+    "chapter": "99.22",
+    "division": "C",
+    "label": null,
+    "heading": "What minimum requirements exist for the conduct of a hearing",
+    "article": null,
+    "text": "The hearing required by § 99.21 must meet, at a minimum, the following requirements:",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.22-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2))"
+  },
+  {
+    "id": "99.22.a",
+    "section": "99.22",
+    "chapter": "99.22",
+    "division": "C",
+    "label": "a",
+    "heading": "What minimum requirements exist for the conduct of a hearing",
+    "article": null,
+    "text": "The educational agency or institution shall hold the hearing within a reasonable time after it has received the request for the hearing from the parent or eligible student.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.22-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2))"
+  },
+  {
+    "id": "99.22.b",
+    "section": "99.22",
+    "chapter": "99.22",
+    "division": "C",
+    "label": "b",
+    "heading": "What minimum requirements exist for the conduct of a hearing",
+    "article": null,
+    "text": "The educational agency or institution shall give the parent or eligible student notice of the date, time, and place, reasonably in advance of the hearing.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.22.b-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2))"
+  },
+  {
+    "id": "99.22.c",
+    "section": "99.22",
+    "chapter": "99.22",
+    "division": "C",
+    "label": "c",
+    "heading": "What minimum requirements exist for the conduct of a hearing",
+    "article": null,
+    "text": "The hearing may be conducted by any individual, including an official of the educational agency or institution, who does not have a direct interest in the outcome of the hearing.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.22.c-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2))"
+  },
+  {
+    "id": "99.22.d",
+    "section": "99.22",
+    "chapter": "99.22",
+    "division": "C",
+    "label": "d",
+    "heading": "What minimum requirements exist for the conduct of a hearing",
+    "article": null,
+    "text": "The educational agency or institution shall give the parent or eligible student a full and fair opportunity to present evidence relevant to the issues raised under § 99.21. The parent or eligible student may, at their own expense, be assisted or represented by one or more individuals of his or her own choice, including an attorney.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.22.d-1",
+      "A-99.22.d-2"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2))"
+  },
+  {
+    "id": "99.22.e",
+    "section": "99.22",
+    "chapter": "99.22",
+    "division": "C",
+    "label": "e",
+    "heading": "What minimum requirements exist for the conduct of a hearing",
+    "article": null,
+    "text": "The educational agency or institution shall make its decision in writing within a reasonable period of time after the hearing.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.22.e-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2))"
+  },
+  {
+    "id": "99.22.f",
+    "section": "99.22",
+    "chapter": "99.22",
+    "division": "C",
+    "label": "f",
+    "heading": "What minimum requirements exist for the conduct of a hearing",
+    "article": null,
+    "text": "The decision must be based solely on the evidence presented at the hearing, and must include a summary of the evidence and the reasons for the decision.",
+    "class": "operative",
+    "attaches_to": [],
+    "record_ids": [
+      "A-99.22.f-1"
+    ],
+    "history": "(Authority: 20 U.S.C. 1232g(a)(2))"
   },
   {
     "id": "99.30.a",

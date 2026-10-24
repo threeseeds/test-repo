@@ -1592,5 +1592,1277 @@
     "link": null,
     "conflict_with": [],
     "resolution_note": null
+  },
+  {
+    "id": "A-99.10.a-1",
+    "provision_refs": [
+      "99.10.a",
+      "99.10.a.1",
+      "99.10.a.2",
+      "99.10.a.2.i",
+      "99.10.a.2.ii"
+    ],
+    "source_quote": "a parent or eligible student must be given the opportunity to inspect and review the student’s education records",
+    "signal": {
+      "type": "standing",
+      "text": "a parent or eligible student must be given the opportunity …",
+      "confidence": "explicit"
+    },
+    "actor": null,
+    "modality": "duty",
+    "action": {
+      "verb": "give the opportunity to inspect and review",
+      "object": "the student’s education records",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "a parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "except as limited under § 99.12"
+    ],
+    "exceptions": [
+      "99.12.a",
+      "99.12.b",
+      "99.12.b.1",
+      "99.12.b.2",
+      "99.12.b.3",
+      "99.12.b.3.i",
+      "99.12.b.3.ii",
+      "99.12.b.3.ii.A",
+      "99.12.b.3.ii.B",
+      "99.12.b.3.ii.C",
+      "99.12.c.1",
+      "99.12.c.1.i",
+      "99.12.c.1.ii"
+    ],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-ACT"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.10.b-1",
+    "provision_refs": [
+      "99.10.b"
+    ],
+    "source_quote": "The educational agency or institution, or SEA or its component, shall comply with a request for access to records within a reasonable period of time, but not more than 45 days after it has received the request.",
+    "signal": {
+      "type": "request",
+      "text": "a request for access to records",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational agency or institution, or SEA or its component",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "comply with",
+      "object": "a request for access to records",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": 45,
+      "unit": "days",
+      "from": "signal",
+      "direction": "after",
+      "business_days": false,
+      "text": "within a reasonable period of time, but not more than 45 days after it has received the request"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.10.c-1",
+    "provision_refs": [
+      "99.10.c"
+    ],
+    "source_quote": "The educational agency or institution, or SEA or its component shall respond to reasonable requests for explanations and interpretations of the records.",
+    "signal": {
+      "type": "request",
+      "text": "a reasonable request for explanations and interpretations of the records",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational agency or institution, or SEA or its component",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "respond to",
+      "object": "reasonable requests for explanations and interpretations of the records",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.10.d-1",
+    "provision_refs": [
+      "99.10.d",
+      "99.10.d.1",
+      "99.10.d.2"
+    ],
+    "source_quote": "If circumstances effectively prevent the parent or eligible student from exercising the right to inspect and review the student’s education records, the educational agency or institution, or SEA or its component, shall",
+    "signal": {
+      "type": "state",
+      "text": "circumstances effectively prevent the parent or eligible student from exercising the right to inspect and review the student’s education records",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the educational agency or institution, or SEA or its component",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "provide a copy of the records requested, or make other arrangements for inspection and review",
+      "object": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.10.e-1",
+    "provision_refs": [
+      "99.10.e"
+    ],
+    "source_quote": "The educational agency or institution, or SEA or its component shall not destroy any education records if there is an outstanding request to inspect and review the records under this section.",
+    "signal": {
+      "type": "state",
+      "text": "there is an outstanding request to inspect and review the records",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational agency or institution, or SEA or its component",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "destroy",
+      "object": "any education records",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.10.f-1",
+    "provision_refs": [
+      "99.10.f"
+    ],
+    "source_quote": "the student may have those records reviewed by a physician or other appropriate professional of the student’s choice",
+    "signal": {
+      "type": "discretionary",
+      "text": "the student may have those records reviewed …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-eligible-student",
+      "text": "the student",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "have reviewed by a physician or other appropriate professional of the student’s choice",
+      "object": "treatment records under paragraph (b)(4) of the definition of Education records in § 99.3",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.eligible-student",
+        "summary": "definition of eligible student"
+      }
+    ],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-AMBIG"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.11.a-1",
+    "provision_refs": [
+      "99.11.a"
+    ],
+    "source_quote": "an educational agency or institution may charge a fee for a copy of an education record which is made for the parent or eligible student",
+    "signal": {
+      "type": "discretionary",
+      "text": "an educational agency or institution may charge a fee …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "an educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "charge a fee for",
+      "object": "a copy of an education record which is made for the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "unless the imposition of a fee effectively prevents a parent or eligible student from exercising the right to inspect and review the student’s education records"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.11.b-1",
+    "provision_refs": [
+      "99.11.b"
+    ],
+    "source_quote": "An educational agency or institution may not charge a fee to search for or to retrieve the education records of a student.",
+    "signal": {
+      "type": "standing",
+      "text": "An educational agency or institution may not charge a fee …",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "prohibition",
+    "action": {
+      "verb": "charge a fee",
+      "object": "to search for or to retrieve the education records of a student",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.12.c.2-1",
+    "provision_refs": [
+      "99.12.c.2",
+      "99.12.c.2.i"
+    ],
+    "source_quote": "Give the student, on request, the names of the individuals who provided the letters and statements of recommendation; and",
+    "signal": {
+      "type": "request",
+      "text": "a student who has waived the right to inspect and review confidential letters asks for the names of the individuals who provided them",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give",
+      "object": "the names of the individuals who provided the letters and statements of recommendation",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-student",
+      "text": "the student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [
+      "the student has waived his or her rights under paragraph (b)(3)(i)"
+    ],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      },
+      {
+        "kind": "definition",
+        "provision": "99.3.student",
+        "summary": "definition of student"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.12.c.2.ii-1",
+    "provision_refs": [
+      "99.12.c.2.ii"
+    ],
+    "source_quote": "Use the letters and statements of recommendation only for the purpose for which they were intended.",
+    "signal": {
+      "type": "state",
+      "text": "a student has waived his or her rights under paragraph (b)(3)(i)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "use",
+      "object": "the letters and statements of recommendation only for the purpose for which they were intended",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.12.c.3.i-1",
+    "provision_refs": [
+      "99.12.c.3.i"
+    ],
+    "source_quote": "A waiver under paragraph (b)(3)(i) of this section may be revoked with respect to any actions occurring after the revocation.",
+    "signal": {
+      "type": "discretionary",
+      "text": "A waiver … may be revoked",
+      "confidence": "explicit"
+    },
+    "actor": null,
+    "modality": "permission",
+    "action": {
+      "verb": "revoke",
+      "object": "a waiver under paragraph (b)(3)(i), with respect to any actions occurring after the revocation",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-ACT"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.12.c.3.ii-1",
+    "provision_refs": [
+      "99.12.c.3.ii"
+    ],
+    "source_quote": "A revocation under paragraph (c)(3)(i) of this section must be in writing.",
+    "signal": {
+      "type": "event",
+      "text": "a waiver is revoked under paragraph (c)(3)(i)",
+      "confidence": "explicit",
+      "ref": "A-99.12.c.3.i-1"
+    },
+    "actor": null,
+    "modality": "duty",
+    "action": {
+      "verb": "make in writing",
+      "object": "the revocation of a waiver",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-ACT"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.20.a-1",
+    "provision_refs": [
+      "99.20.a"
+    ],
+    "source_quote": "If a parent or eligible student believes the education records relating to the student contain information that is inaccurate, misleading, or in violation of the student’s rights of privacy, he or she may ask the educational agency or institution to amend the record.",
+    "signal": {
+      "type": "state",
+      "text": "the parent or eligible student believes the education records contain information that is inaccurate, misleading, or in violation of the student’s rights of privacy",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "a parent or eligible student",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "ask to amend",
+      "object": "the record",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [
+      "artifact:amendment-request"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.20.b-1",
+    "provision_refs": [
+      "99.20.b"
+    ],
+    "source_quote": "The educational agency or institution shall decide whether to amend the record as requested within a reasonable time after the agency or institution receives the request.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution receives the request to amend",
+      "confidence": "explicit",
+      "ref": "A-99.20.a-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "decide whether to amend",
+      "object": "the record as requested",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": "signal",
+      "direction": "after",
+      "business_days": false,
+      "text": "within a reasonable time after the agency or institution receives the request"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [
+      "artifact:amendment-decision"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.20.c-1",
+    "provision_refs": [
+      "99.20.c"
+    ],
+    "source_quote": "If the educational agency or institution decides not to amend the record as requested, it shall inform the parent or eligible student of its decision and of his or her right to a hearing under § 99.21.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution decides not to amend the record as requested",
+      "confidence": "explicit",
+      "ref": "A-99.20.b-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "inform",
+      "object": "the parent or eligible student of its decision and of his or her right to a hearing under § 99.21",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.21.a-1",
+    "provision_refs": [
+      "99.21.a"
+    ],
+    "source_quote": "An educational agency or institution shall give a parent or eligible student, on request, an opportunity for a hearing to challenge the content of the student’s education records on the grounds that the information contained in the education records is inaccurate, misleading, or in violation of the privacy rights of the student.",
+    "signal": {
+      "type": "request",
+      "text": "a parent or eligible student requests a hearing",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "An educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give an opportunity for a hearing to challenge",
+      "object": "the content of the student’s education records on the grounds that the information is inaccurate, misleading, or in violation of the privacy rights of the student",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "a parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [
+      "artifact:hearing"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.21.b.1-1",
+    "provision_refs": [
+      "99.21.b.1",
+      "99.21.b.1.i"
+    ],
+    "source_quote": "If, as a result of the hearing, the educational agency or institution decides that the information is inaccurate, misleading, or otherwise in violation of the privacy rights of the student, it shall",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution decides after the hearing that the information is inaccurate, misleading, or otherwise in violation of the privacy rights of the student",
+      "confidence": "explicit",
+      "ref": "A-99.22.e-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "amend",
+      "object": "the record accordingly",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.21.b.1.ii-1",
+    "provision_refs": [
+      "99.21.b.1.ii"
+    ],
+    "source_quote": "Inform the parent or eligible student of the amendment in writing.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution amends the record after the hearing",
+      "confidence": "explicit",
+      "ref": "A-99.21.b.1-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "inform in writing",
+      "object": "the parent or eligible student of the amendment",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.21.b.2-1",
+    "provision_refs": [
+      "99.21.b.2"
+    ],
+    "source_quote": "If, as a result of the hearing, the educational agency or institution decides that the information in the education record is not inaccurate, misleading, or otherwise in violation of the privacy rights of the student, it shall inform the parent or eligible student of the right to place a statement in the record commenting on the contested information in the record or stating why he or she disagrees with the decision of the agency or institution, or both.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution decides after the hearing that the information is not inaccurate, misleading, or otherwise in violation of the privacy rights of the student",
+      "confidence": "explicit",
+      "ref": "A-99.22.e-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "inform",
+      "object": "the parent or eligible student of the right to place a statement in the record commenting on the contested information or stating why he or she disagrees with the decision",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.21.c-1",
+    "provision_refs": [
+      "99.21.c",
+      "99.21.c.1"
+    ],
+    "source_quote": "If an educational agency or institution places a statement in the education records of a student under paragraph (b)(2) of this section, the agency or institution shall",
+    "signal": {
+      "type": "event",
+      "text": "a statement is placed in the education records of a student under paragraph (b)(2)",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "maintain",
+      "object": "the statement with the contested part of the record for as long as the record is maintained",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.21.c.2-1",
+    "provision_refs": [
+      "99.21.c.2"
+    ],
+    "source_quote": "Disclose the statement whenever it discloses the portion of the record to which the statement relates.",
+    "signal": {
+      "type": "event",
+      "text": "the agency or institution discloses the portion of the record to which the statement relates",
+      "confidence": "explicit"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "the agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "disclose",
+      "object": "the statement together with the portion of the record to which it relates",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.22-1",
+    "provision_refs": [
+      "99.22",
+      "99.22.a"
+    ],
+    "source_quote": "The educational agency or institution shall hold the hearing within a reasonable time after it has received the request for the hearing from the parent or eligible student.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution receives the request for the hearing",
+      "confidence": "explicit",
+      "ref": "A-99.21.a-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "hold",
+      "object": "the hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": "signal",
+      "direction": "after",
+      "business_days": false,
+      "text": "within a reasonable time after it has received the request for the hearing"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.22.b-1",
+    "provision_refs": [
+      "99.22.b"
+    ],
+    "source_quote": "The educational agency or institution shall give the parent or eligible student notice of the date, time, and place, reasonably in advance of the hearing.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution is to hold the hearing",
+      "confidence": "explicit",
+      "ref": "A-99.22-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give notice of",
+      "object": "the date, time, and place of the hearing",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": null,
+      "direction": "before",
+      "business_days": false,
+      "text": "reasonably in advance of the hearing"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.22.c-1",
+    "provision_refs": [
+      "99.22.c"
+    ],
+    "source_quote": "The hearing may be conducted by any individual, including an official of the educational agency or institution, who does not have a direct interest in the outcome of the hearing.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing is to be held",
+      "confidence": "explicit",
+      "ref": "A-99.22-1"
+    },
+    "actor": null,
+    "modality": "permission",
+    "action": {
+      "verb": "conduct",
+      "object": "the hearing, if the individual does not have a direct interest in its outcome",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-ACT"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.22.d-1",
+    "provision_refs": [
+      "99.22.d"
+    ],
+    "source_quote": "The educational agency or institution shall give the parent or eligible student a full and fair opportunity to present evidence relevant to the issues raised under § 99.21.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing is held",
+      "confidence": "explicit",
+      "ref": "A-99.22-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "give a full and fair opportunity to present",
+      "object": "evidence relevant to the issues raised under § 99.21",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "the parent or eligible student",
+      "confidence": "explicit"
+    },
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.22.d-2",
+    "provision_refs": [
+      "99.22.d"
+    ],
+    "source_quote": "The parent or eligible student may, at their own expense, be assisted or represented by one or more individuals of his or her own choice, including an attorney.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing is held",
+      "confidence": "explicit",
+      "ref": "A-99.22-1"
+    },
+    "actor": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": "The parent or eligible student",
+      "confidence": "explicit"
+    },
+    "modality": "permission",
+    "action": {
+      "verb": "be assisted or represented",
+      "object": "at the hearing, at their own expense, by one or more individuals of his or her own choice, including an attorney",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.22.e-1",
+    "provision_refs": [
+      "99.22.e"
+    ],
+    "source_quote": "The educational agency or institution shall make its decision in writing within a reasonable period of time after the hearing.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the hearing has been held",
+      "confidence": "explicit",
+      "ref": "A-99.22-1"
+    },
+    "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": "The educational agency or institution",
+      "confidence": "explicit"
+    },
+    "modality": "duty",
+    "action": {
+      "verb": "make its decision in writing",
+      "object": "the decision on the contested record",
+      "confidence": "explicit"
+    },
+    "counterparty": {
+      "id": "ACT-parent-or-eligible-student",
+      "text": null,
+      "confidence": "inferred"
+    },
+    "timing": {
+      "kind": "deadline",
+      "amount": null,
+      "unit": null,
+      "from": "signal",
+      "direction": "after",
+      "business_days": false,
+      "text": "within a reasonable period of time after the hearing"
+    },
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [
+      {
+        "kind": "definition",
+        "provision": "99.3.educational-agency-or-institution",
+        "summary": "definition of educational agency or institution"
+      }
+    ],
+    "outputs": [
+      "artifact:hearing-decision"
+    ],
+    "status": "complete",
+    "orphan_flags": [],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
+  },
+  {
+    "id": "A-99.22.f-1",
+    "provision_refs": [
+      "99.22.f"
+    ],
+    "source_quote": "The decision must be based solely on the evidence presented at the hearing, and must include a summary of the evidence and the reasons for the decision.",
+    "signal": {
+      "type": "upstream_action",
+      "text": "the agency or institution makes its decision after the hearing",
+      "confidence": "explicit",
+      "ref": "A-99.22.e-1"
+    },
+    "actor": null,
+    "modality": "duty",
+    "action": {
+      "verb": "base the decision solely on the evidence presented at the hearing, and include a summary of the evidence and the reasons",
+      "object": "the decision",
+      "confidence": "explicit"
+    },
+    "counterparty": null,
+    "timing": null,
+    "conditions": [],
+    "exceptions": [],
+    "consequence": null,
+    "attachments": [],
+    "outputs": [],
+    "status": "orphan",
+    "orphan_flags": [
+      "O-ACT"
+    ],
+    "link": null,
+    "conflict_with": [],
+    "resolution_note": null
   }
 ]

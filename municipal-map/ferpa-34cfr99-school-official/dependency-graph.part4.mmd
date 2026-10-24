@@ -1,0 +1,10 @@
+flowchart LR
+  subgraph g_99_30["99.30"]
+    A_99_30_a_1["99.30.a-1<br/>provide<br/><i>parent-or-eligible-student</i>"]
+    A_99_30_c_1_1["99.30.c.1-1<br/>provide<br/><i>educational-agency-or-institution</i>"]
+  end
+  subgraph g_99_31["99.31"]
+    A_99_31_a_1["99.31.a-1<br/>disclose<br/><i>educational-agency-or-institution</i>"]
+  end
+  A_99_31_a_1 -->|"exception-of"| A_99_30_a_1
+  A_99_30_a_1 -->|"reference"| A_99_30_c_1_1

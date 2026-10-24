@@ -1,0 +1,14 @@
+flowchart LR
+  subgraph g_99_10["99.10"]
+    A_99_10_a_1["99.10.a-1<br/>give the opportunity to inspect and review<br/><i>educational-agency-or-institution</i>"]
+    A_99_10_b_1["99.10.b-1<br/>comply with<br/><i>educational-agency-or-institution</i>"]
+    A_99_10_d_1["99.10.d-1<br/>provide a copy of the records requested, or make other arrangements for inspection and review<br/><i>educational-agency-or-institution</i>"]
+    A_99_10_e_1["99.10.e-1<br/>destroy<br/><i>educational-agency-or-institution</i>"]
+  end
+  subgraph g_99_11["99.11"]
+    A_99_11_a_1["99.11.a-1<br/>charge a fee for<br/><i>educational-agency-or-institution</i>"]
+  end
+  A_99_10_a_1 -->|"reference"| A_99_10_d_1
+  A_99_10_a_1 -->|"reference"| A_99_10_e_1
+  A_99_10_a_1 -.->|"reference (inferred)"| A_99_10_b_1
+  A_99_10_d_1 -.->|"produces-input (inferred)"| A_99_11_a_1

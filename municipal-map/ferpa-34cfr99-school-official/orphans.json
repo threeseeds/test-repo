@@ -223,5 +223,151 @@
     }
    }
   }
+ },
+ {
+  "id": "ORP-08",
+  "code": "O-ACT",
+  "records": [
+   "A-99.10.a-1"
+  ],
+  "provision": "99.10.a",
+  "quote": "must be given the opportunity to inspect and review the student\u2019s education records",
+  "missing": "Passive voice: the text does not say who must give the opportunity.",
+  "best_guess": "The educational agency or institution (including an SEA or its component)",
+  "basis": "99.10(b)-(e) place the access duties on \"the educational agency or institution, or SEA or its component\"; 99.10(a)(1)-(2) say the provision applies to them.",
+  "options": [
+   "The educational agency or institution, or SEA or its component",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution, or SEA or its component",
+   "patch": {
+    "A-99.10.a-1": {
+     "status": "resolved",
+     "orphan_flags": [],
+     "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-09",
+  "code": "O-ACT",
+  "records": [
+   "A-99.12.c.3.i-1",
+   "A-99.12.c.3.ii-1"
+  ],
+  "provision": "99.12.c.3.i",
+  "quote": "may be revoked with respect to any actions occurring after the revocation",
+  "missing": "Passive voice: the text does not say who may revoke a waiver or who must put the revocation in writing.",
+  "best_guess": "The student who gave the waiver",
+  "basis": "99.12(c)(1)(ii) says the waiver is \"made in writing and signed by the student\"; (c)(2) speaks of \"a student has waived his or her rights\".",
+  "options": [
+   "The student who gave the waiver",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): the student who gave the waiver",
+   "patch": {
+    "A-99.12.c.3.i-1": {
+     "status": "resolved",
+     "orphan_flags": [],
+     "actor": {
+      "id": "ACT-student",
+      "text": null,
+      "confidence": "inferred"
+     }
+    },
+    "A-99.12.c.3.ii-1": {
+     "status": "resolved",
+     "orphan_flags": [],
+     "actor": {
+      "id": "ACT-student",
+      "text": null,
+      "confidence": "inferred"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-10",
+  "code": "O-ACT",
+  "records": [
+   "A-99.22.c-1",
+   "A-99.22.f-1"
+  ],
+  "provision": "99.22.c",
+  "quote": "may be conducted by any individual, including an official of the educational agency or institution",
+  "missing": "Passive voice: the text does not say who conducts the hearing (c) or who must base the decision on the evidence and include a summary (f).",
+  "best_guess": "The educational agency or institution (it holds the hearing under (a) and makes the decision under (e))",
+  "basis": "99.22(a) and (e) assign the hearing and the written decision to the agency or institution.",
+  "options": [
+   "The educational agency or institution",
+   "Other"
+  ],
+  "status": "resolved",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): the educational agency or institution",
+   "patch": {
+    "A-99.22.c-1": {
+     "status": "resolved",
+     "orphan_flags": [],
+     "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+     }
+    },
+    "A-99.22.f-1": {
+     "status": "resolved",
+     "orphan_flags": [],
+     "actor": {
+      "id": "ACT-educational-agency-or-institution",
+      "text": null,
+      "confidence": "inferred"
+     }
+    }
+   }
+  }
+ },
+ {
+  "id": "ORP-11",
+  "code": "O-AMBIG",
+  "records": [
+   "A-99.10.f-1"
+  ],
+  "provision": "99.10.f",
+  "quote": "the student may have those records reviewed by a physician or other appropriate professional of the student\u2019s choice",
+  "missing": "It does not say who must allow or arrange the review, or whether the agency has any duty beyond not being required to give the student access to treatment records.",
+  "best_guess": "Record as a permission of the eligible student, with no duty on the agency, and keep the question as a known gap",
+  "basis": "The sentence says the agency is \"not required\" to give access and that the student \"may\" have the records reviewed; it states no duty on anyone.",
+  "options": [
+   "Permission of the eligible student, no agency duty (best guess)",
+   "Add an agency duty to allow the review",
+   "Other"
+  ],
+  "status": "known_gap",
+  "resolution": {
+   "type": "bulk_rule",
+   "answer": "Accepted my best guess (user: \"accept all best guesses\"): permission of the eligible student, no agency duty; carried as a known gap",
+   "patch": {
+    "A-99.10.f-1": {
+     "status": "known_gap",
+     "orphan_flags": [
+      "O-AMBIG"
+     ]
+    }
+   }
+  }
  }
 ]
