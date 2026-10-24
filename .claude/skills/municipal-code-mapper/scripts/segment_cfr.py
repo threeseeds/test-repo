@@ -173,7 +173,7 @@ def segment_cfr(raw_lines, prof):
         m = head.match(s)
         if m:
             title, j = m.group(2), i + 1
-            while not re.search(r"[?.]$", title) and j < n and j - i < 5 and not head.match(entries[j][1]):
+            while not re.search(r"[?.]$", title) and j < n and j - i < 9 and not head.match(entries[j][1]):
                 title += " " + entries[j][1]
                 j += 1
             sec = {"section": m.group(1), "heading": title.rstrip("?.").strip(), "chapter": m.group(1), "division": division,
