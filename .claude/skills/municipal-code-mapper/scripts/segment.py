@@ -10,9 +10,17 @@ article headings), headings, history lines, editor's notes (written to notes.jso
 provision text), body text, footnotes, or "unassigned". Nothing
 is silently dropped; the report lists anything unassigned inside the body.
 
+Regulations (profile style "cfr", see segment_cfr.py) are segmented one paragraph per provision,
+with ids like 99.31.a.1.i.B; the chapter field then holds the section number.
+
+Also writes source.clean.txt: the source without page furniture, one text line per line. Validate
+provision text against this file, since provisions skip the furniture that sits inside them.
+
 Usage:
-  segment.py SOURCE.txt --out RUN_DIR [--profile profiles/municode.json]
-                        [--chapters 5.04:5.24,5.70] [--strict]
+  segment.py SOURCE.txt --out RUN_DIR [--profile profiles/municode.json | profiles/cfr.json]
+                        [--chapters 5.04:5.24,5.70] [--only 99.31:a.1] [--strict]
+  --chapters   scope by chapter number (or, for a regulation, by section number such as 99.3,99.30:99.33)
+  --only       repeatable SECTION:PATH, keeps only that paragraph subtree (and its ancestors) of a section
 """
 import argparse, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -154,7 +162,14 @@ def segment(text, prof):
     return sections, footnotes, stats, unassigned, warnings, chapter_titles
 
 
-def build(sections, prof, in_scope):
+def keep_only(label, prefixes):
+    """True if the provision label is inside, or an ancestor of, one of the kept paths."""
+    if label is None:
+        return True
+    return any(label == q or label.startswith(q + ".") or q.startswith(label + ".") for q in prefixes)
+
+
+def build(sections, prof, in_scope, only=None):
     fn_re = prof["footnote_marker_in_text"]
     by_id = {}
     dup_notes = []
@@ -177,6 +192,8 @@ def build(sections, prof, in_scope):
         provs = sec["provisions"]
         if not provs:
             provs = [{"label": None, "text": "Reserved." if prof["reserved_heading"].match(sec["heading"]) else ""}]
+        if only and sec["section"] in only:
+            provs = [p for p in provs if keep_only(p["label"], only[sec["section"]])]
         for p in provs:
             refs = [int(x) for x in fn_re.findall(p["text"])]
             text = fn_re.sub("", p["text"]).strip()
@@ -196,18 +213,33 @@ def main(argv=None):
     ap.add_argument("source")
     ap.add_argument("--out", required=True)
     ap.add_argument("--profile", default=os.path.join(SKILL, "profiles", "municode.json"))
-    ap.add_argument("--chapters", help="chapter scope, e.g. 5.04:5.24,5.70")
+    ap.add_argument("--chapters", help="chapter scope, e.g. 5.04:5.24,5.70 (for a regulation: sections, e.g. 99.3,99.30:99.33)")
+    ap.add_argument("--only", action="append", default=[], metavar="SECTION:PATH", help="keep only this paragraph subtree of a section, e.g. 99.31:a.1")
     ap.add_argument("--strict", action="store_true", help="fail if any body line is unassigned or text is empty")
     a = ap.parse_args(argv)
-    prof = load_profile(a.profile)
+    raw_prof = read_json(a.profile)
     text = read_text(a.source)
-    sections, footnotes, stats, unassigned, warnings, chapter_titles = segment(text, prof)
-    provs, dup_notes, notes = build(sections, prof, parse_chapter_filter(a.chapters))
+    only = {}
+    for o in a.only:
+        sec_id, _, path = o.partition(":")
+        only.setdefault(sec_id, []).append(path)
+    if raw_prof.get("style") == "cfr":
+        from segment_cfr import segment_cfr
+        prof = dict(raw_prof)
+        prof["footnote_marker_in_text"] = re.compile(raw_prof["footnote_marker_in_text"])
+        prof["reserved_heading"] = re.compile(raw_prof["reserved_heading"])
+        sections, footnotes, stats, unassigned, warnings, chapter_titles, clean = segment_cfr(text.replace("\r\n", "\n").split("\n"), raw_prof)
+        warnings = [(sc["section"], w) for sc in sections for w in []] + [("*", w) for w in warnings]
+    else:
+        prof = load_profile(a.profile)
+        sections, footnotes, stats, unassigned, warnings, chapter_titles = segment(text, prof)
+        clean = "\n".join(l.strip() for l in text.replace("\r\n", "\n").split("\n") if l.strip() and not any(n.match(l.strip()) for n in prof["noise"])) + "\n"
+    provs, dup_notes, notes = build(sections, prof, parse_chapter_filter(a.chapters), only)
     in_scope_sections = {p["section"] for p in provs}
-    warnings = [m for sec_id, m in warnings + dup_notes if sec_id in in_scope_sections]
+    warnings = [m for sec_id, m in warnings + dup_notes if sec_id in in_scope_sections or sec_id == "*"]
     empty = [p["id"] for p in provs if not p["text"]]
     body_unassigned = [u for u in unassigned if u[2] != "front_matter"]
-    report = {"source": os.path.abspath(a.source), "profile": prof["name"], "chapters_filter": a.chapters,
+    report = {"source": os.path.abspath(a.source), "profile": prof["name"], "chapters_filter": a.chapters, "only": a.only,
               "line_stats": stats, "sections_found": len({p["section"] for p in provs}), "provisions": len(provs),
               "chapters": sorted({p["chapter"] for p in provs}, key=chapter_key),
               "per_chapter": {c: len({p["section"] for p in provs if p["chapter"] == c}) for c in sorted({p["chapter"] for p in provs}, key=chapter_key)},
@@ -215,6 +247,7 @@ def main(argv=None):
               "front_matter_text_lines": [u for u in unassigned if u[2] == "front_matter"], "warnings": warnings}
     os.makedirs(a.out, exist_ok=True)
     write_json(os.path.join(a.out, "provisions.json"), provs)
+    write_text(os.path.join(a.out, "source.clean.txt"), clean)
     write_json(os.path.join(a.out, "chapters.json"), {c: chapter_titles.get(c, "") for c in report["chapters"]})
     if notes:
         write_json(os.path.join(a.out, "notes.json"), notes)

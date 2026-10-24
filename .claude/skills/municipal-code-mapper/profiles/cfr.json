@@ -1,0 +1,34 @@
+{
+  "name": "cfr",
+  "style": "cfr",
+  "description": "Code of Federal Regulations parts (eCFR or the printed volume as PDF). Sections start with a section sign and a number; paragraphs nest as (a), (1), (i), (A), (1), (i). Definitions sections list unlabeled terms.",
+  "noise": [
+    "^VerDate\\b.*$",
+    "^Jkt \\d+$",
+    "^PO \\d+$",
+    "^Frm \\d+$",
+    "^Fmt \\d+$",
+    "^Sfmt \\d+$",
+    "^Y:\\\\SGML.*$",
+    "^\\d{2}:\\d{2} [A-Z][a-z]{2} \\d{1,2}, \\d{4}$",
+    "^\\S+ on [A-Z0-9]+ with CFR$",
+    "^\\d+ CFR Subtitle [A-Z] \\(.*\\)$",
+    "^(Office of the Secretary|Office for Civil Rights|Department of Education)(, Education)?$",
+    "^§ \\d+\\.\\d+$",
+    "^\\d{3,6}$"
+  ],
+  "section_heading": "^§ (\\d+\\.\\d+)\\s+([A-Z].*)$",
+  "subpart": "^Subpart ([A-Z])—(.*)$",
+  "subpart_question": "^(May|What|How|Under|Which|To which|Who|When|Does|Is)\\b",
+  "authority": "^\\(Authority:",
+  "source_note": "^\\[\\d+ FR ",
+  "stop": "^APPENDIX [A-Z] TO PART",
+  "definition_sections": [
+    "99.3",
+    "99.39"
+  ],
+  "footnote_marker_in_text": "\\[(\\d+)\\]\\(#footnote\\d+\\)",
+  "reserved_heading": "^(Reserved|Repealed)\\b",
+  "isolated_noise_max_chars": 16,
+  "stop_after_sections": 3
+}

@@ -21,8 +21,8 @@
     "properties": {
       "id": {
         "type": "string",
-        "pattern": "^[0-9]+(\\.[0-9]+)*(\\.[A-Za-z0-9]+)?$",
-        "description": "Section number, plus .<label> for a lettered subdivision (e.g. 9.10.050.A)"
+        "pattern": "^[0-9]+(\\.[0-9]+)*(\\.[A-Za-z0-9_-]+)*$",
+        "description": "Section number plus the paragraph path: 5.16.020.A (municipal), 99.31.a.1.i.B (regulation paragraph), 99.3.directory-information (definition)"
       },
       "section": {
         "type": "string"

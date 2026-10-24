@@ -90,10 +90,53 @@ def html_text(raw):
     return re.sub(r"[ \t]*\n[ \t]*", "\n", "".join(p.out))
 
 
-def pdf_text(path):
+def _pdftotext(*args):
+    return subprocess.run(["pdftotext", *args], capture_output=True, text=True, check=True).stdout
+
+
+def _gutter(words, w, h):
+    """x of the gap between two printed columns, or None. Header/footer bands and margin text are ignored."""
+    body = [x for x in words if 0.10 * h < x[1] < 0.88 * h and 0.16 * w < x[0] < 0.82 * w]
+    ok, x = [], 0.30 * w
+    while x <= 0.70 * w:
+        cross = sum(1 for b in body if b[0] < x < b[2])
+        left = sum(1 for b in body if b[2] <= x)
+        right = sum(1 for b in body if b[0] >= x)
+        if cross == 0 and min(left, right) >= 30:
+            ok.append(x)
+        x += 0.5
+    return (min(ok) + max(ok)) / 2 if ok else None
+
+
+def pdf_text(path, mode="columns"):
+    """mode: columns (default; each printed column read top to bottom, left then right),
+    raw (pdftotext reading order), layout (physical layout; keeps table alignment)."""
     if not shutil.which("pdftotext"):
         sys.exit("pdftotext is not installed; convert the PDF to text or DOCX and pass that instead")
-    return subprocess.run(["pdftotext", "-layout", path, "-"], capture_output=True, text=True, check=True).stdout
+    if mode == "layout":
+        return _pdftotext("-layout", path, "-")
+    if mode == "raw":
+        return _pdftotext(path, "-")
+    info = subprocess.run(["pdfinfo", path], capture_output=True, text=True, check=True).stdout
+    pages = int(re.search(r"Pages:\s+(\d+)", info).group(1))
+    out = []
+    for pg in range(1, pages + 1):
+        box = _pdftotext("-f", str(pg), "-l", str(pg), "-bbox", path, "-")
+        m = re.search(r'<page width="([\d.]+)" height="([\d.]+)"', box)
+        w, h = float(m.group(1)), float(m.group(2))
+        words = [(float(a), float(b), float(c)) for a, b, c in re.findall(r'<word xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)"', box)]
+        g = _gutter(words, w, h)
+        if g is None:                      # single-column page, or a layout we cannot split: use reading order
+            out.append(_pdftotext("-f", str(pg), "-l", str(pg), path, "-"))
+        else:
+            out.append(_pdftotext("-f", str(pg), "-l", str(pg), "-x", "0", "-y", "0", "-W", str(int(g)), "-H", str(int(h)), path, "-"))
+            out.append(_pdftotext("-f", str(pg), "-l", str(pg), "-x", str(int(g)), "-y", "0", "-W", str(int(w - g) + 1), "-H", str(int(h)), path, "-"))
+    return "\n\n".join(out)
+
+
+def dehyphenate(text):
+    """Join words split across a line break ("edu-" / "cational"); only when the next line starts lowercase."""
+    return re.sub(r"([A-Za-z])-[ \t]*\n+(?=[a-z])", r"\1", text)
 
 
 def fetch(url):
@@ -130,6 +173,8 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("input")
     ap.add_argument("--out", required=True)
+    ap.add_argument("--pdf-mode", choices=["columns", "raw", "layout"], default="columns",
+                    help="how to read a PDF: columns (default, for two-column documents), raw, or layout (tables)")
     a = ap.parse_args(argv)
     src = a.input
     if src == "-":
@@ -147,7 +192,7 @@ def main(argv=None):
         elif ext in (".html", ".htm"):
             text, fmt = html_text(raw.decode("utf-8", errors="replace")), "html"
         elif ext == ".pdf":
-            text, fmt = pdf_text(src), "pdf"
+            text, fmt = dehyphenate(pdf_text(src, a.pdf_mode).replace("\f", "\n")), "pdf"
         elif ext in (".txt", ".md", ".text", ""):
             text, fmt = raw.decode("utf-8", errors="replace"), "text"
         else:
@@ -160,6 +205,8 @@ def main(argv=None):
     prov = {"origin": src if src != "-" else "stdin", "format": fmt, "sha256": hashlib.sha256(raw if raw is not None else text.encode()).hexdigest(),
             "retrieved_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
             "chars": len(text), "lines": text.count("\n"), "currency": currency(text)}
+    if fmt == "pdf":
+        prov["pdf_mode"] = a.pdf_mode
     write_json(os.path.join(a.out, "provenance.json"), prov)
     print(f"wrote {a.out}/source.txt ({prov['chars']} chars, {prov['lines']} lines, format {fmt}); currency {prov['currency'] or 'not stated'}")
     return 0
